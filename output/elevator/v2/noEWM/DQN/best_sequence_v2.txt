@@ -1,0 +1,90 @@
+Run 1:
+Best OCplx: 1.7337834186141263
+Best Sequence: [7, 2, 6, 9, 3, 11, 10, 4, 8, 5, 1, 12]
+Run 2:
+Best OCplx: 1.7445336234945197
+Best Sequence: [9, 5, 2, 7, 3, 11, 10, 6, 8, 4, 1, 12]
+Run 3:
+Best OCplx: 1.7231061452767453
+Best Sequence: [2, 6, 9, 7, 3, 11, 10, 8, 4, 1, 12, 5]
+Run 4:
+Best OCplx: 1.7016786670589714
+Best Sequence: [2, 5, 7, 11, 6, 9, 3, 10, 8, 4, 1, 12]
+Run 5:
+Best OCplx: 1.7552108968319005
+Best Sequence: [11, 6, 5, 9, 7, 3, 10, 2, 4, 8, 1, 12]
+Run 6:
+Best OCplx: 1.7445336234945197
+Best Sequence: [9, 7, 11, 2, 5, 6, 3, 10, 12, 8, 4, 1]
+Run 7:
+Best OCplx: 1.8359147657616148
+Best Sequence: [5, 9, 7, 11, 6, 10, 3, 8, 2, 4, 12, 1]
+Run 8:
+Best OCplx: 1.8302435363656162
+Best Sequence: [11, 5, 12, 7, 2, 6, 9, 3, 10, 8, 4, 1]
+Run 9:
+Best OCplx: 1.7980658532674487
+Best Sequence: [7, 11, 5, 9, 6, 3, 10, 2, 4, 12, 8, 1]
+Run 10:
+Best OCplx: 1.787388579930068
+Best Sequence: [7, 9, 6, 5, 11, 3, 10, 8, 2, 12, 4, 1]
+Run 11:
+Best OCplx: 1.7445336234945197
+Best Sequence: [9, 2, 7, 5, 11, 3, 10, 8, 4, 1, 12, 6]
+Run 12:
+Best OCplx: 1.8037370826634473
+Best Sequence: [6, 11, 9, 10, 2, 12, 5, 7, 3, 4, 8, 1]
+Run 13:
+Best OCplx: 1.7016786670589714
+Best Sequence: [6, 9, 2, 5, 7, 11, 3, 10, 8, 4, 1, 12]
+Run 14:
+Best OCplx: 1.7016786670589714
+Best Sequence: [6, 2, 5, 11, 9, 7, 3, 10, 8, 4, 1, 12]
+Run 15:
+Best OCplx: 1.7552108968319005
+Best Sequence: [5, 9, 2, 11, 6, 7, 3, 10, 12, 4, 8, 1]
+Run 16:
+Best OCplx: 1.7016786670589714
+Best Sequence: [7, 6, 5, 2, 11, 9, 3, 10, 8, 4, 1, 12]
+Run 17:
+Best OCplx: 1.7445336234945197
+Best Sequence: [6, 7, 5, 11, 9, 2, 3, 10, 8, 4, 12, 1]
+Run 18:
+Best OCplx: 1.7445336234945197
+Best Sequence: [9, 11, 7, 2, 5, 6, 3, 10, 8, 4, 12, 1]
+Run 19:
+Best OCplx: 1.7930598093260666
+Best Sequence: [11, 9, 7, 2, 6, 5, 10, 3, 8, 4, 12, 1]
+Run 20:
+Best OCplx: 1.7016786670589714
+Best Sequence: [5, 9, 2, 11, 7, 6, 3, 10, 8, 4, 1, 12]
+Run 21:
+Best OCplx: 1.7552108968319005
+Best Sequence: [5, 6, 2, 9, 7, 3, 11, 10, 4, 8, 12, 1]
+Run 22:
+Best OCplx: 1.7337834186141263
+Best Sequence: [6, 9, 2, 7, 11, 3, 5, 10, 4, 8, 1, 12]
+Run 23:
+Best OCplx: 1.7123559403963522
+Best Sequence: [7, 6, 5, 11, 2, 9, 3, 10, 4, 8, 1, 12]
+Run 24:
+Best OCplx: 1.7930598093260666
+Best Sequence: [7, 6, 5, 11, 9, 10, 3, 8, 4, 1, 12, 2]
+Run 25:
+Best OCplx: 1.7552108968319005
+Best Sequence: [6, 11, 5, 7, 9, 2, 3, 10, 12, 4, 8, 1]
+Run 26:
+Best OCplx: 1.7123559403963522
+Best Sequence: [5, 6, 11, 2, 7, 9, 3, 10, 4, 8, 1, 12]
+Run 27:
+Best OCplx: 1.7016786670589714
+Best Sequence: [11, 7, 6, 5, 9, 2, 3, 10, 8, 4, 1, 12]
+Run 28:
+Best OCplx: 1.787388579930068
+Best Sequence: [9, 5, 7, 11, 3, 10, 8, 2, 4, 1, 12, 6]
+Run 29:
+Best OCplx: 1.7502048528905183
+Best Sequence: [9, 2, 6, 5, 7, 11, 10, 3, 8, 4, 1, 12]
+Run 30:
+Best OCplx: 1.8302435363656162
+Best Sequence: [6, 5, 2, 12, 9, 11, 7, 3, 10, 8, 4, 1]

@@ -1,0 +1,2280 @@
+2025-06-20 21:35:58,816 - INFO - 使用中心性计算得到的关键类
+2025-06-20 21:35:58,816 - INFO - 关键类节点: [2, 9, 3, 0, 7, 8, 6, 11, 1, 4]
+2025-06-20 21:35:58,824 - INFO - collecting all words and their counts
+2025-06-20 21:35:58,824 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-06-20 21:35:58,824 - INFO - collected 12 word types from a corpus of 3192 raw words and 1200 sentences
+2025-06-20 21:35:58,824 - INFO - Creating a fresh vocabulary
+2025-06-20 21:35:58,827 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 12 unique words (100.00% of original 12, drops 0)', 'datetime': '2025-06-20T21:35:58.825033', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-06-20 21:35:58,827 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 3192 word corpus (100.00% of original 3192, drops 0)', 'datetime': '2025-06-20T21:35:58.827577', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-06-20 21:35:58,827 - INFO - deleting the raw counts dictionary of 12 items
+2025-06-20 21:35:58,827 - INFO - sample=0.001 downsamples 12 most-common words
+2025-06-20 21:35:58,827 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 369.03072292211266 word corpus (11.6%% of prior 3192)', 'datetime': '2025-06-20T21:35:58.827850', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-06-20 21:35:58,828 - INFO - estimated required memory for 12 words and 32 dimensions: 9072 bytes
+2025-06-20 21:35:58,828 - INFO - resetting layer weights
+2025-06-20 21:35:58,828 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-06-20T21:35:58.828255', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-06-20 21:35:58,828 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 12 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-06-20T21:35:58.828329', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-06-20 21:35:58,867 - INFO - EPOCH 0: training on 3192 raw words (339 effective words) took 0.0s, 8849 effective words/s
+2025-06-20 21:35:58,904 - INFO - EPOCH 1: training on 3192 raw words (377 effective words) took 0.0s, 10369 effective words/s
+2025-06-20 21:35:58,957 - INFO - EPOCH 2: training on 3192 raw words (363 effective words) took 0.1s, 6946 effective words/s
+2025-06-20 21:35:59,014 - INFO - EPOCH 3: training on 3192 raw words (387 effective words) took 0.1s, 6916 effective words/s
+2025-06-20 21:35:59,060 - INFO - EPOCH 4: training on 3192 raw words (350 effective words) took 0.0s, 7793 effective words/s
+2025-06-20 21:35:59,060 - INFO - Word2Vec lifecycle event {'msg': 'training on 15960 raw words (1816 effective words) took 0.2s, 7823 effective words/s', 'datetime': '2025-06-20T21:35:59.060539', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-06-20 21:35:59,060 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=12, vector_size=32, alpha=0.025>', 'datetime': '2025-06-20T21:35:59.060785', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-06-20 21:35:59,061 - INFO - 计算增强的节点中心性特征...
+2025-06-20 21:35:59,095 - INFO - 标准化中心性特征...
+2025-06-20 21:35:59,097 - INFO - 应用特征重要性权重后的中心性特征形状: (12, 17)
+2025-06-20 21:35:59,098 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-06-20 21:35:59,098 - INFO - 
+使用预设参数进行训练和评估...
+2025-06-20 21:35:59,098 - INFO - 使用单次训练模式
+2025-06-20 21:35:59,106 - INFO - gamma: 6.2395, beta: -13.8278
+2025-06-20 21:35:59,935 - INFO - 将训练 1000 轮，训练后总轮数将达到 1000
+2025-06-20 21:36:00,163 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,358 - INFO - Validation loss decreased (inf --> 0.161796). Saving model ...
+2025-06-20 21:36:00,370 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,383 - INFO - EarlyStopping counter: 1 out of 1000
+2025-06-20 21:36:00,390 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,401 - INFO - EarlyStopping counter: 2 out of 1000
+2025-06-20 21:36:00,408 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,420 - INFO - EarlyStopping counter: 3 out of 1000
+2025-06-20 21:36:00,426 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,439 - INFO - EarlyStopping counter: 4 out of 1000
+2025-06-20 21:36:00,439 - INFO - epoch [5/1000], loss: 1.3319, accuracy: 33.33%, val_loss: 0.1632, val_accuracy: 100.00%, gamma: 6.2410, beta: -13.8263, centrality_scaling: 1.0015, lr: 0.000302, aug: 0.049007
+2025-06-20 21:36:00,446 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,463 - INFO - EarlyStopping counter: 5 out of 1000
+2025-06-20 21:36:00,471 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,486 - INFO - EarlyStopping counter: 6 out of 1000
+2025-06-20 21:36:00,493 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,509 - INFO - EarlyStopping counter: 7 out of 1000
+2025-06-20 21:36:00,515 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,531 - INFO - EarlyStopping counter: 8 out of 1000
+2025-06-20 21:36:00,538 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,555 - INFO - EarlyStopping counter: 9 out of 1000
+2025-06-20 21:36:00,555 - INFO - epoch [10/1000], loss: 1.2825, accuracy: 33.33%, val_loss: 0.1646, val_accuracy: 100.00%, gamma: 6.2425, beta: -13.8248, centrality_scaling: 1.0030, lr: 0.000307, aug: 0.047794
+2025-06-20 21:36:00,562 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,581 - INFO - EarlyStopping counter: 10 out of 1000
+2025-06-20 21:36:00,588 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,606 - INFO - EarlyStopping counter: 11 out of 1000
+2025-06-20 21:36:00,613 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,632 - INFO - EarlyStopping counter: 12 out of 1000
+2025-06-20 21:36:00,639 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,659 - INFO - EarlyStopping counter: 13 out of 1000
+2025-06-20 21:36:00,666 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,686 - INFO - EarlyStopping counter: 14 out of 1000
+2025-06-20 21:36:00,686 - INFO - epoch [15/1000], loss: 1.2783, accuracy: 33.33%, val_loss: 0.1677, val_accuracy: 100.00%, gamma: 6.2440, beta: -13.8232, centrality_scaling: 1.0045, lr: 0.000317, aug: 0.046612
+2025-06-20 21:36:00,694 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,714 - INFO - EarlyStopping counter: 15 out of 1000
+2025-06-20 21:36:00,720 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,741 - INFO - EarlyStopping counter: 16 out of 1000
+2025-06-20 21:36:00,748 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,770 - INFO - EarlyStopping counter: 17 out of 1000
+2025-06-20 21:36:00,778 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,799 - INFO - EarlyStopping counter: 18 out of 1000
+2025-06-20 21:36:00,806 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,828 - INFO - EarlyStopping counter: 19 out of 1000
+2025-06-20 21:36:00,828 - INFO - epoch [20/1000], loss: 1.2669, accuracy: 33.33%, val_loss: 0.1698, val_accuracy: 100.00%, gamma: 6.2456, beta: -13.8216, centrality_scaling: 1.0061, lr: 0.000330, aug: 0.045458
+2025-06-20 21:36:00,836 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,858 - INFO - EarlyStopping counter: 20 out of 1000
+2025-06-20 21:36:00,864 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,887 - INFO - EarlyStopping counter: 21 out of 1000
+2025-06-20 21:36:00,895 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,918 - INFO - EarlyStopping counter: 22 out of 1000
+2025-06-20 21:36:00,925 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,949 - INFO - EarlyStopping counter: 23 out of 1000
+2025-06-20 21:36:00,958 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:00,982 - INFO - EarlyStopping counter: 24 out of 1000
+2025-06-20 21:36:00,982 - INFO - epoch [25/1000], loss: 1.2084, accuracy: 33.33%, val_loss: 0.1723, val_accuracy: 100.00%, gamma: 6.2472, beta: -13.8200, centrality_scaling: 1.0078, lr: 0.000346, aug: 0.044333
+2025-06-20 21:36:00,991 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,015 - INFO - EarlyStopping counter: 25 out of 1000
+2025-06-20 21:36:01,023 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,047 - INFO - EarlyStopping counter: 26 out of 1000
+2025-06-20 21:36:01,055 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,080 - INFO - EarlyStopping counter: 27 out of 1000
+2025-06-20 21:36:01,089 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,115 - INFO - EarlyStopping counter: 28 out of 1000
+2025-06-20 21:36:01,124 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,150 - INFO - EarlyStopping counter: 29 out of 1000
+2025-06-20 21:36:01,150 - INFO - epoch [30/1000], loss: 1.2038, accuracy: 33.33%, val_loss: 0.1749, val_accuracy: 100.00%, gamma: 6.2489, beta: -13.8182, centrality_scaling: 1.0095, lr: 0.000367, aug: 0.043235
+2025-06-20 21:36:01,159 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,186 - INFO - EarlyStopping counter: 30 out of 1000
+2025-06-20 21:36:01,196 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,222 - INFO - EarlyStopping counter: 31 out of 1000
+2025-06-20 21:36:01,231 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,258 - INFO - EarlyStopping counter: 32 out of 1000
+2025-06-20 21:36:01,267 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,294 - INFO - EarlyStopping counter: 33 out of 1000
+2025-06-20 21:36:01,302 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,329 - INFO - EarlyStopping counter: 34 out of 1000
+2025-06-20 21:36:01,329 - INFO - epoch [35/1000], loss: 1.1816, accuracy: 33.33%, val_loss: 0.1776, val_accuracy: 100.00%, gamma: 6.2507, beta: -13.8164, centrality_scaling: 1.0112, lr: 0.000390, aug: 0.042165
+2025-06-20 21:36:01,338 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,364 - INFO - EarlyStopping counter: 35 out of 1000
+2025-06-20 21:36:01,373 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,399 - INFO - EarlyStopping counter: 36 out of 1000
+2025-06-20 21:36:01,409 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,436 - INFO - EarlyStopping counter: 37 out of 1000
+2025-06-20 21:36:01,446 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,474 - INFO - EarlyStopping counter: 38 out of 1000
+2025-06-20 21:36:01,484 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,511 - INFO - EarlyStopping counter: 39 out of 1000
+2025-06-20 21:36:01,511 - INFO - epoch [40/1000], loss: 1.1682, accuracy: 33.33%, val_loss: 0.1812, val_accuracy: 100.00%, gamma: 6.2526, beta: -13.8145, centrality_scaling: 1.0131, lr: 0.000417, aug: 0.041122
+2025-06-20 21:36:01,521 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,548 - INFO - EarlyStopping counter: 40 out of 1000
+2025-06-20 21:36:01,557 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,585 - INFO - EarlyStopping counter: 41 out of 1000
+2025-06-20 21:36:01,596 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,623 - INFO - EarlyStopping counter: 42 out of 1000
+2025-06-20 21:36:01,633 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,660 - INFO - EarlyStopping counter: 43 out of 1000
+2025-06-20 21:36:01,669 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,696 - INFO - EarlyStopping counter: 44 out of 1000
+2025-06-20 21:36:01,696 - INFO - epoch [45/1000], loss: 1.1572, accuracy: 33.33%, val_loss: 0.1846, val_accuracy: 100.00%, gamma: 6.2546, beta: -13.8125, centrality_scaling: 1.0151, lr: 0.000448, aug: 0.040104
+2025-06-20 21:36:01,706 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,734 - INFO - EarlyStopping counter: 45 out of 1000
+2025-06-20 21:36:01,744 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,772 - INFO - EarlyStopping counter: 46 out of 1000
+2025-06-20 21:36:01,782 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,809 - INFO - EarlyStopping counter: 47 out of 1000
+2025-06-20 21:36:01,819 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,847 - INFO - EarlyStopping counter: 48 out of 1000
+2025-06-20 21:36:01,856 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,885 - INFO - EarlyStopping counter: 49 out of 1000
+2025-06-20 21:36:01,885 - INFO - epoch [50/1000], loss: 1.1150, accuracy: 33.33%, val_loss: 0.1876, val_accuracy: 100.00%, gamma: 6.2568, beta: -13.8104, centrality_scaling: 1.0173, lr: 0.000482, aug: 0.039111
+2025-06-20 21:36:01,893 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,921 - INFO - EarlyStopping counter: 50 out of 1000
+2025-06-20 21:36:01,931 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,958 - INFO - EarlyStopping counter: 51 out of 1000
+2025-06-20 21:36:01,968 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:01,994 - INFO - EarlyStopping counter: 52 out of 1000
+2025-06-20 21:36:02,004 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,031 - INFO - EarlyStopping counter: 53 out of 1000
+2025-06-20 21:36:02,041 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,069 - INFO - EarlyStopping counter: 54 out of 1000
+2025-06-20 21:36:02,069 - INFO - epoch [55/1000], loss: 1.1089, accuracy: 33.33%, val_loss: 0.1915, val_accuracy: 100.00%, gamma: 6.2591, beta: -13.8080, centrality_scaling: 1.0196, lr: 0.000519, aug: 0.038143
+2025-06-20 21:36:02,079 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,107 - INFO - EarlyStopping counter: 55 out of 1000
+2025-06-20 21:36:02,117 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,145 - INFO - EarlyStopping counter: 56 out of 1000
+2025-06-20 21:36:02,155 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,183 - INFO - EarlyStopping counter: 57 out of 1000
+2025-06-20 21:36:02,191 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,219 - INFO - EarlyStopping counter: 58 out of 1000
+2025-06-20 21:36:02,229 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,260 - INFO - EarlyStopping counter: 59 out of 1000
+2025-06-20 21:36:02,261 - INFO - epoch [60/1000], loss: 1.0793, accuracy: 33.33%, val_loss: 0.1953, val_accuracy: 100.00%, gamma: 6.2616, beta: -13.8056, centrality_scaling: 1.0220, lr: 0.000559, aug: 0.037199
+2025-06-20 21:36:02,271 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,298 - INFO - EarlyStopping counter: 60 out of 1000
+2025-06-20 21:36:02,308 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,336 - INFO - EarlyStopping counter: 61 out of 1000
+2025-06-20 21:36:02,346 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,374 - INFO - EarlyStopping counter: 62 out of 1000
+2025-06-20 21:36:02,384 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,411 - INFO - EarlyStopping counter: 63 out of 1000
+2025-06-20 21:36:02,421 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,449 - INFO - EarlyStopping counter: 64 out of 1000
+2025-06-20 21:36:02,449 - INFO - epoch [65/1000], loss: 1.0673, accuracy: 33.33%, val_loss: 0.1995, val_accuracy: 100.00%, gamma: 6.2642, beta: -13.8029, centrality_scaling: 1.0246, lr: 0.000603, aug: 0.036278
+2025-06-20 21:36:02,458 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,486 - INFO - EarlyStopping counter: 65 out of 1000
+2025-06-20 21:36:02,495 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,522 - INFO - EarlyStopping counter: 66 out of 1000
+2025-06-20 21:36:02,532 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,560 - INFO - EarlyStopping counter: 67 out of 1000
+2025-06-20 21:36:02,569 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,596 - INFO - EarlyStopping counter: 68 out of 1000
+2025-06-20 21:36:02,605 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,634 - INFO - EarlyStopping counter: 69 out of 1000
+2025-06-20 21:36:02,634 - INFO - epoch [70/1000], loss: 1.0593, accuracy: 33.33%, val_loss: 0.2041, val_accuracy: 100.00%, gamma: 6.2670, beta: -13.8001, centrality_scaling: 1.0274, lr: 0.000649, aug: 0.035380
+2025-06-20 21:36:02,644 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,672 - INFO - EarlyStopping counter: 70 out of 1000
+2025-06-20 21:36:02,683 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,710 - INFO - EarlyStopping counter: 71 out of 1000
+2025-06-20 21:36:02,721 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,749 - INFO - EarlyStopping counter: 72 out of 1000
+2025-06-20 21:36:02,759 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,787 - INFO - EarlyStopping counter: 73 out of 1000
+2025-06-20 21:36:02,796 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,825 - INFO - EarlyStopping counter: 74 out of 1000
+2025-06-20 21:36:02,825 - INFO - epoch [75/1000], loss: 1.0530, accuracy: 33.33%, val_loss: 0.2082, val_accuracy: 100.00%, gamma: 6.2701, beta: -13.7971, centrality_scaling: 1.0304, lr: 0.000698, aug: 0.034505
+2025-06-20 21:36:02,835 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,863 - INFO - EarlyStopping counter: 75 out of 1000
+2025-06-20 21:36:02,873 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,900 - INFO - EarlyStopping counter: 76 out of 1000
+2025-06-20 21:36:02,910 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,938 - INFO - EarlyStopping counter: 77 out of 1000
+2025-06-20 21:36:02,948 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:02,976 - INFO - EarlyStopping counter: 78 out of 1000
+2025-06-20 21:36:02,987 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,015 - INFO - EarlyStopping counter: 79 out of 1000
+2025-06-20 21:36:03,016 - INFO - epoch [80/1000], loss: 1.0303, accuracy: 33.33%, val_loss: 0.2133, val_accuracy: 100.00%, gamma: 6.2733, beta: -13.7938, centrality_scaling: 1.0336, lr: 0.000749, aug: 0.033651
+2025-06-20 21:36:03,025 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,054 - INFO - EarlyStopping counter: 80 out of 1000
+2025-06-20 21:36:03,063 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,092 - INFO - EarlyStopping counter: 81 out of 1000
+2025-06-20 21:36:03,101 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,130 - INFO - EarlyStopping counter: 82 out of 1000
+2025-06-20 21:36:03,140 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,168 - INFO - EarlyStopping counter: 83 out of 1000
+2025-06-20 21:36:03,178 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,206 - INFO - EarlyStopping counter: 84 out of 1000
+2025-06-20 21:36:03,206 - INFO - epoch [85/1000], loss: 1.0149, accuracy: 33.33%, val_loss: 0.2164, val_accuracy: 100.00%, gamma: 6.2768, beta: -13.7904, centrality_scaling: 1.0370, lr: 0.000804, aug: 0.032818
+2025-06-20 21:36:03,216 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,244 - INFO - EarlyStopping counter: 85 out of 1000
+2025-06-20 21:36:03,254 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,283 - INFO - EarlyStopping counter: 86 out of 1000
+2025-06-20 21:36:03,293 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,321 - INFO - EarlyStopping counter: 87 out of 1000
+2025-06-20 21:36:03,331 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,359 - INFO - EarlyStopping counter: 88 out of 1000
+2025-06-20 21:36:03,369 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,397 - INFO - EarlyStopping counter: 89 out of 1000
+2025-06-20 21:36:03,397 - INFO - epoch [90/1000], loss: 1.0107, accuracy: 33.33%, val_loss: 0.2171, val_accuracy: 100.00%, gamma: 6.2805, beta: -13.7867, centrality_scaling: 1.0406, lr: 0.000860, aug: 0.032005
+2025-06-20 21:36:03,407 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,435 - INFO - EarlyStopping counter: 90 out of 1000
+2025-06-20 21:36:03,445 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,473 - INFO - EarlyStopping counter: 91 out of 1000
+2025-06-20 21:36:03,483 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,512 - INFO - EarlyStopping counter: 92 out of 1000
+2025-06-20 21:36:03,522 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,550 - INFO - EarlyStopping counter: 93 out of 1000
+2025-06-20 21:36:03,560 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,588 - INFO - EarlyStopping counter: 94 out of 1000
+2025-06-20 21:36:03,589 - INFO - epoch [95/1000], loss: 0.9869, accuracy: 33.33%, val_loss: 0.2210, val_accuracy: 100.00%, gamma: 6.2846, beta: -13.7827, centrality_scaling: 1.0445, lr: 0.000919, aug: 0.031213
+2025-06-20 21:36:03,598 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,627 - INFO - EarlyStopping counter: 95 out of 1000
+2025-06-20 21:36:03,637 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,664 - INFO - EarlyStopping counter: 96 out of 1000
+2025-06-20 21:36:03,675 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,702 - INFO - EarlyStopping counter: 97 out of 1000
+2025-06-20 21:36:03,712 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,740 - INFO - EarlyStopping counter: 98 out of 1000
+2025-06-20 21:36:03,751 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,779 - INFO - EarlyStopping counter: 99 out of 1000
+2025-06-20 21:36:03,779 - INFO - epoch [100/1000], loss: 0.8624, accuracy: 50.00%, val_loss: 0.2241, val_accuracy: 100.00%, gamma: 6.2889, beta: -13.7784, centrality_scaling: 1.0486, lr: 0.000979, aug: 0.030441
+2025-06-20 21:36:03,789 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,817 - INFO - EarlyStopping counter: 100 out of 1000
+2025-06-20 21:36:03,827 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,856 - INFO - EarlyStopping counter: 101 out of 1000
+2025-06-20 21:36:03,866 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,894 - INFO - EarlyStopping counter: 102 out of 1000
+2025-06-20 21:36:03,909 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,938 - INFO - EarlyStopping counter: 103 out of 1000
+2025-06-20 21:36:03,948 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:03,976 - INFO - EarlyStopping counter: 104 out of 1000
+2025-06-20 21:36:03,976 - INFO - epoch [105/1000], loss: 0.8613, accuracy: 50.00%, val_loss: 0.3355, val_accuracy: 75.00%, gamma: 6.2935, beta: -13.7739, centrality_scaling: 1.0531, lr: 0.001042, aug: 0.029687
+2025-06-20 21:36:03,986 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,014 - INFO - EarlyStopping counter: 105 out of 1000
+2025-06-20 21:36:04,024 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,052 - INFO - EarlyStopping counter: 106 out of 1000
+2025-06-20 21:36:04,061 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,089 - INFO - EarlyStopping counter: 107 out of 1000
+2025-06-20 21:36:04,099 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,126 - INFO - EarlyStopping counter: 108 out of 1000
+2025-06-20 21:36:04,136 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,164 - INFO - EarlyStopping counter: 109 out of 1000
+2025-06-20 21:36:04,164 - INFO - epoch [110/1000], loss: 0.8485, accuracy: 50.00%, val_loss: 0.3403, val_accuracy: 75.00%, gamma: 6.2984, beta: -13.7691, centrality_scaling: 1.0577, lr: 0.001106, aug: 0.028952
+2025-06-20 21:36:04,175 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,203 - INFO - EarlyStopping counter: 110 out of 1000
+2025-06-20 21:36:04,212 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,240 - INFO - EarlyStopping counter: 111 out of 1000
+2025-06-20 21:36:04,249 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,278 - INFO - EarlyStopping counter: 112 out of 1000
+2025-06-20 21:36:04,288 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,316 - INFO - EarlyStopping counter: 113 out of 1000
+2025-06-20 21:36:04,325 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,353 - INFO - EarlyStopping counter: 114 out of 1000
+2025-06-20 21:36:04,353 - INFO - epoch [115/1000], loss: 0.7256, accuracy: 66.67%, val_loss: 0.3833, val_accuracy: 66.67%, gamma: 6.3036, beta: -13.7639, centrality_scaling: 1.0627, lr: 0.001171, aug: 0.028236
+2025-06-20 21:36:04,363 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,391 - INFO - EarlyStopping counter: 115 out of 1000
+2025-06-20 21:36:04,401 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,429 - INFO - EarlyStopping counter: 116 out of 1000
+2025-06-20 21:36:04,438 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,467 - INFO - EarlyStopping counter: 117 out of 1000
+2025-06-20 21:36:04,476 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,504 - INFO - EarlyStopping counter: 118 out of 1000
+2025-06-20 21:36:04,513 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,541 - INFO - EarlyStopping counter: 119 out of 1000
+2025-06-20 21:36:04,541 - INFO - epoch [120/1000], loss: 0.7116, accuracy: 66.67%, val_loss: 0.3906, val_accuracy: 66.67%, gamma: 6.3092, beta: -13.7585, centrality_scaling: 1.0679, lr: 0.001238, aug: 0.027537
+2025-06-20 21:36:04,551 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,579 - INFO - EarlyStopping counter: 120 out of 1000
+2025-06-20 21:36:04,589 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,616 - INFO - EarlyStopping counter: 121 out of 1000
+2025-06-20 21:36:04,626 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,654 - INFO - EarlyStopping counter: 122 out of 1000
+2025-06-20 21:36:04,664 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,692 - INFO - EarlyStopping counter: 123 out of 1000
+2025-06-20 21:36:04,702 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,729 - INFO - EarlyStopping counter: 124 out of 1000
+2025-06-20 21:36:04,730 - INFO - epoch [125/1000], loss: 0.6964, accuracy: 66.67%, val_loss: 0.3997, val_accuracy: 66.67%, gamma: 6.3150, beta: -13.7529, centrality_scaling: 1.0734, lr: 0.001306, aug: 0.026855
+2025-06-20 21:36:04,739 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,767 - INFO - EarlyStopping counter: 125 out of 1000
+2025-06-20 21:36:04,777 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,805 - INFO - EarlyStopping counter: 126 out of 1000
+2025-06-20 21:36:04,814 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,841 - INFO - EarlyStopping counter: 127 out of 1000
+2025-06-20 21:36:04,851 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,878 - INFO - EarlyStopping counter: 128 out of 1000
+2025-06-20 21:36:04,888 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,915 - INFO - EarlyStopping counter: 129 out of 1000
+2025-06-20 21:36:04,915 - INFO - epoch [130/1000], loss: 0.5707, accuracy: 83.33%, val_loss: 0.4453, val_accuracy: 58.33%, gamma: 6.3211, beta: -13.7469, centrality_scaling: 1.0791, lr: 0.001375, aug: 0.026191
+2025-06-20 21:36:04,924 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,952 - INFO - EarlyStopping counter: 130 out of 1000
+2025-06-20 21:36:04,962 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:04,990 - INFO - EarlyStopping counter: 131 out of 1000
+2025-06-20 21:36:05,000 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,028 - INFO - EarlyStopping counter: 132 out of 1000
+2025-06-20 21:36:05,037 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,065 - INFO - EarlyStopping counter: 133 out of 1000
+2025-06-20 21:36:05,075 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,103 - INFO - EarlyStopping counter: 134 out of 1000
+2025-06-20 21:36:05,103 - INFO - epoch [135/1000], loss: 0.5754, accuracy: 83.33%, val_loss: 0.4962, val_accuracy: 50.00%, gamma: 6.3275, beta: -13.7407, centrality_scaling: 1.0851, lr: 0.001445, aug: 0.025542
+2025-06-20 21:36:05,113 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,146 - INFO - EarlyStopping counter: 135 out of 1000
+2025-06-20 21:36:05,156 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,183 - INFO - EarlyStopping counter: 136 out of 1000
+2025-06-20 21:36:05,193 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,220 - INFO - EarlyStopping counter: 137 out of 1000
+2025-06-20 21:36:05,230 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,258 - INFO - EarlyStopping counter: 138 out of 1000
+2025-06-20 21:36:05,268 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,296 - INFO - EarlyStopping counter: 139 out of 1000
+2025-06-20 21:36:05,297 - INFO - epoch [140/1000], loss: 0.5531, accuracy: 83.33%, val_loss: 0.5442, val_accuracy: 41.67%, gamma: 6.3343, beta: -13.7341, centrality_scaling: 1.0913, lr: 0.001515, aug: 0.024910
+2025-06-20 21:36:05,307 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,335 - INFO - EarlyStopping counter: 140 out of 1000
+2025-06-20 21:36:05,346 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,374 - INFO - EarlyStopping counter: 141 out of 1000
+2025-06-20 21:36:05,384 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,412 - INFO - EarlyStopping counter: 142 out of 1000
+2025-06-20 21:36:05,422 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,450 - INFO - EarlyStopping counter: 143 out of 1000
+2025-06-20 21:36:05,460 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,488 - INFO - EarlyStopping counter: 144 out of 1000
+2025-06-20 21:36:05,488 - INFO - epoch [145/1000], loss: 0.4336, accuracy: 100.00%, val_loss: 0.5866, val_accuracy: 33.33%, gamma: 6.3415, beta: -13.7272, centrality_scaling: 1.0979, lr: 0.001586, aug: 0.024294
+2025-06-20 21:36:05,498 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,525 - INFO - EarlyStopping counter: 145 out of 1000
+2025-06-20 21:36:05,534 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,563 - INFO - EarlyStopping counter: 146 out of 1000
+2025-06-20 21:36:05,573 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,601 - INFO - EarlyStopping counter: 147 out of 1000
+2025-06-20 21:36:05,612 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,641 - INFO - EarlyStopping counter: 148 out of 1000
+2025-06-20 21:36:05,651 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,679 - INFO - EarlyStopping counter: 149 out of 1000
+2025-06-20 21:36:05,679 - INFO - epoch [150/1000], loss: 0.4816, accuracy: 91.67%, val_loss: 0.5921, val_accuracy: 33.33%, gamma: 6.3491, beta: -13.7199, centrality_scaling: 1.1048, lr: 0.001657, aug: 0.023692
+2025-06-20 21:36:05,689 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,717 - INFO - EarlyStopping counter: 150 out of 1000
+2025-06-20 21:36:05,727 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,755 - INFO - EarlyStopping counter: 151 out of 1000
+2025-06-20 21:36:05,765 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,793 - INFO - EarlyStopping counter: 152 out of 1000
+2025-06-20 21:36:05,804 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,830 - INFO - EarlyStopping counter: 153 out of 1000
+2025-06-20 21:36:05,840 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,868 - INFO - EarlyStopping counter: 154 out of 1000
+2025-06-20 21:36:05,868 - INFO - epoch [155/1000], loss: 0.5393, accuracy: 83.33%, val_loss: 0.6042, val_accuracy: 33.33%, gamma: 6.3569, beta: -13.7124, centrality_scaling: 1.1119, lr: 0.001728, aug: 0.023106
+2025-06-20 21:36:05,878 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,907 - INFO - EarlyStopping counter: 155 out of 1000
+2025-06-20 21:36:05,917 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,945 - INFO - EarlyStopping counter: 156 out of 1000
+2025-06-20 21:36:05,955 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:05,983 - INFO - EarlyStopping counter: 157 out of 1000
+2025-06-20 21:36:05,993 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,021 - INFO - EarlyStopping counter: 158 out of 1000
+2025-06-20 21:36:06,031 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,059 - INFO - EarlyStopping counter: 159 out of 1000
+2025-06-20 21:36:06,059 - INFO - epoch [160/1000], loss: 0.4046, accuracy: 100.00%, val_loss: 0.6108, val_accuracy: 33.33%, gamma: 6.3651, beta: -13.7045, centrality_scaling: 1.1194, lr: 0.001799, aug: 0.022534
+2025-06-20 21:36:06,069 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,096 - INFO - EarlyStopping counter: 160 out of 1000
+2025-06-20 21:36:06,107 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,134 - INFO - EarlyStopping counter: 161 out of 1000
+2025-06-20 21:36:06,144 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,173 - INFO - EarlyStopping counter: 162 out of 1000
+2025-06-20 21:36:06,183 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,211 - INFO - EarlyStopping counter: 163 out of 1000
+2025-06-20 21:36:06,221 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,250 - INFO - EarlyStopping counter: 164 out of 1000
+2025-06-20 21:36:06,250 - INFO - epoch [165/1000], loss: 0.3902, accuracy: 100.00%, val_loss: 0.6180, val_accuracy: 33.33%, gamma: 6.3738, beta: -13.6962, centrality_scaling: 1.1271, lr: 0.001869, aug: 0.021976
+2025-06-20 21:36:06,260 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,288 - INFO - EarlyStopping counter: 165 out of 1000
+2025-06-20 21:36:06,298 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,326 - INFO - EarlyStopping counter: 166 out of 1000
+2025-06-20 21:36:06,335 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,363 - INFO - EarlyStopping counter: 167 out of 1000
+2025-06-20 21:36:06,373 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,401 - INFO - EarlyStopping counter: 168 out of 1000
+2025-06-20 21:36:06,411 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,440 - INFO - EarlyStopping counter: 169 out of 1000
+2025-06-20 21:36:06,440 - INFO - epoch [170/1000], loss: 0.3854, accuracy: 100.00%, val_loss: 0.6349, val_accuracy: 33.33%, gamma: 6.3827, beta: -13.6876, centrality_scaling: 1.1352, lr: 0.001939, aug: 0.021432
+2025-06-20 21:36:06,450 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,478 - INFO - EarlyStopping counter: 170 out of 1000
+2025-06-20 21:36:06,488 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,516 - INFO - EarlyStopping counter: 171 out of 1000
+2025-06-20 21:36:06,527 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,555 - INFO - EarlyStopping counter: 172 out of 1000
+2025-06-20 21:36:06,566 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,593 - INFO - EarlyStopping counter: 173 out of 1000
+2025-06-20 21:36:06,604 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,631 - INFO - EarlyStopping counter: 174 out of 1000
+2025-06-20 21:36:06,631 - INFO - epoch [175/1000], loss: 0.3810, accuracy: 100.00%, val_loss: 0.6456, val_accuracy: 33.33%, gamma: 6.3922, beta: -13.6786, centrality_scaling: 1.1436, lr: 0.002007, aug: 0.020902
+2025-06-20 21:36:06,641 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,669 - INFO - EarlyStopping counter: 175 out of 1000
+2025-06-20 21:36:06,679 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,707 - INFO - EarlyStopping counter: 176 out of 1000
+2025-06-20 21:36:06,718 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,746 - INFO - EarlyStopping counter: 177 out of 1000
+2025-06-20 21:36:06,756 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,785 - INFO - EarlyStopping counter: 178 out of 1000
+2025-06-20 21:36:06,794 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,822 - INFO - EarlyStopping counter: 179 out of 1000
+2025-06-20 21:36:06,823 - INFO - epoch [180/1000], loss: 0.3732, accuracy: 100.00%, val_loss: 0.6470, val_accuracy: 33.33%, gamma: 6.4023, beta: -13.6689, centrality_scaling: 1.1526, lr: 0.002075, aug: 0.020385
+2025-06-20 21:36:06,832 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,860 - INFO - EarlyStopping counter: 180 out of 1000
+2025-06-20 21:36:06,871 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,899 - INFO - EarlyStopping counter: 181 out of 1000
+2025-06-20 21:36:06,909 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,937 - INFO - EarlyStopping counter: 182 out of 1000
+2025-06-20 21:36:06,947 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:06,975 - INFO - EarlyStopping counter: 183 out of 1000
+2025-06-20 21:36:06,985 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,013 - INFO - EarlyStopping counter: 184 out of 1000
+2025-06-20 21:36:07,013 - INFO - epoch [185/1000], loss: 0.3647, accuracy: 100.00%, val_loss: 0.6505, val_accuracy: 33.33%, gamma: 6.4130, beta: -13.6588, centrality_scaling: 1.1619, lr: 0.002142, aug: 0.019880
+2025-06-20 21:36:07,023 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,052 - INFO - EarlyStopping counter: 185 out of 1000
+2025-06-20 21:36:07,062 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,091 - INFO - EarlyStopping counter: 186 out of 1000
+2025-06-20 21:36:07,101 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,129 - INFO - EarlyStopping counter: 187 out of 1000
+2025-06-20 21:36:07,139 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,168 - INFO - EarlyStopping counter: 188 out of 1000
+2025-06-20 21:36:07,178 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,206 - INFO - EarlyStopping counter: 189 out of 1000
+2025-06-20 21:36:07,206 - INFO - epoch [190/1000], loss: 0.3629, accuracy: 100.00%, val_loss: 0.6621, val_accuracy: 33.33%, gamma: 6.4241, beta: -13.6483, centrality_scaling: 1.1716, lr: 0.002207, aug: 0.019388
+2025-06-20 21:36:07,216 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,244 - INFO - EarlyStopping counter: 190 out of 1000
+2025-06-20 21:36:07,254 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,281 - INFO - EarlyStopping counter: 191 out of 1000
+2025-06-20 21:36:07,291 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,320 - INFO - EarlyStopping counter: 192 out of 1000
+2025-06-20 21:36:07,330 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,358 - INFO - EarlyStopping counter: 193 out of 1000
+2025-06-20 21:36:07,368 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,396 - INFO - EarlyStopping counter: 194 out of 1000
+2025-06-20 21:36:07,396 - INFO - epoch [195/1000], loss: 0.3499, accuracy: 100.00%, val_loss: 0.6716, val_accuracy: 33.33%, gamma: 6.4357, beta: -13.6372, centrality_scaling: 1.1817, lr: 0.002271, aug: 0.018908
+2025-06-20 21:36:07,406 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,434 - INFO - EarlyStopping counter: 195 out of 1000
+2025-06-20 21:36:07,446 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,475 - INFO - EarlyStopping counter: 196 out of 1000
+2025-06-20 21:36:07,485 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,513 - INFO - EarlyStopping counter: 197 out of 1000
+2025-06-20 21:36:07,524 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,552 - INFO - EarlyStopping counter: 198 out of 1000
+2025-06-20 21:36:07,561 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,590 - INFO - EarlyStopping counter: 199 out of 1000
+2025-06-20 21:36:07,590 - INFO - epoch [200/1000], loss: 0.3469, accuracy: 100.00%, val_loss: 0.6761, val_accuracy: 33.33%, gamma: 6.4481, beta: -13.6256, centrality_scaling: 1.1924, lr: 0.002333, aug: 0.018440
+2025-06-20 21:36:07,600 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,628 - INFO - EarlyStopping counter: 200 out of 1000
+2025-06-20 21:36:07,637 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,666 - INFO - EarlyStopping counter: 201 out of 1000
+2025-06-20 21:36:07,676 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,704 - INFO - EarlyStopping counter: 202 out of 1000
+2025-06-20 21:36:07,714 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,741 - INFO - EarlyStopping counter: 203 out of 1000
+2025-06-20 21:36:07,751 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,779 - INFO - EarlyStopping counter: 204 out of 1000
+2025-06-20 21:36:07,779 - INFO - epoch [205/1000], loss: 0.3372, accuracy: 100.00%, val_loss: 0.6767, val_accuracy: 33.33%, gamma: 6.4610, beta: -13.6135, centrality_scaling: 1.2034, lr: 0.002393, aug: 0.017984
+2025-06-20 21:36:07,789 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,817 - INFO - EarlyStopping counter: 205 out of 1000
+2025-06-20 21:36:07,828 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,856 - INFO - EarlyStopping counter: 206 out of 1000
+2025-06-20 21:36:07,866 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,894 - INFO - EarlyStopping counter: 207 out of 1000
+2025-06-20 21:36:07,904 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,933 - INFO - EarlyStopping counter: 208 out of 1000
+2025-06-20 21:36:07,942 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:07,970 - INFO - EarlyStopping counter: 209 out of 1000
+2025-06-20 21:36:07,970 - INFO - epoch [210/1000], loss: 0.3302, accuracy: 100.00%, val_loss: 0.6792, val_accuracy: 33.33%, gamma: 6.4738, beta: -13.6014, centrality_scaling: 1.2143, lr: 0.002452, aug: 0.017539
+2025-06-20 21:36:07,980 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,007 - INFO - EarlyStopping counter: 210 out of 1000
+2025-06-20 21:36:08,018 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,045 - INFO - EarlyStopping counter: 211 out of 1000
+2025-06-20 21:36:08,055 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,083 - INFO - EarlyStopping counter: 212 out of 1000
+2025-06-20 21:36:08,093 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,121 - INFO - EarlyStopping counter: 213 out of 1000
+2025-06-20 21:36:08,132 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,160 - INFO - EarlyStopping counter: 214 out of 1000
+2025-06-20 21:36:08,160 - INFO - epoch [215/1000], loss: 0.3226, accuracy: 100.00%, val_loss: 0.6830, val_accuracy: 33.33%, gamma: 6.4871, beta: -13.5889, centrality_scaling: 1.2255, lr: 0.002507, aug: 0.017104
+2025-06-20 21:36:08,170 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,199 - INFO - EarlyStopping counter: 215 out of 1000
+2025-06-20 21:36:08,209 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,237 - INFO - EarlyStopping counter: 216 out of 1000
+2025-06-20 21:36:08,247 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,275 - INFO - EarlyStopping counter: 217 out of 1000
+2025-06-20 21:36:08,285 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,314 - INFO - EarlyStopping counter: 218 out of 1000
+2025-06-20 21:36:08,324 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,352 - INFO - EarlyStopping counter: 219 out of 1000
+2025-06-20 21:36:08,352 - INFO - epoch [220/1000], loss: 0.3149, accuracy: 100.00%, val_loss: 0.6900, val_accuracy: 33.33%, gamma: 6.5008, beta: -13.5760, centrality_scaling: 1.2371, lr: 0.002561, aug: 0.016681
+2025-06-20 21:36:08,362 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,391 - INFO - EarlyStopping counter: 220 out of 1000
+2025-06-20 21:36:08,401 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,429 - INFO - EarlyStopping counter: 221 out of 1000
+2025-06-20 21:36:08,439 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,468 - INFO - EarlyStopping counter: 222 out of 1000
+2025-06-20 21:36:08,478 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,506 - INFO - EarlyStopping counter: 223 out of 1000
+2025-06-20 21:36:08,516 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,543 - INFO - EarlyStopping counter: 224 out of 1000
+2025-06-20 21:36:08,544 - INFO - epoch [225/1000], loss: 0.3136, accuracy: 100.00%, val_loss: 0.6957, val_accuracy: 33.33%, gamma: 6.5150, beta: -13.5628, centrality_scaling: 1.2489, lr: 0.002612, aug: 0.016268
+2025-06-20 21:36:08,554 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,582 - INFO - EarlyStopping counter: 225 out of 1000
+2025-06-20 21:36:08,592 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,620 - INFO - EarlyStopping counter: 226 out of 1000
+2025-06-20 21:36:08,631 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,658 - INFO - EarlyStopping counter: 227 out of 1000
+2025-06-20 21:36:08,669 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,697 - INFO - EarlyStopping counter: 228 out of 1000
+2025-06-20 21:36:08,707 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,735 - INFO - EarlyStopping counter: 229 out of 1000
+2025-06-20 21:36:08,735 - INFO - epoch [230/1000], loss: 0.3070, accuracy: 100.00%, val_loss: 0.7006, val_accuracy: 33.33%, gamma: 6.5294, beta: -13.5493, centrality_scaling: 1.2609, lr: 0.002660, aug: 0.015866
+2025-06-20 21:36:08,745 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,773 - INFO - EarlyStopping counter: 230 out of 1000
+2025-06-20 21:36:08,783 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,811 - INFO - EarlyStopping counter: 231 out of 1000
+2025-06-20 21:36:08,821 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,847 - INFO - EarlyStopping counter: 232 out of 1000
+2025-06-20 21:36:08,857 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,885 - INFO - EarlyStopping counter: 233 out of 1000
+2025-06-20 21:36:08,895 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,924 - INFO - EarlyStopping counter: 234 out of 1000
+2025-06-20 21:36:08,924 - INFO - epoch [235/1000], loss: 0.3084, accuracy: 100.00%, val_loss: 0.7068, val_accuracy: 33.33%, gamma: 6.5441, beta: -13.5356, centrality_scaling: 1.2730, lr: 0.002706, aug: 0.015473
+2025-06-20 21:36:08,934 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:08,963 - INFO - EarlyStopping counter: 235 out of 1000
+2025-06-20 21:36:08,975 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,004 - INFO - EarlyStopping counter: 236 out of 1000
+2025-06-20 21:36:09,014 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,041 - INFO - EarlyStopping counter: 237 out of 1000
+2025-06-20 21:36:09,051 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,079 - INFO - EarlyStopping counter: 238 out of 1000
+2025-06-20 21:36:09,089 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,117 - INFO - EarlyStopping counter: 239 out of 1000
+2025-06-20 21:36:09,118 - INFO - epoch [240/1000], loss: 0.3032, accuracy: 100.00%, val_loss: 0.7130, val_accuracy: 33.33%, gamma: 6.5592, beta: -13.5214, centrality_scaling: 1.2854, lr: 0.002749, aug: 0.015090
+2025-06-20 21:36:09,128 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,155 - INFO - EarlyStopping counter: 240 out of 1000
+2025-06-20 21:36:09,165 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,193 - INFO - EarlyStopping counter: 241 out of 1000
+2025-06-20 21:36:09,203 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,232 - INFO - EarlyStopping counter: 242 out of 1000
+2025-06-20 21:36:09,242 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,269 - INFO - EarlyStopping counter: 243 out of 1000
+2025-06-20 21:36:09,279 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,307 - INFO - EarlyStopping counter: 244 out of 1000
+2025-06-20 21:36:09,307 - INFO - epoch [245/1000], loss: 0.2992, accuracy: 100.00%, val_loss: 0.7186, val_accuracy: 33.33%, gamma: 6.5752, beta: -13.5067, centrality_scaling: 1.2983, lr: 0.002788, aug: 0.014716
+2025-06-20 21:36:09,317 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,344 - INFO - EarlyStopping counter: 245 out of 1000
+2025-06-20 21:36:09,353 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,381 - INFO - EarlyStopping counter: 246 out of 1000
+2025-06-20 21:36:09,391 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,419 - INFO - EarlyStopping counter: 247 out of 1000
+2025-06-20 21:36:09,429 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,457 - INFO - EarlyStopping counter: 248 out of 1000
+2025-06-20 21:36:09,466 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,494 - INFO - EarlyStopping counter: 249 out of 1000
+2025-06-20 21:36:09,494 - INFO - epoch [250/1000], loss: 0.2943, accuracy: 100.00%, val_loss: 0.7248, val_accuracy: 33.33%, gamma: 6.5917, beta: -13.4914, centrality_scaling: 1.3116, lr: 0.002825, aug: 0.014352
+2025-06-20 21:36:09,504 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,531 - INFO - EarlyStopping counter: 250 out of 1000
+2025-06-20 21:36:09,541 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,569 - INFO - EarlyStopping counter: 251 out of 1000
+2025-06-20 21:36:09,579 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,607 - INFO - EarlyStopping counter: 252 out of 1000
+2025-06-20 21:36:09,617 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,644 - INFO - EarlyStopping counter: 253 out of 1000
+2025-06-20 21:36:09,654 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,681 - INFO - EarlyStopping counter: 254 out of 1000
+2025-06-20 21:36:09,682 - INFO - epoch [255/1000], loss: 0.2975, accuracy: 100.00%, val_loss: 0.7309, val_accuracy: 33.33%, gamma: 6.6089, beta: -13.4756, centrality_scaling: 1.3253, lr: 0.002858, aug: 0.013997
+2025-06-20 21:36:09,691 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,719 - INFO - EarlyStopping counter: 255 out of 1000
+2025-06-20 21:36:09,729 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,756 - INFO - EarlyStopping counter: 256 out of 1000
+2025-06-20 21:36:09,766 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,794 - INFO - EarlyStopping counter: 257 out of 1000
+2025-06-20 21:36:09,804 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,832 - INFO - EarlyStopping counter: 258 out of 1000
+2025-06-20 21:36:09,842 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,869 - INFO - EarlyStopping counter: 259 out of 1000
+2025-06-20 21:36:09,870 - INFO - epoch [260/1000], loss: 0.2879, accuracy: 100.00%, val_loss: 0.7370, val_accuracy: 33.33%, gamma: 6.6268, beta: -13.4592, centrality_scaling: 1.3396, lr: 0.002888, aug: 0.013650
+2025-06-20 21:36:09,879 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,907 - INFO - EarlyStopping counter: 260 out of 1000
+2025-06-20 21:36:09,917 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,945 - INFO - EarlyStopping counter: 261 out of 1000
+2025-06-20 21:36:09,955 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:09,983 - INFO - EarlyStopping counter: 262 out of 1000
+2025-06-20 21:36:09,993 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,022 - INFO - EarlyStopping counter: 263 out of 1000
+2025-06-20 21:36:10,032 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,060 - INFO - EarlyStopping counter: 264 out of 1000
+2025-06-20 21:36:10,061 - INFO - epoch [265/1000], loss: 0.2832, accuracy: 100.00%, val_loss: 0.7446, val_accuracy: 33.33%, gamma: 6.6451, beta: -13.4425, centrality_scaling: 1.3540, lr: 0.002915, aug: 0.013313
+2025-06-20 21:36:10,071 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,098 - INFO - EarlyStopping counter: 265 out of 1000
+2025-06-20 21:36:10,108 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,136 - INFO - EarlyStopping counter: 266 out of 1000
+2025-06-20 21:36:10,146 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,174 - INFO - EarlyStopping counter: 267 out of 1000
+2025-06-20 21:36:10,183 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,212 - INFO - EarlyStopping counter: 268 out of 1000
+2025-06-20 21:36:10,222 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,250 - INFO - EarlyStopping counter: 269 out of 1000
+2025-06-20 21:36:10,250 - INFO - epoch [270/1000], loss: 0.2822, accuracy: 100.00%, val_loss: 0.7520, val_accuracy: 33.33%, gamma: 6.6641, beta: -13.4253, centrality_scaling: 1.3688, lr: 0.002938, aug: 0.012983
+2025-06-20 21:36:10,260 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,288 - INFO - EarlyStopping counter: 270 out of 1000
+2025-06-20 21:36:10,298 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,327 - INFO - EarlyStopping counter: 271 out of 1000
+2025-06-20 21:36:10,337 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,365 - INFO - EarlyStopping counter: 272 out of 1000
+2025-06-20 21:36:10,375 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,404 - INFO - EarlyStopping counter: 273 out of 1000
+2025-06-20 21:36:10,414 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,442 - INFO - EarlyStopping counter: 274 out of 1000
+2025-06-20 21:36:10,443 - INFO - epoch [275/1000], loss: 0.2780, accuracy: 100.00%, val_loss: 0.7594, val_accuracy: 33.33%, gamma: 6.6833, beta: -13.4078, centrality_scaling: 1.3837, lr: 0.002957, aug: 0.012662
+2025-06-20 21:36:10,452 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,481 - INFO - EarlyStopping counter: 275 out of 1000
+2025-06-20 21:36:10,491 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,519 - INFO - EarlyStopping counter: 276 out of 1000
+2025-06-20 21:36:10,530 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,558 - INFO - EarlyStopping counter: 277 out of 1000
+2025-06-20 21:36:10,568 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,597 - INFO - EarlyStopping counter: 278 out of 1000
+2025-06-20 21:36:10,606 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,635 - INFO - EarlyStopping counter: 279 out of 1000
+2025-06-20 21:36:10,635 - INFO - epoch [280/1000], loss: 0.2751, accuracy: 100.00%, val_loss: 0.7669, val_accuracy: 33.33%, gamma: 6.7032, beta: -13.3898, centrality_scaling: 1.3991, lr: 0.002973, aug: 0.012348
+2025-06-20 21:36:10,644 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,672 - INFO - EarlyStopping counter: 280 out of 1000
+2025-06-20 21:36:10,683 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,711 - INFO - EarlyStopping counter: 281 out of 1000
+2025-06-20 21:36:10,721 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,748 - INFO - EarlyStopping counter: 282 out of 1000
+2025-06-20 21:36:10,758 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,786 - INFO - EarlyStopping counter: 283 out of 1000
+2025-06-20 21:36:10,796 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,824 - INFO - EarlyStopping counter: 284 out of 1000
+2025-06-20 21:36:10,825 - INFO - epoch [285/1000], loss: 0.2724, accuracy: 100.00%, val_loss: 0.7742, val_accuracy: 33.33%, gamma: 6.7240, beta: -13.3710, centrality_scaling: 1.4150, lr: 0.002985, aug: 0.012043
+2025-06-20 21:36:10,835 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,863 - INFO - EarlyStopping counter: 285 out of 1000
+2025-06-20 21:36:10,873 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,901 - INFO - EarlyStopping counter: 286 out of 1000
+2025-06-20 21:36:10,911 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,939 - INFO - EarlyStopping counter: 287 out of 1000
+2025-06-20 21:36:10,948 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:10,976 - INFO - EarlyStopping counter: 288 out of 1000
+2025-06-20 21:36:10,986 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,015 - INFO - EarlyStopping counter: 289 out of 1000
+2025-06-20 21:36:11,015 - INFO - epoch [290/1000], loss: 0.2675, accuracy: 100.00%, val_loss: 0.7825, val_accuracy: 33.33%, gamma: 6.7453, beta: -13.3518, centrality_scaling: 1.4313, lr: 0.002994, aug: 0.011745
+2025-06-20 21:36:11,026 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,053 - INFO - EarlyStopping counter: 290 out of 1000
+2025-06-20 21:36:11,063 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,091 - INFO - EarlyStopping counter: 291 out of 1000
+2025-06-20 21:36:11,102 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,130 - INFO - EarlyStopping counter: 292 out of 1000
+2025-06-20 21:36:11,140 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,169 - INFO - EarlyStopping counter: 293 out of 1000
+2025-06-20 21:36:11,179 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,207 - INFO - EarlyStopping counter: 294 out of 1000
+2025-06-20 21:36:11,207 - INFO - epoch [295/1000], loss: 0.2650, accuracy: 100.00%, val_loss: 0.7914, val_accuracy: 33.33%, gamma: 6.7672, beta: -13.3322, centrality_scaling: 1.4479, lr: 0.002999, aug: 0.011454
+2025-06-20 21:36:11,218 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,245 - INFO - EarlyStopping counter: 295 out of 1000
+2025-06-20 21:36:11,256 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,283 - INFO - EarlyStopping counter: 296 out of 1000
+2025-06-20 21:36:11,294 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,322 - INFO - EarlyStopping counter: 297 out of 1000
+2025-06-20 21:36:11,332 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,360 - INFO - EarlyStopping counter: 298 out of 1000
+2025-06-20 21:36:11,371 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,399 - INFO - EarlyStopping counter: 299 out of 1000
+2025-06-20 21:36:11,399 - INFO - epoch [300/1000], loss: 0.2631, accuracy: 100.00%, val_loss: 0.8000, val_accuracy: 33.33%, gamma: 6.7898, beta: -13.3119, centrality_scaling: 1.4649, lr: 0.003000, aug: 0.011170
+2025-06-20 21:36:11,409 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,437 - INFO - EarlyStopping counter: 300 out of 1000
+2025-06-20 21:36:11,447 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,475 - INFO - EarlyStopping counter: 301 out of 1000
+2025-06-20 21:36:11,485 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,513 - INFO - EarlyStopping counter: 302 out of 1000
+2025-06-20 21:36:11,523 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,550 - INFO - EarlyStopping counter: 303 out of 1000
+2025-06-20 21:36:11,560 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,588 - INFO - EarlyStopping counter: 304 out of 1000
+2025-06-20 21:36:11,588 - INFO - epoch [305/1000], loss: 0.2557, accuracy: 100.00%, val_loss: 0.8094, val_accuracy: 33.33%, gamma: 6.8130, beta: -13.2911, centrality_scaling: 1.4824, lr: 0.002999, aug: 0.010894
+2025-06-20 21:36:11,598 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,627 - INFO - EarlyStopping counter: 305 out of 1000
+2025-06-20 21:36:11,637 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,665 - INFO - EarlyStopping counter: 306 out of 1000
+2025-06-20 21:36:11,675 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,703 - INFO - EarlyStopping counter: 307 out of 1000
+2025-06-20 21:36:11,713 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,741 - INFO - EarlyStopping counter: 308 out of 1000
+2025-06-20 21:36:11,750 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,778 - INFO - EarlyStopping counter: 309 out of 1000
+2025-06-20 21:36:11,779 - INFO - epoch [310/1000], loss: 0.2528, accuracy: 100.00%, val_loss: 0.8195, val_accuracy: 33.33%, gamma: 6.8365, beta: -13.2701, centrality_scaling: 1.5000, lr: 0.002998, aug: 0.010624
+2025-06-20 21:36:11,789 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,816 - INFO - EarlyStopping counter: 310 out of 1000
+2025-06-20 21:36:11,826 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,853 - INFO - EarlyStopping counter: 311 out of 1000
+2025-06-20 21:36:11,863 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,896 - INFO - EarlyStopping counter: 312 out of 1000
+2025-06-20 21:36:11,906 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,934 - INFO - EarlyStopping counter: 313 out of 1000
+2025-06-20 21:36:11,944 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:11,971 - INFO - EarlyStopping counter: 314 out of 1000
+2025-06-20 21:36:11,972 - INFO - epoch [315/1000], loss: 0.2488, accuracy: 100.00%, val_loss: 0.8291, val_accuracy: 33.33%, gamma: 6.8601, beta: -13.2490, centrality_scaling: 1.5176, lr: 0.002996, aug: 0.010361
+2025-06-20 21:36:11,981 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,009 - INFO - EarlyStopping counter: 315 out of 1000
+2025-06-20 21:36:12,019 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,046 - INFO - EarlyStopping counter: 316 out of 1000
+2025-06-20 21:36:12,056 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,084 - INFO - EarlyStopping counter: 317 out of 1000
+2025-06-20 21:36:12,093 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,121 - INFO - EarlyStopping counter: 318 out of 1000
+2025-06-20 21:36:12,131 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,159 - INFO - EarlyStopping counter: 319 out of 1000
+2025-06-20 21:36:12,159 - INFO - epoch [320/1000], loss: 0.2441, accuracy: 100.00%, val_loss: 0.8401, val_accuracy: 33.33%, gamma: 6.8844, beta: -13.2274, centrality_scaling: 1.5357, lr: 0.002993, aug: 0.010105
+2025-06-20 21:36:12,169 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,196 - INFO - EarlyStopping counter: 320 out of 1000
+2025-06-20 21:36:12,206 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,234 - INFO - EarlyStopping counter: 321 out of 1000
+2025-06-20 21:36:12,245 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,272 - INFO - EarlyStopping counter: 322 out of 1000
+2025-06-20 21:36:12,282 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,309 - INFO - EarlyStopping counter: 323 out of 1000
+2025-06-20 21:36:12,319 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,347 - INFO - EarlyStopping counter: 324 out of 1000
+2025-06-20 21:36:12,347 - INFO - epoch [325/1000], loss: 0.2424, accuracy: 100.00%, val_loss: 0.8503, val_accuracy: 33.33%, gamma: 6.9092, beta: -13.2052, centrality_scaling: 1.5542, lr: 0.002990, aug: 0.009855
+2025-06-20 21:36:12,356 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,384 - INFO - EarlyStopping counter: 325 out of 1000
+2025-06-20 21:36:12,394 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,421 - INFO - EarlyStopping counter: 326 out of 1000
+2025-06-20 21:36:12,431 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,457 - INFO - EarlyStopping counter: 327 out of 1000
+2025-06-20 21:36:12,467 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,495 - INFO - EarlyStopping counter: 328 out of 1000
+2025-06-20 21:36:12,505 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,533 - INFO - EarlyStopping counter: 329 out of 1000
+2025-06-20 21:36:12,533 - INFO - epoch [330/1000], loss: 0.2383, accuracy: 100.00%, val_loss: 0.8619, val_accuracy: 33.33%, gamma: 6.9344, beta: -13.1828, centrality_scaling: 1.5729, lr: 0.002986, aug: 0.009611
+2025-06-20 21:36:12,543 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,571 - INFO - EarlyStopping counter: 330 out of 1000
+2025-06-20 21:36:12,581 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,608 - INFO - EarlyStopping counter: 331 out of 1000
+2025-06-20 21:36:12,618 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,645 - INFO - EarlyStopping counter: 332 out of 1000
+2025-06-20 21:36:12,654 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,682 - INFO - EarlyStopping counter: 333 out of 1000
+2025-06-20 21:36:12,692 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,723 - INFO - EarlyStopping counter: 334 out of 1000
+2025-06-20 21:36:12,724 - INFO - epoch [335/1000], loss: 0.2348, accuracy: 100.00%, val_loss: 0.8745, val_accuracy: 33.33%, gamma: 6.9601, beta: -13.1599, centrality_scaling: 1.5918, lr: 0.002980, aug: 0.009373
+2025-06-20 21:36:12,733 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,761 - INFO - EarlyStopping counter: 335 out of 1000
+2025-06-20 21:36:12,771 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,799 - INFO - EarlyStopping counter: 336 out of 1000
+2025-06-20 21:36:12,809 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,836 - INFO - EarlyStopping counter: 337 out of 1000
+2025-06-20 21:36:12,846 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,874 - INFO - EarlyStopping counter: 338 out of 1000
+2025-06-20 21:36:12,884 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,912 - INFO - EarlyStopping counter: 339 out of 1000
+2025-06-20 21:36:12,912 - INFO - epoch [340/1000], loss: 0.2331, accuracy: 100.00%, val_loss: 0.8885, val_accuracy: 33.33%, gamma: 6.9857, beta: -13.1371, centrality_scaling: 1.6108, lr: 0.002975, aug: 0.009141
+2025-06-20 21:36:12,921 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,949 - INFO - EarlyStopping counter: 340 out of 1000
+2025-06-20 21:36:12,957 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:12,985 - INFO - EarlyStopping counter: 341 out of 1000
+2025-06-20 21:36:12,995 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,022 - INFO - EarlyStopping counter: 342 out of 1000
+2025-06-20 21:36:13,032 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,058 - INFO - EarlyStopping counter: 343 out of 1000
+2025-06-20 21:36:13,069 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,097 - INFO - EarlyStopping counter: 344 out of 1000
+2025-06-20 21:36:13,097 - INFO - epoch [345/1000], loss: 0.2253, accuracy: 100.00%, val_loss: 0.9028, val_accuracy: 33.33%, gamma: 7.0120, beta: -13.1136, centrality_scaling: 1.6302, lr: 0.002968, aug: 0.008915
+2025-06-20 21:36:13,107 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,135 - INFO - EarlyStopping counter: 345 out of 1000
+2025-06-20 21:36:13,146 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,174 - INFO - EarlyStopping counter: 346 out of 1000
+2025-06-20 21:36:13,183 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,212 - INFO - EarlyStopping counter: 347 out of 1000
+2025-06-20 21:36:13,221 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,249 - INFO - EarlyStopping counter: 348 out of 1000
+2025-06-20 21:36:13,259 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,287 - INFO - EarlyStopping counter: 349 out of 1000
+2025-06-20 21:36:13,288 - INFO - epoch [350/1000], loss: 0.2215, accuracy: 100.00%, val_loss: 0.9176, val_accuracy: 33.33%, gamma: 7.0388, beta: -13.0897, centrality_scaling: 1.6500, lr: 0.002961, aug: 0.008694
+2025-06-20 21:36:13,298 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,325 - INFO - EarlyStopping counter: 350 out of 1000
+2025-06-20 21:36:13,336 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,362 - INFO - EarlyStopping counter: 351 out of 1000
+2025-06-20 21:36:13,372 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,400 - INFO - EarlyStopping counter: 352 out of 1000
+2025-06-20 21:36:13,410 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,439 - INFO - EarlyStopping counter: 353 out of 1000
+2025-06-20 21:36:13,449 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,477 - INFO - EarlyStopping counter: 354 out of 1000
+2025-06-20 21:36:13,478 - INFO - epoch [355/1000], loss: 0.2179, accuracy: 100.00%, val_loss: 0.9335, val_accuracy: 33.33%, gamma: 7.0659, beta: -13.0656, centrality_scaling: 1.6700, lr: 0.002953, aug: 0.008479
+2025-06-20 21:36:13,487 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,515 - INFO - EarlyStopping counter: 355 out of 1000
+2025-06-20 21:36:13,525 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,554 - INFO - EarlyStopping counter: 356 out of 1000
+2025-06-20 21:36:13,563 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,591 - INFO - EarlyStopping counter: 357 out of 1000
+2025-06-20 21:36:13,601 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,629 - INFO - EarlyStopping counter: 358 out of 1000
+2025-06-20 21:36:13,639 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,667 - INFO - EarlyStopping counter: 359 out of 1000
+2025-06-20 21:36:13,667 - INFO - epoch [360/1000], loss: 0.2142, accuracy: 100.00%, val_loss: 0.9488, val_accuracy: 33.33%, gamma: 7.0932, beta: -13.0412, centrality_scaling: 1.6902, lr: 0.002944, aug: 0.008269
+2025-06-20 21:36:13,677 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,706 - INFO - EarlyStopping counter: 360 out of 1000
+2025-06-20 21:36:13,716 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,744 - INFO - EarlyStopping counter: 361 out of 1000
+2025-06-20 21:36:13,755 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,783 - INFO - EarlyStopping counter: 362 out of 1000
+2025-06-20 21:36:13,793 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,820 - INFO - EarlyStopping counter: 363 out of 1000
+2025-06-20 21:36:13,831 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,857 - INFO - EarlyStopping counter: 364 out of 1000
+2025-06-20 21:36:13,858 - INFO - epoch [365/1000], loss: 0.2093, accuracy: 100.00%, val_loss: 0.9632, val_accuracy: 33.33%, gamma: 7.1208, beta: -13.0166, centrality_scaling: 1.7105, lr: 0.002935, aug: 0.008064
+2025-06-20 21:36:13,868 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,896 - INFO - EarlyStopping counter: 365 out of 1000
+2025-06-20 21:36:13,906 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,935 - INFO - EarlyStopping counter: 366 out of 1000
+2025-06-20 21:36:13,945 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:13,973 - INFO - EarlyStopping counter: 367 out of 1000
+2025-06-20 21:36:13,983 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,012 - INFO - EarlyStopping counter: 368 out of 1000
+2025-06-20 21:36:14,021 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,049 - INFO - EarlyStopping counter: 369 out of 1000
+2025-06-20 21:36:14,049 - INFO - epoch [370/1000], loss: 0.2032, accuracy: 100.00%, val_loss: 0.9830, val_accuracy: 33.33%, gamma: 7.1482, beta: -12.9921, centrality_scaling: 1.7308, lr: 0.002925, aug: 0.007865
+2025-06-20 21:36:14,058 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,087 - INFO - EarlyStopping counter: 370 out of 1000
+2025-06-20 21:36:14,097 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,125 - INFO - EarlyStopping counter: 371 out of 1000
+2025-06-20 21:36:14,135 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,162 - INFO - EarlyStopping counter: 372 out of 1000
+2025-06-20 21:36:14,172 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,200 - INFO - EarlyStopping counter: 373 out of 1000
+2025-06-20 21:36:14,210 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,239 - INFO - EarlyStopping counter: 374 out of 1000
+2025-06-20 21:36:14,239 - INFO - epoch [375/1000], loss: 0.2012, accuracy: 100.00%, val_loss: 1.0047, val_accuracy: 33.33%, gamma: 7.1757, beta: -12.9675, centrality_scaling: 1.7511, lr: 0.002914, aug: 0.007670
+2025-06-20 21:36:14,249 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,277 - INFO - EarlyStopping counter: 375 out of 1000
+2025-06-20 21:36:14,288 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,316 - INFO - EarlyStopping counter: 376 out of 1000
+2025-06-20 21:36:14,326 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,354 - INFO - EarlyStopping counter: 377 out of 1000
+2025-06-20 21:36:14,364 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,392 - INFO - EarlyStopping counter: 378 out of 1000
+2025-06-20 21:36:14,402 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,431 - INFO - EarlyStopping counter: 379 out of 1000
+2025-06-20 21:36:14,431 - INFO - epoch [380/1000], loss: 0.1932, accuracy: 100.00%, val_loss: 1.0246, val_accuracy: 33.33%, gamma: 7.2035, beta: -12.9426, centrality_scaling: 1.7717, lr: 0.002902, aug: 0.007480
+2025-06-20 21:36:14,441 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,469 - INFO - EarlyStopping counter: 380 out of 1000
+2025-06-20 21:36:14,480 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,508 - INFO - EarlyStopping counter: 381 out of 1000
+2025-06-20 21:36:14,518 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,547 - INFO - EarlyStopping counter: 382 out of 1000
+2025-06-20 21:36:14,557 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,586 - INFO - EarlyStopping counter: 383 out of 1000
+2025-06-20 21:36:14,596 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,623 - INFO - EarlyStopping counter: 384 out of 1000
+2025-06-20 21:36:14,624 - INFO - epoch [385/1000], loss: 0.1934, accuracy: 100.00%, val_loss: 1.0447, val_accuracy: 33.33%, gamma: 7.2314, beta: -12.9175, centrality_scaling: 1.7925, lr: 0.002890, aug: 0.007295
+2025-06-20 21:36:14,634 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,661 - INFO - EarlyStopping counter: 385 out of 1000
+2025-06-20 21:36:14,671 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,699 - INFO - EarlyStopping counter: 386 out of 1000
+2025-06-20 21:36:14,709 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,737 - INFO - EarlyStopping counter: 387 out of 1000
+2025-06-20 21:36:14,748 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,776 - INFO - EarlyStopping counter: 388 out of 1000
+2025-06-20 21:36:14,786 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,814 - INFO - EarlyStopping counter: 389 out of 1000
+2025-06-20 21:36:14,814 - INFO - epoch [390/1000], loss: 0.1843, accuracy: 100.00%, val_loss: 1.0672, val_accuracy: 33.33%, gamma: 7.2590, beta: -12.8927, centrality_scaling: 1.8130, lr: 0.002877, aug: 0.007115
+2025-06-20 21:36:14,824 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,852 - INFO - EarlyStopping counter: 390 out of 1000
+2025-06-20 21:36:14,861 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,890 - INFO - EarlyStopping counter: 391 out of 1000
+2025-06-20 21:36:14,900 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,927 - INFO - EarlyStopping counter: 392 out of 1000
+2025-06-20 21:36:14,938 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:14,964 - INFO - EarlyStopping counter: 393 out of 1000
+2025-06-20 21:36:14,974 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,004 - INFO - EarlyStopping counter: 394 out of 1000
+2025-06-20 21:36:15,004 - INFO - epoch [395/1000], loss: 0.1811, accuracy: 100.00%, val_loss: 1.0870, val_accuracy: 33.33%, gamma: 7.2862, beta: -12.8682, centrality_scaling: 1.8333, lr: 0.002863, aug: 0.006938
+2025-06-20 21:36:15,014 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,043 - INFO - EarlyStopping counter: 395 out of 1000
+2025-06-20 21:36:15,053 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,080 - INFO - EarlyStopping counter: 396 out of 1000
+2025-06-20 21:36:15,090 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,118 - INFO - EarlyStopping counter: 397 out of 1000
+2025-06-20 21:36:15,127 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,156 - INFO - EarlyStopping counter: 398 out of 1000
+2025-06-20 21:36:15,165 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,194 - INFO - EarlyStopping counter: 399 out of 1000
+2025-06-20 21:36:15,194 - INFO - epoch [400/1000], loss: 0.1723, accuracy: 100.00%, val_loss: 1.1042, val_accuracy: 33.33%, gamma: 7.3141, beta: -12.8432, centrality_scaling: 1.8540, lr: 0.002849, aug: 0.006767
+2025-06-20 21:36:15,204 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,232 - INFO - EarlyStopping counter: 400 out of 1000
+2025-06-20 21:36:15,242 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,270 - INFO - EarlyStopping counter: 401 out of 1000
+2025-06-20 21:36:15,280 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,309 - INFO - EarlyStopping counter: 402 out of 1000
+2025-06-20 21:36:15,319 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,348 - INFO - EarlyStopping counter: 403 out of 1000
+2025-06-20 21:36:15,358 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,387 - INFO - EarlyStopping counter: 404 out of 1000
+2025-06-20 21:36:15,387 - INFO - epoch [405/1000], loss: 0.1670, accuracy: 100.00%, val_loss: 1.1290, val_accuracy: 33.33%, gamma: 7.3416, beta: -12.8185, centrality_scaling: 1.8745, lr: 0.002834, aug: 0.006599
+2025-06-20 21:36:15,397 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,425 - INFO - EarlyStopping counter: 405 out of 1000
+2025-06-20 21:36:15,435 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,463 - INFO - EarlyStopping counter: 406 out of 1000
+2025-06-20 21:36:15,473 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,501 - INFO - EarlyStopping counter: 407 out of 1000
+2025-06-20 21:36:15,511 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,539 - INFO - EarlyStopping counter: 408 out of 1000
+2025-06-20 21:36:15,549 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,578 - INFO - EarlyStopping counter: 409 out of 1000
+2025-06-20 21:36:15,578 - INFO - epoch [410/1000], loss: 0.1629, accuracy: 100.00%, val_loss: 1.1552, val_accuracy: 33.33%, gamma: 7.3688, beta: -12.7939, centrality_scaling: 1.8948, lr: 0.002818, aug: 0.006436
+2025-06-20 21:36:15,588 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,617 - INFO - EarlyStopping counter: 410 out of 1000
+2025-06-20 21:36:15,626 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,655 - INFO - EarlyStopping counter: 411 out of 1000
+2025-06-20 21:36:15,664 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,692 - INFO - EarlyStopping counter: 412 out of 1000
+2025-06-20 21:36:15,702 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,729 - INFO - EarlyStopping counter: 413 out of 1000
+2025-06-20 21:36:15,740 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,768 - INFO - EarlyStopping counter: 414 out of 1000
+2025-06-20 21:36:15,768 - INFO - epoch [415/1000], loss: 0.1585, accuracy: 100.00%, val_loss: 1.1820, val_accuracy: 33.33%, gamma: 7.3955, beta: -12.7698, centrality_scaling: 1.9148, lr: 0.002801, aug: 0.006277
+2025-06-20 21:36:15,778 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,806 - INFO - EarlyStopping counter: 415 out of 1000
+2025-06-20 21:36:15,816 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,844 - INFO - EarlyStopping counter: 416 out of 1000
+2025-06-20 21:36:15,854 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,882 - INFO - EarlyStopping counter: 417 out of 1000
+2025-06-20 21:36:15,892 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,921 - INFO - EarlyStopping counter: 418 out of 1000
+2025-06-20 21:36:15,931 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,959 - INFO - EarlyStopping counter: 419 out of 1000
+2025-06-20 21:36:15,959 - INFO - epoch [420/1000], loss: 0.1529, accuracy: 100.00%, val_loss: 1.2129, val_accuracy: 33.33%, gamma: 7.4214, beta: -12.7464, centrality_scaling: 1.9341, lr: 0.002784, aug: 0.006121
+2025-06-20 21:36:15,969 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:15,997 - INFO - EarlyStopping counter: 420 out of 1000
+2025-06-20 21:36:16,007 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,035 - INFO - EarlyStopping counter: 421 out of 1000
+2025-06-20 21:36:16,046 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,074 - INFO - EarlyStopping counter: 422 out of 1000
+2025-06-20 21:36:16,084 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,112 - INFO - EarlyStopping counter: 423 out of 1000
+2025-06-20 21:36:16,123 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,151 - INFO - EarlyStopping counter: 424 out of 1000
+2025-06-20 21:36:16,152 - INFO - epoch [425/1000], loss: 0.1552, accuracy: 100.00%, val_loss: 1.2381, val_accuracy: 33.33%, gamma: 7.4465, beta: -12.7237, centrality_scaling: 1.9530, lr: 0.002767, aug: 0.005970
+2025-06-20 21:36:16,161 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,189 - INFO - EarlyStopping counter: 425 out of 1000
+2025-06-20 21:36:16,199 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,226 - INFO - EarlyStopping counter: 426 out of 1000
+2025-06-20 21:36:16,236 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,263 - INFO - EarlyStopping counter: 427 out of 1000
+2025-06-20 21:36:16,273 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,302 - INFO - EarlyStopping counter: 428 out of 1000
+2025-06-20 21:36:16,312 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,340 - INFO - EarlyStopping counter: 429 out of 1000
+2025-06-20 21:36:16,341 - INFO - epoch [430/1000], loss: 0.1436, accuracy: 100.00%, val_loss: 1.2647, val_accuracy: 33.33%, gamma: 7.4708, beta: -12.7016, centrality_scaling: 1.9712, lr: 0.002748, aug: 0.005822
+2025-06-20 21:36:16,351 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,379 - INFO - EarlyStopping counter: 430 out of 1000
+2025-06-20 21:36:16,389 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,417 - INFO - EarlyStopping counter: 431 out of 1000
+2025-06-20 21:36:16,427 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,456 - INFO - EarlyStopping counter: 432 out of 1000
+2025-06-20 21:36:16,466 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,495 - INFO - EarlyStopping counter: 433 out of 1000
+2025-06-20 21:36:16,505 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,533 - INFO - EarlyStopping counter: 434 out of 1000
+2025-06-20 21:36:16,533 - INFO - epoch [435/1000], loss: 0.1383, accuracy: 100.00%, val_loss: 1.2865, val_accuracy: 33.33%, gamma: 7.4944, beta: -12.6801, centrality_scaling: 1.9889, lr: 0.002729, aug: 0.005678
+2025-06-20 21:36:16,543 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,571 - INFO - EarlyStopping counter: 435 out of 1000
+2025-06-20 21:36:16,580 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,608 - INFO - EarlyStopping counter: 436 out of 1000
+2025-06-20 21:36:16,618 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,646 - INFO - EarlyStopping counter: 437 out of 1000
+2025-06-20 21:36:16,656 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,684 - INFO - EarlyStopping counter: 438 out of 1000
+2025-06-20 21:36:16,694 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,722 - INFO - EarlyStopping counter: 439 out of 1000
+2025-06-20 21:36:16,722 - INFO - epoch [440/1000], loss: 0.1384, accuracy: 100.00%, val_loss: 1.3154, val_accuracy: 33.33%, gamma: 7.5171, beta: -12.6593, centrality_scaling: 2.0061, lr: 0.002710, aug: 0.005537
+2025-06-20 21:36:16,732 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,760 - INFO - EarlyStopping counter: 440 out of 1000
+2025-06-20 21:36:16,769 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,796 - INFO - EarlyStopping counter: 441 out of 1000
+2025-06-20 21:36:16,806 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,834 - INFO - EarlyStopping counter: 442 out of 1000
+2025-06-20 21:36:16,844 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,871 - INFO - EarlyStopping counter: 443 out of 1000
+2025-06-20 21:36:16,881 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,909 - INFO - EarlyStopping counter: 444 out of 1000
+2025-06-20 21:36:16,909 - INFO - epoch [445/1000], loss: 0.1299, accuracy: 100.00%, val_loss: 1.3504, val_accuracy: 33.33%, gamma: 7.5388, beta: -12.6395, centrality_scaling: 2.0224, lr: 0.002690, aug: 0.005400
+2025-06-20 21:36:16,919 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,947 - INFO - EarlyStopping counter: 445 out of 1000
+2025-06-20 21:36:16,957 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:16,984 - INFO - EarlyStopping counter: 446 out of 1000
+2025-06-20 21:36:16,994 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,022 - INFO - EarlyStopping counter: 447 out of 1000
+2025-06-20 21:36:17,031 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,060 - INFO - EarlyStopping counter: 448 out of 1000
+2025-06-20 21:36:17,068 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,096 - INFO - EarlyStopping counter: 449 out of 1000
+2025-06-20 21:36:17,096 - INFO - epoch [450/1000], loss: 0.1318, accuracy: 100.00%, val_loss: 1.3811, val_accuracy: 33.33%, gamma: 7.5600, beta: -12.6200, centrality_scaling: 2.0385, lr: 0.002669, aug: 0.005267
+2025-06-20 21:36:17,106 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,134 - INFO - EarlyStopping counter: 450 out of 1000
+2025-06-20 21:36:17,143 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,171 - INFO - EarlyStopping counter: 451 out of 1000
+2025-06-20 21:36:17,181 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,209 - INFO - EarlyStopping counter: 452 out of 1000
+2025-06-20 21:36:17,219 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,247 - INFO - EarlyStopping counter: 453 out of 1000
+2025-06-20 21:36:17,257 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,284 - INFO - EarlyStopping counter: 454 out of 1000
+2025-06-20 21:36:17,285 - INFO - epoch [455/1000], loss: 0.1271, accuracy: 100.00%, val_loss: 1.4077, val_accuracy: 33.33%, gamma: 7.5807, beta: -12.6010, centrality_scaling: 2.0542, lr: 0.002647, aug: 0.005136
+2025-06-20 21:36:17,295 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,323 - INFO - EarlyStopping counter: 455 out of 1000
+2025-06-20 21:36:17,332 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,360 - INFO - EarlyStopping counter: 456 out of 1000
+2025-06-20 21:36:17,369 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,397 - INFO - EarlyStopping counter: 457 out of 1000
+2025-06-20 21:36:17,406 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,433 - INFO - EarlyStopping counter: 458 out of 1000
+2025-06-20 21:36:17,443 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,470 - INFO - EarlyStopping counter: 459 out of 1000
+2025-06-20 21:36:17,471 - INFO - epoch [460/1000], loss: 0.1224, accuracy: 100.00%, val_loss: 1.4388, val_accuracy: 33.33%, gamma: 7.6007, beta: -12.5826, centrality_scaling: 2.0693, lr: 0.002626, aug: 0.005009
+2025-06-20 21:36:17,481 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,509 - INFO - EarlyStopping counter: 460 out of 1000
+2025-06-20 21:36:17,519 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,547 - INFO - EarlyStopping counter: 461 out of 1000
+2025-06-20 21:36:17,556 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,584 - INFO - EarlyStopping counter: 462 out of 1000
+2025-06-20 21:36:17,594 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,623 - INFO - EarlyStopping counter: 463 out of 1000
+2025-06-20 21:36:17,632 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,661 - INFO - EarlyStopping counter: 464 out of 1000
+2025-06-20 21:36:17,661 - INFO - epoch [465/1000], loss: 0.1192, accuracy: 100.00%, val_loss: 1.4706, val_accuracy: 33.33%, gamma: 7.6198, beta: -12.5649, centrality_scaling: 2.0838, lr: 0.002603, aug: 0.004885
+2025-06-20 21:36:17,670 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,698 - INFO - EarlyStopping counter: 465 out of 1000
+2025-06-20 21:36:17,707 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,735 - INFO - EarlyStopping counter: 466 out of 1000
+2025-06-20 21:36:17,745 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,773 - INFO - EarlyStopping counter: 467 out of 1000
+2025-06-20 21:36:17,783 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,811 - INFO - EarlyStopping counter: 468 out of 1000
+2025-06-20 21:36:17,821 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,848 - INFO - EarlyStopping counter: 469 out of 1000
+2025-06-20 21:36:17,849 - INFO - epoch [470/1000], loss: 0.1176, accuracy: 100.00%, val_loss: 1.4919, val_accuracy: 33.33%, gamma: 7.6384, beta: -12.5478, centrality_scaling: 2.0979, lr: 0.002580, aug: 0.004764
+2025-06-20 21:36:17,859 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,887 - INFO - EarlyStopping counter: 470 out of 1000
+2025-06-20 21:36:17,897 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,924 - INFO - EarlyStopping counter: 471 out of 1000
+2025-06-20 21:36:17,934 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,961 - INFO - EarlyStopping counter: 472 out of 1000
+2025-06-20 21:36:17,971 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:17,999 - INFO - EarlyStopping counter: 473 out of 1000
+2025-06-20 21:36:18,009 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,036 - INFO - EarlyStopping counter: 474 out of 1000
+2025-06-20 21:36:18,037 - INFO - epoch [475/1000], loss: 0.1145, accuracy: 100.00%, val_loss: 1.5129, val_accuracy: 33.33%, gamma: 7.6563, beta: -12.5312, centrality_scaling: 2.1114, lr: 0.002556, aug: 0.004646
+2025-06-20 21:36:18,047 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,074 - INFO - EarlyStopping counter: 475 out of 1000
+2025-06-20 21:36:18,084 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,111 - INFO - EarlyStopping counter: 476 out of 1000
+2025-06-20 21:36:18,121 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,150 - INFO - EarlyStopping counter: 477 out of 1000
+2025-06-20 21:36:18,159 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,187 - INFO - EarlyStopping counter: 478 out of 1000
+2025-06-20 21:36:18,197 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,225 - INFO - EarlyStopping counter: 479 out of 1000
+2025-06-20 21:36:18,225 - INFO - epoch [480/1000], loss: 0.1107, accuracy: 100.00%, val_loss: 1.5533, val_accuracy: 33.33%, gamma: 7.6733, beta: -12.5155, centrality_scaling: 2.1243, lr: 0.002532, aug: 0.004531
+2025-06-20 21:36:18,235 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,262 - INFO - EarlyStopping counter: 480 out of 1000
+2025-06-20 21:36:18,271 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,299 - INFO - EarlyStopping counter: 481 out of 1000
+2025-06-20 21:36:18,309 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,337 - INFO - EarlyStopping counter: 482 out of 1000
+2025-06-20 21:36:18,347 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,374 - INFO - EarlyStopping counter: 483 out of 1000
+2025-06-20 21:36:18,384 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,412 - INFO - EarlyStopping counter: 484 out of 1000
+2025-06-20 21:36:18,412 - INFO - epoch [485/1000], loss: 0.1107, accuracy: 100.00%, val_loss: 1.5945, val_accuracy: 33.33%, gamma: 7.6896, beta: -12.5003, centrality_scaling: 2.1368, lr: 0.002508, aug: 0.004419
+2025-06-20 21:36:18,422 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,450 - INFO - EarlyStopping counter: 485 out of 1000
+2025-06-20 21:36:18,459 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,487 - INFO - EarlyStopping counter: 486 out of 1000
+2025-06-20 21:36:18,497 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,524 - INFO - EarlyStopping counter: 487 out of 1000
+2025-06-20 21:36:18,533 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,560 - INFO - EarlyStopping counter: 488 out of 1000
+2025-06-20 21:36:18,569 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,597 - INFO - EarlyStopping counter: 489 out of 1000
+2025-06-20 21:36:18,598 - INFO - epoch [490/1000], loss: 0.1066, accuracy: 100.00%, val_loss: 1.6196, val_accuracy: 33.33%, gamma: 7.7052, beta: -12.4857, centrality_scaling: 2.1486, lr: 0.002482, aug: 0.004310
+2025-06-20 21:36:18,608 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,636 - INFO - EarlyStopping counter: 490 out of 1000
+2025-06-20 21:36:18,646 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,674 - INFO - EarlyStopping counter: 491 out of 1000
+2025-06-20 21:36:18,683 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,711 - INFO - EarlyStopping counter: 492 out of 1000
+2025-06-20 21:36:18,721 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,749 - INFO - EarlyStopping counter: 493 out of 1000
+2025-06-20 21:36:18,758 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,786 - INFO - EarlyStopping counter: 494 out of 1000
+2025-06-20 21:36:18,786 - INFO - epoch [495/1000], loss: 0.1079, accuracy: 100.00%, val_loss: 1.6350, val_accuracy: 33.33%, gamma: 7.7200, beta: -12.4719, centrality_scaling: 2.1599, lr: 0.002457, aug: 0.004203
+2025-06-20 21:36:18,796 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,823 - INFO - EarlyStopping counter: 495 out of 1000
+2025-06-20 21:36:18,833 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,860 - INFO - EarlyStopping counter: 496 out of 1000
+2025-06-20 21:36:18,870 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,897 - INFO - EarlyStopping counter: 497 out of 1000
+2025-06-20 21:36:18,907 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,935 - INFO - EarlyStopping counter: 498 out of 1000
+2025-06-20 21:36:18,945 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:18,972 - INFO - EarlyStopping counter: 499 out of 1000
+2025-06-20 21:36:18,973 - INFO - epoch [500/1000], loss: 0.1091, accuracy: 100.00%, val_loss: 1.6633, val_accuracy: 33.33%, gamma: 7.7342, beta: -12.4587, centrality_scaling: 2.1706, lr: 0.002431, aug: 0.004099
+2025-06-20 21:36:18,983 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,011 - INFO - EarlyStopping counter: 500 out of 1000
+2025-06-20 21:36:19,021 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,049 - INFO - EarlyStopping counter: 501 out of 1000
+2025-06-20 21:36:19,059 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,086 - INFO - EarlyStopping counter: 502 out of 1000
+2025-06-20 21:36:19,096 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,124 - INFO - EarlyStopping counter: 503 out of 1000
+2025-06-20 21:36:19,133 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,161 - INFO - EarlyStopping counter: 504 out of 1000
+2025-06-20 21:36:19,161 - INFO - epoch [505/1000], loss: 0.1010, accuracy: 100.00%, val_loss: 1.6883, val_accuracy: 33.33%, gamma: 7.7476, beta: -12.4462, centrality_scaling: 2.1808, lr: 0.002404, aug: 0.003998
+2025-06-20 21:36:19,171 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,199 - INFO - EarlyStopping counter: 505 out of 1000
+2025-06-20 21:36:19,209 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,236 - INFO - EarlyStopping counter: 506 out of 1000
+2025-06-20 21:36:19,246 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,274 - INFO - EarlyStopping counter: 507 out of 1000
+2025-06-20 21:36:19,283 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,311 - INFO - EarlyStopping counter: 508 out of 1000
+2025-06-20 21:36:19,321 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,349 - INFO - EarlyStopping counter: 509 out of 1000
+2025-06-20 21:36:19,349 - INFO - epoch [510/1000], loss: 0.0981, accuracy: 100.00%, val_loss: 1.7177, val_accuracy: 33.33%, gamma: 7.7604, beta: -12.4343, centrality_scaling: 2.1905, lr: 0.002377, aug: 0.003899
+2025-06-20 21:36:19,359 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,387 - INFO - EarlyStopping counter: 510 out of 1000
+2025-06-20 21:36:19,397 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,424 - INFO - EarlyStopping counter: 511 out of 1000
+2025-06-20 21:36:19,435 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,461 - INFO - EarlyStopping counter: 512 out of 1000
+2025-06-20 21:36:19,471 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,499 - INFO - EarlyStopping counter: 513 out of 1000
+2025-06-20 21:36:19,509 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,536 - INFO - EarlyStopping counter: 514 out of 1000
+2025-06-20 21:36:19,537 - INFO - epoch [515/1000], loss: 0.0974, accuracy: 100.00%, val_loss: 1.7452, val_accuracy: 33.33%, gamma: 7.7726, beta: -12.4228, centrality_scaling: 2.1997, lr: 0.002349, aug: 0.003802
+2025-06-20 21:36:19,547 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,574 - INFO - EarlyStopping counter: 515 out of 1000
+2025-06-20 21:36:19,584 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,612 - INFO - EarlyStopping counter: 516 out of 1000
+2025-06-20 21:36:19,622 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,650 - INFO - EarlyStopping counter: 517 out of 1000
+2025-06-20 21:36:19,660 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,688 - INFO - EarlyStopping counter: 518 out of 1000
+2025-06-20 21:36:19,697 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,725 - INFO - EarlyStopping counter: 519 out of 1000
+2025-06-20 21:36:19,725 - INFO - epoch [520/1000], loss: 0.0944, accuracy: 100.00%, val_loss: 1.7678, val_accuracy: 33.33%, gamma: 7.7844, beta: -12.4118, centrality_scaling: 2.2087, lr: 0.002321, aug: 0.003708
+2025-06-20 21:36:19,735 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,762 - INFO - EarlyStopping counter: 520 out of 1000
+2025-06-20 21:36:19,771 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,799 - INFO - EarlyStopping counter: 521 out of 1000
+2025-06-20 21:36:19,810 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,837 - INFO - EarlyStopping counter: 522 out of 1000
+2025-06-20 21:36:19,847 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,875 - INFO - EarlyStopping counter: 523 out of 1000
+2025-06-20 21:36:19,885 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,913 - INFO - EarlyStopping counter: 524 out of 1000
+2025-06-20 21:36:19,913 - INFO - epoch [525/1000], loss: 0.0956, accuracy: 100.00%, val_loss: 1.7837, val_accuracy: 33.33%, gamma: 7.7957, beta: -12.4011, centrality_scaling: 2.2173, lr: 0.002293, aug: 0.003616
+2025-06-20 21:36:19,923 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,951 - INFO - EarlyStopping counter: 525 out of 1000
+2025-06-20 21:36:19,960 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:19,988 - INFO - EarlyStopping counter: 526 out of 1000
+2025-06-20 21:36:19,998 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,025 - INFO - EarlyStopping counter: 527 out of 1000
+2025-06-20 21:36:20,035 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,062 - INFO - EarlyStopping counter: 528 out of 1000
+2025-06-20 21:36:20,072 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,099 - INFO - EarlyStopping counter: 529 out of 1000
+2025-06-20 21:36:20,100 - INFO - epoch [530/1000], loss: 0.0977, accuracy: 100.00%, val_loss: 1.8087, val_accuracy: 33.33%, gamma: 7.8066, beta: -12.3908, centrality_scaling: 2.2256, lr: 0.002264, aug: 0.003527
+2025-06-20 21:36:20,109 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,137 - INFO - EarlyStopping counter: 530 out of 1000
+2025-06-20 21:36:20,147 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,175 - INFO - EarlyStopping counter: 531 out of 1000
+2025-06-20 21:36:20,184 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,212 - INFO - EarlyStopping counter: 532 out of 1000
+2025-06-20 21:36:20,221 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,249 - INFO - EarlyStopping counter: 533 out of 1000
+2025-06-20 21:36:20,258 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,287 - INFO - EarlyStopping counter: 534 out of 1000
+2025-06-20 21:36:20,287 - INFO - epoch [535/1000], loss: 0.0914, accuracy: 100.00%, val_loss: 1.8341, val_accuracy: 33.33%, gamma: 7.8171, beta: -12.3809, centrality_scaling: 2.2337, lr: 0.002235, aug: 0.003439
+2025-06-20 21:36:20,298 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,326 - INFO - EarlyStopping counter: 535 out of 1000
+2025-06-20 21:36:20,336 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,362 - INFO - EarlyStopping counter: 536 out of 1000
+2025-06-20 21:36:20,371 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,399 - INFO - EarlyStopping counter: 537 out of 1000
+2025-06-20 21:36:20,409 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,437 - INFO - EarlyStopping counter: 538 out of 1000
+2025-06-20 21:36:20,448 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,475 - INFO - EarlyStopping counter: 539 out of 1000
+2025-06-20 21:36:20,475 - INFO - epoch [540/1000], loss: 0.0891, accuracy: 100.00%, val_loss: 1.8680, val_accuracy: 33.33%, gamma: 7.8272, beta: -12.3713, centrality_scaling: 2.2414, lr: 0.002206, aug: 0.003354
+2025-06-20 21:36:20,485 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,513 - INFO - EarlyStopping counter: 540 out of 1000
+2025-06-20 21:36:20,522 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,549 - INFO - EarlyStopping counter: 541 out of 1000
+2025-06-20 21:36:20,558 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,586 - INFO - EarlyStopping counter: 542 out of 1000
+2025-06-20 21:36:20,595 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,623 - INFO - EarlyStopping counter: 543 out of 1000
+2025-06-20 21:36:20,632 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,658 - INFO - EarlyStopping counter: 544 out of 1000
+2025-06-20 21:36:20,659 - INFO - epoch [545/1000], loss: 0.0898, accuracy: 100.00%, val_loss: 1.9028, val_accuracy: 33.33%, gamma: 7.8366, beta: -12.3623, centrality_scaling: 2.2486, lr: 0.002176, aug: 0.003271
+2025-06-20 21:36:20,669 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,697 - INFO - EarlyStopping counter: 545 out of 1000
+2025-06-20 21:36:20,707 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,735 - INFO - EarlyStopping counter: 546 out of 1000
+2025-06-20 21:36:20,745 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,772 - INFO - EarlyStopping counter: 547 out of 1000
+2025-06-20 21:36:20,782 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,810 - INFO - EarlyStopping counter: 548 out of 1000
+2025-06-20 21:36:20,819 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,848 - INFO - EarlyStopping counter: 549 out of 1000
+2025-06-20 21:36:20,848 - INFO - epoch [550/1000], loss: 0.0918, accuracy: 100.00%, val_loss: 1.9317, val_accuracy: 33.33%, gamma: 7.8457, beta: -12.3537, centrality_scaling: 2.2555, lr: 0.002146, aug: 0.003190
+2025-06-20 21:36:20,857 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,885 - INFO - EarlyStopping counter: 550 out of 1000
+2025-06-20 21:36:20,895 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,922 - INFO - EarlyStopping counter: 551 out of 1000
+2025-06-20 21:36:20,932 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,958 - INFO - EarlyStopping counter: 552 out of 1000
+2025-06-20 21:36:20,968 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:20,996 - INFO - EarlyStopping counter: 553 out of 1000
+2025-06-20 21:36:21,006 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,034 - INFO - EarlyStopping counter: 554 out of 1000
+2025-06-20 21:36:21,034 - INFO - epoch [555/1000], loss: 0.0892, accuracy: 100.00%, val_loss: 1.9559, val_accuracy: 33.33%, gamma: 7.8543, beta: -12.3455, centrality_scaling: 2.2621, lr: 0.002115, aug: 0.003111
+2025-06-20 21:36:21,044 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,071 - INFO - EarlyStopping counter: 555 out of 1000
+2025-06-20 21:36:21,081 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,109 - INFO - EarlyStopping counter: 556 out of 1000
+2025-06-20 21:36:21,119 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,147 - INFO - EarlyStopping counter: 557 out of 1000
+2025-06-20 21:36:21,156 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,184 - INFO - EarlyStopping counter: 558 out of 1000
+2025-06-20 21:36:21,194 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,221 - INFO - EarlyStopping counter: 559 out of 1000
+2025-06-20 21:36:21,222 - INFO - epoch [560/1000], loss: 0.0901, accuracy: 100.00%, val_loss: 1.9610, val_accuracy: 33.33%, gamma: 7.8624, beta: -12.3377, centrality_scaling: 2.2683, lr: 0.002084, aug: 0.003034
+2025-06-20 21:36:21,232 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,258 - INFO - EarlyStopping counter: 560 out of 1000
+2025-06-20 21:36:21,267 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,296 - INFO - EarlyStopping counter: 561 out of 1000
+2025-06-20 21:36:21,306 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,334 - INFO - EarlyStopping counter: 562 out of 1000
+2025-06-20 21:36:21,344 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,371 - INFO - EarlyStopping counter: 563 out of 1000
+2025-06-20 21:36:21,381 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,409 - INFO - EarlyStopping counter: 564 out of 1000
+2025-06-20 21:36:21,409 - INFO - epoch [565/1000], loss: 0.0876, accuracy: 100.00%, val_loss: 1.9703, val_accuracy: 33.33%, gamma: 7.8705, beta: -12.3300, centrality_scaling: 2.2745, lr: 0.002053, aug: 0.002959
+2025-06-20 21:36:21,419 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,447 - INFO - EarlyStopping counter: 565 out of 1000
+2025-06-20 21:36:21,456 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,484 - INFO - EarlyStopping counter: 566 out of 1000
+2025-06-20 21:36:21,494 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,521 - INFO - EarlyStopping counter: 567 out of 1000
+2025-06-20 21:36:21,531 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,557 - INFO - EarlyStopping counter: 568 out of 1000
+2025-06-20 21:36:21,567 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,594 - INFO - EarlyStopping counter: 569 out of 1000
+2025-06-20 21:36:21,595 - INFO - epoch [570/1000], loss: 0.0849, accuracy: 100.00%, val_loss: 1.9904, val_accuracy: 33.33%, gamma: 7.8784, beta: -12.3224, centrality_scaling: 2.2806, lr: 0.002022, aug: 0.002886
+2025-06-20 21:36:21,604 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,632 - INFO - EarlyStopping counter: 570 out of 1000
+2025-06-20 21:36:21,642 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,670 - INFO - EarlyStopping counter: 571 out of 1000
+2025-06-20 21:36:21,680 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,707 - INFO - EarlyStopping counter: 572 out of 1000
+2025-06-20 21:36:21,717 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,745 - INFO - EarlyStopping counter: 573 out of 1000
+2025-06-20 21:36:21,755 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,782 - INFO - EarlyStopping counter: 574 out of 1000
+2025-06-20 21:36:21,782 - INFO - epoch [575/1000], loss: 0.0888, accuracy: 100.00%, val_loss: 2.0029, val_accuracy: 33.33%, gamma: 7.8860, beta: -12.3150, centrality_scaling: 2.2865, lr: 0.001990, aug: 0.002815
+2025-06-20 21:36:21,792 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,819 - INFO - EarlyStopping counter: 575 out of 1000
+2025-06-20 21:36:21,829 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,855 - INFO - EarlyStopping counter: 576 out of 1000
+2025-06-20 21:36:21,865 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,893 - INFO - EarlyStopping counter: 577 out of 1000
+2025-06-20 21:36:21,903 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,931 - INFO - EarlyStopping counter: 578 out of 1000
+2025-06-20 21:36:21,941 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:21,968 - INFO - EarlyStopping counter: 579 out of 1000
+2025-06-20 21:36:21,969 - INFO - epoch [580/1000], loss: 0.0827, accuracy: 100.00%, val_loss: 2.0167, val_accuracy: 33.33%, gamma: 7.8933, beta: -12.3079, centrality_scaling: 2.2921, lr: 0.001958, aug: 0.002745
+2025-06-20 21:36:21,978 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,006 - INFO - EarlyStopping counter: 580 out of 1000
+2025-06-20 21:36:22,016 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,044 - INFO - EarlyStopping counter: 581 out of 1000
+2025-06-20 21:36:22,053 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,081 - INFO - EarlyStopping counter: 582 out of 1000
+2025-06-20 21:36:22,091 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,118 - INFO - EarlyStopping counter: 583 out of 1000
+2025-06-20 21:36:22,128 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,154 - INFO - EarlyStopping counter: 584 out of 1000
+2025-06-20 21:36:22,154 - INFO - epoch [585/1000], loss: 0.0808, accuracy: 100.00%, val_loss: 2.0373, val_accuracy: 33.33%, gamma: 7.9004, beta: -12.3010, centrality_scaling: 2.2976, lr: 0.001926, aug: 0.002677
+2025-06-20 21:36:22,163 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,191 - INFO - EarlyStopping counter: 585 out of 1000
+2025-06-20 21:36:22,202 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,230 - INFO - EarlyStopping counter: 586 out of 1000
+2025-06-20 21:36:22,239 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,267 - INFO - EarlyStopping counter: 587 out of 1000
+2025-06-20 21:36:22,276 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,304 - INFO - EarlyStopping counter: 588 out of 1000
+2025-06-20 21:36:22,314 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,341 - INFO - EarlyStopping counter: 589 out of 1000
+2025-06-20 21:36:22,342 - INFO - epoch [590/1000], loss: 0.0834, accuracy: 100.00%, val_loss: 2.0563, val_accuracy: 33.33%, gamma: 7.9072, beta: -12.2943, centrality_scaling: 2.3029, lr: 0.001894, aug: 0.002611
+2025-06-20 21:36:22,352 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,379 - INFO - EarlyStopping counter: 590 out of 1000
+2025-06-20 21:36:22,389 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,416 - INFO - EarlyStopping counter: 591 out of 1000
+2025-06-20 21:36:22,426 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,453 - INFO - EarlyStopping counter: 592 out of 1000
+2025-06-20 21:36:22,463 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,491 - INFO - EarlyStopping counter: 593 out of 1000
+2025-06-20 21:36:22,501 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,528 - INFO - EarlyStopping counter: 594 out of 1000
+2025-06-20 21:36:22,529 - INFO - epoch [595/1000], loss: 0.0823, accuracy: 100.00%, val_loss: 2.0883, val_accuracy: 33.33%, gamma: 7.9137, beta: -12.2880, centrality_scaling: 2.3079, lr: 0.001861, aug: 0.002546
+2025-06-20 21:36:22,539 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,567 - INFO - EarlyStopping counter: 595 out of 1000
+2025-06-20 21:36:22,576 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,604 - INFO - EarlyStopping counter: 596 out of 1000
+2025-06-20 21:36:22,613 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,642 - INFO - EarlyStopping counter: 597 out of 1000
+2025-06-20 21:36:22,651 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,679 - INFO - EarlyStopping counter: 598 out of 1000
+2025-06-20 21:36:22,689 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,716 - INFO - EarlyStopping counter: 599 out of 1000
+2025-06-20 21:36:22,716 - INFO - epoch [600/1000], loss: 0.0799, accuracy: 100.00%, val_loss: 2.1109, val_accuracy: 33.33%, gamma: 7.9200, beta: -12.2819, centrality_scaling: 2.3127, lr: 0.001828, aug: 0.002483
+2025-06-20 21:36:22,727 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,753 - INFO - EarlyStopping counter: 600 out of 1000
+2025-06-20 21:36:22,763 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,791 - INFO - EarlyStopping counter: 601 out of 1000
+2025-06-20 21:36:22,801 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,829 - INFO - EarlyStopping counter: 602 out of 1000
+2025-06-20 21:36:22,839 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,867 - INFO - EarlyStopping counter: 603 out of 1000
+2025-06-20 21:36:22,877 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,905 - INFO - EarlyStopping counter: 604 out of 1000
+2025-06-20 21:36:22,905 - INFO - epoch [605/1000], loss: 0.0798, accuracy: 100.00%, val_loss: 2.1332, val_accuracy: 33.33%, gamma: 7.9261, beta: -12.2760, centrality_scaling: 2.3174, lr: 0.001795, aug: 0.002422
+2025-06-20 21:36:22,914 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,943 - INFO - EarlyStopping counter: 605 out of 1000
+2025-06-20 21:36:22,952 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:22,980 - INFO - EarlyStopping counter: 606 out of 1000
+2025-06-20 21:36:22,990 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,017 - INFO - EarlyStopping counter: 607 out of 1000
+2025-06-20 21:36:23,027 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,054 - INFO - EarlyStopping counter: 608 out of 1000
+2025-06-20 21:36:23,063 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,091 - INFO - EarlyStopping counter: 609 out of 1000
+2025-06-20 21:36:23,091 - INFO - epoch [610/1000], loss: 0.0805, accuracy: 100.00%, val_loss: 2.1444, val_accuracy: 33.33%, gamma: 7.9319, beta: -12.2703, centrality_scaling: 2.3219, lr: 0.001762, aug: 0.002362
+2025-06-20 21:36:23,101 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,129 - INFO - EarlyStopping counter: 610 out of 1000
+2025-06-20 21:36:23,138 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,166 - INFO - EarlyStopping counter: 611 out of 1000
+2025-06-20 21:36:23,176 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,203 - INFO - EarlyStopping counter: 612 out of 1000
+2025-06-20 21:36:23,213 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,241 - INFO - EarlyStopping counter: 613 out of 1000
+2025-06-20 21:36:23,251 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,279 - INFO - EarlyStopping counter: 614 out of 1000
+2025-06-20 21:36:23,279 - INFO - epoch [615/1000], loss: 0.0813, accuracy: 100.00%, val_loss: 2.1602, val_accuracy: 33.33%, gamma: 7.9375, beta: -12.2648, centrality_scaling: 2.3262, lr: 0.001729, aug: 0.002303
+2025-06-20 21:36:23,289 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,317 - INFO - EarlyStopping counter: 615 out of 1000
+2025-06-20 21:36:23,327 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,355 - INFO - EarlyStopping counter: 616 out of 1000
+2025-06-20 21:36:23,364 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,392 - INFO - EarlyStopping counter: 617 out of 1000
+2025-06-20 21:36:23,402 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,430 - INFO - EarlyStopping counter: 618 out of 1000
+2025-06-20 21:36:23,440 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,468 - INFO - EarlyStopping counter: 619 out of 1000
+2025-06-20 21:36:23,468 - INFO - epoch [620/1000], loss: 0.0792, accuracy: 100.00%, val_loss: 2.1674, val_accuracy: 33.33%, gamma: 7.9429, beta: -12.2595, centrality_scaling: 2.3304, lr: 0.001696, aug: 0.002246
+2025-06-20 21:36:23,478 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,505 - INFO - EarlyStopping counter: 620 out of 1000
+2025-06-20 21:36:23,515 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,543 - INFO - EarlyStopping counter: 621 out of 1000
+2025-06-20 21:36:23,552 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,580 - INFO - EarlyStopping counter: 622 out of 1000
+2025-06-20 21:36:23,589 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,616 - INFO - EarlyStopping counter: 623 out of 1000
+2025-06-20 21:36:23,626 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,652 - INFO - EarlyStopping counter: 624 out of 1000
+2025-06-20 21:36:23,652 - INFO - epoch [625/1000], loss: 0.0779, accuracy: 100.00%, val_loss: 2.1735, val_accuracy: 33.33%, gamma: 7.9481, beta: -12.2544, centrality_scaling: 2.3344, lr: 0.001663, aug: 0.002191
+2025-06-20 21:36:23,662 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,690 - INFO - EarlyStopping counter: 625 out of 1000
+2025-06-20 21:36:23,700 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,728 - INFO - EarlyStopping counter: 626 out of 1000
+2025-06-20 21:36:23,738 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,765 - INFO - EarlyStopping counter: 627 out of 1000
+2025-06-20 21:36:23,775 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,802 - INFO - EarlyStopping counter: 628 out of 1000
+2025-06-20 21:36:23,812 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,840 - INFO - EarlyStopping counter: 629 out of 1000
+2025-06-20 21:36:23,840 - INFO - epoch [630/1000], loss: 0.0778, accuracy: 100.00%, val_loss: 2.2046, val_accuracy: 33.33%, gamma: 7.9532, beta: -12.2493, centrality_scaling: 2.3384, lr: 0.001629, aug: 0.002136
+2025-06-20 21:36:23,849 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,876 - INFO - EarlyStopping counter: 630 out of 1000
+2025-06-20 21:36:23,886 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,913 - INFO - EarlyStopping counter: 631 out of 1000
+2025-06-20 21:36:23,923 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,950 - INFO - EarlyStopping counter: 632 out of 1000
+2025-06-20 21:36:23,959 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:23,987 - INFO - EarlyStopping counter: 633 out of 1000
+2025-06-20 21:36:23,997 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,026 - INFO - EarlyStopping counter: 634 out of 1000
+2025-06-20 21:36:24,026 - INFO - epoch [635/1000], loss: 0.0768, accuracy: 100.00%, val_loss: 2.1994, val_accuracy: 33.33%, gamma: 7.9582, beta: -12.2445, centrality_scaling: 2.3422, lr: 0.001596, aug: 0.002084
+2025-06-20 21:36:24,036 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,064 - INFO - EarlyStopping counter: 635 out of 1000
+2025-06-20 21:36:24,074 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,102 - INFO - EarlyStopping counter: 636 out of 1000
+2025-06-20 21:36:24,112 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,142 - INFO - EarlyStopping counter: 637 out of 1000
+2025-06-20 21:36:24,151 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,178 - INFO - EarlyStopping counter: 638 out of 1000
+2025-06-20 21:36:24,188 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,216 - INFO - EarlyStopping counter: 639 out of 1000
+2025-06-20 21:36:24,217 - INFO - epoch [640/1000], loss: 0.0774, accuracy: 100.00%, val_loss: 2.2322, val_accuracy: 33.33%, gamma: 7.9628, beta: -12.2399, centrality_scaling: 2.3458, lr: 0.001562, aug: 0.002032
+2025-06-20 21:36:24,227 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,254 - INFO - EarlyStopping counter: 640 out of 1000
+2025-06-20 21:36:24,264 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,292 - INFO - EarlyStopping counter: 641 out of 1000
+2025-06-20 21:36:24,302 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,329 - INFO - EarlyStopping counter: 642 out of 1000
+2025-06-20 21:36:24,340 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,368 - INFO - EarlyStopping counter: 643 out of 1000
+2025-06-20 21:36:24,378 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,406 - INFO - EarlyStopping counter: 644 out of 1000
+2025-06-20 21:36:24,406 - INFO - epoch [645/1000], loss: 0.0794, accuracy: 100.00%, val_loss: 2.2521, val_accuracy: 33.33%, gamma: 7.9674, beta: -12.2354, centrality_scaling: 2.3493, lr: 0.001528, aug: 0.001982
+2025-06-20 21:36:24,416 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,443 - INFO - EarlyStopping counter: 645 out of 1000
+2025-06-20 21:36:24,453 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,481 - INFO - EarlyStopping counter: 646 out of 1000
+2025-06-20 21:36:24,490 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,518 - INFO - EarlyStopping counter: 647 out of 1000
+2025-06-20 21:36:24,528 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,555 - INFO - EarlyStopping counter: 648 out of 1000
+2025-06-20 21:36:24,565 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,592 - INFO - EarlyStopping counter: 649 out of 1000
+2025-06-20 21:36:24,592 - INFO - epoch [650/1000], loss: 0.0767, accuracy: 100.00%, val_loss: 2.2666, val_accuracy: 33.33%, gamma: 7.9719, beta: -12.2310, centrality_scaling: 2.3527, lr: 0.001495, aug: 0.001933
+2025-06-20 21:36:24,602 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,630 - INFO - EarlyStopping counter: 650 out of 1000
+2025-06-20 21:36:24,639 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,667 - INFO - EarlyStopping counter: 651 out of 1000
+2025-06-20 21:36:24,677 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,704 - INFO - EarlyStopping counter: 652 out of 1000
+2025-06-20 21:36:24,714 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,742 - INFO - EarlyStopping counter: 653 out of 1000
+2025-06-20 21:36:24,752 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,780 - INFO - EarlyStopping counter: 654 out of 1000
+2025-06-20 21:36:24,780 - INFO - epoch [655/1000], loss: 0.0747, accuracy: 100.00%, val_loss: 2.2650, val_accuracy: 33.33%, gamma: 7.9762, beta: -12.2267, centrality_scaling: 2.3561, lr: 0.001461, aug: 0.001885
+2025-06-20 21:36:24,789 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,818 - INFO - EarlyStopping counter: 655 out of 1000
+2025-06-20 21:36:24,828 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,855 - INFO - EarlyStopping counter: 656 out of 1000
+2025-06-20 21:36:24,865 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,894 - INFO - EarlyStopping counter: 657 out of 1000
+2025-06-20 21:36:24,903 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,931 - INFO - EarlyStopping counter: 658 out of 1000
+2025-06-20 21:36:24,940 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:24,968 - INFO - EarlyStopping counter: 659 out of 1000
+2025-06-20 21:36:24,968 - INFO - epoch [660/1000], loss: 0.0741, accuracy: 100.00%, val_loss: 2.2641, val_accuracy: 33.33%, gamma: 7.9805, beta: -12.2225, centrality_scaling: 2.3594, lr: 0.001428, aug: 0.001838
+2025-06-20 21:36:24,978 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,005 - INFO - EarlyStopping counter: 660 out of 1000
+2025-06-20 21:36:25,015 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,042 - INFO - EarlyStopping counter: 661 out of 1000
+2025-06-20 21:36:25,052 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,080 - INFO - EarlyStopping counter: 662 out of 1000
+2025-06-20 21:36:25,090 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,117 - INFO - EarlyStopping counter: 663 out of 1000
+2025-06-20 21:36:25,128 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,155 - INFO - EarlyStopping counter: 664 out of 1000
+2025-06-20 21:36:25,156 - INFO - epoch [665/1000], loss: 0.0759, accuracy: 100.00%, val_loss: 2.2767, val_accuracy: 33.33%, gamma: 7.9846, beta: -12.2184, centrality_scaling: 2.3626, lr: 0.001394, aug: 0.001793
+2025-06-20 21:36:25,165 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,193 - INFO - EarlyStopping counter: 665 out of 1000
+2025-06-20 21:36:25,203 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,232 - INFO - EarlyStopping counter: 666 out of 1000
+2025-06-20 21:36:25,242 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,269 - INFO - EarlyStopping counter: 667 out of 1000
+2025-06-20 21:36:25,279 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,306 - INFO - EarlyStopping counter: 668 out of 1000
+2025-06-20 21:36:25,316 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,343 - INFO - EarlyStopping counter: 669 out of 1000
+2025-06-20 21:36:25,343 - INFO - epoch [670/1000], loss: 0.0749, accuracy: 100.00%, val_loss: 2.2849, val_accuracy: 33.33%, gamma: 7.9887, beta: -12.2143, centrality_scaling: 2.3657, lr: 0.001360, aug: 0.001748
+2025-06-20 21:36:25,353 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,381 - INFO - EarlyStopping counter: 670 out of 1000
+2025-06-20 21:36:25,391 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,418 - INFO - EarlyStopping counter: 671 out of 1000
+2025-06-20 21:36:25,428 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,456 - INFO - EarlyStopping counter: 672 out of 1000
+2025-06-20 21:36:25,466 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,494 - INFO - EarlyStopping counter: 673 out of 1000
+2025-06-20 21:36:25,504 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,533 - INFO - EarlyStopping counter: 674 out of 1000
+2025-06-20 21:36:25,533 - INFO - epoch [675/1000], loss: 0.0753, accuracy: 100.00%, val_loss: 2.2933, val_accuracy: 33.33%, gamma: 7.9925, beta: -12.2105, centrality_scaling: 2.3687, lr: 0.001327, aug: 0.001705
+2025-06-20 21:36:25,543 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,570 - INFO - EarlyStopping counter: 675 out of 1000
+2025-06-20 21:36:25,580 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,607 - INFO - EarlyStopping counter: 676 out of 1000
+2025-06-20 21:36:25,617 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,644 - INFO - EarlyStopping counter: 677 out of 1000
+2025-06-20 21:36:25,654 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,682 - INFO - EarlyStopping counter: 678 out of 1000
+2025-06-20 21:36:25,691 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,719 - INFO - EarlyStopping counter: 679 out of 1000
+2025-06-20 21:36:25,720 - INFO - epoch [680/1000], loss: 0.0747, accuracy: 100.00%, val_loss: 2.3053, val_accuracy: 33.33%, gamma: 7.9962, beta: -12.2068, centrality_scaling: 2.3715, lr: 0.001294, aug: 0.001663
+2025-06-20 21:36:25,729 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,757 - INFO - EarlyStopping counter: 680 out of 1000
+2025-06-20 21:36:25,767 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,795 - INFO - EarlyStopping counter: 681 out of 1000
+2025-06-20 21:36:25,805 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,833 - INFO - EarlyStopping counter: 682 out of 1000
+2025-06-20 21:36:25,843 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,870 - INFO - EarlyStopping counter: 683 out of 1000
+2025-06-20 21:36:25,880 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,908 - INFO - EarlyStopping counter: 684 out of 1000
+2025-06-20 21:36:25,908 - INFO - epoch [685/1000], loss: 0.0723, accuracy: 100.00%, val_loss: 2.3094, val_accuracy: 33.33%, gamma: 7.9997, beta: -12.2033, centrality_scaling: 2.3743, lr: 0.001260, aug: 0.001622
+2025-06-20 21:36:25,918 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,945 - INFO - EarlyStopping counter: 685 out of 1000
+2025-06-20 21:36:25,955 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:25,983 - INFO - EarlyStopping counter: 686 out of 1000
+2025-06-20 21:36:25,993 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,021 - INFO - EarlyStopping counter: 687 out of 1000
+2025-06-20 21:36:26,031 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,059 - INFO - EarlyStopping counter: 688 out of 1000
+2025-06-20 21:36:26,068 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,096 - INFO - EarlyStopping counter: 689 out of 1000
+2025-06-20 21:36:26,097 - INFO - epoch [690/1000], loss: 0.0725, accuracy: 100.00%, val_loss: 2.3208, val_accuracy: 33.33%, gamma: 8.0032, beta: -12.1998, centrality_scaling: 2.3770, lr: 0.001227, aug: 0.001582
+2025-06-20 21:36:26,106 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,134 - INFO - EarlyStopping counter: 690 out of 1000
+2025-06-20 21:36:26,144 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,171 - INFO - EarlyStopping counter: 691 out of 1000
+2025-06-20 21:36:26,181 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,208 - INFO - EarlyStopping counter: 692 out of 1000
+2025-06-20 21:36:26,218 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,246 - INFO - EarlyStopping counter: 693 out of 1000
+2025-06-20 21:36:26,256 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,284 - INFO - EarlyStopping counter: 694 out of 1000
+2025-06-20 21:36:26,284 - INFO - epoch [695/1000], loss: 0.0727, accuracy: 100.00%, val_loss: 2.3347, val_accuracy: 33.33%, gamma: 8.0067, beta: -12.1964, centrality_scaling: 2.3797, lr: 0.001194, aug: 0.001542
+2025-06-20 21:36:26,294 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,321 - INFO - EarlyStopping counter: 695 out of 1000
+2025-06-20 21:36:26,331 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,359 - INFO - EarlyStopping counter: 696 out of 1000
+2025-06-20 21:36:26,368 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,396 - INFO - EarlyStopping counter: 697 out of 1000
+2025-06-20 21:36:26,406 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,434 - INFO - EarlyStopping counter: 698 out of 1000
+2025-06-20 21:36:26,444 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,473 - INFO - EarlyStopping counter: 699 out of 1000
+2025-06-20 21:36:26,473 - INFO - epoch [700/1000], loss: 0.0750, accuracy: 100.00%, val_loss: 2.3401, val_accuracy: 33.33%, gamma: 8.0100, beta: -12.1930, centrality_scaling: 2.3823, lr: 0.001161, aug: 0.001504
+2025-06-20 21:36:26,482 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,510 - INFO - EarlyStopping counter: 700 out of 1000
+2025-06-20 21:36:26,520 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,547 - INFO - EarlyStopping counter: 701 out of 1000
+2025-06-20 21:36:26,557 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,584 - INFO - EarlyStopping counter: 702 out of 1000
+2025-06-20 21:36:26,594 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,623 - INFO - EarlyStopping counter: 703 out of 1000
+2025-06-20 21:36:26,634 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,662 - INFO - EarlyStopping counter: 704 out of 1000
+2025-06-20 21:36:26,662 - INFO - epoch [705/1000], loss: 0.0733, accuracy: 100.00%, val_loss: 2.3541, val_accuracy: 33.33%, gamma: 8.0133, beta: -12.1897, centrality_scaling: 2.3848, lr: 0.001129, aug: 0.001467
+2025-06-20 21:36:26,671 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,699 - INFO - EarlyStopping counter: 705 out of 1000
+2025-06-20 21:36:26,709 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,736 - INFO - EarlyStopping counter: 706 out of 1000
+2025-06-20 21:36:26,746 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,774 - INFO - EarlyStopping counter: 707 out of 1000
+2025-06-20 21:36:26,784 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,811 - INFO - EarlyStopping counter: 708 out of 1000
+2025-06-20 21:36:26,821 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,848 - INFO - EarlyStopping counter: 709 out of 1000
+2025-06-20 21:36:26,848 - INFO - epoch [710/1000], loss: 0.0715, accuracy: 100.00%, val_loss: 2.3679, val_accuracy: 33.33%, gamma: 8.0165, beta: -12.1865, centrality_scaling: 2.3873, lr: 0.001096, aug: 0.001431
+2025-06-20 21:36:26,858 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,886 - INFO - EarlyStopping counter: 710 out of 1000
+2025-06-20 21:36:26,896 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,923 - INFO - EarlyStopping counter: 711 out of 1000
+2025-06-20 21:36:26,933 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,961 - INFO - EarlyStopping counter: 712 out of 1000
+2025-06-20 21:36:26,971 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:26,999 - INFO - EarlyStopping counter: 713 out of 1000
+2025-06-20 21:36:27,008 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,037 - INFO - EarlyStopping counter: 714 out of 1000
+2025-06-20 21:36:27,037 - INFO - epoch [715/1000], loss: 0.0706, accuracy: 100.00%, val_loss: 2.3851, val_accuracy: 33.33%, gamma: 8.0195, beta: -12.1834, centrality_scaling: 2.3896, lr: 0.001064, aug: 0.001395
+2025-06-20 21:36:27,046 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,073 - INFO - EarlyStopping counter: 715 out of 1000
+2025-06-20 21:36:27,083 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,110 - INFO - EarlyStopping counter: 716 out of 1000
+2025-06-20 21:36:27,120 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,147 - INFO - EarlyStopping counter: 717 out of 1000
+2025-06-20 21:36:27,157 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,184 - INFO - EarlyStopping counter: 718 out of 1000
+2025-06-20 21:36:27,194 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,222 - INFO - EarlyStopping counter: 719 out of 1000
+2025-06-20 21:36:27,222 - INFO - epoch [720/1000], loss: 0.0722, accuracy: 100.00%, val_loss: 2.3959, val_accuracy: 33.33%, gamma: 8.0225, beta: -12.1805, centrality_scaling: 2.3919, lr: 0.001032, aug: 0.001361
+2025-06-20 21:36:27,233 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,260 - INFO - EarlyStopping counter: 720 out of 1000
+2025-06-20 21:36:27,270 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,298 - INFO - EarlyStopping counter: 721 out of 1000
+2025-06-20 21:36:27,308 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,336 - INFO - EarlyStopping counter: 722 out of 1000
+2025-06-20 21:36:27,344 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,371 - INFO - EarlyStopping counter: 723 out of 1000
+2025-06-20 21:36:27,381 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,408 - INFO - EarlyStopping counter: 724 out of 1000
+2025-06-20 21:36:27,409 - INFO - epoch [725/1000], loss: 0.0713, accuracy: 100.00%, val_loss: 2.3943, val_accuracy: 33.33%, gamma: 8.0253, beta: -12.1776, centrality_scaling: 2.3942, lr: 0.001000, aug: 0.001327
+2025-06-20 21:36:27,418 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,444 - INFO - EarlyStopping counter: 725 out of 1000
+2025-06-20 21:36:27,454 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,483 - INFO - EarlyStopping counter: 726 out of 1000
+2025-06-20 21:36:27,493 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,520 - INFO - EarlyStopping counter: 727 out of 1000
+2025-06-20 21:36:27,530 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,558 - INFO - EarlyStopping counter: 728 out of 1000
+2025-06-20 21:36:27,568 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,595 - INFO - EarlyStopping counter: 729 out of 1000
+2025-06-20 21:36:27,595 - INFO - epoch [730/1000], loss: 0.0704, accuracy: 100.00%, val_loss: 2.3998, val_accuracy: 33.33%, gamma: 8.0282, beta: -12.1748, centrality_scaling: 2.3963, lr: 0.000969, aug: 0.001294
+2025-06-20 21:36:27,605 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,633 - INFO - EarlyStopping counter: 730 out of 1000
+2025-06-20 21:36:27,642 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,670 - INFO - EarlyStopping counter: 731 out of 1000
+2025-06-20 21:36:27,680 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,706 - INFO - EarlyStopping counter: 732 out of 1000
+2025-06-20 21:36:27,717 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,743 - INFO - EarlyStopping counter: 733 out of 1000
+2025-06-20 21:36:27,754 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,782 - INFO - EarlyStopping counter: 734 out of 1000
+2025-06-20 21:36:27,782 - INFO - epoch [735/1000], loss: 0.0726, accuracy: 100.00%, val_loss: 2.4049, val_accuracy: 33.33%, gamma: 8.0309, beta: -12.1720, centrality_scaling: 2.3985, lr: 0.000937, aug: 0.001262
+2025-06-20 21:36:27,792 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,821 - INFO - EarlyStopping counter: 735 out of 1000
+2025-06-20 21:36:27,831 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,859 - INFO - EarlyStopping counter: 736 out of 1000
+2025-06-20 21:36:27,869 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,897 - INFO - EarlyStopping counter: 737 out of 1000
+2025-06-20 21:36:27,907 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,935 - INFO - EarlyStopping counter: 738 out of 1000
+2025-06-20 21:36:27,944 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:27,972 - INFO - EarlyStopping counter: 739 out of 1000
+2025-06-20 21:36:27,973 - INFO - epoch [740/1000], loss: 0.0711, accuracy: 100.00%, val_loss: 2.4118, val_accuracy: 33.33%, gamma: 8.0336, beta: -12.1693, centrality_scaling: 2.4006, lr: 0.000906, aug: 0.001231
+2025-06-20 21:36:27,983 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,010 - INFO - EarlyStopping counter: 740 out of 1000
+2025-06-20 21:36:28,020 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,047 - INFO - EarlyStopping counter: 741 out of 1000
+2025-06-20 21:36:28,057 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,086 - INFO - EarlyStopping counter: 742 out of 1000
+2025-06-20 21:36:28,096 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,124 - INFO - EarlyStopping counter: 743 out of 1000
+2025-06-20 21:36:28,135 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,163 - INFO - EarlyStopping counter: 744 out of 1000
+2025-06-20 21:36:28,163 - INFO - epoch [745/1000], loss: 0.0709, accuracy: 100.00%, val_loss: 2.3925, val_accuracy: 33.33%, gamma: 8.0362, beta: -12.1667, centrality_scaling: 2.4026, lr: 0.000876, aug: 0.001200
+2025-06-20 21:36:28,173 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,202 - INFO - EarlyStopping counter: 745 out of 1000
+2025-06-20 21:36:28,211 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,239 - INFO - EarlyStopping counter: 746 out of 1000
+2025-06-20 21:36:28,249 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,278 - INFO - EarlyStopping counter: 747 out of 1000
+2025-06-20 21:36:28,288 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,316 - INFO - EarlyStopping counter: 748 out of 1000
+2025-06-20 21:36:28,326 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,355 - INFO - EarlyStopping counter: 749 out of 1000
+2025-06-20 21:36:28,355 - INFO - epoch [750/1000], loss: 0.0731, accuracy: 100.00%, val_loss: 2.3939, val_accuracy: 33.33%, gamma: 8.0387, beta: -12.1642, centrality_scaling: 2.4045, lr: 0.000845, aug: 0.001171
+2025-06-20 21:36:28,365 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,393 - INFO - EarlyStopping counter: 750 out of 1000
+2025-06-20 21:36:28,403 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,431 - INFO - EarlyStopping counter: 751 out of 1000
+2025-06-20 21:36:28,441 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,470 - INFO - EarlyStopping counter: 752 out of 1000
+2025-06-20 21:36:28,480 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,509 - INFO - EarlyStopping counter: 753 out of 1000
+2025-06-20 21:36:28,518 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,546 - INFO - EarlyStopping counter: 754 out of 1000
+2025-06-20 21:36:28,546 - INFO - epoch [755/1000], loss: 0.0716, accuracy: 100.00%, val_loss: 2.4088, val_accuracy: 33.33%, gamma: 8.0411, beta: -12.1617, centrality_scaling: 2.4064, lr: 0.000815, aug: 0.001142
+2025-06-20 21:36:28,557 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,585 - INFO - EarlyStopping counter: 755 out of 1000
+2025-06-20 21:36:28,595 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,623 - INFO - EarlyStopping counter: 756 out of 1000
+2025-06-20 21:36:28,633 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,662 - INFO - EarlyStopping counter: 757 out of 1000
+2025-06-20 21:36:28,672 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,699 - INFO - EarlyStopping counter: 758 out of 1000
+2025-06-20 21:36:28,709 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,738 - INFO - EarlyStopping counter: 759 out of 1000
+2025-06-20 21:36:28,738 - INFO - epoch [760/1000], loss: 0.0695, accuracy: 100.00%, val_loss: 2.4287, val_accuracy: 33.33%, gamma: 8.0434, beta: -12.1594, centrality_scaling: 2.4082, lr: 0.000785, aug: 0.001113
+2025-06-20 21:36:28,749 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,777 - INFO - EarlyStopping counter: 760 out of 1000
+2025-06-20 21:36:28,787 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,814 - INFO - EarlyStopping counter: 761 out of 1000
+2025-06-20 21:36:28,824 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,852 - INFO - EarlyStopping counter: 762 out of 1000
+2025-06-20 21:36:28,861 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,889 - INFO - EarlyStopping counter: 763 out of 1000
+2025-06-20 21:36:28,900 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,928 - INFO - EarlyStopping counter: 764 out of 1000
+2025-06-20 21:36:28,928 - INFO - epoch [765/1000], loss: 0.0699, accuracy: 100.00%, val_loss: 2.4375, val_accuracy: 33.33%, gamma: 8.0456, beta: -12.1572, centrality_scaling: 2.4099, lr: 0.000756, aug: 0.001086
+2025-06-20 21:36:28,939 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:28,967 - INFO - EarlyStopping counter: 765 out of 1000
+2025-06-20 21:36:28,977 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,005 - INFO - EarlyStopping counter: 766 out of 1000
+2025-06-20 21:36:29,015 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,043 - INFO - EarlyStopping counter: 767 out of 1000
+2025-06-20 21:36:29,053 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,081 - INFO - EarlyStopping counter: 768 out of 1000
+2025-06-20 21:36:29,092 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,119 - INFO - EarlyStopping counter: 769 out of 1000
+2025-06-20 21:36:29,119 - INFO - epoch [770/1000], loss: 0.0700, accuracy: 100.00%, val_loss: 2.4538, val_accuracy: 33.33%, gamma: 8.0478, beta: -12.1550, centrality_scaling: 2.4116, lr: 0.000727, aug: 0.001059
+2025-06-20 21:36:29,129 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,156 - INFO - EarlyStopping counter: 770 out of 1000
+2025-06-20 21:36:29,166 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,194 - INFO - EarlyStopping counter: 771 out of 1000
+2025-06-20 21:36:29,204 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,233 - INFO - EarlyStopping counter: 772 out of 1000
+2025-06-20 21:36:29,243 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,271 - INFO - EarlyStopping counter: 773 out of 1000
+2025-06-20 21:36:29,281 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,310 - INFO - EarlyStopping counter: 774 out of 1000
+2025-06-20 21:36:29,310 - INFO - epoch [775/1000], loss: 0.0697, accuracy: 100.00%, val_loss: 2.4632, val_accuracy: 33.33%, gamma: 8.0498, beta: -12.1529, centrality_scaling: 2.4132, lr: 0.000699, aug: 0.001033
+2025-06-20 21:36:29,320 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,348 - INFO - EarlyStopping counter: 775 out of 1000
+2025-06-20 21:36:29,358 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,386 - INFO - EarlyStopping counter: 776 out of 1000
+2025-06-20 21:36:29,396 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,424 - INFO - EarlyStopping counter: 777 out of 1000
+2025-06-20 21:36:29,434 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,462 - INFO - EarlyStopping counter: 778 out of 1000
+2025-06-20 21:36:29,472 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,500 - INFO - EarlyStopping counter: 779 out of 1000
+2025-06-20 21:36:29,500 - INFO - epoch [780/1000], loss: 0.0720, accuracy: 100.00%, val_loss: 2.4686, val_accuracy: 33.33%, gamma: 8.0518, beta: -12.1509, centrality_scaling: 2.4147, lr: 0.000670, aug: 0.001007
+2025-06-20 21:36:29,510 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,538 - INFO - EarlyStopping counter: 780 out of 1000
+2025-06-20 21:36:29,548 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,576 - INFO - EarlyStopping counter: 781 out of 1000
+2025-06-20 21:36:29,586 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,615 - INFO - EarlyStopping counter: 782 out of 1000
+2025-06-20 21:36:29,624 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,653 - INFO - EarlyStopping counter: 783 out of 1000
+2025-06-20 21:36:29,662 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,690 - INFO - EarlyStopping counter: 784 out of 1000
+2025-06-20 21:36:29,691 - INFO - epoch [785/1000], loss: 0.0686, accuracy: 100.00%, val_loss: 2.4742, val_accuracy: 33.33%, gamma: 8.0538, beta: -12.1490, centrality_scaling: 2.4162, lr: 0.000643, aug: 0.000982
+2025-06-20 21:36:29,701 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,729 - INFO - EarlyStopping counter: 785 out of 1000
+2025-06-20 21:36:29,739 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,767 - INFO - EarlyStopping counter: 786 out of 1000
+2025-06-20 21:36:29,777 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,805 - INFO - EarlyStopping counter: 787 out of 1000
+2025-06-20 21:36:29,815 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,844 - INFO - EarlyStopping counter: 788 out of 1000
+2025-06-20 21:36:29,853 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,882 - INFO - EarlyStopping counter: 789 out of 1000
+2025-06-20 21:36:29,882 - INFO - epoch [790/1000], loss: 0.0673, accuracy: 100.00%, val_loss: 2.4699, val_accuracy: 33.33%, gamma: 8.0556, beta: -12.1471, centrality_scaling: 2.4176, lr: 0.000615, aug: 0.000958
+2025-06-20 21:36:29,892 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,920 - INFO - EarlyStopping counter: 790 out of 1000
+2025-06-20 21:36:29,930 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,956 - INFO - EarlyStopping counter: 791 out of 1000
+2025-06-20 21:36:29,966 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:29,995 - INFO - EarlyStopping counter: 792 out of 1000
+2025-06-20 21:36:30,005 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,033 - INFO - EarlyStopping counter: 793 out of 1000
+2025-06-20 21:36:30,043 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,072 - INFO - EarlyStopping counter: 794 out of 1000
+2025-06-20 21:36:30,072 - INFO - epoch [795/1000], loss: 0.0692, accuracy: 100.00%, val_loss: 2.4713, val_accuracy: 33.33%, gamma: 8.0572, beta: -12.1454, centrality_scaling: 2.4189, lr: 0.000588, aug: 0.000934
+2025-06-20 21:36:30,082 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,110 - INFO - EarlyStopping counter: 795 out of 1000
+2025-06-20 21:36:30,120 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,148 - INFO - EarlyStopping counter: 796 out of 1000
+2025-06-20 21:36:30,158 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,186 - INFO - EarlyStopping counter: 797 out of 1000
+2025-06-20 21:36:30,196 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,224 - INFO - EarlyStopping counter: 798 out of 1000
+2025-06-20 21:36:30,234 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,261 - INFO - EarlyStopping counter: 799 out of 1000
+2025-06-20 21:36:30,261 - INFO - epoch [800/1000], loss: 0.0703, accuracy: 100.00%, val_loss: 2.4767, val_accuracy: 33.33%, gamma: 8.0589, beta: -12.1438, centrality_scaling: 2.4202, lr: 0.000562, aug: 0.000911
+2025-06-20 21:36:30,271 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,299 - INFO - EarlyStopping counter: 800 out of 1000
+2025-06-20 21:36:30,309 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,337 - INFO - EarlyStopping counter: 801 out of 1000
+2025-06-20 21:36:30,347 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,375 - INFO - EarlyStopping counter: 802 out of 1000
+2025-06-20 21:36:30,385 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,414 - INFO - EarlyStopping counter: 803 out of 1000
+2025-06-20 21:36:30,423 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,451 - INFO - EarlyStopping counter: 804 out of 1000
+2025-06-20 21:36:30,451 - INFO - epoch [805/1000], loss: 0.0683, accuracy: 100.00%, val_loss: 2.4661, val_accuracy: 33.33%, gamma: 8.0604, beta: -12.1422, centrality_scaling: 2.4213, lr: 0.000536
+2025-06-20 21:36:30,460 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,488 - INFO - EarlyStopping counter: 805 out of 1000
+2025-06-20 21:36:30,498 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,525 - INFO - EarlyStopping counter: 806 out of 1000
+2025-06-20 21:36:30,534 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,561 - INFO - EarlyStopping counter: 807 out of 1000
+2025-06-20 21:36:30,571 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,599 - INFO - EarlyStopping counter: 808 out of 1000
+2025-06-20 21:36:30,609 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,638 - INFO - EarlyStopping counter: 809 out of 1000
+2025-06-20 21:36:30,638 - INFO - epoch [810/1000], loss: 0.0682, accuracy: 100.00%, val_loss: 2.4611, val_accuracy: 33.33%, gamma: 8.0618, beta: -12.1408, centrality_scaling: 2.4225, lr: 0.000511
+2025-06-20 21:36:30,648 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,676 - INFO - EarlyStopping counter: 810 out of 1000
+2025-06-20 21:36:30,686 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,714 - INFO - EarlyStopping counter: 811 out of 1000
+2025-06-20 21:36:30,723 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,752 - INFO - EarlyStopping counter: 812 out of 1000
+2025-06-20 21:36:30,761 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,789 - INFO - EarlyStopping counter: 813 out of 1000
+2025-06-20 21:36:30,799 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,826 - INFO - EarlyStopping counter: 814 out of 1000
+2025-06-20 21:36:30,826 - INFO - epoch [815/1000], loss: 0.0672, accuracy: 100.00%, val_loss: 2.4689, val_accuracy: 33.33%, gamma: 8.0632, beta: -12.1393, centrality_scaling: 2.4236, lr: 0.000486
+2025-06-20 21:36:30,836 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,863 - INFO - EarlyStopping counter: 815 out of 1000
+2025-06-20 21:36:30,873 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,901 - INFO - EarlyStopping counter: 816 out of 1000
+2025-06-20 21:36:30,911 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,939 - INFO - EarlyStopping counter: 817 out of 1000
+2025-06-20 21:36:30,949 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:30,977 - INFO - EarlyStopping counter: 818 out of 1000
+2025-06-20 21:36:30,987 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,015 - INFO - EarlyStopping counter: 819 out of 1000
+2025-06-20 21:36:31,015 - INFO - epoch [820/1000], loss: 0.0675, accuracy: 100.00%, val_loss: 2.4703, val_accuracy: 33.33%, gamma: 8.0646, beta: -12.1380, centrality_scaling: 2.4246, lr: 0.000461
+2025-06-20 21:36:31,025 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,053 - INFO - EarlyStopping counter: 820 out of 1000
+2025-06-20 21:36:31,063 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,091 - INFO - EarlyStopping counter: 821 out of 1000
+2025-06-20 21:36:31,101 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,128 - INFO - EarlyStopping counter: 822 out of 1000
+2025-06-20 21:36:31,138 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,165 - INFO - EarlyStopping counter: 823 out of 1000
+2025-06-20 21:36:31,174 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,203 - INFO - EarlyStopping counter: 824 out of 1000
+2025-06-20 21:36:31,203 - INFO - epoch [825/1000], loss: 0.0696, accuracy: 100.00%, val_loss: 2.4730, val_accuracy: 33.33%, gamma: 8.0659, beta: -12.1366, centrality_scaling: 2.4256, lr: 0.000437
+2025-06-20 21:36:31,213 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,241 - INFO - EarlyStopping counter: 825 out of 1000
+2025-06-20 21:36:31,250 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,279 - INFO - EarlyStopping counter: 826 out of 1000
+2025-06-20 21:36:31,288 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,317 - INFO - EarlyStopping counter: 827 out of 1000
+2025-06-20 21:36:31,326 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,355 - INFO - EarlyStopping counter: 828 out of 1000
+2025-06-20 21:36:31,364 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,392 - INFO - EarlyStopping counter: 829 out of 1000
+2025-06-20 21:36:31,392 - INFO - epoch [830/1000], loss: 0.0680, accuracy: 100.00%, val_loss: 2.4719, val_accuracy: 33.33%, gamma: 8.0671, beta: -12.1354, centrality_scaling: 2.4266, lr: 0.000414
+2025-06-20 21:36:31,402 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,429 - INFO - EarlyStopping counter: 830 out of 1000
+2025-06-20 21:36:31,440 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,467 - INFO - EarlyStopping counter: 831 out of 1000
+2025-06-20 21:36:31,476 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,504 - INFO - EarlyStopping counter: 832 out of 1000
+2025-06-20 21:36:31,514 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,542 - INFO - EarlyStopping counter: 833 out of 1000
+2025-06-20 21:36:31,552 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,580 - INFO - EarlyStopping counter: 834 out of 1000
+2025-06-20 21:36:31,580 - INFO - epoch [835/1000], loss: 0.0678, accuracy: 100.00%, val_loss: 2.4740, val_accuracy: 33.33%, gamma: 8.0683, beta: -12.1342, centrality_scaling: 2.4275, lr: 0.000391
+2025-06-20 21:36:31,590 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,618 - INFO - EarlyStopping counter: 835 out of 1000
+2025-06-20 21:36:31,628 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,657 - INFO - EarlyStopping counter: 836 out of 1000
+2025-06-20 21:36:31,666 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,694 - INFO - EarlyStopping counter: 837 out of 1000
+2025-06-20 21:36:31,704 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,732 - INFO - EarlyStopping counter: 838 out of 1000
+2025-06-20 21:36:31,742 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,770 - INFO - EarlyStopping counter: 839 out of 1000
+2025-06-20 21:36:31,770 - INFO - epoch [840/1000], loss: 0.0693, accuracy: 100.00%, val_loss: 2.4647, val_accuracy: 33.33%, gamma: 8.0693, beta: -12.1331, centrality_scaling: 2.4283, lr: 0.000369
+2025-06-20 21:36:31,780 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,808 - INFO - EarlyStopping counter: 840 out of 1000
+2025-06-20 21:36:31,818 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,846 - INFO - EarlyStopping counter: 841 out of 1000
+2025-06-20 21:36:31,856 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,883 - INFO - EarlyStopping counter: 842 out of 1000
+2025-06-20 21:36:31,893 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,921 - INFO - EarlyStopping counter: 843 out of 1000
+2025-06-20 21:36:31,931 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,959 - INFO - EarlyStopping counter: 844 out of 1000
+2025-06-20 21:36:31,959 - INFO - epoch [845/1000], loss: 0.0674, accuracy: 100.00%, val_loss: 2.4629, val_accuracy: 33.33%, gamma: 8.0704, beta: -12.1321, centrality_scaling: 2.4291, lr: 0.000347
+2025-06-20 21:36:31,969 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:31,997 - INFO - EarlyStopping counter: 845 out of 1000
+2025-06-20 21:36:32,006 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,034 - INFO - EarlyStopping counter: 846 out of 1000
+2025-06-20 21:36:32,044 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,072 - INFO - EarlyStopping counter: 847 out of 1000
+2025-06-20 21:36:32,082 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,109 - INFO - EarlyStopping counter: 848 out of 1000
+2025-06-20 21:36:32,119 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,148 - INFO - EarlyStopping counter: 849 out of 1000
+2025-06-20 21:36:32,148 - INFO - epoch [850/1000], loss: 0.0679, accuracy: 100.00%, val_loss: 2.4596, val_accuracy: 33.33%, gamma: 8.0713, beta: -12.1311, centrality_scaling: 2.4299, lr: 0.000326
+2025-06-20 21:36:32,158 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,186 - INFO - EarlyStopping counter: 850 out of 1000
+2025-06-20 21:36:32,196 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,224 - INFO - EarlyStopping counter: 851 out of 1000
+2025-06-20 21:36:32,233 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,261 - INFO - EarlyStopping counter: 852 out of 1000
+2025-06-20 21:36:32,271 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,300 - INFO - EarlyStopping counter: 853 out of 1000
+2025-06-20 21:36:32,309 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,337 - INFO - EarlyStopping counter: 854 out of 1000
+2025-06-20 21:36:32,337 - INFO - epoch [855/1000], loss: 0.0673, accuracy: 100.00%, val_loss: 2.4637, val_accuracy: 33.33%, gamma: 8.0722, beta: -12.1302, centrality_scaling: 2.4306, lr: 0.000305
+2025-06-20 21:36:32,347 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,375 - INFO - EarlyStopping counter: 855 out of 1000
+2025-06-20 21:36:32,384 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,413 - INFO - EarlyStopping counter: 856 out of 1000
+2025-06-20 21:36:32,422 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,451 - INFO - EarlyStopping counter: 857 out of 1000
+2025-06-20 21:36:32,460 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,488 - INFO - EarlyStopping counter: 858 out of 1000
+2025-06-20 21:36:32,498 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,525 - INFO - EarlyStopping counter: 859 out of 1000
+2025-06-20 21:36:32,526 - INFO - epoch [860/1000], loss: 0.0675, accuracy: 100.00%, val_loss: 2.4742, val_accuracy: 33.33%, gamma: 8.0731, beta: -12.1293, centrality_scaling: 2.4312, lr: 0.000285
+2025-06-20 21:36:32,535 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,564 - INFO - EarlyStopping counter: 860 out of 1000
+2025-06-20 21:36:32,574 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,602 - INFO - EarlyStopping counter: 861 out of 1000
+2025-06-20 21:36:32,612 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,640 - INFO - EarlyStopping counter: 862 out of 1000
+2025-06-20 21:36:32,650 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,678 - INFO - EarlyStopping counter: 863 out of 1000
+2025-06-20 21:36:32,687 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,715 - INFO - EarlyStopping counter: 864 out of 1000
+2025-06-20 21:36:32,715 - INFO - epoch [865/1000], loss: 0.0671, accuracy: 100.00%, val_loss: 2.4796, val_accuracy: 33.33%, gamma: 8.0739, beta: -12.1285, centrality_scaling: 2.4318, lr: 0.000266
+2025-06-20 21:36:32,725 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,753 - INFO - EarlyStopping counter: 865 out of 1000
+2025-06-20 21:36:32,763 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,791 - INFO - EarlyStopping counter: 866 out of 1000
+2025-06-20 21:36:32,801 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,829 - INFO - EarlyStopping counter: 867 out of 1000
+2025-06-20 21:36:32,838 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,867 - INFO - EarlyStopping counter: 868 out of 1000
+2025-06-20 21:36:32,877 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,905 - INFO - EarlyStopping counter: 869 out of 1000
+2025-06-20 21:36:32,905 - INFO - epoch [870/1000], loss: 0.0661, accuracy: 100.00%, val_loss: 2.4825, val_accuracy: 33.33%, gamma: 8.0746, beta: -12.1278, centrality_scaling: 2.4324, lr: 0.000247
+2025-06-20 21:36:32,915 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,943 - INFO - EarlyStopping counter: 870 out of 1000
+2025-06-20 21:36:32,952 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:32,980 - INFO - EarlyStopping counter: 871 out of 1000
+2025-06-20 21:36:32,989 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,017 - INFO - EarlyStopping counter: 872 out of 1000
+2025-06-20 21:36:33,026 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,054 - INFO - EarlyStopping counter: 873 out of 1000
+2025-06-20 21:36:33,064 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,091 - INFO - EarlyStopping counter: 874 out of 1000
+2025-06-20 21:36:33,091 - INFO - epoch [875/1000], loss: 0.0663, accuracy: 100.00%, val_loss: 2.4777, val_accuracy: 33.33%, gamma: 8.0753, beta: -12.1270, centrality_scaling: 2.4330, lr: 0.000229
+2025-06-20 21:36:33,101 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,129 - INFO - EarlyStopping counter: 875 out of 1000
+2025-06-20 21:36:33,139 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,167 - INFO - EarlyStopping counter: 876 out of 1000
+2025-06-20 21:36:33,177 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,205 - INFO - EarlyStopping counter: 877 out of 1000
+2025-06-20 21:36:33,215 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,243 - INFO - EarlyStopping counter: 878 out of 1000
+2025-06-20 21:36:33,252 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,281 - INFO - EarlyStopping counter: 879 out of 1000
+2025-06-20 21:36:33,281 - INFO - epoch [880/1000], loss: 0.0660, accuracy: 100.00%, val_loss: 2.4810, val_accuracy: 33.33%, gamma: 8.0760, beta: -12.1264, centrality_scaling: 2.4335, lr: 0.000212
+2025-06-20 21:36:33,289 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,318 - INFO - EarlyStopping counter: 880 out of 1000
+2025-06-20 21:36:33,327 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,356 - INFO - EarlyStopping counter: 881 out of 1000
+2025-06-20 21:36:33,366 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,394 - INFO - EarlyStopping counter: 882 out of 1000
+2025-06-20 21:36:33,404 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,433 - INFO - EarlyStopping counter: 883 out of 1000
+2025-06-20 21:36:33,442 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,471 - INFO - EarlyStopping counter: 884 out of 1000
+2025-06-20 21:36:33,471 - INFO - epoch [885/1000], loss: 0.0669, accuracy: 100.00%, val_loss: 2.4774, val_accuracy: 33.33%, gamma: 8.0766, beta: -12.1258, centrality_scaling: 2.4339, lr: 0.000195
+2025-06-20 21:36:33,481 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,509 - INFO - EarlyStopping counter: 885 out of 1000
+2025-06-20 21:36:33,519 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,547 - INFO - EarlyStopping counter: 886 out of 1000
+2025-06-20 21:36:33,557 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,585 - INFO - EarlyStopping counter: 887 out of 1000
+2025-06-20 21:36:33,594 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,623 - INFO - EarlyStopping counter: 888 out of 1000
+2025-06-20 21:36:33,632 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,660 - INFO - EarlyStopping counter: 889 out of 1000
+2025-06-20 21:36:33,661 - INFO - epoch [890/1000], loss: 0.0677, accuracy: 100.00%, val_loss: 2.4829, val_accuracy: 33.33%, gamma: 8.0771, beta: -12.1252, centrality_scaling: 2.4344, lr: 0.000179
+2025-06-20 21:36:33,670 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,699 - INFO - EarlyStopping counter: 890 out of 1000
+2025-06-20 21:36:33,708 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,737 - INFO - EarlyStopping counter: 891 out of 1000
+2025-06-20 21:36:33,746 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,774 - INFO - EarlyStopping counter: 892 out of 1000
+2025-06-20 21:36:33,784 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,812 - INFO - EarlyStopping counter: 893 out of 1000
+2025-06-20 21:36:33,822 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,850 - INFO - EarlyStopping counter: 894 out of 1000
+2025-06-20 21:36:33,851 - INFO - epoch [895/1000], loss: 0.0697, accuracy: 100.00%, val_loss: 2.4881, val_accuracy: 33.33%, gamma: 8.0776, beta: -12.1247, centrality_scaling: 2.4348, lr: 0.000163
+2025-06-20 21:36:33,860 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,889 - INFO - EarlyStopping counter: 895 out of 1000
+2025-06-20 21:36:33,898 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,927 - INFO - EarlyStopping counter: 896 out of 1000
+2025-06-20 21:36:33,936 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:33,965 - INFO - EarlyStopping counter: 897 out of 1000
+2025-06-20 21:36:33,975 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,003 - INFO - EarlyStopping counter: 898 out of 1000
+2025-06-20 21:36:34,013 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,041 - INFO - EarlyStopping counter: 899 out of 1000
+2025-06-20 21:36:34,041 - INFO - epoch [900/1000], loss: 0.0659, accuracy: 100.00%, val_loss: 2.4914, val_accuracy: 33.33%, gamma: 8.0781, beta: -12.1242, centrality_scaling: 2.4351, lr: 0.000148
+2025-06-20 21:36:34,051 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,079 - INFO - EarlyStopping counter: 900 out of 1000
+2025-06-20 21:36:34,089 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,116 - INFO - EarlyStopping counter: 901 out of 1000
+2025-06-20 21:36:34,126 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,154 - INFO - EarlyStopping counter: 902 out of 1000
+2025-06-20 21:36:34,164 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,191 - INFO - EarlyStopping counter: 903 out of 1000
+2025-06-20 21:36:34,201 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,229 - INFO - EarlyStopping counter: 904 out of 1000
+2025-06-20 21:36:34,229 - INFO - epoch [905/1000], loss: 0.0663, accuracy: 100.00%, val_loss: 2.4961, val_accuracy: 33.33%, gamma: 8.0785, beta: -12.1238, centrality_scaling: 2.4354, lr: 0.000134
+2025-06-20 21:36:34,239 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,267 - INFO - EarlyStopping counter: 905 out of 1000
+2025-06-20 21:36:34,277 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,305 - INFO - EarlyStopping counter: 906 out of 1000
+2025-06-20 21:36:34,314 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,343 - INFO - EarlyStopping counter: 907 out of 1000
+2025-06-20 21:36:34,352 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,380 - INFO - EarlyStopping counter: 908 out of 1000
+2025-06-20 21:36:34,389 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,417 - INFO - EarlyStopping counter: 909 out of 1000
+2025-06-20 21:36:34,417 - INFO - epoch [910/1000], loss: 0.0675, accuracy: 100.00%, val_loss: 2.4924, val_accuracy: 33.33%, gamma: 8.0789, beta: -12.1234, centrality_scaling: 2.4357, lr: 0.000121
+2025-06-20 21:36:34,427 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,454 - INFO - EarlyStopping counter: 910 out of 1000
+2025-06-20 21:36:34,464 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,491 - INFO - EarlyStopping counter: 911 out of 1000
+2025-06-20 21:36:34,501 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,529 - INFO - EarlyStopping counter: 912 out of 1000
+2025-06-20 21:36:34,539 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,568 - INFO - EarlyStopping counter: 913 out of 1000
+2025-06-20 21:36:34,578 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,606 - INFO - EarlyStopping counter: 914 out of 1000
+2025-06-20 21:36:34,606 - INFO - epoch [915/1000], loss: 0.0663, accuracy: 100.00%, val_loss: 2.4861, val_accuracy: 33.33%, gamma: 8.0792, beta: -12.1231, centrality_scaling: 2.4360, lr: 0.000108
+2025-06-20 21:36:34,615 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,643 - INFO - EarlyStopping counter: 915 out of 1000
+2025-06-20 21:36:34,653 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,681 - INFO - EarlyStopping counter: 916 out of 1000
+2025-06-20 21:36:34,690 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,718 - INFO - EarlyStopping counter: 917 out of 1000
+2025-06-20 21:36:34,727 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,755 - INFO - EarlyStopping counter: 918 out of 1000
+2025-06-20 21:36:34,765 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,792 - INFO - EarlyStopping counter: 919 out of 1000
+2025-06-20 21:36:34,792 - INFO - epoch [920/1000], loss: 0.0655, accuracy: 100.00%, val_loss: 2.4922, val_accuracy: 33.33%, gamma: 8.0795, beta: -12.1228, centrality_scaling: 2.4362, lr: 0.000096
+2025-06-20 21:36:34,802 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,830 - INFO - EarlyStopping counter: 920 out of 1000
+2025-06-20 21:36:34,839 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,868 - INFO - EarlyStopping counter: 921 out of 1000
+2025-06-20 21:36:34,877 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,905 - INFO - EarlyStopping counter: 922 out of 1000
+2025-06-20 21:36:34,915 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,944 - INFO - EarlyStopping counter: 923 out of 1000
+2025-06-20 21:36:34,953 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:34,981 - INFO - EarlyStopping counter: 924 out of 1000
+2025-06-20 21:36:34,982 - INFO - epoch [925/1000], loss: 0.0653, accuracy: 100.00%, val_loss: 2.4947, val_accuracy: 33.33%, gamma: 8.0798, beta: -12.1225, centrality_scaling: 2.4364, lr: 0.000085
+2025-06-20 21:36:34,991 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,019 - INFO - EarlyStopping counter: 925 out of 1000
+2025-06-20 21:36:35,028 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,056 - INFO - EarlyStopping counter: 926 out of 1000
+2025-06-20 21:36:35,066 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,093 - INFO - EarlyStopping counter: 927 out of 1000
+2025-06-20 21:36:35,102 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,130 - INFO - EarlyStopping counter: 928 out of 1000
+2025-06-20 21:36:35,140 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,169 - INFO - EarlyStopping counter: 929 out of 1000
+2025-06-20 21:36:35,169 - INFO - epoch [930/1000], loss: 0.0673, accuracy: 100.00%, val_loss: 2.4925, val_accuracy: 33.33%, gamma: 8.0800, beta: -12.1222, centrality_scaling: 2.4366, lr: 0.000074
+2025-06-20 21:36:35,179 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,207 - INFO - EarlyStopping counter: 930 out of 1000
+2025-06-20 21:36:35,217 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,245 - INFO - EarlyStopping counter: 931 out of 1000
+2025-06-20 21:36:35,254 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,283 - INFO - EarlyStopping counter: 932 out of 1000
+2025-06-20 21:36:35,292 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,320 - INFO - EarlyStopping counter: 933 out of 1000
+2025-06-20 21:36:35,330 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,357 - INFO - EarlyStopping counter: 934 out of 1000
+2025-06-20 21:36:35,357 - INFO - epoch [935/1000], loss: 0.0658, accuracy: 100.00%, val_loss: 2.4920, val_accuracy: 33.33%, gamma: 8.0802, beta: -12.1220, centrality_scaling: 2.4368, lr: 0.000064
+2025-06-20 21:36:35,367 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,394 - INFO - EarlyStopping counter: 935 out of 1000
+2025-06-20 21:36:35,403 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,432 - INFO - EarlyStopping counter: 936 out of 1000
+2025-06-20 21:36:35,441 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,470 - INFO - EarlyStopping counter: 937 out of 1000
+2025-06-20 21:36:35,479 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,507 - INFO - EarlyStopping counter: 938 out of 1000
+2025-06-20 21:36:35,517 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,545 - INFO - EarlyStopping counter: 939 out of 1000
+2025-06-20 21:36:35,545 - INFO - epoch [940/1000], loss: 0.0656, accuracy: 100.00%, val_loss: 2.4868, val_accuracy: 33.33%, gamma: 8.0804, beta: -12.1219, centrality_scaling: 2.4369, lr: 0.000055
+2025-06-20 21:36:35,555 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,583 - INFO - EarlyStopping counter: 940 out of 1000
+2025-06-20 21:36:35,592 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,621 - INFO - EarlyStopping counter: 941 out of 1000
+2025-06-20 21:36:35,630 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,658 - INFO - EarlyStopping counter: 942 out of 1000
+2025-06-20 21:36:35,668 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,696 - INFO - EarlyStopping counter: 943 out of 1000
+2025-06-20 21:36:35,706 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,734 - INFO - EarlyStopping counter: 944 out of 1000
+2025-06-20 21:36:35,734 - INFO - epoch [945/1000], loss: 0.0656, accuracy: 100.00%, val_loss: 2.4902, val_accuracy: 33.33%, gamma: 8.0805, beta: -12.1217, centrality_scaling: 2.4370, lr: 0.000047
+2025-06-20 21:36:35,744 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,772 - INFO - EarlyStopping counter: 945 out of 1000
+2025-06-20 21:36:35,782 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,810 - INFO - EarlyStopping counter: 946 out of 1000
+2025-06-20 21:36:35,820 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,848 - INFO - EarlyStopping counter: 947 out of 1000
+2025-06-20 21:36:35,857 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,886 - INFO - EarlyStopping counter: 948 out of 1000
+2025-06-20 21:36:35,895 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,923 - INFO - EarlyStopping counter: 949 out of 1000
+2025-06-20 21:36:35,923 - INFO - epoch [950/1000], loss: 0.0663, accuracy: 100.00%, val_loss: 2.4953, val_accuracy: 33.33%, gamma: 8.0807, beta: -12.1216, centrality_scaling: 2.4371, lr: 0.000039
+2025-06-20 21:36:35,932 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,960 - INFO - EarlyStopping counter: 950 out of 1000
+2025-06-20 21:36:35,970 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:35,998 - INFO - EarlyStopping counter: 951 out of 1000
+2025-06-20 21:36:36,008 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,036 - INFO - EarlyStopping counter: 952 out of 1000
+2025-06-20 21:36:36,045 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,074 - INFO - EarlyStopping counter: 953 out of 1000
+2025-06-20 21:36:36,083 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,111 - INFO - EarlyStopping counter: 954 out of 1000
+2025-06-20 21:36:36,112 - INFO - epoch [955/1000], loss: 0.0664, accuracy: 100.00%, val_loss: 2.4948, val_accuracy: 33.33%, gamma: 8.0808, beta: -12.1215, centrality_scaling: 2.4372, lr: 0.000032
+2025-06-20 21:36:36,121 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,149 - INFO - EarlyStopping counter: 955 out of 1000
+2025-06-20 21:36:36,158 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,187 - INFO - EarlyStopping counter: 956 out of 1000
+2025-06-20 21:36:36,196 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,224 - INFO - EarlyStopping counter: 957 out of 1000
+2025-06-20 21:36:36,233 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,262 - INFO - EarlyStopping counter: 958 out of 1000
+2025-06-20 21:36:36,272 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,300 - INFO - EarlyStopping counter: 959 out of 1000
+2025-06-20 21:36:36,300 - INFO - epoch [960/1000], loss: 0.0671, accuracy: 100.00%, val_loss: 2.4908, val_accuracy: 33.33%, gamma: 8.0809, beta: -12.1214, centrality_scaling: 2.4373, lr: 0.000026
+2025-06-20 21:36:36,310 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,338 - INFO - EarlyStopping counter: 960 out of 1000
+2025-06-20 21:36:36,347 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,375 - INFO - EarlyStopping counter: 961 out of 1000
+2025-06-20 21:36:36,385 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,414 - INFO - EarlyStopping counter: 962 out of 1000
+2025-06-20 21:36:36,423 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,451 - INFO - EarlyStopping counter: 963 out of 1000
+2025-06-20 21:36:36,461 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,489 - INFO - EarlyStopping counter: 964 out of 1000
+2025-06-20 21:36:36,489 - INFO - epoch [965/1000], loss: 0.0660, accuracy: 100.00%, val_loss: 2.4931, val_accuracy: 33.33%, gamma: 8.0809, beta: -12.1213, centrality_scaling: 2.4373, lr: 0.000020
+2025-06-20 21:36:36,499 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,527 - INFO - EarlyStopping counter: 965 out of 1000
+2025-06-20 21:36:36,537 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,565 - INFO - EarlyStopping counter: 966 out of 1000
+2025-06-20 21:36:36,575 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,603 - INFO - EarlyStopping counter: 967 out of 1000
+2025-06-20 21:36:36,613 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,641 - INFO - EarlyStopping counter: 968 out of 1000
+2025-06-20 21:36:36,650 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,678 - INFO - EarlyStopping counter: 969 out of 1000
+2025-06-20 21:36:36,679 - INFO - epoch [970/1000], loss: 0.0669, accuracy: 100.00%, val_loss: 2.4978, val_accuracy: 33.33%, gamma: 8.0810, beta: -12.1212, centrality_scaling: 2.4374, lr: 0.000016
+2025-06-20 21:36:36,687 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,716 - INFO - EarlyStopping counter: 970 out of 1000
+2025-06-20 21:36:36,726 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,753 - INFO - EarlyStopping counter: 971 out of 1000
+2025-06-20 21:36:36,763 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,792 - INFO - EarlyStopping counter: 972 out of 1000
+2025-06-20 21:36:36,802 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,830 - INFO - EarlyStopping counter: 973 out of 1000
+2025-06-20 21:36:36,839 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,868 - INFO - EarlyStopping counter: 974 out of 1000
+2025-06-20 21:36:36,868 - INFO - epoch [975/1000], loss: 0.0669, accuracy: 100.00%, val_loss: 2.4984, val_accuracy: 33.33%, gamma: 8.0810, beta: -12.1212, centrality_scaling: 2.4374, lr: 0.000012
+2025-06-20 21:36:36,878 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,907 - INFO - EarlyStopping counter: 975 out of 1000
+2025-06-20 21:36:36,916 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,944 - INFO - EarlyStopping counter: 976 out of 1000
+2025-06-20 21:36:36,954 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:36,981 - INFO - EarlyStopping counter: 977 out of 1000
+2025-06-20 21:36:36,991 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,019 - INFO - EarlyStopping counter: 978 out of 1000
+2025-06-20 21:36:37,029 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,057 - INFO - EarlyStopping counter: 979 out of 1000
+2025-06-20 21:36:37,057 - INFO - epoch [980/1000], loss: 0.0664, accuracy: 100.00%, val_loss: 2.5026, val_accuracy: 33.33%, gamma: 8.0811, beta: -12.1212, centrality_scaling: 2.4374, lr: 0.000008
+2025-06-20 21:36:37,067 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,095 - INFO - EarlyStopping counter: 980 out of 1000
+2025-06-20 21:36:37,105 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,133 - INFO - EarlyStopping counter: 981 out of 1000
+2025-06-20 21:36:37,143 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,171 - INFO - EarlyStopping counter: 982 out of 1000
+2025-06-20 21:36:37,180 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,209 - INFO - EarlyStopping counter: 983 out of 1000
+2025-06-20 21:36:37,219 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,246 - INFO - EarlyStopping counter: 984 out of 1000
+2025-06-20 21:36:37,246 - INFO - epoch [985/1000], loss: 0.0661, accuracy: 100.00%, val_loss: 2.4980, val_accuracy: 33.33%, gamma: 8.0811, beta: -12.1211, centrality_scaling: 2.4375, lr: 0.000006
+2025-06-20 21:36:37,255 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,282 - INFO - EarlyStopping counter: 985 out of 1000
+2025-06-20 21:36:37,292 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,320 - INFO - EarlyStopping counter: 986 out of 1000
+2025-06-20 21:36:37,330 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,358 - INFO - EarlyStopping counter: 987 out of 1000
+2025-06-20 21:36:37,368 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,397 - INFO - EarlyStopping counter: 988 out of 1000
+2025-06-20 21:36:37,406 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,434 - INFO - EarlyStopping counter: 989 out of 1000
+2025-06-20 21:36:37,435 - INFO - epoch [990/1000], loss: 0.0655, accuracy: 100.00%, val_loss: 2.4882, val_accuracy: 33.33%, gamma: 8.0811, beta: -12.1211, centrality_scaling: 2.4375, lr: 0.000004
+2025-06-20 21:36:37,444 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,473 - INFO - EarlyStopping counter: 990 out of 1000
+2025-06-20 21:36:37,482 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,510 - INFO - EarlyStopping counter: 991 out of 1000
+2025-06-20 21:36:37,520 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,548 - INFO - EarlyStopping counter: 992 out of 1000
+2025-06-20 21:36:37,558 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,585 - INFO - EarlyStopping counter: 993 out of 1000
+2025-06-20 21:36:37,595 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,624 - INFO - EarlyStopping counter: 994 out of 1000
+2025-06-20 21:36:37,624 - INFO - epoch [995/1000], loss: 0.0668, accuracy: 100.00%, val_loss: 2.4970, val_accuracy: 33.33%, gamma: 8.0811, beta: -12.1211, centrality_scaling: 2.4375, lr: 0.000003
+2025-06-20 21:36:37,634 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,662 - INFO - EarlyStopping counter: 995 out of 1000
+2025-06-20 21:36:37,671 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,699 - INFO - EarlyStopping counter: 996 out of 1000
+2025-06-20 21:36:37,709 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,737 - INFO - EarlyStopping counter: 997 out of 1000
+2025-06-20 21:36:37,746 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,774 - INFO - EarlyStopping counter: 998 out of 1000
+2025-06-20 21:36:37,784 - INFO - 样本平衡，使用标准BCE损失函数
+2025-06-20 21:36:37,812 - INFO - EarlyStopping counter: 999 out of 1000
+2025-06-20 21:36:37,813 - INFO - epoch [1000/1000], loss: 0.0667, accuracy: 100.00%, val_loss: 2.4888, val_accuracy: 33.33%, gamma: 8.0811, beta: -12.1211, centrality_scaling: 2.4375, lr: 0.000003
+2025-06-20 21:36:37,822 - INFO - 测试集结果:
+2025-06-20 21:36:37,822 - INFO - K=5: Recall=0.0000, Precision=0.0000
+2025-06-20 21:36:37,822 - INFO - K=10: Recall=0.0000, Precision=0.0000
+2025-06-20 21:36:37,822 - INFO - K=15: Recall=1.0000, Precision=0.1333
+2025-06-20 21:36:37,822 - INFO - 测试集分类准确率: 33.33%
+2025-06-20 21:36:37,834 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res/historicalModels/Train-3/final_model.pth
+2025-06-20 21:36:37,844 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-06-20 21:36:37,845 - INFO - 
+识别出的重要类:
+2025-06-20 21:36:37,845 - INFO - --------------------------------------------------------------------------------
+2025-06-20 21:36:37,845 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-06-20 21:36:37,845 - INFO - --------------------------------------------------------------------------------
+2025-06-20 21:36:37,845 - INFO - 1      2        0.9946     ✓      newSim.Elevator                                   
+2025-06-20 21:36:37,845 - INFO - 2      9        0.9938     ✓      newSim.Person                                     
+2025-06-20 21:36:37,845 - INFO - 3      7        0.9937     ✓      newSim.Floor                                      
+2025-06-20 21:36:37,845 - INFO - 4      6        0.9912     ✓      newSim.ElevatorState                              
+2025-06-20 21:36:37,845 - INFO - 5      3        0.9900     ✓      newSim.ElevatorController                         
+2025-06-20 21:36:37,845 - INFO - 6      0        0.8986     ✓      newSim.Building                                   
+2025-06-20 21:36:37,845 - INFO - 7      1        0.7593     ✓      newSim.DoorClosedException                        
+2025-06-20 21:36:37,846 - INFO - 8      11       0.7420     ✓      newSim.Simulator                                  
+2025-06-20 21:36:37,846 - INFO - 9      10       0.0258            newSim.PersonState                                
+2025-06-20 21:36:37,846 - INFO - 10     5        0.0257            newSim.ElevatorMovingException                    
+2025-06-20 21:36:37,846 - INFO - 11     4        0.0253     ✓      newSim.ElevatorFullException                      
+2025-06-20 21:36:37,846 - INFO - 12     8        0.0031     ✓      newSim.Logger                                     
+2025-06-20 21:36:37,846 - INFO - --------------------------------------------------------------------------------
+2025-06-20 21:36:37,846 - INFO - 
+成功识别的关键类:
+2025-06-20 21:36:37,846 - INFO - --------------------------------------------------------------------------------
+2025-06-20 21:36:37,846 - INFO - 1. newSim.Elevator (排名: 1, 分数: 0.9946, 节点ID: 2)
+2025-06-20 21:36:37,846 - INFO - 2. newSim.Person (排名: 2, 分数: 0.9938, 节点ID: 9)
+2025-06-20 21:36:37,846 - INFO - 3. newSim.Floor (排名: 3, 分数: 0.9937, 节点ID: 7)
+2025-06-20 21:36:37,846 - INFO - 4. newSim.ElevatorState (排名: 4, 分数: 0.9912, 节点ID: 6)
+2025-06-20 21:36:37,846 - INFO - 5. newSim.ElevatorController (排名: 5, 分数: 0.9900, 节点ID: 3)
+2025-06-20 21:36:37,846 - INFO - 6. newSim.Building (排名: 6, 分数: 0.8986, 节点ID: 0)
+2025-06-20 21:36:37,846 - INFO - 7. newSim.DoorClosedException (排名: 7, 分数: 0.7593, 节点ID: 1)
+2025-06-20 21:36:37,846 - INFO - 8. newSim.Simulator (排名: 8, 分数: 0.7420, 节点ID: 11)
+2025-06-20 21:36:37,847 - INFO - 9. newSim.ElevatorFullException (排名: 11, 分数: 0.0253, 节点ID: 4)
+2025-06-20 21:36:37,847 - INFO - 10. newSim.Logger (排名: 12, 分数: 0.0031, 节点ID: 8)
+2025-06-20 21:36:37,847 - INFO - --------------------------------------------------------------------------------
+2025-06-20 21:36:37,847 - INFO - 在前5个预测中，正确识别了5个关键类，共10.0个关键类
+2025-06-20 21:36:37,847 - INFO - 覆盖率: 50.00%, 准确率: 100.00%
+2025-06-20 21:36:37,847 - INFO - 在前10个预测中，正确识别了8个关键类，共10.0个关键类
+2025-06-20 21:36:37,847 - INFO - 覆盖率: 80.00%, 准确率: 80.00%
+2025-06-20 21:36:37,847 - INFO - 在前15个预测中，正确识别了10个关键类，共10.0个关键类
+2025-06-20 21:36:37,847 - INFO - 覆盖率: 100.00%, 准确率: 66.67%
+2025-06-20 21:36:38,247 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res/Scores/elevator_scores.txt
+2025-06-20 21:36:38,247 - INFO - 分数统计：最小值=0.0031, 最大值=0.9946, 平均值=0.6203
+2025-06-20 21:36:38,247 - INFO - 接近0的分数(小于0.051)数量: 4 / 12
+2025-06-20 21:36:38,247 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res/log-3.txt

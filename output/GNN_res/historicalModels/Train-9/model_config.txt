@@ -1,0 +1,12 @@
+Dataset: ANT
+Network Type: MCN
+Embedding Dimensions: 32
+Learning Rate: 0.001
+Num Sampled Neighbors: 10
+Num Layers: 1
+Final Gamma: 6.6452226638793945
+Final Beta: -13.427437782287598
+Centrality Scaling: 1.3460631370544434
+Mixing Weight: 0.33240094780921936
+Noise Threshold: 0.5124973654747009
+Epochs: 1000

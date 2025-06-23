@@ -1,0 +1,12 @@
+Class Inheritance Relationships:
+smashed.About extends javax.swing.JPanel
+featuremodel.FeatureValue extends java.lang.Enum
+smashed.Notepad$1 extends java.awt.event.WindowAdapter
+smashed.ExampleFileFilter extends javax.swing.filechooser.FileFilter
+smashed.Fonts extends javax.swing.JDialog
+smashed.Notepad extends javax.swing.JFrame
+smashed.RedoAction extends javax.swing.AbstractAction
+tests.NotepadTEST$2 extends org.fest.swing.core.GenericTypeMatcher
+smashed.UndoAction extends javax.swing.AbstractAction
+tests.NotepadTEST$1 extends org.fest.swing.edt.GuiQuery
+featuremodel.RelevantModelIterator extends org.sat4j.tools.SolverDecorator

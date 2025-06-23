@@ -1,0 +1,12 @@
+Dataset: DNS
+Network Type: MCN
+Embedding Dimensions: 32
+Learning Rate: 0.001
+Num Sampled Neighbors: 10
+Num Layers: 1
+Final Gamma: 6.5227437019348145
+Final Beta: -13.522270202636719
+Centrality Scaling: 1.2681857347488403
+Mixing Weight: 0.37224388122558594
+Noise Threshold: 0.5124973654747009
+Epochs: 1000

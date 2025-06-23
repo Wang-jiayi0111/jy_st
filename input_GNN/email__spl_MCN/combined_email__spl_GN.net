@@ -1,0 +1,102 @@
+*Vertices 39
+1 "defpackage.JPF_PrimitiveLogListener_Lifted"
+2 "defpackage.MaxStateIDListener"
+3 "defpackage.PL_Interface"
+4 "defpackage.PL_Interface_impl"
+5 "defpackage.Scenario"
+6 "defpackage.Test_Actions"
+7 "EmailSystem.Client$AddressBookEntry"
+8 "EmailSystem.Client$KeyringEntry"
+9 "EmailSystem.Client"
+10 "EmailSystem.Email"
+11 "EmailSystem.Util"
+12 "featuremodel.BinaryProposition"
+13 "featuremodel.CompoundProposition"
+14 "featuremodel.Configuration$1"
+15 "featuremodel.Configuration"
+16 "featuremodel.Constraint"
+17 "featuremodel.FeatureID"
+18 "featuremodel.FeatureModel"
+19 "featuremodel.FeatureModelBuilder"
+20 "featuremodel.FeatureValue"
+21 "featuremodel.Proposition"
+22 "featuremodel.RelevantModelIterator"
+23 "featuremodel.UnaryProposition"
+24 "runspl.JavaUtility"
+25 "runspl.RunSPL"
+26 "tests.EmailRUN"
+27 "tests.EmailTEST"
+28 "TestSpecifications.Specification11"
+29 "TestSpecifications.Specification1_8"
+30 "TestSpecifications.Specification27"
+31 "TestSpecifications.Specification3"
+32 "TestSpecifications.Specification4"
+33 "TestSpecifications.Specification6"
+34 "TestSpecifications.Specification7"
+35 "TestSpecifications.Specification9"
+36 "TestSpecifications.SpecificationException"
+37 "TestSpecifications.SpecificationManager"
+38 "verificationClasses.FeatureSwitches"
+39 "verificationClasses.SPLModelChecker"
+*Arcs
+4 37 1.0
+4 6 40.0
+5 6 4.0
+6 11 4.0
+6 27 15.0
+6 37 1.0
+6 9 50.0
+8 9 3.0
+9 10 46.0
+9 11 7.0
+9 27 7.0
+9 7 6.0
+9 8 3.0
+10 11 10.0
+10 27 4.0
+10 9 5.0
+12 21 8.0
+13 21 1.0
+14 15 4.0
+15 14 1.0
+15 20 3.0
+18 15 2.0
+18 20 1.0
+18 22 1.0
+18 24 1.0
+19 17 1.0
+19 24 2.0
+25 15 4.0
+25 18 4.0
+25 19 2.0
+25 20 1.0
+25 24 2.0
+26 25 1.0
+27 25 1.0
+27 3 2.0
+27 4 1.0
+27 9 6.0
+28 36 1.0
+29 10 1.0
+29 36 2.0
+30 36 1.0
+31 10 2.0
+31 36 1.0
+31 9 1.0
+32 36 1.0
+32 9 1.0
+33 10 2.0
+33 36 1.0
+33 9 1.0
+34 36 1.0
+35 10 2.0
+35 36 1.0
+37 27 4.0
+37 28 2.0
+37 29 2.0
+37 30 2.0
+37 31 2.0
+37 32 2.0
+37 33 2.0
+37 34 2.0
+37 35 2.0

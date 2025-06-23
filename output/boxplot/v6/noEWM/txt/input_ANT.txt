@@ -1,0 +1,5 @@
+program		method		range		average
+input_ANT	A3C/v6/noEWM	[2.131293,3.358950]	2.681685
+input_ANT	DQN/v6/noEWM	[2.154602,2.660169]	2.444490
+input_ANT	PPO/v6/noEWM	[1.585852,2.460822]	2.018948
+input_ANT	SARSA/v6/noEWM	[1.764308,2.506787]	2.214591

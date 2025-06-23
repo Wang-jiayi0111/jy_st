@@ -1,0 +1,5 @@
+program		method		range		average
+elevator	A3C/v2/noEWM1	[1.712356,2.046323]	1.889329
+elevator	DQN/v2/noEWM1	[1.744534,1.989251]	1.854284
+elevator	PPO/v2/noEWM1	[1.744534,1.958535]	1.812619
+elevator	SARSA/v2/noEWM1	[1.803737,2.021687]	1.961015

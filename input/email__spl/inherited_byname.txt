@@ -1,0 +1,2 @@
+defpackage.JPF_PrimitiveLogListener_Lifted extends gov.nasa.jpf.ListenerAdapter
+featuremodel.RelevantModelIterator extends org.sat4j.tools.SolverDecorator

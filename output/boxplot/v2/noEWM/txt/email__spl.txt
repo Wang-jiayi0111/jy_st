@@ -1,0 +1,5 @@
+program		method		range		average
+email__spl	A3C/v2/noEWM	[0.797751,1.771848]	1.155109
+email__spl	DQN/v2/noEWM	[0.545340,0.829331]	0.735862
+email__spl	PPO/v2/noEWM	[0.415270,0.576537]	0.496914
+email__spl	SARSA/v2/noEWM	[0.689530,0.906750]	0.817231
