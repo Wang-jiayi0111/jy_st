@@ -7,9 +7,9 @@ def load_shared_data(sys_name, reward_v):
         attributes_file = f'/home/ps/jy_exp/input_/{sys_name}/attribute.txt'
         methods_file = f'/home/ps/jy_exp/input_/{sys_name}/method.txt'
     else:
-        classes_file = f'/home/ps/jy_exp/{input}/{sys_name}/classes'
-        attributes_file = f'/home/ps/jy_exp/{input}/{sys_name}/attribute'
-        methods_file = f'/home/ps/jy_exp/{input}/{sys_name}/method'
+        classes_file = f'/home/ps/jy_exp/input/{sys_name}/classes'
+        attributes_file = f'/home/ps/jy_exp/input/{sys_name}/attribute'
+        methods_file = f'/home/ps/jy_exp/input/{sys_name}/method'
     
     output_dir = f'/home/ps/jy_exp/output/{sys_name}/{reward_v}'
     os.makedirs(output_dir, exist_ok=True)

@@ -31,13 +31,10 @@ def DQN_train(env, agent, num_episodes):
                     total_reward = episode_return
                 else:
                     total_reward = 0.98 * total_reward + 0.02 * episode_return
-                # print("episode:", i_episode, "return:", total_reward)
                 
                 # 训练 DQN
                 agent.learn()
 
-                # 记录当前episode的return
-                # return_list.append(episode_return)
                 return_list.append(total_reward)
                 current_sequence = env.current_sequence
                 

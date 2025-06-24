@@ -16,8 +16,8 @@ import jy_exp.rl_PPO.ppo_train as ppo_train
 若使用丁艳茹的奖励函数，则不需要缩放
 """
 
-sys_name = "notepad__spl"
-rl_name = "PPO"
+sys_name = "daisy"
+rl_name = "PPO1"
 reward_v = "v2"         # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
 if_EWM = True          # 是否使用熵权法
 num_episodes = 4000
@@ -77,11 +77,20 @@ if __name__ == "__main__":
     )
     window_size = 10
     current_time = datetime.datetime.now().strftime("%m-%d %H:%M:%S")
+    params = {
+        "Actor Learning Rate": actor_lr,
+        "Critic Learning Rate": critic_lr,
+        "Hidden Dimension": hidden_dim,
+        "Gamma": gamma,
+        "Lambda": lmbda,
+        "Epsilon": eps,
+        "if_EWM": if_EWM
+    }
 
-    # if if_EWM:
-    #     output_dir = os.path.join(output_dir, 'EWM')
-    # else:
-    #     output_dir = os.path.join(output_dir, 'noEWM')
+    if if_EWM:
+        output_dir = os.path.join(output_dir, 'EWM')
+    else:
+        output_dir = os.path.join(output_dir, 'noEWM')
     run_dir = os.path.join(output_dir, rl_name)
     print(run_dir)
     os.makedirs(run_dir, exist_ok=True)
@@ -127,3 +136,8 @@ if __name__ == "__main__":
             f.write(f"Best OCplx: {best_ocplx}\n")
             f.write(f"Best Sequence: {best_seq}\n")
         plt.close()
+        
+    with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
+        for key, value in params.items():
+            f.write(f"{key}: {value}\n")  # 每行一个键值对
+        f.write(f"\n")

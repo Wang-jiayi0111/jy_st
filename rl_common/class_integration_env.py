@@ -35,9 +35,9 @@ class ClassIntegrationEnv(gym.Env):
         self.current_sequence = []
         self.tested_classes = []        #已测试的类
         self.available_actions = list(range(self.num_classes))  # 可测类
-        self.dependency_matrix = cal_scplx_matrix(self.methods, self.attributes, self.num_classes, self.wM, self.wA)
+        self.dependency_matrix = cal_scplx_matrix(self.methods, self.attributes, self.num_classes,)
         if self.version == 'v2':
-            self.CBO = ClassOp.cal_CBO(self.methods, self.attributes, self.num_classes, self.wM, self.wA)
+            self.CBO = ClassOp.cal_CBO(self.methods, self.attributes, self.num_classes)
             self.NOF = NOF
             self.all_importance = ClassOp.calculate_class_importance(self.classes, self.NOF, self.CBO, self.dependency_matrix)
             print("Class Importance Scores:")
@@ -117,7 +117,7 @@ class ClassIntegrationEnv(gym.Env):
         node_importance = self.all_importance.get(action+1, 0.0)
         done = False
         stub_complexity = 0
-        c = 1
+        c = 100
         for i in range(self.num_classes):
             if self.state[i] == 0:
                 Cplx = self.dependency_matrix[action][i]
@@ -135,7 +135,6 @@ class ClassIntegrationEnv(gym.Env):
         for i in range(self.num_classes):
             if self.state[i] == 0:
                 cplx = (self.wM * (self.methods[action][i] ** 2) + self.wA * (self.attributes[action][i] ** 2))**0.5
-                # Cplx = self.dependency_matrix[action][i]
                 stub_complexity += cplx
         reward = MAX - stub_complexity
         return done, reward

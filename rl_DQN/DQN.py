@@ -13,20 +13,20 @@ import jy_exp.rl_DQN.dqn_train as dqn_train
 
 
 # 加载数据
-sys_name = "elevator"   # 系统名称 notepad、daisy完成
+sys_name = "daisy"   # 系统名称 
 rl_name = "DQN1"
 num_runs = 30
-reward_v = "v2.1"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
-if_EWM = True              # 是否使用熵权法
+reward_v = "v2"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
+if_EWM = False                 # 是否使用熵权法
 num_episodes = 3000
 
 # Q-Learning训练参数 
-LR = 1e-3                   # 学习率8e-4        1e-3(daisy和elevator) 
+LR = 1e-3                    # 学习率8e-4        1e-3(daisy和elevator) 
 EPSILON = 0.15               # 探索率
 GAMMA = 0.99                 # 折扣因子0.95
-TARGET_REPLACE_ITER = 100    # 目标网络更新频率  50（c=100
-MEMORY_CAPACITY = 20000     # 记忆池容量
-BATCH_SIZE = 64             # 批量大小 64 128
+TARGET_REPLACE_ITER = 50     # 目标网络更新频率  50（c=100
+MEMORY_CAPACITY = 20000      # 记忆池容量
+BATCH_SIZE = 64              # 批量大小 64 128
 
 seed = 40
 

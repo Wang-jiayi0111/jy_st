@@ -15,30 +15,31 @@ class Net(nn.Module):
         self.out = nn.Linear(128, n_actions)
         # self.out.weight.data.normal_(0, 0.1)
 
-    def forward(self, x):
-        # x = F.relu(self.fc1(x))
-        x = F.relu(self.fc1(x)) 
-        x = F.relu(self.fc2(x))
-        # x = torch.tanh(self.fc1(x))
-        return self.out(x)
-        # c=100
+    # def forward(self, x):
+    #     # x = F.relu(self.fc1(x))
+    #     x = F.relu(self.fc1(x)) 
+    #     x = F.relu(self.fc2(x))
+    #     # x = torch.tanh(self.fc1(x))
+    #     return self.out(x)
+
         # self.fc1 = nn.Linear(n_states, 256)
         # self.bn1 = nn.BatchNorm1d(256)
         # self.fc2 = nn.Linear(256, 256)
         # self.bn2 = nn.BatchNorm1d(256)
         # self.fc3 = nn.Linear(256, 128)
         # self.out = nn.Linear(128, n_actions)
-    #     self.fc1 = nn.Linear(n_states, 64)
-    #     self.fc2 = nn.Linear(64, 64)
-    #     self.out = nn.Linear(64, n_actions)
         
-    # def forward(self, x):
-    #     # x = F.relu(self.bn1(self.fc1(x)))
-    #     # x = F.relu(self.bn2(self.fc2(x)))
-    #     # x = F.relu(self.fc3(x))
-    #     x = F.relu(self.fc1(x))
-    #     x = F.relu(self.fc2(x))
-    #     return self.out(x)
+        # self.fc1 = nn.Linear(n_states, 64)
+        # self.fc2 = nn.Linear(64, 64)
+        # self.out = nn.Linear(64, n_actions)
+        
+    def forward(self, x):
+        # x = F.relu(self.bn1(self.fc1(x)))
+        # x = F.relu(self.bn2(self.fc2(x)))
+        # x = F.relu(self.fc3(x))
+        x = F.relu(self.fc1(x))
+        x = F.relu(self.fc2(x))
+        return self.out(x)
 
 class DQN(nn.Module):
     def __init__(self, n_states, n_actions, lr, eps, gamma, targer_repalce_iter, memory_capacity, batch_size, device):
@@ -64,12 +65,12 @@ class DQN(nn.Module):
         self.learn_step_counter = 0
         self.device = device
         self.distribution = torch.distributions.Categorical
-        self.eps_start = 1       #0.9
-        self.eps_end = 0.01             #0.05
+        self.eps_start = 0.5       #0.9
+        self.eps_end = 0.05             #0.05
         self.eps_decay = 1000           # 0.995
         self.eps = self.eps_start
 
-    # region 使用的是概率采样（通过Categorical分布）
+
     def choose_action(self, s, available_actions):
         self.eval_net.eval()  # 设置模型为评估模式
         s = torch.tensor([s], dtype=torch.float).to(self.device)
@@ -85,24 +86,10 @@ class DQN(nn.Module):
         prob = prob / prob.sum()  # 重新归一化概率
 
         m = self.distribution(prob)  # 创建动作分布
+        # sampled_action = m.sample().cpu().numpy()[0]  # 采样动作
         sampled_action = m.sample().item()  # 采样动作
-        return available_actions[sampled_action]  # 采样动作并映射回原动作空间并返回采样的动作
-    # endregion
-
-    # def choose_action(self, s, available_actions):
-    #     if np.random.random() < self.eps:  # ε概率随机探索
-    #         return np.random.choice(available_actions)
-        
-    #     # 1-ε概率选择最优动作
-    #     self.eval_net.eval()
-    #     s = torch.tensor([s], dtype=torch.float).to(self.device)
-    #     with torch.no_grad():
-    #         q_values = self.eval_net(s)
-        
-    #     # 只考虑可用动作中的最大Q值
-    #     available_q = q_values[0, available_actions]
-    #     best_action_idx = torch.argmax(available_q).item()
-    #     return available_actions[best_action_idx]
+        res = available_actions[sampled_action]  # 采样动作并映射回原动作空间
+        return res  # 返回采样的动作
 
 
     def store_transition(self, s, a, r, s_):
@@ -122,14 +109,12 @@ class DQN(nn.Module):
         self.eval_net.train()  # 设置模型为训练模式
 
         # # 定期更新目标网络
-        if self.learn_step_counter % self.target_replace_iter == 0:
-            self.target_net.load_state_dict(self.eval_net.state_dict())
         # if self.learn_step_counter % self.target_replace_iter == 0:
-        #     self.update_target_network()  # 改为调用软更新
+        #     self.target_net.load_state_dict(self.eval_net.state_dict())
+        if self.learn_step_counter % self.target_replace_iter == 0:
+            self.update_target_network()  # 改为调用软更新
         self.learn_step_counter += 1
-        # self.eps = self.eps_end + (self.eps_start - self.eps_end) * \
-        #     np.exp(-1. * self.learn_step_counter / self.eps_decay)
-    
+
         # 从经验回放中采样
         sample_size = min(self.memory_counter, self.memory_capacity)
         sample_index = np.random.choice(sample_size, self.batch_size)
@@ -146,9 +131,7 @@ class DQN(nn.Module):
 
         # 计算目标 Q 值
         with torch.no_grad():
-            # q_next = self.target_net(b_s_).max(1)[0].view(self.batch_size, 1)
-            max_actions = self.eval_net(b_s_).max(1)[1].view(-1,1)  # 改这里
-            q_next = self.target_net(b_s_).gather(1, max_actions)
+            q_next = self.target_net(b_s_).max(1)[0].view(self.batch_size, 1)
             q_target = b_r + self.gamma * q_next
 
         # 计算损失并更新网络
@@ -163,5 +146,4 @@ class DQN(nn.Module):
         writer.add_scalar('LearningRate', current_lr, self.learn_step_counter)
         writer.add_scalar('Loss', loss.item(), global_step=self.learn_step_counter)
         writer.add_scalar('Exploration/epsilon', self.eps, self.learn_step_counter)
-        writer.add_scalar('QValue/max', q_eval.max().item(), self.learn_step_counter)
-        writer.add_scalar('QValue/mean', q_eval.mean().item(), self.learn_step_counter)
+        writer.add_scalar('Qvalue/mean', q_eval.mean().item(), self.learn_step_counter)
