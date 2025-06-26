@@ -16,16 +16,16 @@ import jy_exp.rl_PPO.ppo_train as ppo_train
 若使用丁艳茹的奖励函数，则不需要缩放
 """
 
-sys_name = "daisy"
-rl_name = "PPO1"
-reward_v = "v2"         # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
-if_EWM = True          # 是否使用熵权法
+sys_name = "email__spl"
+rl_name = "PPO"
+reward_v = "v2.1"         # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
+if_EWM = False          # 是否使用熵权法
 num_episodes = 4000
 num_runs = 30   
 
 actor_lr = 1e-5         # 1e-5  （daisy和elevator）    7
 critic_lr = 1e-4        #  # 1e-4       6
-hidden_dim = 128
+hidden_dim = 256
 gamma = 0.99
 lmbda = 0.9
 epochs = 5              # 一条序列的数据用来训练轮数 5

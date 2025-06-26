@@ -75,6 +75,11 @@ def push_and_pull(opt, lnet, gnet, done, s_, buffer_s, buffer_a, buffer_r, gamma
     # 反向传播
     opt.zero_grad()
     total_loss.backward()
+
+    # 梯度裁剪 (防止爆炸)
+    torch.nn.utils.clip_grad_norm_(lnet.parameters(), 0.5)
+
+
     # 将本地网络的梯度赋值给全局网络的梯度
     for lp, gp in zip(lnet.parameters(), gnet.parameters()):
         gp._grad = lp.grad

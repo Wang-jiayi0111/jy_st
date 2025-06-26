@@ -3,8 +3,9 @@ import numpy as np
 import re
 from collections import defaultdict
 
-method = '/v2/EWM1'
-program= 'daisy'
+reward_v = 'v2.1'  # 奖励函数
+method = '/'+ reward_v+"/noEWM"
+program='notepad__spl'
 
 
 def load_ocplx_data(file_dict):
@@ -46,7 +47,7 @@ def generate_combined_boxplot(algorithm_data):
     plt.grid(True, linestyle='--', alpha=0.5)
     
     plt.tight_layout()
-    plt.savefig(f'/home/ps/jy_exp/output/boxplot/{method}/png/{program}.png', dpi=300)
+    plt.savefig(f'/home/ps/jy_exp/output/boxplot{method}/png/{program}.png', dpi=300)
 
     stats = {}
     for algo in algorithms:
@@ -71,10 +72,10 @@ def write_stats_to_file(stats, file_path):
 
 if __name__ == "__main__":
     file_dict = {
-        'A3C': f'/home/ps/jy_exp/output/{program}{method}/A3C/best_sequence_v2.txt',
-        'DQN':f'/home/ps/jy_exp/output/{program}{method}/DQN/best_sequence_v2.txt',
-        'PPO': f'/home/ps/jy_exp/output/{program}{method}/PPO/best_sequence_v2.txt',
-        'SARSA':f'/home/ps/jy_exp/output/{program}{method}/SARSA/best_sequence_v2.txt'
+        'A3C': f'/home/ps/jy_exp/output/{program}{method}/A3C/best_sequence_{reward_v}.txt',
+        'DQN':f'/home/ps/jy_exp/output/{program}{method}/DQN/best_sequence_{reward_v}.txt',
+        'PPO': f'/home/ps/jy_exp/output/{program}{method}/PPO/best_sequence_{reward_v}.txt',
+        'SARSA':f'/home/ps/jy_exp/output/{program}{method}/SARSA/best_sequence_{reward_v}.txt'
     }
 
     algorithm_data = load_ocplx_data(file_dict)

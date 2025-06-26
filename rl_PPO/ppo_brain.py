@@ -89,10 +89,10 @@ class PPO(nn.Module):
         )
 
     # 添加学习率调度器
-        self.actor_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
-            self.actor_optimizer, 'min', patience=10, factor=0.7, min_lr=1e-6, verbose=True)
-        self.critic_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
-            self.critic_optimizer, 'min', patience=10, factor=0.7, min_lr=1e-5, verbose=True)
+        # self.actor_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+        #     self.actor_optimizer, 'min', patience=10, factor=0.7, min_lr=1e-6, verbose=True)
+        # self.critic_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+        #     self.critic_optimizer, 'min', patience=10, factor=0.7, min_lr=1e-5, verbose=True)
 
         self.action_dim = action_dim
         self.gamma = gamma

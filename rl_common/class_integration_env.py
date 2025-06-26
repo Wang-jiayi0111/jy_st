@@ -117,7 +117,7 @@ class ClassIntegrationEnv(gym.Env):
         node_importance = self.all_importance.get(action+1, 0.0)
         done = False
         stub_complexity = 0
-        c = 100
+        c = 100   #100 1
         for i in range(self.num_classes):
             if self.state[i] == 0:
                 Cplx = self.dependency_matrix[action][i]

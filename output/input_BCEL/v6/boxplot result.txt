@@ -1,3 +1,0 @@
-PPO - Mean: 6.4444, Std: 0.2554
-DQN - Mean: 7.8973, Std: 0.5462
-A3C - Mean: 9.5068, Std: 0.9410

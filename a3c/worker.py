@@ -32,7 +32,7 @@ class Worker(mp.Process):
         self.device = device
         self.schedule = scheduler = ReduceLROnPlateau(opt, mode='min', patience=10, factor=0.5)
         self.base_seed = base_seed
-        self.worker_seed = base_seed + name
+        self.worker_seed = base_seed + name * 1000  # *1
 
     def run(self):
         try:

@@ -8,14 +8,14 @@ writer = SummaryWriter(log_dir='./logs/sarsa')
 class Net(nn.Module):
     def __init__(self, n_states, n_actions):
         super(Net, self).__init__()
-        self.fc1 = nn.Linear(n_states, 128)
+        self.fc1 = nn.Linear(n_states, 256)
         # self.fc1.weight.data.normal_(0, 0.1)
-        self.fc2 = nn.Linear(128, n_actions)
+        self.fc2 = nn.Linear(256, n_actions)
         # self.fc2.weight.data.normal_(0, 0.1)
 
     def forward(self, x):
-        # x = F.relu(self.fc1(x))
-        x = torch.tanh(self.fc1(x))
+        x = F.relu(self.fc1(x))
+        # x = torch.tanh(self.fc1(x))
         return self.fc2(x)
 
 class SARSA(nn.Module):

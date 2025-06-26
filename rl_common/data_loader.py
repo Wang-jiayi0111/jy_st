@@ -5,11 +5,13 @@ def load_shared_data(sys_name, reward_v):
     if sys_name == "daisy" or sys_name == "elevator" or sys_name == "email__spl" or sys_name == "notepad__spl":
         classes_file = f'/home/ps/jy_exp/input_/{sys_name}/classes.txt'
         attributes_file = f'/home/ps/jy_exp/input_/{sys_name}/attribute.txt'
-        methods_file = f'/home/ps/jy_exp/input_/{sys_name}/method.txt'
+        methods_file = f'/home/ps/jy_exp/input_/{sys_name}/method.txt' 
+        GNN_class = ClassOp.load_GNNclass(sys_name)
     else:
         classes_file = f'/home/ps/jy_exp/input/{sys_name}/classes'
         attributes_file = f'/home/ps/jy_exp/input/{sys_name}/attribute'
         methods_file = f'/home/ps/jy_exp/input/{sys_name}/method'
+        GNN_class = None
     
     output_dir = f'/home/ps/jy_exp/output/{sys_name}/{reward_v}'
     os.makedirs(output_dir, exist_ok=True)
@@ -26,7 +28,6 @@ def load_shared_data(sys_name, reward_v):
         NOF_dir = ""
     NOF = ClassOp.get_NOF(NOF_dir)
     
-    GNN_class = ClassOp.load_GNNclass(sys_name)
 
     return {
         "classes": classes,

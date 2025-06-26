@@ -19,15 +19,15 @@ sys_name = "notepad__spl"   # 系统名称
 rl_name = "A3C"
 reward_v = "v2.1"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
 if_EWM = False              # 是否使用熵权法
-num_episodes = 3000
+num_episodes = 3000         #3000  2000
 num_runs = 30
 
 # 训练参数
-UPDATE_GLOBAL_ITER = 200    # 10
+UPDATE_GLOBAL_ITER = 200    # 10 200 50
 GAMMA = 0.99
-MAX_EP = 3000
+MAX_EP = 3000     
 thread_count = 3    
-RL=1e-3              # 1e-6
+RL=1e-4            # 1e-6 1e-3 1e-5 1e-4 
 
 
 def set_global_seeds(seed):
@@ -250,7 +250,7 @@ if __name__ == "__main__":
     a3c_results = []
 
     params = {
-        UPDATE_GLOBAL_ITER: 'UPDATE_GLOBAL_ITER',
+        'UPDATE_GLOBAL_ITER': UPDATE_GLOBAL_ITER,
         'GAMMA': GAMMA,
         'MAX_EP': MAX_EP,
         'thread_count': thread_count,

@@ -9,9 +9,9 @@ writer = SummaryWriter(log_dir='./logs/dqn')
 class Net(nn.Module):
     def __init__(self, n_states, n_actions):
         super(Net, self).__init__()
-        self.fc1 = nn.Linear(n_states, 128)
+        self.fc1 = nn.Linear(n_states, 256)
         # self.fc1.weight.data.normal_(0, 0.1)
-        self.fc2 = nn.Linear(128, 128)
+        self.fc2 = nn.Linear(256, 128)
         self.out = nn.Linear(128, n_actions)
         # self.out.weight.data.normal_(0, 0.1)
 

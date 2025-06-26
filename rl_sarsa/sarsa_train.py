@@ -11,6 +11,7 @@ def SARSA_train(env, agent, num_episodes):
     best_reward_sequence = []              #记录全局最佳序列
     best_reward = -np.inf
     total_reward = 0
+    warmup_episodes = 200
     
     for i in range(10):
         env.available_actions = list(range(env.num_classes)) 
@@ -35,26 +36,51 @@ def SARSA_train(env, agent, num_episodes):
                     state = next_state
                     action = next_action
 
-                if len(return_list) == 0:
-                    total_reward = episode_return
-                else:
-                    total_reward = 0.98 * total_reward + 0.02 * episode_return
+                current_global_episode = num_episodes / 10 * i + i_episode + 1
+                if current_global_episode > warmup_episodes:
+                    # 更新滑动平均奖励
+                    if len(return_list) == 0:
+                        total_reward = episode_return
+                    else:
+                        total_reward = 0.98 * total_reward + 0.02 * episode_return
+                    return_list.append(total_reward)
+
+                    # 更新最佳OCplx
+                    current_sequence = env.current_sequence
+                    current_sequence = [num + 1 for num in env.current_sequence]
+                    OCplx, _, _, _ = ClassOp.calculate_OCplx_sequence(
+                        env.attributes, env.methods, current_sequence, w_M=env.wM, w_A=env.wA
+                    )
+                    if OCplx < best_OCplx and OCplx != 0:
+                        best_OCplx = OCplx
+                        best_OCplx_sequence = current_sequence.copy()
+                        best_OCplx_reward = episode_return
+
+                    if episode_return > best_reward:
+                        best_reward = episode_return
+                        best_reward_sequence = current_sequence.copy()
+                        best_reward_OCplx = OCplx
+
+                # if len(return_list) == 0:
+                #     total_reward = episode_return
+                # else:
+                #     total_reward = 0.98 * total_reward + 0.02 * episode_return
                 
-                return_list.append(total_reward)
-                current_sequence = env.current_sequence
-                current_sequence = [num + 1 for num in current_sequence]  # 将类编号从0开始改为从1开始
-                OCplx, _, _, _ = ClassOp.calculate_OCplx_sequence(env.attributes, env.methods, current_sequence, w_M=env.wM, w_A=env.wA)
+                # return_list.append(total_reward)
+                # current_sequence = env.current_sequence
+                # current_sequence = [num + 1 for num in current_sequence]  # 将类编号从0开始改为从1开始
+                # OCplx, _, _, _ = ClassOp.calculate_OCplx_sequence(env.attributes, env.methods, current_sequence, w_M=env.wM, w_A=env.wA)
 
-                if OCplx < best_OCplx and OCplx != 0:
-                    best_OCplx = OCplx
-                    best_OCplx_sequence = current_sequence.copy()
-                    best_OCplx_reward = episode_return
+                # if OCplx < best_OCplx and OCplx != 0:
+                #     best_OCplx = OCplx
+                #     best_OCplx_sequence = current_sequence.copy()
+                #     best_OCplx_reward = episode_return
 
-                                # 更新全局最佳奖励和序列
-                if episode_return > best_reward:
-                    best_reward = episode_return
-                    best_reward_sequence = current_sequence.copy()
-                    best_reward_OCplx = OCplx
+                #                 # 更新全局最佳奖励和序列
+                # if episode_return > best_reward:
+                #     best_reward = episode_return
+                #     best_reward_sequence = current_sequence.copy()
+                #     best_reward_OCplx = OCplx
 
                 # 更新进度条
                 if (i_episode + 1) % 10 == 0:
@@ -70,6 +96,7 @@ def SARSA_train(env, agent, num_episodes):
     print("全局最佳（最低）的 OCplx：", best_OCplx)
     print("全局最佳（最低）的 OCplx序列：", best_OCplx_sequence)
     print("全局最佳（最低）的 OCplx对应的reward：", best_OCplx_reward)
+    print("全局最佳的 reward：", best_reward)
     return best_OCplx, best_OCplx_sequence, return_list
     
     # print("全局最佳奖励对应的OCplx：", best_reward_OCplx)

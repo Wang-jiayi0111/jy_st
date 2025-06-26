@@ -12,15 +12,15 @@ from jy_exp.rl_sarsa.sarsa_brain import SARSA
 import jy_exp.rl_sarsa.sarsa_train as sarsa_train
 
 # 加载数据
-sys_name = "notepad__spl"   # 系统名称
+sys_name = "elevator"   # 系统名称
 rl_name = "SARSA"
-reward_v = "v2"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
-if_EWM = False              # 是否使用熵权法
-num_episodes = 3000
+reward_v = "v2.1"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
+if_EWM = True              # 是否使用熵权法
+num_episodes = 5000
 num_runs = 30
 
 # SARSA训练参数 
-LR = 1e-3                   # 学习率  1e-5
+LR = 1e-5                   # 学习率  1e-5
 EPSILON = 0.1               # 探索率
 GAMMA = 0.99                # 折扣因子    0.95
 seed = 40
@@ -88,13 +88,14 @@ if __name__ == "__main__":
         "Learning Rate": LR,
         "Epsilon": EPSILON,
         "Gamma": GAMMA,
-        "Reward Version": reward_v
+        "Reward Version": reward_v,
+        "if_EWM": if_EWM,
     }
 
-    # if if_EWM:
-    #     output_dir = os.path.join(output_dir, 'EWM')
-    # else:
-    #     output_dir = os.path.join(output_dir, 'noEWM')
+    if if_EWM:
+        output_dir = os.path.join(output_dir, 'EWM')
+    else:
+        output_dir = os.path.join(output_dir, 'noEWM')
     run_dir = os.path.join(output_dir, rl_name)
     print(run_dir)
     os.makedirs(run_dir, exist_ok=True)

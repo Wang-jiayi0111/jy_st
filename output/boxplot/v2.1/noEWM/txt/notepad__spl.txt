@@ -1,0 +1,5 @@
+program		method		range		average
+notepad__spl	A3C/v2.1/noEWM	[1.782548,2.447387]	2.161069
+notepad__spl	DQN/v2.1/noEWM	[1.438550,2.138645]	1.884799
+notepad__spl	PPO/v2.1/noEWM	[1.599772,2.331256]	1.982289
+notepad__spl	SARSA/v2.1/noEWM	[1.617870,2.533566]	2.144854
