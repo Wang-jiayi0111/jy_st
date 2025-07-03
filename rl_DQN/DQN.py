@@ -13,20 +13,20 @@ from jy_exp.rl_common.class_integration_env import ClassIntegrationEnv
 
 
 # 加载数据
-sys_name = "notepad__spl"   # 系统名称 
-rl_name = "DQN1"
+sys_name = "input_BCEL"   # 系统名称 
+rl_name = "DQN"
 num_runs = 30
 reward_v = "v2.1"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
-if_EWM = True                 # 是否使用熵权法
-num_episodes = 3000
+if_EWM = True                  # 是否使用熵权法
+num_episodes = 8000
 
 # Q-Learning训练参数 
-LR = 5e-3                    # 学习率8e-4        1e-3(daisy和elevator) 
+LR = 1e-5                    # 学习率8e-4        1e-3(daisy和elevator) 
 EPSILON = 0.15               # 探索率
 GAMMA = 0.99                 # 折扣因子0.95
 TARGET_REPLACE_ITER = 50     # 目标网络更新频率  50（c=100
 MEMORY_CAPACITY = 20000      # 记忆池容量
-BATCH_SIZE = 64              # 批量大小 64 128
+BATCH_SIZE = 128              # 批量大小 64 128
 
 seed = 40
 
@@ -143,7 +143,7 @@ if __name__ == "__main__":
         plt.ylabel('Rewards')
         plt.title(f'DQN on {sys_name} - Run {run+1}')
         plt.suptitle(f'Overall Complexity (OCplx): {best_ocplx}', fontsize=10, color='red')
-        plt.savefig(os.path.join(run_dir, f'rewards_run_{run+1}-at-{current_time}.png'))
+        plt.savefig(os.path.join(run_dir, f'run_{run+1}-at-{current_time}.png'))
         # 保存最佳序列
         with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
             f.write(f"Run {run+1}:\n")

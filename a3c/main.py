@@ -15,19 +15,19 @@ from jy_exp.rl_common.class_integration_env import ClassIntegrationEnv
 from jy_exp.rl_common.class_op import ClassOp
 
 
-sys_name = "notepad__spl"   # 系统名称
-rl_name = "A3C"
+sys_name = "input_DNS"   # 系统名称
+rl_name = "A3C20_5e-4_3"
 reward_v = "v2.1"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
 if_EWM = False              # 是否使用熵权法
 num_episodes = 3000         #3000  2000
 num_runs = 30
 
 # 训练参数
-UPDATE_GLOBAL_ITER = 200    # 10 200 50
+UPDATE_GLOBAL_ITER = 20    #  200 50 5 10 20 25
 GAMMA = 0.99
 MAX_EP = 3000     
 thread_count = 3    
-RL=1e-4            # 1e-6 1e-3 1e-5 1e-4 
+RL=5e-4           # 1e-6 1e-3 1e-5 1e-4 5e-4 7e-4 8e-4
 
 
 def set_global_seeds(seed):
@@ -292,7 +292,7 @@ if __name__ == "__main__":
         plt.ylabel('Rewards')
         plt.title(f'A3C on {sys_name} - Run {run+1}')
         plt.suptitle(f'Overall Complexity (OCplx): {best_ocplx}', fontsize=10, color='red')
-        plt.savefig(os.path.join(run_dir, f'rewards_run_{run+1}-at-{current_time}.png'))
+        plt.savefig(os.path.join(run_dir, f'run_{run+1}-at-{current_time}.png'))
             # 保存最佳序列
         with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
             f.write(f"Run {run+1}:\n")

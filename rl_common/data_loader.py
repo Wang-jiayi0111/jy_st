@@ -6,12 +6,10 @@ def load_shared_data(sys_name, reward_v):
         classes_file = f'/home/ps/jy_exp/input_/{sys_name}/classes.txt'
         attributes_file = f'/home/ps/jy_exp/input_/{sys_name}/attribute.txt'
         methods_file = f'/home/ps/jy_exp/input_/{sys_name}/method.txt' 
-        GNN_class = ClassOp.load_GNNclass(sys_name)
     else:
         classes_file = f'/home/ps/jy_exp/input/{sys_name}/classes'
         attributes_file = f'/home/ps/jy_exp/input/{sys_name}/attribute'
         methods_file = f'/home/ps/jy_exp/input/{sys_name}/method'
-        GNN_class = None
     
     output_dir = f'/home/ps/jy_exp/output/{sys_name}/{reward_v}'
     os.makedirs(output_dir, exist_ok=True)
@@ -22,6 +20,7 @@ def load_shared_data(sys_name, reward_v):
     attributes = ClassOp.load_data(attributes_file, num_classes)
     methods = ClassOp.load_data(methods_file, num_classes)
     method_counts, attr_counts = ClassOp.count_features(methods, attributes)
+    GNN_class = ClassOp.load_GNNclass(sys_name)
 
     NOF_dir = f'/home/ps/jy_exp/input_/{sys_name}/NOF.txt'
     if not os.path.exists(NOF_dir):

@@ -15,28 +15,8 @@ class Net(nn.Module):
         self.out = nn.Linear(128, n_actions)
         # self.out.weight.data.normal_(0, 0.1)
 
-    # def forward(self, x):
-    #     # x = F.relu(self.fc1(x))
-    #     x = F.relu(self.fc1(x)) 
-    #     x = F.relu(self.fc2(x))
-    #     # x = torch.tanh(self.fc1(x))
-    #     return self.out(x)
-
-        # self.fc1 = nn.Linear(n_states, 256)
-        # self.bn1 = nn.BatchNorm1d(256)
-        # self.fc2 = nn.Linear(256, 256)
-        # self.bn2 = nn.BatchNorm1d(256)
-        # self.fc3 = nn.Linear(256, 128)
-        # self.out = nn.Linear(128, n_actions)
-        
-        # self.fc1 = nn.Linear(n_states, 64)
-        # self.fc2 = nn.Linear(64, 64)
-        # self.out = nn.Linear(64, n_actions)
         
     def forward(self, x):
-        # x = F.relu(self.bn1(self.fc1(x)))
-        # x = F.relu(self.bn2(self.fc2(x)))
-        # x = F.relu(self.fc3(x))
         x = F.relu(self.fc1(x))
         x = F.relu(self.fc2(x))
         return self.out(x)

@@ -1,0 +1,119 @@
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+email__spl	0.84	0.08	0.66	0.96	30
+input_ATM	2.49	0.27	2.17	3.29	30
+notepad__spl	1.88	0.17	1.44	2.14	30
+input_ANT	2.33	0.18	1.96	2.62	30
+daisy	0.56	0.10	0.32	0.74	30
+input_BCEL	10.21	0.51	8.66	11.08	30
+input_DNS	6.50	1.01	4.60	8.57	30
+input_SPM	3.70	0.41	2.91	4.51	30
+elevator	1.80	0.04	1.74	1.91	30
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+email__spl	1.09	0.13	0.87	1.45	30
+input_ATM	3.23	0.33	2.46	3.93	30
+notepad__spl	2.18	0.13	1.80	2.42	30
+input_ANT	3.15	0.22	2.70	3.50	30
+daisy	0.88	0.16	0.51	1.22	30
+input_BCEL	12.71	0.68	11.57	14.16	30
+input_DNS	10.37	1.19	7.09	12.57	30
+input_SPM	4.51	0.49	3.48	5.40	30
+elevator	2.18	0.17	1.93	2.59	30
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+email__spl	0.92	0.20	0.67	1.42	30
+input_ATM	2.20	0.06	2.17	2.39	30
+notepad__spl	1.98	0.17	1.60	2.33	30
+input_ANT	2.08	0.14	1.85	2.44	30
+daisy	0.49	0.12	0.26	0.71	30
+input_BCEL	9.88	0.93	8.17	12.00	30
+input_DNS	4.31	0.69	3.37	6.68	30
+input_SPM	2.77	0.17	2.45	3.15	30
+elevator	1.79	0.04	1.70	1.88	30
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+email__spl	0.94	0.20	0.71	1.51	30
+input_ATM	2.33	0.11	2.17	2.61	30
+notepad__spl	2.14	0.22	1.62	2.53	30
+input_ANT	2.78	0.15	2.42	3.13	30
+daisy	0.47	0.11	0.29	0.67	30
+input_BCEL	8.64	0.54	7.32	9.47	30
+input_DNS	4.18	0.60	3.08	5.34	30
+input_SPM	3.48	0.34	2.99	4.33	30
+elevator	1.89	0.07	1.78	2.02	30
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+email__spl	0.87	0.09	0.72	1.11	30
+input_ATM	2.66	0.28	2.20	3.28	30
+notepad__spl	1.90	0.11	1.60	2.13	30
+input_ANT	2.73	0.30	1.91	3.33	30
+daisy	0.51	0.07	0.32	0.62	30
+input_BCEL	9.28	0.49	8.05	10.10	30
+input_DNS	6.11	1.12	4.19	9.13	30
+input_SPM	3.87	0.41	3.27	5.02	30
+elevator	1.81	0.05	1.72	1.95	30
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+email__spl	1.06	0.13	0.68	1.28	30
+input_ATM	3.28	0.35	2.46	4.21	30
+notepad__spl	2.17	0.16	1.67	2.37	30
+input_ANT	3.12	0.18	2.70	3.46	30
+daisy	0.90	0.13	0.64	1.16	30
+input_BCEL	12.49	1.07	9.10	14.45	30
+input_DNS	10.46	0.93	7.99	12.33	30
+input_SPM	4.44	0.55	3.05	5.25	30
+elevator	2.12	0.15	1.81	2.44	30
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+email__spl	0.96	0.20	0.70	1.62	30
+input_ATM	2.22	0.04	2.20	2.32	30
+notepad__spl	2.03	0.19	1.68	2.31	30
+input_ANT	2.12	0.17	1.50	2.33	30
+daisy	0.43	0.09	0.30	0.61	30
+input_BCEL	9.08	0.79	7.63	11.18	30
+input_DNS	4.51	0.81	3.56	7.62	30
+input_SPM	2.75	0.18	2.45	3.15	30
+elevator	1.76	0.06	1.70	1.95	30
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+email__spl	0.93	0.09	0.66	1.12	30
+input_ATM	2.35	0.10	2.20	2.56	30
+notepad__spl	2.25	0.18	1.93	2.58	30
+input_ANT	2.79	0.18	2.46	3.21	30
+daisy	0.44	0.10	0.27	0.62	30
+input_BCEL	8.15	0.54	7.27	9.08	30
+input_DNS	4.27	0.66	3.17	5.22	30
+input_SPM	3.45	0.39	2.79	4.46	30
+elevator	1.86	0.07	1.73	1.97	30
+
+A3C20_5e-4
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+input_DNS	3.16	0.52	1.66	3.86	30
+
+A3C25_5e-4
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+input_DNS	3.00	0.61	1.70	4.04	30
+
+A3C25_7e-4
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+input_DNS	3.50	1.58	1.30	8.88	30
+
+A3C20
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+input_DNS	3.29	0.83	2.01	5.88	20
+
+A3C20_3e-4
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+input_DNS	3.36	0.51	2.39	4.92	
+
+A3C20_5e-4_3
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+input_DNS	3.58	0.89	1.94	5.82	30
+
+

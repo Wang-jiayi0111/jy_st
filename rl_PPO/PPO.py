@@ -16,19 +16,19 @@ import jy_exp.rl_PPO.ppo_train as ppo_train
 若使用丁艳茹的奖励函数，则不需要缩放
 """
 
-sys_name = "email__spl"
-rl_name = "PPO"
-reward_v = "v2.1"         # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
-if_EWM = False          # 是否使用熵权法
-num_episodes = 4000
+sys_name = "notepad__spl"
+rl_name = "TEST"
+reward_v = "v6"         # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
+if_EWM = True          # 是否使用熵权法
+num_episodes = 8000
 num_runs = 30   
 
-actor_lr = 1e-5         # 1e-5  （daisy和elevator）    7
-critic_lr = 1e-4        #  # 1e-4       6
+actor_lr = 1e-6         # 1e-5  （daisy和elevator）    7
+critic_lr = 5e-5        #  # 1e-4       6
 hidden_dim = 256
 gamma = 0.99
 lmbda = 0.9
-epochs = 5              # 一条序列的数据用来训练轮数 5
+epochs = 10              # 一条序列的数据用来训练轮数 5
 eps = 0.2               # PPO中截断范围的参数
 
 def run_ppo(classes, methods, attributes, 
@@ -94,7 +94,7 @@ if __name__ == "__main__":
     run_dir = os.path.join(output_dir, rl_name)
     print(run_dir)
     os.makedirs(run_dir, exist_ok=True)
-    ClassOp.clear_folder(run_dir)
+    # ClassOp.clear_folder(run_dir)
     ppo_results = []
 
     for run in range(num_runs):
@@ -129,7 +129,7 @@ if __name__ == "__main__":
         plt.ylabel('Rewards')
         plt.title(f'PPO on {sys_name} - Run {run+1}')
         plt.suptitle(f'Overall Complexity (OCplx): {best_ocplx}', fontsize=10, color='red')
-        plt.savefig(os.path.join(run_dir, f'rewards_run_{run+1}-at-{current_time}.png'))
+        plt.savefig(os.path.join(run_dir, f'run_{run+1}-at-{current_time}.png'))
             # 保存最佳序列
         with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
             f.write(f"Run {run+1}:\n")

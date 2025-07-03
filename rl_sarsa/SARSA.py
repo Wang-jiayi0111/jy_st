@@ -12,11 +12,11 @@ from jy_exp.rl_sarsa.sarsa_brain import SARSA
 import jy_exp.rl_sarsa.sarsa_train as sarsa_train
 
 # 加载数据
-sys_name = "elevator"   # 系统名称
-rl_name = "SARSA"
-reward_v = "v2.1"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
+sys_name = "notepad__spl"   # 系统名称        BCEL 非熵权 128再跑一次
+rl_name = "SARSA1"
+reward_v = "v6"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
 if_EWM = True              # 是否使用熵权法
-num_episodes = 5000
+num_episodes = 3000
 num_runs = 30
 
 # SARSA训练参数 
@@ -24,26 +24,6 @@ LR = 1e-5                   # 学习率  1e-5
 EPSILON = 0.1               # 探索率
 GAMMA = 0.99                # 折扣因子    0.95
 seed = 40
-
-def plot_training_curve(return_list, best_ocplx, params, output_dir, num_episodes):
-    plt.figure(figsize=(20, 10))
-    
-    # 绘制奖励曲线
-    plt.plot(range(len(return_list)), return_list, linewidth=1.5)
-    plt.xlabel('Episodes', fontsize=12)
-    plt.ylabel('Rewards', fontsize=12)
-    plt.title(f'SARSA on {sys_name}')
-    plt.suptitle(f'Overall Complexity (OCplx): {best_ocplx}', fontsize=10, color='red')
-
-    param_text = "\n".join([f"{k}: {v}\n" for k, v in params.items()])
-    plt.annotate(fill(param_text, width=30),
-                 xy=(0.98, 0.65), xycoords='figure fraction',
-                 fontsize=10, ha='right', va='center',
-                 bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
-
-    current_time = datetime.datetime.now().strftime("%m-%d %H:%M:%S")
-    plt.savefig(os.path.join(output_dir, f'SARSA{num_episodes}-at-{current_time}.png'))
-    plt.close()
 
 def run_sarsa(classes, methods, attributes, method_counts, attr_counts, num_episodes, device, reward_v="v6", NOF=[], GNN_class=None):
     if if_EWM:
@@ -99,7 +79,7 @@ if __name__ == "__main__":
     run_dir = os.path.join(output_dir, rl_name)
     print(run_dir)
     os.makedirs(run_dir, exist_ok=True)
-    ClassOp.clear_folder(run_dir)
+    # ClassOp.clear_folder(run_dir)
     sarsa_results = []
 
     for run in range(num_runs):
@@ -133,7 +113,7 @@ if __name__ == "__main__":
         plt.ylabel('Rewards')
         plt.title(f'SARSA on {sys_name} - Run {run+1}')
         plt.suptitle(f'Overall Complexity (OCplx): {best_ocplx}', fontsize=10, color='red')
-        plt.savefig(os.path.join(run_dir, f'rewards_run_{run+1}-at-{current_time}.png'))
+        plt.savefig(os.path.join(run_dir, f'run_{run+1}-at-{current_time}.png'))
         # 保存最佳序列
         with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
             f.write(f"Run {run+1}:\n")

@@ -9,14 +9,6 @@ writer = SummaryWriter(log_dir='./logs/ppo')
 class PolicyNet(torch.nn.Module):
     def __init__(self, state_dim, hidden_dim, action_dim):
         super(PolicyNet, self).__init__()
-    #     self.fc1 = torch.nn.Linear(state_dim, hidden_dim)
-    #     self.fc2 = torch.nn.Linear(hidden_dim, action_dim)
-
-
-    # def forward(self, x):
-
-    #     x = torch.relu(self.fc1(x))
-    #     return F.softmax(self.fc2(x), dim=1)
         self.fc1 = nn.Linear(state_dim, hidden_dim)
         self.bn1 = nn.BatchNorm1d(hidden_dim)  # 新增BN层
         self.fc2 = nn.Linear(hidden_dim, action_dim)
@@ -38,41 +30,6 @@ class ValueNet(torch.nn.Module):
         x = torch.relu(self.fc1(x))
         return self.fc2(x)
 # endregion
-
-# 修改PolicyNet，增加更多层和Dropout
-# class PolicyNet(torch.nn.Module):
-#     def __init__(self, state_dim, hidden_dim, action_dim):
-#         super(PolicyNet, self).__init__()
-#         self.fc1 = nn.Linear(state_dim, hidden_dim)
-#         self.bn1 = nn.BatchNorm1d(hidden_dim)
-#         self.dropout1 = nn.Dropout(0.2)  # 新增Dropout层
-#         self.fc2 = nn.Linear(hidden_dim, hidden_dim//2)  # 新增中间层
-#         self.bn2 = nn.BatchNorm1d(hidden_dim//2)
-#         self.dropout2 = nn.Dropout(0.1)
-#         self.fc3 = nn.Linear(hidden_dim//2, action_dim)
-        
-#     def forward(self, x):
-#         x = F.relu(self.bn1(self.fc1(x)))
-#         x = self.dropout1(x)
-#         x = F.relu(self.bn2(self.fc2(x)))
-#         x = self.dropout2(x)
-#         return F.softmax(self.fc3(x), dim=-1)
-
-# class ValueNet(torch.nn.Module):
-#     def __init__(self, state_dim, hidden_dim):
-#         super(ValueNet, self).__init__()
-#         self.fc1 = nn.Linear(state_dim, hidden_dim)
-#         self.bn1 = nn.BatchNorm1d(hidden_dim)
-#         self.dropout1 = nn.Dropout(0.1)
-#         self.fc2 = nn.Linear(hidden_dim, hidden_dim//2)
-#         self.bn2 = nn.BatchNorm1d(hidden_dim//2)
-#         self.fc3 = nn.Linear(hidden_dim//2, 1)
-        
-#     def forward(self, x):
-#         x = F.relu(self.bn1(self.fc1(x)))
-#         x = self.dropout1(x)
-#         x = F.relu(self.bn2(self.fc2(x)))
-#         return self.fc3(x)
 
 
 class PPO(nn.Module):
@@ -128,7 +85,7 @@ class PPO(nn.Module):
 
         with torch.no_grad():
             #计算TD目标（目标价值）
-            rewards = rewards * 1/1000
+            # rewards = rewards * 1/1000
             td_target = rewards + self.gamma * self.critic(next_states) * (1 - dones)
             # print(f"TD Target - Max: {td_target.max().item():.2f}, Min: {td_target.min().itxem():.2f}")
             # values = self.critic(states)
@@ -185,11 +142,6 @@ class PPO(nn.Module):
             self.actor_optimizer.step()
             self.critic_optimizer.step()
     
-            # # 只在epoch结束时更新学习率
-            # if i == self.epochs - 1:
-            #     self.actor_scheduler.step(actor_loss.item())
-            #     self.critic_scheduler.step(critic_loss.item())
-
             # tensorboard记录
             writer.add_scalar('Loss/actor', actor_loss.item(), global_step=self.step_count)
             writer.add_scalar('Loss/critic', critic_loss.item(), global_step=self.step_count)

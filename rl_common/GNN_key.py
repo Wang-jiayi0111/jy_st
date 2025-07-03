@@ -23,7 +23,7 @@ from pathlib import Path
 # 是否使用真实的数据
 is_real_data = True
 # 数据集名称
-dataset = "SPM"
+dataset = "daisy"
 # 网络类型 MCN(Multilayer Class Network) MPN(Multilayer Package Network)
 net_type = "MCN"
 # 数据路径  

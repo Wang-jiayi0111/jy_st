@@ -73,15 +73,18 @@ def calculate_OCplx_sequence(attributes, methods, sequence, w_M=0.5, w_A=0.5):
     # print(f"\n总的OCplx: {OCplx:.4f}\n")
     return OCplx, method_couplings, attribute_couplings, class_pairs
 
-data = load_shared_data("input_DNS", "v6")
+data = load_shared_data("elevator", "v6")
 classes, methods, attributes, method_counts, attr_counts, NOF_val, output_dir, GNN_class = (
     data["classes"], data["methods"], data["attributes"],
     data["method_counts"], data["attr_counts"], data["NOF"], 
     data["output_dir"], data["GNN_class"]
 )
-current_sequence =[8, 28, 44, 59, 5, 13, 10, 46, 27, 31, 36, 49, 40, 15, 9, 60, 47, 17, 53, 39, 61, 43, 58, 22, 41, 34, 21, 26, 7, 19, 48, 2, 29, 14, 45, 16, 18, 30, 56, 25, 35, 54, 11, 4, 57, 37, 24, 6, 1, 32, 55, 23, 42, 20, 51, 12, 50, 38, 3, 52, 33]
-
+current_sequence =[12, 9, 6, 5, 11, 7, 2, 3, 8, 1, 10, 4]
+w_M = 0.516
+w_A = 0.484
+# w_M = 0.5
+# w_A = 0.5
 OCplx, _, _, _ = calculate_OCplx_sequence(
-                        attributes, methods, current_sequence, w_M=0.5, w_A=0.5
+                        attributes, methods, current_sequence, w_M=w_M, w_A=w_A
                     )
 print("OCplx:", OCplx)

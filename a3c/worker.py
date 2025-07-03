@@ -30,7 +30,7 @@ class Worker(mp.Process):
         self.global_iter = UPDATE_GLOBAL_ITER
         self.gamma = GAMMA
         self.device = device
-        self.schedule = scheduler = ReduceLROnPlateau(opt, mode='min', patience=10, factor=0.5)
+        # self.schedule = scheduler = ReduceLROnPlateau(opt, mode='min', patience=10, factor=0.5)
         self.base_seed = base_seed
         self.worker_seed = base_seed + name * 1000  # *1
 
@@ -81,6 +81,7 @@ class Worker(mp.Process):
                             global_episode = self.g_ep.value
                             writer.add_scalar('Loss/Critic', c_loss, total_step)
                             writer.add_scalar('Loss/Actor', a_loss, total_step)
+                            writer.add_scalar('Loss/Total', c_loss+a_loss, total_step)
                     
                         buffer_s, buffer_a, buffer_r = [], [], []
 
