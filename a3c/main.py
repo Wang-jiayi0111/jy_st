@@ -15,20 +15,34 @@ from jy_exp.rl_common.class_integration_env import ClassIntegrationEnv
 from jy_exp.rl_common.class_op import ClassOp
 
 
-sys_name = "input_DNS"   # 系统名称
-rl_name = "A3C20_5e-4_3"
-reward_v = "v2.1"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
-if_EWM = False              # 是否使用熵权法
-num_episodes = 3000         #3000  2000
+# sys_name = "notepad__spl"   # 系统名称
+# rl_name = "A3C25_8e-5_3"
+# reward_v = "v6"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
+# if_EWM = True              # 是否使用熵权法
+# num_episodes = 3000         #3000  2000
+# num_runs = 30
+
+# # 训练参数
+# UPDATE_GLOBAL_ITER = 25    #  200 50 5 10 20 25
+# GAMMA = 0.99
+# MAX_EP = 3000     
+# thread_count = 3    
+# RL=8e-5           # 1e-6 1e-3 1e-5 1e-4 5e-4 7e-4 8e-4 3e-4
+
+
+sys_name = "notepad__spl" 
+rl_name = "A3C1"
+reward_v = "v6" 
+if_EWM = True 
+num_episodes = 3000 
 num_runs = 30
 
 # 训练参数
-UPDATE_GLOBAL_ITER = 20    #  200 50 5 10 20 25
+UPDATE_GLOBAL_ITER = 10
 GAMMA = 0.99
-MAX_EP = 3000     
-thread_count = 3    
-RL=5e-4           # 1e-6 1e-3 1e-5 1e-4 5e-4 7e-4 8e-4
-
+MAX_EP = 3000
+thread_count = 2 
+RL=1e-3 
 
 def set_global_seeds(seed):
     """设置全局随机种子（主进程）"""
@@ -246,7 +260,10 @@ if __name__ == "__main__":
     run_dir = os.path.join(output_dir, rl_name)
     print(run_dir)
     os.makedirs(run_dir, exist_ok=True)
-    ClassOp.clear_folder(run_dir)
+    png_dir = os.path.join(run_dir, 'png')
+    os.makedirs(png_dir, exist_ok=True)
+    # ClassOp.clear_folder(run_dir)
+    # ClassOp.clear_folder(png_dir)
     a3c_results = []
 
     params = {
@@ -257,6 +274,12 @@ if __name__ == "__main__":
         'RL': RL,
         'if_EWM': if_EWM,
     }
+
+    
+    with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
+        for key, value in params.items():
+            f.write(f"{key}: {value}\n")  # 每行一个键值对
+        f.write(f"\n")
 
     for run in range(num_runs):
         run_seed = base_seed + run * 10
@@ -290,17 +313,12 @@ if __name__ == "__main__":
 
         plt.xlabel('Episodes')
         plt.ylabel('Rewards')
-        plt.title(f'A3C on {sys_name} - Run {run+1}')
+        plt.title(f'A3C on {sys_name}')
         plt.suptitle(f'Overall Complexity (OCplx): {best_ocplx}', fontsize=10, color='red')
-        plt.savefig(os.path.join(run_dir, f'run_{run+1}-at-{current_time}.png'))
+        plt.savefig(os.path.join(png_dir, f'run_{run+1}-at-{current_time}.png'))
             # 保存最佳序列
         with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
             f.write(f"Run {run+1}:\n")
             f.write(f"Best OCplx: {best_ocplx}\n")
             f.write(f"Best Sequence: {best_seq}\n")
         plt.close()
-    
-    with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
-        for key, value in params.items():
-            f.write(f"{key}: {value}\n")  # 每行一个键值对
-        f.write(f"\n")

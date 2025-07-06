@@ -44,7 +44,7 @@ def push_and_pull(opt, lnet, gnet, done, s_, buffer_s, buffer_a, buffer_r, gamma
     # 计算目标价值序列buffer_v_target
     buffer_v_target = []
     for r in buffer_r[::-1]:  # reverse buffer r
-        r = r * 1/1000
+        # r = r * 1/1000
         v_s_ = r + gamma * v_s_
         buffer_v_target.append(v_s_)
     buffer_v_target.reverse()

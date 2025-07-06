@@ -95,3 +95,7 @@ thread_count: 3
 RL: 5e-05
 if_EWM: False
 
+Mean: 2.1758
+Min: 1.9266
+Max: 2.5905
+Std: 0.1659

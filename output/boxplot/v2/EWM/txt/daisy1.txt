@@ -1,0 +1,5 @@
+program		method			range			average		std
+daisy	DQN/v2/EWM		[0.26,0.59]		0.39		0.08
+daisy	A3C/v2/EWM		[0.48,1.45]		0.84		0.24
+daisy	PPO/v2/EWM		[0.11,0.26]		0.12		0.03
+daisy	SARSA/v2/EWM		[0.24,0.62]		0.45		0.10

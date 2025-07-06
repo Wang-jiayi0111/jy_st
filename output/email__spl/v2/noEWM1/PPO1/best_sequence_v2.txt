@@ -96,3 +96,7 @@ Lambda: 0.9
 Epsilon: 0.2
 if_EWM: False
 
+Mean: 0.9070
+Min: 0.6097
+Max: 1.4045
+Std: 0.1767

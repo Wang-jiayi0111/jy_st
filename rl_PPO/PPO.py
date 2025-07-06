@@ -16,16 +16,16 @@ import jy_exp.rl_PPO.ppo_train as ppo_train
 若使用丁艳茹的奖励函数，则不需要缩放
 """
 
-sys_name = "notepad__spl"
-rl_name = "TEST"
-reward_v = "v6"         # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
+sys_name = "elevator"  # 系统名称
+rl_name = "PPO1"
+reward_v = "v2.1"         # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
 if_EWM = True          # 是否使用熵权法
-num_episodes = 8000
+num_episodes = 3000
 num_runs = 30   
 
-actor_lr = 1e-6         # 1e-5  （daisy和elevator）    7
-critic_lr = 5e-5        #  # 1e-4       6
-hidden_dim = 256
+actor_lr = 1e-4         # 1e-5  （daisy和elevator）    7
+critic_lr = 8e-3        #  # 1e-4       6
+hidden_dim = 128
 gamma = 0.99
 lmbda = 0.9
 epochs = 10              # 一条序列的数据用来训练轮数 5
@@ -82,6 +82,7 @@ if __name__ == "__main__":
         "Critic Learning Rate": critic_lr,
         "Hidden Dimension": hidden_dim,
         "Gamma": gamma,
+        "epoch": epochs,
         "Lambda": lmbda,
         "Epsilon": eps,
         "if_EWM": if_EWM
@@ -94,8 +95,16 @@ if __name__ == "__main__":
     run_dir = os.path.join(output_dir, rl_name)
     print(run_dir)
     os.makedirs(run_dir, exist_ok=True)
+    png_dir = os.path.join(run_dir, 'png')
+    os.makedirs(png_dir, exist_ok=True)
     # ClassOp.clear_folder(run_dir)
+    # ClassOp.clear_folder(png_dir)
     ppo_results = []
+            
+    with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
+        for key, value in params.items():
+            f.write(f"{key}: {value}\n")  # 每行一个键值对
+        f.write(f"\n")
 
     for run in range(num_runs):
         print(f"\n=== 开始{sys_name}第 {run+1} 次训练 ===")   
@@ -127,17 +136,13 @@ if __name__ == "__main__":
 
         plt.xlabel('Episodes')
         plt.ylabel('Rewards')
-        plt.title(f'PPO on {sys_name} - Run {run+1}')
+        plt.title(f'PPO on {sys_name}')
         plt.suptitle(f'Overall Complexity (OCplx): {best_ocplx}', fontsize=10, color='red')
-        plt.savefig(os.path.join(run_dir, f'run_{run+1}-at-{current_time}.png'))
+        plt.savefig(os.path.join(png_dir, f'run_{run+1}-at-{current_time}.png'))
             # 保存最佳序列
         with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
             f.write(f"Run {run+1}:\n")
             f.write(f"Best OCplx: {best_ocplx}\n")
             f.write(f"Best Sequence: {best_seq}\n")
         plt.close()
-        
-    with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
-        for key, value in params.items():
-            f.write(f"{key}: {value}\n")  # 每行一个键值对
-        f.write(f"\n")
+

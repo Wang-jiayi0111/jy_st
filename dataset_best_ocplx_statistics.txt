@@ -116,4 +116,19 @@ A3C20_5e-4_3
 Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
 input_DNS	3.58	0.89	1.94	5.82	30
 
+A3C20_5e-4_3 EWM
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+input_DNS	3.74	0.95	2.06	6.81	30
+
+A3C20_3e-4_3 EWM
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+input_DNS	3.65	0.80	2.20	5.60	30
+
+A3C30_1e-4_3 EWM
+
+Dataset	Mean Best OCplx	Std Deviation	Min	Max	Count
+notepad__spl	3.21	0.83	2.23	5.57	16
+
 

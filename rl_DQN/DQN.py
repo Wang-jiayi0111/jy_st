@@ -13,18 +13,18 @@ from jy_exp.rl_common.class_integration_env import ClassIntegrationEnv
 
 
 # 加载数据
-sys_name = "input_BCEL"   # 系统名称 
-rl_name = "DQN"
+sys_name = "input_DNS"   # 系统名称 
+rl_name = "DQN1"
 num_runs = 30
 reward_v = "v2.1"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
-if_EWM = True                  # 是否使用熵权法
-num_episodes = 8000
+if_EWM = False                  # 是否使用熵权法
+num_episodes = 6000
 
 # Q-Learning训练参数 
 LR = 1e-5                    # 学习率8e-4        1e-3(daisy和elevator) 
-EPSILON = 0.15               # 探索率
+EPSILON = 0.1               # 探索率
 GAMMA = 0.99                 # 折扣因子0.95
-TARGET_REPLACE_ITER = 50     # 目标网络更新频率  50（c=100
+TARGET_REPLACE_ITER = 200     # 目标网络更新频率  
 MEMORY_CAPACITY = 20000      # 记忆池容量
 BATCH_SIZE = 128              # 批量大小 64 128
 
@@ -109,8 +109,16 @@ if __name__ == "__main__":
     run_dir = os.path.join(output_dir, rl_name)
     print(run_dir)
     os.makedirs(run_dir, exist_ok=True)
-    ClassOp.clear_folder(run_dir)
+    png_dir = os.path.join(run_dir, 'png')
+    os.makedirs(png_dir, exist_ok=True)
+    # ClassOp.clear_folder(run_dir)
+    # ClassOp.clear_folder(png_dir)
     dqn_results = []
+    
+    with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
+        for key, value in params.items():
+            f.write(f"{key}: {value}\n")  # 每行一个键值对
+        f.write(f"\n")
 
     for run in range(num_runs):
         print(f"\n=== {sys_name}开始第 {run+1} 次训练 ===")   
@@ -141,17 +149,12 @@ if __name__ == "__main__":
 
         plt.xlabel('Episodes')
         plt.ylabel('Rewards')
-        plt.title(f'DQN on {sys_name} - Run {run+1}')
+        plt.title(f'DQN on {sys_name}')
         plt.suptitle(f'Overall Complexity (OCplx): {best_ocplx}', fontsize=10, color='red')
-        plt.savefig(os.path.join(run_dir, f'run_{run+1}-at-{current_time}.png'))
+        plt.savefig(os.path.join(png_dir, f'run_{run+1}-at-{current_time}.png'))
         # 保存最佳序列
         with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
             f.write(f"Run {run+1}:\n")
             f.write(f"Best OCplx: {best_ocplx}\n")
             f.write(f"Best Sequence: {best_seq}\n")
         plt.close()
-
-    with open(os.path.join(run_dir, f'best_sequence_{reward_v}.txt'), 'a') as f:
-        for key, value in params.items():
-            f.write(f"{key}: {value}\n")  # 每行一个键值对
-        f.write(f"\n")

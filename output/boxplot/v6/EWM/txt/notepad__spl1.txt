@@ -1,0 +1,5 @@
+program		method			range			average		std
+notepad__spl	DQN/v6/EWM	[2.44,3.61]		3.03		0.26
+notepad__spl	A3C/v6/EWM	[2.70,6.55]		4.61		1.09
+notepad__spl	PPO/v6/EWM	[1.67,2.75]		2.20		0.28
+notepad__spl	SARSA/v6/EWM	[1.81,2.46]		2.14		0.17

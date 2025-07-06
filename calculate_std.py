@@ -6,9 +6,9 @@ from collections import defaultdict
 
 # 配置参数 (根据实际需求修改这些值)
 root_dir = '/home/ps/jy_exp/output'           # 根目录路径
-target_version = 'v2.1'         # 目标版本号 (v2, v2.1, v6等)
-target_category = 'noEWM'     # 目标类别 (EWM 或 noEWM)
-target_algorithm = 'A3C20_5e-4_3'      # 目标算法 (如A3C)
+target_version = 'v6'         # 目标版本号 (v2, v2.1, v6等)
+target_category = 'EWM'     # 目标类别 (EWM 或 noEWM)
+target_algorithm = 'A3C25_8e-5_3'      # 目标算法 (如A3C)
 
 # 目标文件名模板
 target_filename = f"best_sequence_{target_version}.txt"

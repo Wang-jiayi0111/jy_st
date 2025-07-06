@@ -10,11 +10,12 @@ class PolicyNet(torch.nn.Module):
     def __init__(self, state_dim, hidden_dim, action_dim):
         super(PolicyNet, self).__init__()
         self.fc1 = nn.Linear(state_dim, hidden_dim)
-        self.bn1 = nn.BatchNorm1d(hidden_dim)  # 新增BN层
+        # self.bn1 = nn.BatchNorm1d(hidden_dim)  # 新增BN层
         self.fc2 = nn.Linear(hidden_dim, action_dim)
         
     def forward(self, x):
-        x = F.relu(self.bn1(self.fc1(x)))  # 应用BN
+        # x = F.relu(self.bn1(self.fc1(x)))  # 应用BN
+        x = F.relu(self.fc1(x))
         return F.softmax(self.fc2(x), dim=1)
 
 
@@ -25,10 +26,10 @@ class ValueNet(torch.nn.Module):
         self.fc2 = torch.nn.Linear(hidden_dim, 1)
 
     def forward(self, x):
-        # x = F.relu(self.fc1(x))
-        # return self.fc2(x)
-        x = torch.relu(self.fc1(x))
+        x = F.relu(self.fc1(x))
         return self.fc2(x)
+        # x = torch.relu(self.fc1(x))
+        # return self.fc2(x)
 # endregion
 
 
@@ -46,10 +47,10 @@ class PPO(nn.Module):
         )
 
     # 添加学习率调度器
-        # self.actor_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
-        #     self.actor_optimizer, 'min', patience=10, factor=0.7, min_lr=1e-6, verbose=True)
-        # self.critic_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
-        #     self.critic_optimizer, 'min', patience=10, factor=0.7, min_lr=1e-5, verbose=True)
+        self.actor_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+            self.actor_optimizer, 'min', patience=10, factor=0.7, min_lr=1e-6, verbose=True)
+        self.critic_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+            self.critic_optimizer, 'min', patience=10, factor=0.7, min_lr=1e-5, verbose=True)
 
         self.action_dim = action_dim
         self.gamma = gamma
@@ -141,6 +142,9 @@ class PPO(nn.Module):
             # 更保守的参数更新
             self.actor_optimizer.step()
             self.critic_optimizer.step()
+
+            # self.actor_scheduler.step(actor_loss)  # 根据actor_loss调整actor的学习率
+            # self.critic_scheduler.step(critic_loss) 
     
             # tensorboard记录
             writer.add_scalar('Loss/actor', actor_loss.item(), global_step=self.step_count)

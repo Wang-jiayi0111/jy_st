@@ -4,8 +4,8 @@ import re
 import statistics
 from collections import defaultdict
 
-reward_v = 'v2.1'  # 奖励函数
-method = '/'+ reward_v+"/EWM"
+reward_v = 'v2'  # 奖励函数
+method = '/'+ reward_v+"/noEWM1"
 program='daisy'  # 系统名称
 
 
@@ -71,7 +71,8 @@ def generate_combined_boxplot(algorithm_data):
             'median': np.median(algorithm_data[algo]),
             '75%': np.percentile(algorithm_data[algo], 75),
             'max': np.max(algorithm_data[algo]),
-            'mean': np.mean(algorithm_data[algo])
+            'mean': np.mean(algorithm_data[algo]),
+            'std': np.std(algorithm_data[algo])
         }
 
     return stats
@@ -81,14 +82,14 @@ def write_stats_to_file(stats, file_path):
     将统计信息写入文件
     """
     with open(file_path, 'w') as f:
-        f.write(f"program\t\tmethod\t\trange\t\taverage\n")
+        f.write(f"program\t\tmethod\t\t\trange\t\t\taverage\t\tstd\n")
         for algo, values in stats.items():
-            f.write(f"{program}\t{algo}{method}\t[{values['min']:.6f},{values['max']:.6f}]\t{values['mean']:.6f}\n")
+            f.write(f"{program}\t{algo}{method}\t\t[{values['min']:.2f},{values['max']:.2f}]\t\t{values['mean']:.2f}\t\t{values['std']:.2f}\n")
 
 if __name__ == "__main__":
     file_dict = {
-        'A3C': f'/home/ps/jy_exp/output/{program}{method}/A3C/best_sequence_{reward_v}.txt',
         'DQN':f'/home/ps/jy_exp/output/{program}{method}/DQN/best_sequence_{reward_v}.txt',
+        'A3C': f'/home/ps/jy_exp/output/{program}{method}/A3C/best_sequence_{reward_v}.txt',
         'PPO': f'/home/ps/jy_exp/output/{program}{method}/PPO/best_sequence_{reward_v}.txt',
         'SARSA':f'/home/ps/jy_exp/output/{program}{method}/SARSA/best_sequence_{reward_v}.txt'
     }
