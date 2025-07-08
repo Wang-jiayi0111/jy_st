@@ -1,5 +1,5 @@
-program		method		range		average
-input_ATM	A3C/v6/EWM	[2.171710,4.050587]	2.823437
-input_ATM	DQN/v6/EWM	[2.204349,2.464289]	2.267004
-input_ATM	PPO/v6/EWM	[2.204349,3.179788]	2.431563
-input_ATM	SARSA/v6/EWM	[2.204349,2.601776]	2.364302
+program		method			range			average		std
+input_ATM	DQN/v6/EWM		[2.20,2.46]		2.27		0.08
+input_ATM	A3C/v6/EWM		[2.20,4.18]		2.84		0.45
+input_ATM	PPO/v6/EWM		[2.20,3.18]		2.43		0.22
+input_ATM	SARSA/v6/EWM		[2.20,2.60]		2.36		0.11

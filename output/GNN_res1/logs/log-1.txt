@@ -1,0 +1,129 @@
+2025-07-08 21:15:06,293 - INFO - 精确匹配找到类 ElementHandler => org.apache.tools.ant.helper.ProjectHelper2.ElementHandler
+2025-07-08 21:15:06,293 - INFO - 精确匹配找到类 IntrospectionHelper => org.apache.tools.ant.IntrospectionHelper
+2025-07-08 21:15:06,293 - INFO - 精确匹配找到类 Main => org.apache.tools.ant.Main
+2025-07-08 21:15:06,293 - INFO - 精确匹配找到类 Project => org.apache.tools.ant.Project
+2025-07-08 21:15:06,293 - INFO - 精确匹配找到类 ProjectHelper => org.apache.tools.ant.ProjectHelper
+2025-07-08 21:15:06,293 - INFO - 精确匹配找到类 RuntimeConfigurable => org.apache.tools.ant.RuntimeConfigurable
+2025-07-08 21:15:06,294 - INFO - 精确匹配找到类 Target => org.apache.tools.ant.Target
+2025-07-08 21:15:06,294 - INFO - 精确匹配找到类 Task => org.apache.tools.ant.Task
+2025-07-08 21:15:06,294 - INFO - 精确匹配找到类 TaskContainer => org.apache.tools.ant.TaskContainer
+2025-07-08 21:15:06,294 - INFO - 精确匹配找到类 UnknownElement => org.apache.tools.ant.UnknownElement
+2025-07-08 21:15:06,294 - INFO - 使用预定义的关键类: ['ElementHandler', 'IntrospectionHelper', 'Main', 'Project', 'ProjectHelper', 'RuntimeConfigurable', 'Target', 'Task', 'TaskContainer', 'UnknownElement']
+2025-07-08 21:15:06,294 - INFO - 实际找到的关键类数量: 10
+2025-07-08 21:15:06,295 - INFO - 关键类节点: [705, 677, 200, 457, 306, 851, 309, 828, 317, 638]
+2025-07-08 21:15:10,287 - INFO - collecting all words and their counts
+2025-07-08 21:15:10,287 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-08 21:15:10,303 - INFO - PROGRESS: at sentence #10000, processed 171607 words, keeping 900 word types
+2025-07-08 21:15:10,319 - INFO - PROGRESS: at sentence #20000, processed 343715 words, keeping 900 word types
+2025-07-08 21:15:10,336 - INFO - PROGRESS: at sentence #30000, processed 516584 words, keeping 900 word types
+2025-07-08 21:15:10,352 - INFO - PROGRESS: at sentence #40000, processed 687800 words, keeping 900 word types
+2025-07-08 21:15:10,368 - INFO - PROGRESS: at sentence #50000, processed 861965 words, keeping 900 word types
+2025-07-08 21:15:10,385 - INFO - PROGRESS: at sentence #60000, processed 1034725 words, keeping 900 word types
+2025-07-08 21:15:10,401 - INFO - PROGRESS: at sentence #70000, processed 1207335 words, keeping 900 word types
+2025-07-08 21:15:10,417 - INFO - PROGRESS: at sentence #80000, processed 1377850 words, keeping 900 word types
+2025-07-08 21:15:10,433 - INFO - collected 900 word types from a corpus of 1550859 raw words and 90000 sentences
+2025-07-08 21:15:10,433 - INFO - Creating a fresh vocabulary
+2025-07-08 21:15:10,437 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 900 unique words (100.00% of original 900, drops 0)', 'datetime': '2025-07-08T21:15:10.435864', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-08 21:15:10,437 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1550859 word corpus (100.00% of original 1550859, drops 0)', 'datetime': '2025-07-08T21:15:10.437725', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-08 21:15:10,440 - INFO - deleting the raw counts dictionary of 900 items
+2025-07-08 21:15:10,440 - INFO - sample=0.001 downsamples 32 most-common words
+2025-07-08 21:15:10,440 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 469226.49460794876 word corpus (30.3%% of prior 1550859)', 'datetime': '2025-07-08T21:15:10.440735', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-08 21:15:10,445 - INFO - estimated required memory for 900 words and 32 dimensions: 680400 bytes
+2025-07-08 21:15:10,445 - INFO - resetting layer weights
+2025-07-08 21:15:10,445 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-08T21:15:10.445874', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-08 21:15:10,445 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 900 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-08T21:15:10.445974', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-08 21:15:11,446 - INFO - EPOCH 0 - PROGRESS: at 22.30% examples, 104749 words/s, in_qsize 0, out_qsize 1
+2025-07-08 21:15:12,446 - INFO - EPOCH 0 - PROGRESS: at 38.21% examples, 89701 words/s, in_qsize 2, out_qsize 0
+2025-07-08 21:15:13,446 - INFO - EPOCH 0 - PROGRESS: at 53.77% examples, 84275 words/s, in_qsize 2, out_qsize 0
+2025-07-08 21:15:14,447 - INFO - EPOCH 0 - PROGRESS: at 68.94% examples, 81091 words/s, in_qsize 0, out_qsize 1
+2025-07-08 21:15:15,447 - INFO - EPOCH 0 - PROGRESS: at 83.83% examples, 78849 words/s, in_qsize 1, out_qsize 0
+2025-07-08 21:15:16,315 - INFO - EPOCH 0: training on 1550859 raw words (469544 effective words) took 5.9s, 80010 effective words/s
+2025-07-08 21:15:17,317 - INFO - EPOCH 1 - PROGRESS: at 16.57% examples, 77456 words/s, in_qsize 2, out_qsize 0
+2025-07-08 21:15:18,317 - INFO - EPOCH 1 - PROGRESS: at 32.14% examples, 75458 words/s, in_qsize 0, out_qsize 0
+2025-07-08 21:15:19,317 - INFO - EPOCH 1 - PROGRESS: at 47.39% examples, 74273 words/s, in_qsize 2, out_qsize 0
+2025-07-08 21:15:20,317 - INFO - EPOCH 1 - PROGRESS: at 62.28% examples, 73195 words/s, in_qsize 1, out_qsize 0
+2025-07-08 21:15:21,317 - INFO - EPOCH 1 - PROGRESS: at 78.76% examples, 74051 words/s, in_qsize 2, out_qsize 2
+2025-07-08 21:15:22,317 - INFO - EPOCH 1 - PROGRESS: at 97.26% examples, 76029 words/s, in_qsize 0, out_qsize 2
+2025-07-08 21:15:22,460 - INFO - EPOCH 1: training on 1550859 raw words (469128 effective words) took 6.1s, 76365 effective words/s
+2025-07-08 21:15:23,462 - INFO - EPOCH 2 - PROGRESS: at 17.08% examples, 79849 words/s, in_qsize 0, out_qsize 1
+2025-07-08 21:15:24,462 - INFO - EPOCH 2 - PROGRESS: at 33.21% examples, 77836 words/s, in_qsize 0, out_qsize 1
+2025-07-08 21:15:25,462 - INFO - EPOCH 2 - PROGRESS: at 49.31% examples, 77088 words/s, in_qsize 1, out_qsize 1
+2025-07-08 21:15:26,462 - INFO - EPOCH 2 - PROGRESS: at 65.18% examples, 76402 words/s, in_qsize 1, out_qsize 0
+2025-07-08 21:15:27,462 - INFO - EPOCH 2 - PROGRESS: at 80.81% examples, 75874 words/s, in_qsize 2, out_qsize 0
+2025-07-08 21:15:28,462 - INFO - EPOCH 2 - PROGRESS: at 97.27% examples, 76033 words/s, in_qsize 0, out_qsize 2
+2025-07-08 21:15:28,618 - INFO - EPOCH 2: training on 1550859 raw words (469030 effective words) took 6.2s, 76182 effective words/s
+2025-07-08 21:15:29,620 - INFO - EPOCH 3 - PROGRESS: at 19.81% examples, 92718 words/s, in_qsize 0, out_qsize 1
+2025-07-08 21:15:30,620 - INFO - EPOCH 3 - PROGRESS: at 37.91% examples, 88988 words/s, in_qsize 2, out_qsize 2
+2025-07-08 21:15:31,620 - INFO - EPOCH 3 - PROGRESS: at 55.21% examples, 86350 words/s, in_qsize 1, out_qsize 0
+2025-07-08 21:15:32,620 - INFO - EPOCH 3 - PROGRESS: at 69.80% examples, 81957 words/s, in_qsize 0, out_qsize 0
+2025-07-08 21:15:33,620 - INFO - EPOCH 3 - PROGRESS: at 84.75% examples, 79533 words/s, in_qsize 1, out_qsize 0
+2025-07-08 21:15:34,620 - INFO - EPOCH 3 - PROGRESS: at 97.61% examples, 76297 words/s, in_qsize 2, out_qsize 2
+2025-07-08 21:15:34,836 - INFO - EPOCH 3: training on 1550859 raw words (469080 effective words) took 6.2s, 75458 effective words/s
+2025-07-08 21:15:35,837 - INFO - EPOCH 4 - PROGRESS: at 14.38% examples, 67629 words/s, in_qsize 0, out_qsize 1
+2025-07-08 21:15:36,838 - INFO - EPOCH 4 - PROGRESS: at 29.60% examples, 69539 words/s, in_qsize 0, out_qsize 2
+2025-07-08 21:15:37,838 - INFO - EPOCH 4 - PROGRESS: at 44.31% examples, 69302 words/s, in_qsize 1, out_qsize 0
+2025-07-08 21:15:38,838 - INFO - EPOCH 4 - PROGRESS: at 59.29% examples, 69669 words/s, in_qsize 1, out_qsize 0
+2025-07-08 21:15:39,838 - INFO - EPOCH 4 - PROGRESS: at 73.85% examples, 69474 words/s, in_qsize 2, out_qsize 1
+2025-07-08 21:15:40,838 - INFO - EPOCH 4 - PROGRESS: at 88.60% examples, 69386 words/s, in_qsize 2, out_qsize 1
+2025-07-08 21:15:41,605 - INFO - EPOCH 4: training on 1550859 raw words (469584 effective words) took 6.8s, 69382 effective words/s
+2025-07-08 21:15:41,606 - INFO - Word2Vec lifecycle event {'msg': 'training on 7754295 raw words (2346366 effective words) took 31.2s, 75300 effective words/s', 'datetime': '2025-07-08T21:15:41.606352', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-08 21:15:41,606 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=900, vector_size=32, alpha=0.025>', 'datetime': '2025-07-08T21:15:41.606764', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-08 21:15:41,673 - INFO - 计算增强的节点中心性特征...
+2025-07-08 21:15:43,374 - INFO - 标准化中心性特征...
+2025-07-08 21:15:43,378 - INFO - 应用特征重要性权重后的中心性特征形状: (900, 17)
+2025-07-08 21:15:43,380 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-08 21:15:43,647 - INFO - 加载模型参数: gamma=6.5911, beta=-13.4659, centrality_scaling=1.3138
+2025-07-08 21:15:43,647 - INFO - 其他参数: mixing_weight=0.3417, noise_threshold=0.5125
+2025-07-08 21:15:43,652 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-08 21:15:43,665 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-08 21:15:43,665 - INFO - 将使用迁移学习进行训练
+2025-07-08 21:15:43,665 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-08 21:15:43,665 - INFO - 使用单次训练模式
+2025-07-08 21:15:43,668 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-08 21:15:44,839 - INFO - 设置渐进式解冻点: [100, 200, 333]
+2025-07-08 21:15:44,845 - INFO - 将训练 1000 轮，训练后总轮数将达到 1000
+2025-07-08 21:15:45,245 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:45,842 - INFO - Validation loss decreased (inf --> 0.147449). Saving model ...
+2025-07-08 21:15:46,023 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:46,419 - INFO - EarlyStopping counter: 1 out of 1000
+2025-07-08 21:15:46,675 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:47,076 - INFO - EarlyStopping counter: 2 out of 1000
+2025-07-08 21:15:47,248 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:47,644 - INFO - Validation loss decreased (0.147449 --> 0.145122). Saving model ...
+2025-07-08 21:15:47,817 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:48,211 - INFO - Validation loss decreased (0.145122 --> 0.143437). Saving model ...
+2025-07-08 21:15:48,213 - INFO - epoch [5/1000], loss: 0.3786, accuracy: 97.89%, val_loss: 0.1434, val_accuracy: 97.11%, gamma: 6.5915, beta: -13.4656, centrality_scaling: 1.3142, lr: 0.000091, aug: 0.049007
+2025-07-08 21:15:48,384 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:48,778 - INFO - EarlyStopping counter: 1 out of 1000
+2025-07-08 21:15:48,952 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:49,357 - INFO - Validation loss decreased (0.143437 --> 0.142310). Saving model ...
+2025-07-08 21:15:49,533 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:49,934 - INFO - EarlyStopping counter: 1 out of 1000
+2025-07-08 21:15:50,106 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:50,505 - INFO - EarlyStopping counter: 2 out of 1000
+2025-07-08 21:15:50,676 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:51,071 - INFO - Validation loss decreased (0.142310 --> 0.141011). Saving model ...
+2025-07-08 21:15:51,074 - INFO - epoch [10/1000], loss: 0.3890, accuracy: 98.33%, val_loss: 0.1410, val_accuracy: 97.11%, gamma: 6.5916, beta: -13.4656, centrality_scaling: 1.3142, lr: 0.000092, aug: 0.047794
+2025-07-08 21:15:51,244 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:51,646 - INFO - EarlyStopping counter: 1 out of 1000
+2025-07-08 21:15:51,816 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:52,211 - INFO - EarlyStopping counter: 2 out of 1000
+2025-07-08 21:15:52,382 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:52,778 - INFO - EarlyStopping counter: 3 out of 1000
+2025-07-08 21:15:52,948 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:53,344 - INFO - EarlyStopping counter: 4 out of 1000
+2025-07-08 21:15:53,514 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:53,910 - INFO - EarlyStopping counter: 5 out of 1000
+2025-07-08 21:15:53,910 - INFO - epoch [15/1000], loss: 0.4026, accuracy: 96.78%, val_loss: 0.1416, val_accuracy: 97.11%, gamma: 6.5914, beta: -13.4657, centrality_scaling: 1.3141, lr: 0.000095, aug: 0.046612
+2025-07-08 21:15:54,080 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:54,476 - INFO - EarlyStopping counter: 6 out of 1000
+2025-07-08 21:15:54,646 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:55,040 - INFO - EarlyStopping counter: 7 out of 1000
+2025-07-08 21:15:55,210 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:55,606 - INFO - EarlyStopping counter: 8 out of 1000
+2025-07-08 21:15:55,776 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:56,174 - INFO - EarlyStopping counter: 9 out of 1000
+2025-07-08 21:15:56,345 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-08 21:15:56,740 - INFO - EarlyStopping counter: 10 out of 1000
+2025-07-08 21:15:56,741 - INFO - epoch [20/1000], loss: 0.0614, accuracy: 97.33%, val_loss: 0.1423, val_accuracy: 97.00%, gamma: 6.5913, beta: -13.4658, centrality_scaling: 1.3139, lr: 0.000099, aug: 0.045458

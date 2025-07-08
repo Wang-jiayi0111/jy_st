@@ -1,0 +1,5 @@
+program		method			range			average		std
+email__spl	DQN/v2/EWM1		[0.68,0.98]		0.83		0.08
+email__spl	A3C/v2/EWM1		[0.72,1.24]		0.95		0.13
+email__spl	PPO/v2/EWM1		[0.64,1.32]		0.84		0.16
+email__spl	SARSA/v2/EWM1		[0.67,0.93]		0.76		0.06

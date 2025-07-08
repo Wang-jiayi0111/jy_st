@@ -1,5 +1,5 @@
 program		method			range			average		std
-elevator	DQN/v6/noEWM	[1.74,1.88]		1.83		0.03
-elevator	A3C/v6/noEWM	[1.86,2.88]		2.17		0.18
-elevator	PPO/v6/noEWM	[1.70,2.37]		1.96		0.14
-elevator	SARSA/v6/noEWM	[1.74,1.83]		1.81		0.03
+elevator	DQN/v6/noEWM		[1.74,1.88]		1.83		0.03
+elevator	A3C/v6/noEWM		[1.86,2.88]		2.17		0.18
+elevator	PPO/v6/noEWM		[1.70,2.37]		1.96		0.14
+elevator	SARSA/v6/noEWM		[1.74,1.83]		1.81		0.03

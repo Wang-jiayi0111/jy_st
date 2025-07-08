@@ -1,95 +1,90 @@
 Run 1:
-Best OCplx: 1.9303056343911353
+Best OCplx: 1.9073516868550913
 Best Sequence: [7, 6, 5, 9, 2, 11, 3, 1, 10, 12, 8, 4]
 Run 2:
-Best OCplx: 2.11676497479753
+Best OCplx: 2.0886477846444365
 Best Sequence: [7, 9, 2, 6, 5, 11, 12, 3, 8, 10, 4, 1]
 Run 3:
-Best OCplx: 1.9892507520223257
+Best OCplx: 1.9661020309395907
 Best Sequence: [12, 9, 6, 5, 11, 7, 2, 3, 8, 1, 10, 4]
 Run 4:
-Best OCplx: 1.9303056343911353
+Best OCplx: 1.9073516868550913
 Best Sequence: [6, 7, 2, 9, 5, 3, 1, 11, 10, 12, 8, 4]
 Run 5:
-Best OCplx: 2.1135564307948553
+Best OCplx: 2.0852799889767732
 Best Sequence: [9, 5, 2, 12, 7, 6, 3, 8, 4, 11, 1, 10]
 Run 6:
-Best OCplx: 2.0106782302401
+Best OCplx: 1.9878801159588595
 Best Sequence: [11, 2, 12, 9, 7, 6, 3, 5, 8, 1, 10, 4]
 Run 7:
-Best OCplx: 1.9463957955867772
+Best OCplx: 1.9225458609010528
 Best Sequence: [7, 9, 5, 3, 2, 6, 8, 11, 1, 10, 12, 4]
 Run 8:
-Best OCplx: 2.345391942129694
+Best OCplx: 2.3164918883965093
 Best Sequence: [9, 7, 8, 1, 11, 2, 6, 5, 12, 3, 10, 4]
 Run 9:
-Best OCplx: 2.2986620536390903
+Best OCplx: 2.2678574886604004
 Best Sequence: [6, 11, 5, 2, 9, 3, 12, 8, 7, 10, 4, 1]
 Run 10:
-Best OCplx: 2.1282928744283374
+Best OCplx: 2.1017555649170165
 Best Sequence: [9, 5, 3, 8, 7, 1, 2, 6, 11, 10, 12, 4]
 Run 11:
-Best OCplx: 2.1810474094508523
+Best OCplx: 2.1539820397022433
 Best Sequence: [12, 7, 2, 9, 3, 6, 5, 8, 11, 10, 4, 1]
 Run 12:
-Best OCplx: 1.8821133609334548
-Best Sequence: [10, 11, 22, 13, 2, 17, 20, 9, 4, 5, 18, 6, 14, 7, 19, 16, 8, 1, 12, 3, 21, 15, 23]
+Best OCplx: 1.8101760932186326
+Best Sequence: [2, 5, 6, 11, 9, 7, 12, 3, 10, 8, 4, 1]
 Run 13:
-Best OCplx: 2.138192453015304
+Best OCplx: 2.1104258696637057
 Best Sequence: [7, 9, 3, 8, 6, 5, 11, 10, 12, 2, 4, 1]
 Run 14:
-Best OCplx: 2.345391942129694
+Best OCplx: 2.3164918883965093
 Best Sequence: [9, 7, 8, 2, 11, 6, 1, 5, 12, 3, 10, 4]
 Run 15:
-Best OCplx: 2.1499372861233206
+Best OCplx: 2.124743923534196
 Best Sequence: [1, 2, 5, 7, 6, 9, 11, 3, 10, 8, 12, 4]
 Run 16:
-Best OCplx: 2.1596199312330784
+Best OCplx: 2.1322039546829745
 Best Sequence: [12, 2, 5, 7, 9, 3, 11, 6, 8, 10, 4, 1]
 Run 17:
-Best OCplx: 1.787388579930068
-Best Sequence: [11, 22, 9, 2, 16, 13, 5, 18, 20, 7, 3, 14, 21, 8, 1, 19, 23, 4, 17, 10, 15, 6, 12]
+Best OCplx: 1.7934803376806112
+Best Sequence: [9, 5, 11, 2, 7, 6, 10, 12, 3, 4, 8, 1]
 Run 18:
-Best OCplx: 2.192792242558869
+Best OCplx: 2.1683000935727335
 Best Sequence: [1, 9, 11, 5, 7, 2, 3, 6, 10, 8, 12, 4]
 Run 19:
-Best OCplx: 2.2811095074763714
+Best OCplx: 2.2511576333387024
 Best Sequence: [9, 7, 6, 3, 8, 11, 2, 5, 1, 4, 10, 12]
 Run 20:
-Best OCplx: 1.9731605908266836
+Best OCplx: 1.9509078568936293
 Best Sequence: [2, 11, 7, 6, 5, 9, 1, 3, 10, 8, 12, 4]
 Run 21:
-Best OCplx: 1.9517331126089097
+Best OCplx: 1.9291297718743605
 Best Sequence: [7, 6, 11, 9, 2, 3, 1, 10, 5, 8, 12, 4]
 Run 22:
-Best OCplx: 2.2168270728230492
+Best OCplx: 2.1858233782808956
 Best Sequence: [7, 6, 11, 9, 2, 5, 3, 1, 8, 10, 4, 12]
 Run 23:
-Best OCplx: 2.259682029258597
+Best OCplx: 2.2293795483194336
 Best Sequence: [7, 5, 11, 9, 2, 3, 1, 6, 8, 10, 12, 4]
 Run 24:
-Best OCplx: 2.241463095043498
+Best OCplx: 2.210969258967828
 Best Sequence: [11, 6, 2, 7, 9, 3, 8, 10, 1, 5, 12, 4]
 Run 25:
-Best OCplx: 2.469697620902224
+Best OCplx: 2.4356698464336914
 Best Sequence: [7, 2, 11, 9, 5, 8, 6, 12, 3, 4, 1, 10]
 Run 26:
-Best OCplx: 2.4696976209022234
+Best OCplx: 2.435669846433692
 Best Sequence: [6, 9, 5, 2, 7, 8, 3, 11, 4, 12, 1, 10]
 Run 27:
-Best OCplx: 2.2986620536390903
+Best OCplx: 2.2678574886604004
 Best Sequence: [6, 9, 2, 5, 3, 12, 11, 8, 10, 7, 4, 1]
 Run 28:
-Best OCplx: 2.469697620902224
+Best OCplx: 2.4356698464336914
 Best Sequence: [12, 5, 6, 9, 11, 7, 8, 2, 3, 4, 1, 10]
 Run 29:
-Best OCplx: 2.606151943794141
+Best OCplx: 2.568605656235332
 Best Sequence: [9, 5, 11, 3, 8, 6, 2, 4, 1, 7, 10, 12]
 Run 30:
-Best OCplx: 1.9303056343911353
+Best OCplx: 1.9073516868550913
 Best Sequence: [5, 9, 2, 7, 6, 11, 3, 1, 10, 12, 8, 4]
-
-Mean: 2.1605
-Min: 1.7874
-Max: 2.6062
-Std: 0.1988

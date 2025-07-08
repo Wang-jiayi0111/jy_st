@@ -20,15 +20,15 @@ sys_name = "elevator"  # 系统名称
 rl_name = "PPO1"
 reward_v = "v2.1"         # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
 if_EWM = True          # 是否使用熵权法
-num_episodes = 3000
+num_episodes = 2000
 num_runs = 30   
 
-actor_lr = 1e-4         # 1e-5  （daisy和elevator）    7
-critic_lr = 8e-3        #  # 1e-4       6
+actor_lr = 1e-5         # 1e-5  （daisy和elevator）    7
+critic_lr = 1e-4        #  # 1e-4       6
 hidden_dim = 128
 gamma = 0.99
 lmbda = 0.9
-epochs = 10              # 一条序列的数据用来训练轮数 5
+epochs = 5              # 一条序列的数据用来训练轮数 5
 eps = 0.2               # PPO中截断范围的参数
 
 def run_ppo(classes, methods, attributes, 

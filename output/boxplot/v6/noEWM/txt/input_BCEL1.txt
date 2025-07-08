@@ -1,5 +1,5 @@
 program		method			range			average		std
-input_BCEL	DQN/v6/noEWM	[6.59,8.79]		7.90		0.55
-input_BCEL	A3C/v6/noEWM	[7.58,12.34]		9.51		0.94
-input_BCEL	PPO/v6/noEWM	[5.93,6.95]		6.44		0.26
-input_BCEL	SARSA/v6/noEWM	[8.02,9.81]		8.80		0.48
+input_BCEL	DQN/v6/noEWM		[6.59,8.79]		7.90		0.55
+input_BCEL	A3C/v6/noEWM		[7.58,12.34]		9.51		0.94
+input_BCEL	PPO/v6/noEWM		[5.93,6.95]		6.44		0.26
+input_BCEL	SARSA/v6/noEWM		[8.02,9.81]		8.80		0.48

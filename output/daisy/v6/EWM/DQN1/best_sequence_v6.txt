@@ -1,0 +1,24 @@
+Learning Rate: 0.0008
+Epsilon: 0.1
+Gamma: 0.99
+Target Update: 50
+Memory Capacity: 20000
+Batch Size: 64
+if_EWM: True
+
+Learning Rate: 0.0008
+Epsilon: 0.1
+Gamma: 0.99
+Target Update: 50
+Memory Capacity: 20000
+Batch Size: 64
+if_EWM: True
+
+Learning Rate: 0.0008
+Epsilon: 0.1
+Gamma: 0.99
+Target Update: 50
+Memory Capacity: 20000
+Batch Size: 64
+if_EWM: True
+

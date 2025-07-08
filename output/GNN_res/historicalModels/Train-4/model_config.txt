@@ -1,12 +1,12 @@
-Dataset: daisy
+Dataset: ANT
 Network Type: MCN
 Embedding Dimensions: 32
 Learning Rate: 0.001
 Num Sampled Neighbors: 10
 Num Layers: 1
-Final Gamma: 7.474554061889648
-Final Beta: -12.6947603225708
-Centrality Scaling: 1.9200574159622192
-Mixing Weight: 0.370691180229187
+Final Gamma: 6.785504341125488
+Final Beta: -13.36522388458252
+Centrality Scaling: 1.3344238996505737
+Mixing Weight: 0.277968168258667
 Noise Threshold: 0.5124973654747009
 Epochs: 1000

@@ -1,5 +1,5 @@
 program		method			range			average		std
-input_SPM	DQN/v6/noEWM	[2.69,3.58]		3.22		0.21
-input_SPM	A3C/v6/noEWM	[3.09,4.76]		3.84		0.45
-input_SPM	PPO/v6/noEWM	[2.45,4.36]		3.02		0.60
-input_SPM	SARSA/v6/noEWM	[2.57,3.40]		3.00		0.25
+input_SPM	DQN/v6/noEWM		[2.69,3.58]		3.22		0.21
+input_SPM	A3C/v6/noEWM		[3.09,4.76]		3.84		0.45
+input_SPM	PPO/v6/noEWM		[2.45,2.57]		2.47		0.04
+input_SPM	SARSA/v6/noEWM		[2.57,3.40]		3.00		0.25

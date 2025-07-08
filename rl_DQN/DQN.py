@@ -13,20 +13,20 @@ from jy_exp.rl_common.class_integration_env import ClassIntegrationEnv
 
 
 # 加载数据
-sys_name = "input_DNS"   # 系统名称 
+sys_name = "daisy"   # 系统名称 
 rl_name = "DQN1"
 num_runs = 30
-reward_v = "v2.1"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
-if_EWM = False                  # 是否使用熵权法
+reward_v = "v6"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
+if_EWM = True                  # 是否使用熵权法
 num_episodes = 6000
 
 # Q-Learning训练参数 
-LR = 1e-5                    # 学习率8e-4        1e-3(daisy和elevator) 
+LR = 8e-4                    # 学习率8e-4        1e-3(daisy和elevator) 
 EPSILON = 0.1               # 探索率
 GAMMA = 0.99                 # 折扣因子0.95
-TARGET_REPLACE_ITER = 200     # 目标网络更新频率  
+TARGET_REPLACE_ITER = 50     # 目标网络更新频率  
 MEMORY_CAPACITY = 20000      # 记忆池容量
-BATCH_SIZE = 128              # 批量大小 64 128
+BATCH_SIZE = 64              # 批量大小 64 128
 
 seed = 40
 

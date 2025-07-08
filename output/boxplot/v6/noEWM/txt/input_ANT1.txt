@@ -1,5 +1,5 @@
 program		method			range			average		std
-input_ANT	DQN/v6/noEWM	[2.15,2.66]		2.44		0.13
-input_ANT	A3C/v6/noEWM	[2.57,3.53]		2.97		0.23
-input_ANT	PPO/v6/noEWM	[1.59,2.46]		2.02		0.21
-input_ANT	SARSA/v6/noEWM	[1.73,2.18]		1.94		0.10
+input_ANT	DQN/v6/noEWM		[2.15,2.66]		2.44		0.13
+input_ANT	A3C/v6/noEWM		[2.57,3.53]		2.97		0.23
+input_ANT	PPO/v6/noEWM		[1.59,2.46]		2.02		0.21
+input_ANT	SARSA/v6/noEWM		[1.73,2.18]		1.94		0.10

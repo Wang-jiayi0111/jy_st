@@ -1,0 +1,5 @@
+program		method			range			average		std
+input_DNS	DQN/v6/EWM		[2.53,5.41]		4.16		0.76
+input_DNS	A3C/v6/EWM		[1.43,7.38]		3.80		1.62
+input_DNS	PPO/v6/EWM		[0.71,3.24]		1.69		0.67
+input_DNS	SARSA/v6/EWM		[3.08,6.39]		4.34		0.64

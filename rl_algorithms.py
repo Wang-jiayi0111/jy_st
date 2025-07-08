@@ -70,19 +70,23 @@ def calculate_OCplx_sequence(attributes, methods, sequence, w_M=0.5, w_A=0.5):
             f"SCplx: {contribution:.4f}"
         )
 
-    # print(f"\n总的OCplx: {OCplx:.4f}\n")
+    print(f"\n总的OCplx: {OCplx:.4f}\n")
     return OCplx, method_couplings, attribute_couplings, class_pairs
 
-data = load_shared_data("elevator", "v6")
+data = load_shared_data("daisy", "v2")
 classes, methods, attributes, method_counts, attr_counts, NOF_val, output_dir, GNN_class = (
     data["classes"], data["methods"], data["attributes"],
     data["method_counts"], data["attr_counts"], data["NOF"], 
     data["output_dir"], data["GNN_class"]
 )
-current_sequence =[12, 9, 6, 5, 11, 7, 2, 3, 8, 1, 10, 4]
-w_M = 0.516
-w_A = 0.484
-# w_M = 0.5
+current_sequence =  [21, 12, 13, 19, 22, 23, 11, 9, 4, 7, 1, 10, 18, 8, 16, 6, 20, 5, 14, 15, 2, 3, 17]
+# w_M = 0.516496350958985
+# w_A = 0.483503649041014       # elevator
+
+w_M = 0.3546897896362407
+w_A = 0.6453102103637594        # daisy     
+
+# w_M = 0.5    0.6428243465332251
 # w_A = 0.5
 OCplx, _, _, _ = calculate_OCplx_sequence(
                         attributes, methods, current_sequence, w_M=w_M, w_A=w_A

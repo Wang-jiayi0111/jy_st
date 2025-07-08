@@ -15,34 +15,22 @@ from jy_exp.rl_common.class_integration_env import ClassIntegrationEnv
 from jy_exp.rl_common.class_op import ClassOp
 
 
-# sys_name = "notepad__spl"   # 系统名称
-# rl_name = "A3C25_8e-5_3"
-# reward_v = "v6"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
-# if_EWM = True              # 是否使用熵权法
-# num_episodes = 3000         #3000  2000
-# num_runs = 30
-
-# # 训练参数
-# UPDATE_GLOBAL_ITER = 25    #  200 50 5 10 20 25
-# GAMMA = 0.99
-# MAX_EP = 3000     
-# thread_count = 3    
-# RL=8e-5           # 1e-6 1e-3 1e-5 1e-4 5e-4 7e-4 8e-4 3e-4
-
-
-sys_name = "notepad__spl" 
-rl_name = "A3C1"
-reward_v = "v6" 
-if_EWM = True 
-num_episodes = 3000 
+sys_name = "input_SPM"   # 系统名称
+rl_name = "A3C"
+reward_v = "v6"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
+if_EWM = True              # 是否使用熵权法
+num_episodes = 30         #3000  2000
 num_runs = 30
 
 # 训练参数
-UPDATE_GLOBAL_ITER = 10
+UPDATE_GLOBAL_ITER = 15    #  200 50 5 10 20 25
 GAMMA = 0.99
-MAX_EP = 3000
-thread_count = 2 
-RL=1e-3 
+MAX_EP = 3000     
+thread_count = 3    
+RL=8e-5           # 1e-6 1e-3 1e-5 1e-4 5e-4 7e-4 8e-4 3e-4
+
+w_a = 0.5
+w_m = 0.5
 
 def set_global_seeds(seed):
     """设置全局随机种子（主进程）"""
@@ -130,53 +118,6 @@ def run_a3c(classes, methods, attributes,
         best_reward = -np.inf
         best_sequence = []
 
-        # region 原始代码
-        # # 计数器，记录已收到的结束信号数量
-        # finished_workers = 0
-        # start_time = time.time()
-        # timeout = 300  # 设置超时时间为5分钟
-
-        # while finished_workers < thread_count:  # 等待所有worker发送结束信号
-        #     try:
-        #         r = res_queue.get(timeout=1.0)
-        #         if r is not None:
-        #             if isinstance(r, tuple):  # 检查是否为最佳奖励和序列
-        #                 current_reward, current_sequence, _ = r
-        #                 print("r:", r)
-        #                 if current_reward > best_reward and len(current_sequence) == len(set(current_sequence)):
-        #                     best_reward = current_reward
-        #                     best_sequence = current_sequence
-        #             else:
-        #                 return_list.append(r)  # 存储奖励
-        #         else:
-        #             finished_workers += 1  # 收到结束信号，增加计数
-                    
-        #         # 如果训练已经达到最大轮次且已经等待了足够长时间，强制结束等待
-        #         current_time = time.time()
-        #         if global_ep.value >= MAX_EP and (current_time - start_time) > timeout:
-        #             print(f"已达到最大训练轮次 {MAX_EP}，且等待超时，强制结束等待。")
-        #             break
-                    
-        #     except queue.Empty:
-        #         # 如果队列获取超时，检查是否已经达到最大训练轮次
-        #         if global_ep.value >= MAX_EP:
-        #             # 检查是否等待时间过长
-        #             current_time = time.time()
-        #             if (current_time - start_time) > timeout:
-        #                 print(f"等待工作进程结果超时，可能有进程卡住。已完成 {finished_workers}/{thread_count} 个工作进程。")
-        #                 break
-
-        # # 强制终止所有工作进程
-        # for w in workers:
-        #     if w.is_alive():
-        #         w.terminate()
-        #         print(f"强制终止工作进程 {w.name}")
-        
-        # # 等待所有进程结束，但设置较短的超时时间
-        # for w in workers:
-        #     w.join(timeout=5.0)
-        # endregion
-
         finished_workers = 0
         while finished_workers < thread_count:
             try:
@@ -201,29 +142,6 @@ def run_a3c(classes, methods, attributes,
                 print(f"强制终止工作进程 {w.name}")
 
         [w.join(timeout=5.0) for w in workers]
-
-        # region 修改
-        # while True:
-        #     try:
-        #         r = res_queue.get(timeout=10) # 设置超时，避免死锁
-        #         if r is None:
-        #             break
-        #         if isinstance(r, tuple):
-        #             current_reward, current_sequence, _ = r
-        #             if current_reward > best_reward:
-        #                 best_reward = current_reward
-        #                 best_sequence = current_sequence
-        #         else:
-        #             return_list.append(r)
-        #     except queue.Empty:
-        #         print("等待结果超时，可能工作进程出现问题")
-        #         break
-            
-        # print("best_sequence:", best_sequence)
-        # print("best_reward:", best_reward)
-
-        # [w.join() for w in workers]
-        # endregion
         return return_list, best_sequence, best_reward
 
     # 执行训练
@@ -231,8 +149,7 @@ def run_a3c(classes, methods, attributes,
     
     # 计算OCplx
     best_sequence = [num + 1 for num in best_sequence]
-    OCplx = ClassOp.calculate_OCplx_sequence(attributes, methods, best_sequence)[0]
-
+    OCplx = ClassOp.calculate_OCplx_sequence(attributes, methods, best_sequence, w_M=w_m, w_A=w_a)[0]
     return return_list, OCplx, best_sequence
 
 

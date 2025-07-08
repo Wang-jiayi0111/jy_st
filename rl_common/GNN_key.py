@@ -23,7 +23,7 @@ from pathlib import Path
 # 是否使用真实的数据
 is_real_data = True
 # 数据集名称
-dataset = "daisy"
+dataset = "ANT"
 # 网络类型 MCN(Multilayer Class Network) MPN(Multilayer Package Network)
 net_type = "MCN"
 # 数据路径  
@@ -41,9 +41,9 @@ allow_fuzzy_matching = True
 # 没有找到的关键类是否通过中心性计算来补充
 auto_complete_missing_classes = True
 # 是否使用上次训练的模型继续训练
-use_previous_model = False
+use_previous_model = True
 # 是否启用迁移学习模式
-enable_transfer_learning = False
+enable_transfer_learning = True
 # 是否标准化节点特征
 standardize_features = True
 # 是否使用多种中心性指标作为特征
@@ -112,7 +112,7 @@ num_splits = 1
 # 日志配置
 # -----------------------------------
 # 确保结果目录存在
-result_dir = "/home/ps/jy_exp/output/GNN_res"
+result_dir = "/home/ps/jy_exp/output/GNN_res1"
 os.makedirs(result_dir, exist_ok=True)
 
 # 历史模型保存路径
@@ -122,6 +122,7 @@ os.makedirs(historical_models_dir, exist_ok=True)
 # 获取下一个结果文件的序号，命名为 result-1.txt, result-2.txt, ...
 def get_next_result_file():
     log_dir = os.path.join(result_dir, "logs")
+    os.makedirs(log_dir, exist_ok=True)
     existing_files = os.listdir(log_dir)
     pattern = re.compile(r'log-(\d+)\.txt')
     max_num = 0

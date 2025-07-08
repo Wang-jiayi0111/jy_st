@@ -4,9 +4,9 @@ import re
 import statistics
 from collections import defaultdict
 
-reward_v = 'v2'  # 奖励函数
-method = '/'+ reward_v+"/noEWM1"
-program='daisy'  # 系统名称
+reward_v = 'v6'  # 奖励函数
+method = '/'+ reward_v+"/noEWM"
+program='input_SPM'  # 系统名称
 
 
 def calculate_std_dev(algorithm_data):
@@ -102,7 +102,7 @@ if __name__ == "__main__":
     for algo, values in stats.items():
         print(f"\n{algo}:")
         for key, value in values.items():
-            print(f"{key}: {value:.6f}")
+            print(f"{key}: {value:.2f}")
 
     output_file_path = f'/home/ps/jy_exp/output/boxplot/{method}/txt/{program}1.txt'
     write_stats_to_file(stats, output_file_path)
