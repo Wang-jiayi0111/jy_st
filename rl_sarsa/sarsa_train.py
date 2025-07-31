@@ -61,27 +61,6 @@ def SARSA_train(env, agent, num_episodes):
                         best_reward_sequence = current_sequence.copy()
                         best_reward_OCplx = OCplx
 
-                # if len(return_list) == 0:
-                #     total_reward = episode_return
-                # else:
-                #     total_reward = 0.98 * total_reward + 0.02 * episode_return
-                
-                # return_list.append(total_reward)
-                # current_sequence = env.current_sequence
-                # current_sequence = [num + 1 for num in current_sequence]  # 将类编号从0开始改为从1开始
-                # OCplx, _, _, _ = ClassOp.calculate_OCplx_sequence(env.attributes, env.methods, current_sequence, w_M=env.wM, w_A=env.wA)
-
-                # if OCplx < best_OCplx and OCplx != 0:
-                #     best_OCplx = OCplx
-                #     best_OCplx_sequence = current_sequence.copy()
-                #     best_OCplx_reward = episode_return
-
-                #                 # 更新全局最佳奖励和序列
-                # if episode_return > best_reward:
-                #     best_reward = episode_return
-                #     best_reward_sequence = current_sequence.copy()
-                #     best_reward_OCplx = OCplx
-
                 # 更新进度条
                 if (i_episode + 1) % 10 == 0:
                     pbar.set_postfix({

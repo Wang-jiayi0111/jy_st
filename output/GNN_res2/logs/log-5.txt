@@ -1,0 +1,84 @@
+2025-07-13 00:22:10,495 - INFO - 使用中心性计算得到的关键类
+2025-07-13 00:22:10,495 - INFO - 关键类节点: [20, 45, 7, 54, 37, 11, 50, 49, 31, 24]
+2025-07-13 00:22:10,585 - INFO - collecting all words and their counts
+2025-07-13 00:22:10,585 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-13 00:22:10,588 - INFO - collected 61 word types from a corpus of 17133 raw words and 6100 sentences
+2025-07-13 00:22:10,588 - INFO - Creating a fresh vocabulary
+2025-07-13 00:22:10,589 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 61 unique words (100.00% of original 61, drops 0)', 'datetime': '2025-07-13T00:22:10.588521', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 00:22:10,589 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 17133 word corpus (100.00% of original 17133, drops 0)', 'datetime': '2025-07-13T00:22:10.589956', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 00:22:10,590 - INFO - deleting the raw counts dictionary of 61 items
+2025-07-13 00:22:10,590 - INFO - sample=0.001 downsamples 61 most-common words
+2025-07-13 00:22:10,590 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 4654.243899841265 word corpus (27.2%% of prior 17133)', 'datetime': '2025-07-13T00:22:10.590384', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 00:22:10,590 - INFO - estimated required memory for 61 words and 32 dimensions: 46116 bytes
+2025-07-13 00:22:10,590 - INFO - resetting layer weights
+2025-07-13 00:22:10,591 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-13T00:22:10.591063', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-13 00:22:10,591 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 61 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-13T00:22:10.591131', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 00:22:10,778 - INFO - EPOCH 0: training on 17133 raw words (4707 effective words) took 0.2s, 25197 effective words/s
+2025-07-13 00:22:11,058 - INFO - EPOCH 1: training on 17133 raw words (4714 effective words) took 0.3s, 16841 effective words/s
+2025-07-13 00:22:11,341 - INFO - EPOCH 2: training on 17133 raw words (4683 effective words) took 0.3s, 16630 effective words/s
+2025-07-13 00:22:11,627 - INFO - EPOCH 3: training on 17133 raw words (4593 effective words) took 0.3s, 16136 effective words/s
+2025-07-13 00:22:11,986 - INFO - EPOCH 4: training on 17133 raw words (4620 effective words) took 0.4s, 12919 effective words/s
+2025-07-13 00:22:11,986 - INFO - Word2Vec lifecycle event {'msg': 'training on 85665 raw words (23317 effective words) took 1.4s, 16714 effective words/s', 'datetime': '2025-07-13T00:22:11.986265', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 00:22:11,986 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=61, vector_size=32, alpha=0.025>', 'datetime': '2025-07-13T00:22:11.986503', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-13 00:22:11,988 - INFO - 计算增强的节点中心性特征...
+2025-07-13 00:22:12,052 - INFO - 标准化中心性特征...
+2025-07-13 00:22:12,053 - INFO - 应用特征重要性权重后的中心性特征形状: (61, 17)
+2025-07-13 00:22:12,053 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-13 00:22:12,213 - INFO - 加载模型参数: gamma=6.5092, beta=-13.5463, centrality_scaling=1.2473
+2025-07-13 00:22:12,213 - INFO - 其他参数: mixing_weight=0.3625, noise_threshold=0.5125
+2025-07-13 00:22:12,217 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-13 00:22:12,219 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-13 00:22:12,219 - INFO - 将使用迁移学习进行训练
+2025-07-13 00:22:12,219 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-13 00:22:12,219 - INFO - 使用单次训练模式
+2025-07-13 00:22:12,221 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-13 00:22:12,959 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-13 00:22:12,963 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-13 00:22:13,179 - INFO - 测试集结果:
+2025-07-13 00:22:13,179 - INFO - K=5: Recall=0.5000, Precision=0.2000
+2025-07-13 00:22:13,179 - INFO - K=10: Recall=0.5000, Precision=0.1000
+2025-07-13 00:22:13,179 - INFO - K=15: Recall=0.5000, Precision=0.0667
+2025-07-13 00:22:13,179 - INFO - 测试集分类准确率: 92.31%
+2025-07-13 00:22:13,182 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res2/historicalModels/Train-5/final_model.pth
+2025-07-13 00:22:13,184 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-13 00:22:13,185 - INFO - 
+识别出的重要类:
+2025-07-13 00:22:13,185 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:22:13,185 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-13 00:22:13,185 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:22:13,185 - INFO - 1      20       0.7873     ✓      Name                                              
+2025-07-13 00:22:13,185 - INFO - 2      31       0.5866     ✓      Record                                            
+2025-07-13 00:22:13,185 - INFO - 3      10       0.5354            DNAMERecord                                       
+2025-07-13 00:22:13,185 - INFO - 4      24       0.2557     ✓      NS_CNAME_PTRRecord                                
+2025-07-13 00:22:13,185 - INFO - 5      6        0.2308            CNAMERecord                                       
+2025-07-13 00:22:13,185 - INFO - 6      0        0.2215            A6Record                                          
+2025-07-13 00:22:13,185 - INFO - 7      3        0.2159            ARecord                                           
+2025-07-13 00:22:13,185 - INFO - 8      44       0.2127            TXTRecord                                         
+2025-07-13 00:22:13,185 - INFO - 9      34       0.2059            RRset                                             
+2025-07-13 00:22:13,186 - INFO - 10     27       0.2004            Options                                           
+2025-07-13 00:22:13,186 - INFO - 11     54       0.1961     ✓      Message                                           
+2025-07-13 00:22:13,186 - INFO - 12     1        0.1942            AAAARecord                                        
+2025-07-13 00:22:13,186 - INFO - 13     41       0.1928            TSIG                                              
+2025-07-13 00:22:13,186 - INFO - 14     28       0.1924            OPTRecord                                         
+2025-07-13 00:22:13,186 - INFO - 15     7        0.1804     ✓      Compression                                       
+2025-07-13 00:22:13,186 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:22:13,186 - INFO - 
+成功识别的关键类:
+2025-07-13 00:22:13,186 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:22:13,186 - INFO - 1. Name (排名: 1, 分数: 0.7873, 节点ID: 20)
+2025-07-13 00:22:13,186 - INFO - 2. Record (排名: 2, 分数: 0.5866, 节点ID: 31)
+2025-07-13 00:22:13,186 - INFO - 3. NS_CNAME_PTRRecord (排名: 4, 分数: 0.2557, 节点ID: 24)
+2025-07-13 00:22:13,186 - INFO - 4. Message (排名: 11, 分数: 0.1961, 节点ID: 54)
+2025-07-13 00:22:13,186 - INFO - 5. Compression (排名: 15, 分数: 0.1804, 节点ID: 7)
+2025-07-13 00:22:13,186 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:22:13,186 - INFO - 在前5个预测中，正确识别了3个关键类，共10.0个关键类
+2025-07-13 00:22:13,186 - INFO - 覆盖率: 30.00%, 准确率: 60.00%
+2025-07-13 00:22:13,186 - INFO - 在前10个预测中，正确识别了3个关键类，共10.0个关键类
+2025-07-13 00:22:13,186 - INFO - 覆盖率: 30.00%, 准确率: 30.00%
+2025-07-13 00:22:13,186 - INFO - 在前15个预测中，正确识别了5个关键类，共10.0个关键类
+2025-07-13 00:22:13,186 - INFO - 覆盖率: 50.00%, 准确率: 33.33%
+2025-07-13 00:22:13,393 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res2/Scores/DNS_scores.txt
+2025-07-13 00:22:13,393 - INFO - 分数统计：最小值=0.0431, 最大值=0.7873, 平均值=0.1508
+2025-07-13 00:22:13,393 - INFO - 接近0的分数(小于0.051)数量: 2 / 61
+2025-07-13 00:22:13,393 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res2/logs/log-5.txt

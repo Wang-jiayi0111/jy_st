@@ -1,0 +1,2394 @@
+2025-07-26 19:43:01,205 - INFO - 开始处理所有数据集...
+2025-07-26 19:43:01,205 - INFO - 
+################################################################################
+2025-07-26 19:43:01,205 - INFO - 处理数据集: junit4
+2025-07-26 19:43:01,205 - INFO - ################################################################################
+2025-07-26 19:43:01,454 - INFO - 识别出关键类: 19/205 (9.27%)
+2025-07-26 19:43:01,454 - INFO - 关键类: ground, org.junit.runner.Description, org.junit.runner.Runner, org.junit.runners.model.TestClass, org.junit.runners.model.Statement, org.junit.runners.ParentRunner, org.junit.runner.notification.RunNotifier, org.junit.runner.Request, junit.framework.Test, junit.framework.TestResult...
+2025-07-26 19:43:01,454 - INFO - 
+********************************************************************************
+2025-07-26 19:43:01,454 - INFO - 数据集: junit4
+2025-07-26 19:43:01,454 - INFO - ********************************************************************************
+2025-07-26 19:43:01,454 - INFO - 
+================================================================================
+2025-07-26 19:43:01,454 - INFO - 关键类识别结果
+2025-07-26 19:43:01,454 - INFO - ================================================================================
+2025-07-26 19:43:01,454 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 19:43:01,454 - INFO - ------------------------------------------------------------
+2025-07-26 19:43:01,454 - INFO - 节点 204: ground
+2025-07-26 19:43:01,454 - INFO - 节点 71: org.junit.runner.Description
+2025-07-26 19:43:01,454 - INFO - 节点 154: org.junit.runner.Runner
+2025-07-26 19:43:01,454 - INFO - 节点 78: org.junit.runners.model.TestClass
+2025-07-26 19:43:01,454 - INFO - 节点 109: org.junit.runners.model.Statement
+2025-07-26 19:43:01,454 - INFO - 节点 0: org.junit.runners.ParentRunner
+2025-07-26 19:43:01,454 - INFO - 节点 26: org.junit.runner.notification.RunNotifier
+2025-07-26 19:43:01,454 - INFO - 节点 72: org.junit.runner.Request
+2025-07-26 19:43:01,454 - INFO - 节点 140: junit.framework.Test
+2025-07-26 19:43:01,454 - INFO - 节点 38: junit.framework.TestResult
+2025-07-26 19:43:01,454 - INFO - 节点 108: org.junit.runner.manipulation.Filter
+2025-07-26 19:43:01,455 - INFO - 节点 172: org.junit.runners.model.FrameworkMethod
+2025-07-26 19:43:01,455 - INFO - 节点 51: org.junit.runners.model.RunnerBuilder
+2025-07-26 19:43:01,455 - INFO - 节点 141: org.junit.runners.model.FrameworkMember
+2025-07-26 19:43:01,455 - INFO - 节点 173: org.junit.runners.model.InitializationError
+2025-07-26 19:43:01,455 - INFO - 节点 19: org.junit.runner.notification.Failure
+2025-07-26 19:43:01,455 - INFO - 节点 142: org.junit.runner.notification.RunListener
+2025-07-26 19:43:01,455 - INFO - 节点 174: org.junit.runner.Result
+2025-07-26 19:43:01,455 - INFO - 节点 9: org.junit.internal.runners.TestClass
+2025-07-26 19:43:01,455 - INFO - 
+统计摘要:
+2025-07-26 19:43:01,455 - INFO - ------------------------------------------------------------
+2025-07-26 19:43:01,455 - INFO - 关键类数量: 19
+2025-07-26 19:43:01,455 - INFO - ********************************************************************************
+
+2025-07-26 19:43:01,455 - INFO - 数据集 junit4 处理完成
+2025-07-26 19:43:01,455 - INFO - 
+################################################################################
+2025-07-26 19:43:01,455 - INFO - 所有数据集合并结果
+2025-07-26 19:43:01,455 - INFO - ################################################################################
+2025-07-26 19:43:01,455 - INFO - 
+================================================================================
+2025-07-26 19:43:01,455 - INFO - 关键类识别结果
+2025-07-26 19:43:01,455 - INFO - ================================================================================
+2025-07-26 19:43:01,455 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 19:43:01,455 - INFO - ------------------------------------------------------------
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_0: org.junit.runners.ParentRunner
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_9: org.junit.internal.runners.TestClass
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_19: org.junit.runner.notification.Failure
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_26: org.junit.runner.notification.RunNotifier
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_38: junit.framework.TestResult
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_51: org.junit.runners.model.RunnerBuilder
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_71: org.junit.runner.Description
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_72: org.junit.runner.Request
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_78: org.junit.runners.model.TestClass
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_108: org.junit.runner.manipulation.Filter
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_109: org.junit.runners.model.Statement
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_140: junit.framework.Test
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_141: org.junit.runners.model.FrameworkMember
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_142: org.junit.runner.notification.RunListener
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_154: org.junit.runner.Runner
+2025-07-26 19:43:01,455 - INFO - 节点 junit4_172: org.junit.runners.model.FrameworkMethod
+2025-07-26 19:43:01,456 - INFO - 节点 junit4_173: org.junit.runners.model.InitializationError
+2025-07-26 19:43:01,456 - INFO - 节点 junit4_174: org.junit.runner.Result
+2025-07-26 19:43:01,456 - INFO - 节点 junit4_204: ground
+2025-07-26 19:43:01,456 - INFO - 
+统计摘要:
+2025-07-26 19:43:01,456 - INFO - ------------------------------------------------------------
+2025-07-26 19:43:01,456 - INFO - 关键类数量: 19
+2025-07-26 19:43:01,456 - INFO - 处理完成!
+2025-07-26 19:43:01,456 - INFO - [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+2025-07-26 19:43:01,456 - INFO - 关键类节点: ['junit4_0', 'junit4_9', 'junit4_19', 'junit4_26', 'junit4_38', 'junit4_51', 'junit4_71', 'junit4_72', 'junit4_78', 'junit4_108', 'junit4_109', 'junit4_140', 'junit4_141', 'junit4_142', 'junit4_154', 'junit4_172', 'junit4_173', 'junit4_174', 'junit4_204']
+2025-07-26 19:43:06,144 - INFO - collecting all words and their counts
+2025-07-26 19:43:06,144 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-26 19:43:06,172 - INFO - PROGRESS: at sentence #10000, processed 300000 words, keeping 205 word types
+2025-07-26 19:43:06,200 - INFO - PROGRESS: at sentence #20000, processed 600000 words, keeping 205 word types
+2025-07-26 19:43:06,201 - INFO - collected 205 word types from a corpus of 615000 raw words and 20500 sentences
+2025-07-26 19:43:06,201 - INFO - Creating a fresh vocabulary
+2025-07-26 19:43:06,204 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 205 unique words (100.00% of original 205, drops 0)', 'datetime': '2025-07-26T19:43:06.202537', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 19:43:06,204 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 615000 word corpus (100.00% of original 615000, drops 0)', 'datetime': '2025-07-26T19:43:06.204297', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 19:43:06,205 - INFO - deleting the raw counts dictionary of 205 items
+2025-07-26 19:43:06,205 - INFO - sample=0.001 downsamples 41 most-common words
+2025-07-26 19:43:06,205 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 253077.86971935502 word corpus (41.2%% of prior 615000)', 'datetime': '2025-07-26T19:43:06.205460', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 19:43:06,206 - INFO - estimated required memory for 205 words and 32 dimensions: 154980 bytes
+2025-07-26 19:43:06,206 - INFO - resetting layer weights
+2025-07-26 19:43:06,207 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-26T19:43:06.207057', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-26 19:43:06,207 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 205 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-26T19:43:06.207145', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 19:43:07,209 - INFO - EPOCH 0 - PROGRESS: at 72.55% examples, 183318 words/s, in_qsize 1, out_qsize 0
+2025-07-26 19:43:07,636 - INFO - EPOCH 0: training on 615000 raw words (252758 effective words) took 1.4s, 177071 effective words/s
+2025-07-26 19:43:08,637 - INFO - EPOCH 1 - PROGRESS: at 66.31% examples, 167877 words/s, in_qsize 1, out_qsize 0
+2025-07-26 19:43:09,231 - INFO - EPOCH 1: training on 615000 raw words (253362 effective words) took 1.6s, 158913 effective words/s
+2025-07-26 19:43:10,233 - INFO - EPOCH 2 - PROGRESS: at 51.90% examples, 131106 words/s, in_qsize 1, out_qsize 0
+2025-07-26 19:43:11,211 - INFO - EPOCH 2: training on 615000 raw words (253209 effective words) took 2.0s, 127981 effective words/s
+2025-07-26 19:43:12,213 - INFO - EPOCH 3 - PROGRESS: at 56.44% examples, 142586 words/s, in_qsize 1, out_qsize 0
+2025-07-26 19:43:13,080 - INFO - EPOCH 3: training on 615000 raw words (252939 effective words) took 1.9s, 135418 effective words/s
+2025-07-26 19:43:14,082 - INFO - EPOCH 4 - PROGRESS: at 50.50% examples, 127541 words/s, in_qsize 1, out_qsize 0
+2025-07-26 19:43:15,082 - INFO - EPOCH 4 - PROGRESS: at 99.44% examples, 125662 words/s, in_qsize 1, out_qsize 0
+2025-07-26 19:43:15,094 - INFO - EPOCH 4: training on 615000 raw words (252763 effective words) took 2.0s, 125624 effective words/s
+2025-07-26 19:43:15,095 - INFO - Word2Vec lifecycle event {'msg': 'training on 3075000 raw words (1265031 effective words) took 8.9s, 142333 effective words/s', 'datetime': '2025-07-26T19:43:15.095226', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 19:43:15,095 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=205, vector_size=32, alpha=0.025>', 'datetime': '2025-07-26T19:43:15.095642', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-26 19:43:15,126 - INFO - 计算增强的节点中心性特征...
+2025-07-26 19:43:15,781 - INFO - 标准化中心性特征...
+2025-07-26 19:43:15,784 - INFO - 应用特征重要性权重后的中心性特征形状: (205, 17)
+2025-07-26 19:43:15,785 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-26 19:43:15,786 - INFO - 加载最近训练的模型: /home/ps/jy_exp/output/GNN_res6/historicalModels/Train-2/final_model.pth
+2025-07-26 19:43:15,786 - INFO - 将使用上次训练的模型继续训练: /home/ps/jy_exp/output/GNN_res6/historicalModels/Train-2/final_model.pth
+2025-07-26 19:43:15,786 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-26 19:43:15,786 - INFO - 使用单次训练模式
+2025-07-26 19:43:15,794 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-26 19:43:16,084 - INFO - 成功加载上一次训练的模型，之前已训练 2000 轮
+2025-07-26 19:43:16,084 - INFO - 从上一次训练加载gamma=6.7230, beta=-13.1609
+2025-07-26 19:43:16,084 - INFO - 从上一次训练加载centrality_scaling=1.5729
+2025-07-26 19:43:16,085 - INFO - 从上一次训练加载mixing_weight=0.2825
+2025-07-26 19:43:16,085 - INFO - 从上一次训练加载noise_threshold=0.5125
+2025-07-26 19:43:17,322 - WARNING - 参数形状不匹配: 5 (当前torch.Size([]) vs 保存的torch.Size([64, 49]))
+2025-07-26 19:43:17,322 - WARNING - 参数形状不匹配: 6 (当前torch.Size([64, 49]) vs 保存的torch.Size([64]))
+2025-07-26 19:43:17,322 - WARNING - 参数形状不匹配: 9 (当前torch.Size([64]) vs 保存的torch.Size([32, 64]))
+2025-07-26 19:43:17,322 - WARNING - 参数形状不匹配: 10 (当前torch.Size([32, 64]) vs 保存的torch.Size([32]))
+2025-07-26 19:43:17,322 - WARNING - 参数形状不匹配: 13 (当前torch.Size([32]) vs 保存的torch.Size([1, 32]))
+2025-07-26 19:43:17,322 - WARNING - 参数形状不匹配: 14 (当前torch.Size([1, 32]) vs 保存的torch.Size([1]))
+2025-07-26 19:43:17,323 - WARNING - 参数形状不匹配: 15 (当前torch.Size([1]) vs 保存的torch.Size([24, 3]))
+2025-07-26 19:43:17,323 - WARNING - 参数形状不匹配: 16 (当前torch.Size([24, 3]) vs 保存的torch.Size([24]))
+2025-07-26 19:43:17,323 - WARNING - 参数形状不匹配: 19 (当前torch.Size([24]) vs 保存的torch.Size([12, 24]))
+2025-07-26 19:43:17,323 - WARNING - 参数形状不匹配: 20 (当前torch.Size([12, 24]) vs 保存的torch.Size([12]))
+2025-07-26 19:43:17,323 - WARNING - 参数形状不匹配: 21 (当前torch.Size([12]) vs 保存的torch.Size([1, 12]))
+2025-07-26 19:43:17,323 - WARNING - 参数形状不匹配: 22 (当前torch.Size([1, 12]) vs 保存的torch.Size([1]))
+2025-07-26 19:43:17,323 - WARNING - 优化器状态不匹配，将重新初始化
+2025-07-26 19:43:17,324 - INFO - 将训练 1000 轮，训练后总轮数将达到 3000
+2025-07-26 19:43:17,764 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:18,312 - INFO - Validation loss decreased (inf --> 0.250511). Saving model ...
+2025-07-26 19:43:18,407 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:18,599 - INFO - EarlyStopping counter: 1 out of 1000
+2025-07-26 19:43:18,677 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:18,869 - INFO - EarlyStopping counter: 2 out of 1000
+2025-07-26 19:43:18,956 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:19,144 - INFO - EarlyStopping counter: 3 out of 1000
+2025-07-26 19:43:19,222 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:19,413 - INFO - Validation loss decreased (0.250511 --> 0.247264). Saving model ...
+2025-07-26 19:43:19,417 - INFO - epoch [2005/3000], loss: 0.4328, accuracy: 94.15%, val_loss: 0.2473, val_accuracy: 91.22%, gamma: 6.7244, beta: -13.1596, centrality_scaling: 1.5742, lr: 0.000302, aug: 0.000002
+2025-07-26 19:43:19,502 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:19,709 - INFO - Validation loss decreased (0.247264 --> 0.245799). Saving model ...
+2025-07-26 19:43:19,798 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:19,992 - INFO - Validation loss decreased (0.245799 --> 0.237110). Saving model ...
+2025-07-26 19:43:20,076 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:20,282 - INFO - EarlyStopping counter: 1 out of 1000
+2025-07-26 19:43:20,368 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:20,576 - INFO - EarlyStopping counter: 2 out of 1000
+2025-07-26 19:43:20,662 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:20,869 - INFO - EarlyStopping counter: 3 out of 1000
+2025-07-26 19:43:20,870 - INFO - epoch [2010/3000], loss: 0.2668, accuracy: 94.15%, val_loss: 0.2425, val_accuracy: 91.71%, gamma: 6.7257, beta: -13.1584, centrality_scaling: 1.5753, lr: 0.000307, aug: 0.000002
+2025-07-26 19:43:20,956 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:21,164 - INFO - EarlyStopping counter: 4 out of 1000
+2025-07-26 19:43:21,250 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:21,441 - INFO - EarlyStopping counter: 5 out of 1000
+2025-07-26 19:43:21,497 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:21,676 - INFO - EarlyStopping counter: 6 out of 1000
+2025-07-26 19:43:21,732 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:21,896 - INFO - EarlyStopping counter: 7 out of 1000
+2025-07-26 19:43:21,946 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:22,110 - INFO - EarlyStopping counter: 8 out of 1000
+2025-07-26 19:43:22,110 - INFO - epoch [2015/3000], loss: 0.1399, accuracy: 95.12%, val_loss: 0.2500, val_accuracy: 91.71%, gamma: 6.7267, beta: -13.1577, centrality_scaling: 1.5760, lr: 0.000317, aug: 0.000002
+2025-07-26 19:43:22,159 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:22,282 - INFO - EarlyStopping counter: 9 out of 1000
+2025-07-26 19:43:22,331 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:22,449 - INFO - EarlyStopping counter: 10 out of 1000
+2025-07-26 19:43:22,498 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:22,617 - INFO - EarlyStopping counter: 11 out of 1000
+2025-07-26 19:43:22,666 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:22,783 - INFO - EarlyStopping counter: 12 out of 1000
+2025-07-26 19:43:22,832 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:22,950 - INFO - EarlyStopping counter: 13 out of 1000
+2025-07-26 19:43:22,950 - INFO - epoch [2020/3000], loss: 0.0784, accuracy: 93.17%, val_loss: 0.2664, val_accuracy: 90.24%, gamma: 6.7274, beta: -13.1574, centrality_scaling: 1.5763, lr: 0.000330, aug: 0.000002
+2025-07-26 19:43:23,000 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:23,118 - INFO - EarlyStopping counter: 14 out of 1000
+2025-07-26 19:43:23,167 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:23,284 - INFO - EarlyStopping counter: 15 out of 1000
+2025-07-26 19:43:23,333 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:23,451 - INFO - EarlyStopping counter: 16 out of 1000
+2025-07-26 19:43:23,501 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:23,619 - INFO - EarlyStopping counter: 17 out of 1000
+2025-07-26 19:43:23,668 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:23,787 - INFO - EarlyStopping counter: 18 out of 1000
+2025-07-26 19:43:23,787 - INFO - epoch [2025/3000], loss: 0.0681, accuracy: 95.12%, val_loss: 0.2787, val_accuracy: 89.76%, gamma: 6.7276, beta: -13.1576, centrality_scaling: 1.5762, lr: 0.000346, aug: 0.000002
+2025-07-26 19:43:23,836 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:23,953 - INFO - EarlyStopping counter: 19 out of 1000
+2025-07-26 19:43:24,002 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:24,121 - INFO - EarlyStopping counter: 20 out of 1000
+2025-07-26 19:43:24,170 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:24,288 - INFO - EarlyStopping counter: 21 out of 1000
+2025-07-26 19:43:24,338 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:24,456 - INFO - EarlyStopping counter: 22 out of 1000
+2025-07-26 19:43:24,505 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:24,623 - INFO - EarlyStopping counter: 23 out of 1000
+2025-07-26 19:43:24,623 - INFO - epoch [2030/3000], loss: 0.0505, accuracy: 96.59%, val_loss: 0.2874, val_accuracy: 89.27%, gamma: 6.7273, beta: -13.1583, centrality_scaling: 1.5754, lr: 0.000367, aug: 0.000002
+2025-07-26 19:43:24,672 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:24,790 - INFO - EarlyStopping counter: 24 out of 1000
+2025-07-26 19:43:24,839 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:24,956 - INFO - EarlyStopping counter: 25 out of 1000
+2025-07-26 19:43:25,006 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:25,127 - INFO - EarlyStopping counter: 26 out of 1000
+2025-07-26 19:43:25,177 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:25,296 - INFO - EarlyStopping counter: 27 out of 1000
+2025-07-26 19:43:25,345 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:25,463 - INFO - EarlyStopping counter: 28 out of 1000
+2025-07-26 19:43:25,463 - INFO - epoch [2035/3000], loss: 0.0615, accuracy: 95.12%, val_loss: 0.2930, val_accuracy: 89.27%, gamma: 6.7269, beta: -13.1591, centrality_scaling: 1.5746, lr: 0.000390, aug: 0.000002
+2025-07-26 19:43:25,513 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:25,631 - INFO - EarlyStopping counter: 29 out of 1000
+2025-07-26 19:43:25,680 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:25,799 - INFO - EarlyStopping counter: 30 out of 1000
+2025-07-26 19:43:25,848 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:25,966 - INFO - EarlyStopping counter: 31 out of 1000
+2025-07-26 19:43:26,015 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:26,132 - INFO - EarlyStopping counter: 32 out of 1000
+2025-07-26 19:43:26,181 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:26,299 - INFO - EarlyStopping counter: 33 out of 1000
+2025-07-26 19:43:26,299 - INFO - epoch [2040/3000], loss: 0.0616, accuracy: 93.66%, val_loss: 0.2974, val_accuracy: 89.27%, gamma: 6.7262, beta: -13.1602, centrality_scaling: 1.5735, lr: 0.000417, aug: 0.000002
+2025-07-26 19:43:26,348 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:26,466 - INFO - EarlyStopping counter: 34 out of 1000
+2025-07-26 19:43:26,515 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:26,633 - INFO - EarlyStopping counter: 35 out of 1000
+2025-07-26 19:43:26,682 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:26,800 - INFO - EarlyStopping counter: 36 out of 1000
+2025-07-26 19:43:26,849 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:26,967 - INFO - EarlyStopping counter: 37 out of 1000
+2025-07-26 19:43:27,016 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:27,135 - INFO - EarlyStopping counter: 38 out of 1000
+2025-07-26 19:43:27,135 - INFO - epoch [2045/3000], loss: 0.0456, accuracy: 93.66%, val_loss: 0.2979, val_accuracy: 89.76%, gamma: 6.7252, beta: -13.1616, centrality_scaling: 1.5721, lr: 0.000448, aug: 0.000002
+2025-07-26 19:43:27,184 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:27,302 - INFO - EarlyStopping counter: 39 out of 1000
+2025-07-26 19:43:27,351 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:27,469 - INFO - EarlyStopping counter: 40 out of 1000
+2025-07-26 19:43:27,519 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:27,636 - INFO - EarlyStopping counter: 41 out of 1000
+2025-07-26 19:43:27,686 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:27,804 - INFO - EarlyStopping counter: 42 out of 1000
+2025-07-26 19:43:27,853 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:27,971 - INFO - EarlyStopping counter: 43 out of 1000
+2025-07-26 19:43:27,971 - INFO - epoch [2050/3000], loss: 0.0425, accuracy: 94.15%, val_loss: 0.2985, val_accuracy: 89.27%, gamma: 6.7239, beta: -13.1632, centrality_scaling: 1.5704, lr: 0.000482, aug: 0.000002
+2025-07-26 19:43:28,020 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:28,138 - INFO - EarlyStopping counter: 44 out of 1000
+2025-07-26 19:43:28,187 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:28,309 - INFO - EarlyStopping counter: 45 out of 1000
+2025-07-26 19:43:28,358 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:28,477 - INFO - EarlyStopping counter: 46 out of 1000
+2025-07-26 19:43:28,526 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:28,644 - INFO - EarlyStopping counter: 47 out of 1000
+2025-07-26 19:43:28,693 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:28,811 - INFO - EarlyStopping counter: 48 out of 1000
+2025-07-26 19:43:28,811 - INFO - epoch [2055/3000], loss: 0.0482, accuracy: 94.63%, val_loss: 0.2864, val_accuracy: 89.76%, gamma: 6.7221, beta: -13.1654, centrality_scaling: 1.5683, lr: 0.000519, aug: 0.000002
+2025-07-26 19:43:28,860 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:28,979 - INFO - EarlyStopping counter: 49 out of 1000
+2025-07-26 19:43:29,027 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:29,146 - INFO - EarlyStopping counter: 50 out of 1000
+2025-07-26 19:43:29,196 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:29,314 - INFO - EarlyStopping counter: 51 out of 1000
+2025-07-26 19:43:29,363 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:29,481 - INFO - EarlyStopping counter: 52 out of 1000
+2025-07-26 19:43:29,531 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:29,649 - INFO - EarlyStopping counter: 53 out of 1000
+2025-07-26 19:43:29,649 - INFO - epoch [2060/3000], loss: 0.0297, accuracy: 96.59%, val_loss: 0.2906, val_accuracy: 89.76%, gamma: 6.7203, beta: -13.1675, centrality_scaling: 1.5661, lr: 0.000559, aug: 0.000002
+2025-07-26 19:43:29,698 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:29,816 - INFO - EarlyStopping counter: 54 out of 1000
+2025-07-26 19:43:29,865 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:29,983 - INFO - EarlyStopping counter: 55 out of 1000
+2025-07-26 19:43:30,032 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:30,150 - INFO - EarlyStopping counter: 56 out of 1000
+2025-07-26 19:43:30,199 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:30,317 - INFO - EarlyStopping counter: 57 out of 1000
+2025-07-26 19:43:30,366 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:30,484 - INFO - EarlyStopping counter: 58 out of 1000
+2025-07-26 19:43:30,484 - INFO - epoch [2065/3000], loss: 0.0261, accuracy: 96.59%, val_loss: 0.2869, val_accuracy: 90.73%, gamma: 6.7182, beta: -13.1699, centrality_scaling: 1.5637, lr: 0.000603, aug: 0.000002
+2025-07-26 19:43:30,533 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:30,651 - INFO - EarlyStopping counter: 59 out of 1000
+2025-07-26 19:43:30,701 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:30,819 - INFO - EarlyStopping counter: 60 out of 1000
+2025-07-26 19:43:30,868 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:30,986 - INFO - EarlyStopping counter: 61 out of 1000
+2025-07-26 19:43:31,035 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:31,153 - INFO - EarlyStopping counter: 62 out of 1000
+2025-07-26 19:43:31,203 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:31,324 - INFO - EarlyStopping counter: 63 out of 1000
+2025-07-26 19:43:31,324 - INFO - epoch [2070/3000], loss: 0.1207, accuracy: 93.66%, val_loss: 0.2908, val_accuracy: 90.24%, gamma: 6.7161, beta: -13.1723, centrality_scaling: 1.5613, lr: 0.000649, aug: 0.000002
+2025-07-26 19:43:31,373 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:31,492 - INFO - EarlyStopping counter: 64 out of 1000
+2025-07-26 19:43:31,541 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:31,659 - INFO - EarlyStopping counter: 65 out of 1000
+2025-07-26 19:43:31,708 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:31,825 - INFO - EarlyStopping counter: 66 out of 1000
+2025-07-26 19:43:31,874 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:31,992 - INFO - EarlyStopping counter: 67 out of 1000
+2025-07-26 19:43:32,041 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:32,160 - INFO - EarlyStopping counter: 68 out of 1000
+2025-07-26 19:43:32,160 - INFO - epoch [2075/3000], loss: 0.0323, accuracy: 96.59%, val_loss: 0.2796, val_accuracy: 90.24%, gamma: 6.7141, beta: -13.1746, centrality_scaling: 1.5589, lr: 0.000698, aug: 0.000002
+2025-07-26 19:43:32,209 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:32,327 - INFO - EarlyStopping counter: 69 out of 1000
+2025-07-26 19:43:32,376 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:32,494 - INFO - EarlyStopping counter: 70 out of 1000
+2025-07-26 19:43:32,544 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:32,662 - INFO - EarlyStopping counter: 71 out of 1000
+2025-07-26 19:43:32,711 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:32,829 - INFO - EarlyStopping counter: 72 out of 1000
+2025-07-26 19:43:32,878 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:32,996 - INFO - EarlyStopping counter: 73 out of 1000
+2025-07-26 19:43:32,996 - INFO - epoch [2080/3000], loss: 0.0333, accuracy: 97.56%, val_loss: 0.2785, val_accuracy: 90.73%, gamma: 6.7120, beta: -13.1769, centrality_scaling: 1.5566, lr: 0.000749, aug: 0.000001
+2025-07-26 19:43:33,045 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:33,164 - INFO - EarlyStopping counter: 74 out of 1000
+2025-07-26 19:43:33,214 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:33,332 - INFO - EarlyStopping counter: 75 out of 1000
+2025-07-26 19:43:33,381 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:33,498 - INFO - EarlyStopping counter: 76 out of 1000
+2025-07-26 19:43:33,547 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:33,665 - INFO - EarlyStopping counter: 77 out of 1000
+2025-07-26 19:43:33,714 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:33,832 - INFO - EarlyStopping counter: 78 out of 1000
+2025-07-26 19:43:33,832 - INFO - epoch [2085/3000], loss: 0.0355, accuracy: 93.66%, val_loss: 0.2796, val_accuracy: 91.22%, gamma: 6.7100, beta: -13.1792, centrality_scaling: 1.5543, lr: 0.000804, aug: 0.000001
+2025-07-26 19:43:33,881 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:34,000 - INFO - EarlyStopping counter: 79 out of 1000
+2025-07-26 19:43:34,049 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:34,167 - INFO - EarlyStopping counter: 80 out of 1000
+2025-07-26 19:43:34,216 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:34,334 - INFO - EarlyStopping counter: 81 out of 1000
+2025-07-26 19:43:34,383 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:34,502 - INFO - EarlyStopping counter: 82 out of 1000
+2025-07-26 19:43:34,551 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:34,668 - INFO - EarlyStopping counter: 83 out of 1000
+2025-07-26 19:43:34,668 - INFO - epoch [2090/3000], loss: 0.0221, accuracy: 96.10%, val_loss: 0.2995, val_accuracy: 91.71%, gamma: 6.7078, beta: -13.1817, centrality_scaling: 1.5517, lr: 0.000860, aug: 0.000001
+2025-07-26 19:43:34,718 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:34,835 - INFO - EarlyStopping counter: 84 out of 1000
+2025-07-26 19:43:34,884 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:35,002 - INFO - EarlyStopping counter: 85 out of 1000
+2025-07-26 19:43:35,051 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:35,170 - INFO - EarlyStopping counter: 86 out of 1000
+2025-07-26 19:43:35,219 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:35,337 - INFO - EarlyStopping counter: 87 out of 1000
+2025-07-26 19:43:35,386 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:35,504 - INFO - EarlyStopping counter: 88 out of 1000
+2025-07-26 19:43:35,504 - INFO - epoch [2095/3000], loss: 0.0169, accuracy: 96.59%, val_loss: 0.2829, val_accuracy: 92.20%, gamma: 6.7056, beta: -13.1842, centrality_scaling: 1.5492, lr: 0.000919, aug: 0.000001
+2025-07-26 19:43:35,554 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:35,672 - INFO - EarlyStopping counter: 89 out of 1000
+2025-07-26 19:43:35,721 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:35,838 - INFO - EarlyStopping counter: 90 out of 1000
+2025-07-26 19:43:35,887 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:36,005 - INFO - EarlyStopping counter: 91 out of 1000
+2025-07-26 19:43:36,054 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:36,172 - INFO - EarlyStopping counter: 92 out of 1000
+2025-07-26 19:43:36,221 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:36,340 - INFO - EarlyStopping counter: 93 out of 1000
+2025-07-26 19:43:36,340 - INFO - epoch [2100/3000], loss: 0.0921, accuracy: 95.61%, val_loss: 0.2901, val_accuracy: 92.20%, gamma: 6.7037, beta: -13.1863, centrality_scaling: 1.5470, lr: 0.000979, aug: 0.000001
+2025-07-26 19:43:36,389 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:36,507 - INFO - EarlyStopping counter: 94 out of 1000
+2025-07-26 19:43:36,556 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:36,674 - INFO - EarlyStopping counter: 95 out of 1000
+2025-07-26 19:43:36,723 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:36,842 - INFO - EarlyStopping counter: 96 out of 1000
+2025-07-26 19:43:36,891 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:37,009 - INFO - EarlyStopping counter: 97 out of 1000
+2025-07-26 19:43:37,058 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:37,177 - INFO - EarlyStopping counter: 98 out of 1000
+2025-07-26 19:43:37,177 - INFO - epoch [2105/3000], loss: 0.0206, accuracy: 97.56%, val_loss: 0.2880, val_accuracy: 92.20%, gamma: 6.7021, beta: -13.1883, centrality_scaling: 1.5450, lr: 0.001042, aug: 0.000001
+2025-07-26 19:43:37,226 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:37,344 - INFO - EarlyStopping counter: 99 out of 1000
+2025-07-26 19:43:37,393 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:37,511 - INFO - EarlyStopping counter: 100 out of 1000
+2025-07-26 19:43:37,560 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:37,679 - INFO - EarlyStopping counter: 101 out of 1000
+2025-07-26 19:43:37,728 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:37,846 - INFO - EarlyStopping counter: 102 out of 1000
+2025-07-26 19:43:37,895 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:38,012 - INFO - EarlyStopping counter: 103 out of 1000
+2025-07-26 19:43:38,013 - INFO - epoch [2110/3000], loss: 0.0167, accuracy: 96.59%, val_loss: 0.2852, val_accuracy: 92.20%, gamma: 6.7000, beta: -13.1907, centrality_scaling: 1.5425, lr: 0.001106, aug: 0.000001
+2025-07-26 19:43:38,062 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:38,180 - INFO - EarlyStopping counter: 104 out of 1000
+2025-07-26 19:43:38,229 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:38,347 - INFO - EarlyStopping counter: 105 out of 1000
+2025-07-26 19:43:38,396 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:38,514 - INFO - EarlyStopping counter: 106 out of 1000
+2025-07-26 19:43:38,563 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:38,681 - INFO - EarlyStopping counter: 107 out of 1000
+2025-07-26 19:43:38,730 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:38,848 - INFO - EarlyStopping counter: 108 out of 1000
+2025-07-26 19:43:38,848 - INFO - epoch [2115/3000], loss: 0.0073, accuracy: 99.02%, val_loss: 0.2834, val_accuracy: 92.20%, gamma: 6.6974, beta: -13.1936, centrality_scaling: 1.5395, lr: 0.001171, aug: 0.000001
+2025-07-26 19:43:38,897 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:39,015 - INFO - EarlyStopping counter: 109 out of 1000
+2025-07-26 19:43:39,064 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:39,182 - INFO - EarlyStopping counter: 110 out of 1000
+2025-07-26 19:43:39,231 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:39,349 - INFO - EarlyStopping counter: 111 out of 1000
+2025-07-26 19:43:39,398 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:39,517 - INFO - EarlyStopping counter: 112 out of 1000
+2025-07-26 19:43:39,566 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:39,683 - INFO - EarlyStopping counter: 113 out of 1000
+2025-07-26 19:43:39,683 - INFO - epoch [2120/3000], loss: 0.0158, accuracy: 97.07%, val_loss: 0.2836, val_accuracy: 92.20%, gamma: 6.6941, beta: -13.1971, centrality_scaling: 1.5359, lr: 0.001238, aug: 0.000001
+2025-07-26 19:43:39,732 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:39,850 - INFO - EarlyStopping counter: 114 out of 1000
+2025-07-26 19:43:39,899 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:40,017 - INFO - EarlyStopping counter: 115 out of 1000
+2025-07-26 19:43:40,066 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:40,185 - INFO - EarlyStopping counter: 116 out of 1000
+2025-07-26 19:43:40,234 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:40,351 - INFO - EarlyStopping counter: 117 out of 1000
+2025-07-26 19:43:40,400 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:40,518 - INFO - EarlyStopping counter: 118 out of 1000
+2025-07-26 19:43:40,518 - INFO - epoch [2125/3000], loss: 0.0234, accuracy: 97.07%, val_loss: 0.2777, val_accuracy: 92.20%, gamma: 6.6908, beta: -13.2006, centrality_scaling: 1.5323, lr: 0.001306, aug: 0.000001
+2025-07-26 19:43:40,567 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:40,685 - INFO - EarlyStopping counter: 119 out of 1000
+2025-07-26 19:43:40,734 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:40,852 - INFO - EarlyStopping counter: 120 out of 1000
+2025-07-26 19:43:40,901 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:41,019 - INFO - EarlyStopping counter: 121 out of 1000
+2025-07-26 19:43:41,068 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:41,187 - INFO - EarlyStopping counter: 122 out of 1000
+2025-07-26 19:43:41,236 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:41,354 - INFO - EarlyStopping counter: 123 out of 1000
+2025-07-26 19:43:41,354 - INFO - epoch [2130/3000], loss: 0.0097, accuracy: 98.05%, val_loss: 0.2819, val_accuracy: 92.20%, gamma: 6.6881, beta: -13.2036, centrality_scaling: 1.5292, lr: 0.001375, aug: 0.000001
+2025-07-26 19:43:41,403 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:41,521 - INFO - EarlyStopping counter: 124 out of 1000
+2025-07-26 19:43:41,570 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:41,688 - INFO - EarlyStopping counter: 125 out of 1000
+2025-07-26 19:43:41,737 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:41,855 - INFO - EarlyStopping counter: 126 out of 1000
+2025-07-26 19:43:41,905 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:42,022 - INFO - EarlyStopping counter: 127 out of 1000
+2025-07-26 19:43:42,072 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:42,190 - INFO - EarlyStopping counter: 128 out of 1000
+2025-07-26 19:43:42,190 - INFO - epoch [2135/3000], loss: 0.0087, accuracy: 98.54%, val_loss: 0.2877, val_accuracy: 92.20%, gamma: 6.6857, beta: -13.2063, centrality_scaling: 1.5265, lr: 0.001445, aug: 0.000001
+2025-07-26 19:43:42,239 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:42,357 - INFO - EarlyStopping counter: 129 out of 1000
+2025-07-26 19:43:42,406 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:42,524 - INFO - EarlyStopping counter: 130 out of 1000
+2025-07-26 19:43:42,573 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:42,692 - INFO - EarlyStopping counter: 131 out of 1000
+2025-07-26 19:43:42,741 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:42,859 - INFO - EarlyStopping counter: 132 out of 1000
+2025-07-26 19:43:42,908 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:43,026 - INFO - EarlyStopping counter: 133 out of 1000
+2025-07-26 19:43:43,026 - INFO - epoch [2140/3000], loss: 0.0055, accuracy: 99.51%, val_loss: 0.2897, val_accuracy: 92.20%, gamma: 6.6834, beta: -13.2089, centrality_scaling: 1.5238, lr: 0.001515, aug: 0.000001
+2025-07-26 19:43:43,075 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:43,193 - INFO - EarlyStopping counter: 134 out of 1000
+2025-07-26 19:43:43,243 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:43,361 - INFO - EarlyStopping counter: 135 out of 1000
+2025-07-26 19:43:43,512 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:43,632 - INFO - EarlyStopping counter: 136 out of 1000
+2025-07-26 19:43:43,682 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:43,800 - INFO - EarlyStopping counter: 137 out of 1000
+2025-07-26 19:43:43,849 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:43,967 - INFO - EarlyStopping counter: 138 out of 1000
+2025-07-26 19:43:43,967 - INFO - epoch [2145/3000], loss: 0.0131, accuracy: 98.05%, val_loss: 0.2959, val_accuracy: 92.20%, gamma: 6.6812, beta: -13.2114, centrality_scaling: 1.5212, lr: 0.001586, aug: 0.000001
+2025-07-26 19:43:44,017 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:44,135 - INFO - EarlyStopping counter: 139 out of 1000
+2025-07-26 19:43:44,184 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:44,302 - INFO - EarlyStopping counter: 140 out of 1000
+2025-07-26 19:43:44,351 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:44,470 - INFO - EarlyStopping counter: 141 out of 1000
+2025-07-26 19:43:44,519 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:44,638 - INFO - EarlyStopping counter: 142 out of 1000
+2025-07-26 19:43:44,687 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:44,806 - INFO - EarlyStopping counter: 143 out of 1000
+2025-07-26 19:43:44,806 - INFO - epoch [2150/3000], loss: 0.0775, accuracy: 97.07%, val_loss: 0.3053, val_accuracy: 92.20%, gamma: 6.6789, beta: -13.2139, centrality_scaling: 1.5185, lr: 0.001657, aug: 0.000001
+2025-07-26 19:43:44,855 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:44,973 - INFO - EarlyStopping counter: 144 out of 1000
+2025-07-26 19:43:45,022 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:45,143 - INFO - EarlyStopping counter: 145 out of 1000
+2025-07-26 19:43:45,193 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:45,311 - INFO - EarlyStopping counter: 146 out of 1000
+2025-07-26 19:43:45,360 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:45,478 - INFO - EarlyStopping counter: 147 out of 1000
+2025-07-26 19:43:45,527 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:45,645 - INFO - EarlyStopping counter: 148 out of 1000
+2025-07-26 19:43:45,645 - INFO - epoch [2155/3000], loss: 0.0053, accuracy: 98.54%, val_loss: 0.3095, val_accuracy: 92.20%, gamma: 6.6744, beta: -13.2188, centrality_scaling: 1.5134, lr: 0.001728, aug: 0.000001
+2025-07-26 19:43:45,695 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:45,812 - INFO - EarlyStopping counter: 149 out of 1000
+2025-07-26 19:43:45,861 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:45,979 - INFO - EarlyStopping counter: 150 out of 1000
+2025-07-26 19:43:46,029 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:46,147 - INFO - EarlyStopping counter: 151 out of 1000
+2025-07-26 19:43:46,196 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:46,314 - INFO - EarlyStopping counter: 152 out of 1000
+2025-07-26 19:43:46,363 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:46,481 - INFO - EarlyStopping counter: 153 out of 1000
+2025-07-26 19:43:46,481 - INFO - epoch [2160/3000], loss: 0.0140, accuracy: 98.05%, val_loss: 0.3139, val_accuracy: 92.20%, gamma: 6.6697, beta: -13.2239, centrality_scaling: 1.5082, lr: 0.001799, aug: 0.000001
+2025-07-26 19:43:46,531 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:46,649 - INFO - EarlyStopping counter: 154 out of 1000
+2025-07-26 19:43:46,699 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:46,817 - INFO - EarlyStopping counter: 155 out of 1000
+2025-07-26 19:43:46,866 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:46,984 - INFO - EarlyStopping counter: 156 out of 1000
+2025-07-26 19:43:47,033 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:47,152 - INFO - EarlyStopping counter: 157 out of 1000
+2025-07-26 19:43:47,201 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:47,318 - INFO - EarlyStopping counter: 158 out of 1000
+2025-07-26 19:43:47,319 - INFO - epoch [2165/3000], loss: 0.0156, accuracy: 98.54%, val_loss: 0.3127, val_accuracy: 92.20%, gamma: 6.6650, beta: -13.2291, centrality_scaling: 1.5028, lr: 0.001869, aug: 0.000001
+2025-07-26 19:43:47,368 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:47,486 - INFO - EarlyStopping counter: 159 out of 1000
+2025-07-26 19:43:47,535 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:47,653 - INFO - EarlyStopping counter: 160 out of 1000
+2025-07-26 19:43:47,702 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:47,820 - INFO - EarlyStopping counter: 161 out of 1000
+2025-07-26 19:43:47,869 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:47,988 - INFO - EarlyStopping counter: 162 out of 1000
+2025-07-26 19:43:48,037 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:48,155 - INFO - EarlyStopping counter: 163 out of 1000
+2025-07-26 19:43:48,155 - INFO - epoch [2170/3000], loss: 0.0084, accuracy: 97.56%, val_loss: 0.3159, val_accuracy: 92.20%, gamma: 6.6610, beta: -13.2338, centrality_scaling: 1.4978, lr: 0.001939, aug: 0.000001
+2025-07-26 19:43:48,204 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:48,322 - INFO - EarlyStopping counter: 164 out of 1000
+2025-07-26 19:43:48,371 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:48,490 - INFO - EarlyStopping counter: 165 out of 1000
+2025-07-26 19:43:48,539 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:48,657 - INFO - EarlyStopping counter: 166 out of 1000
+2025-07-26 19:43:48,706 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:48,824 - INFO - EarlyStopping counter: 167 out of 1000
+2025-07-26 19:43:48,873 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:48,991 - INFO - EarlyStopping counter: 168 out of 1000
+2025-07-26 19:43:48,991 - INFO - epoch [2175/3000], loss: 0.0102, accuracy: 97.56%, val_loss: 0.3165, val_accuracy: 92.68%, gamma: 6.6574, beta: -13.2379, centrality_scaling: 1.4935, lr: 0.002007, aug: 0.000001
+2025-07-26 19:43:49,040 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:49,159 - INFO - EarlyStopping counter: 169 out of 1000
+2025-07-26 19:43:49,209 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:49,327 - INFO - EarlyStopping counter: 170 out of 1000
+2025-07-26 19:43:49,376 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:49,494 - INFO - EarlyStopping counter: 171 out of 1000
+2025-07-26 19:43:49,543 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:49,661 - INFO - EarlyStopping counter: 172 out of 1000
+2025-07-26 19:43:49,710 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:49,828 - INFO - EarlyStopping counter: 173 out of 1000
+2025-07-26 19:43:49,828 - INFO - epoch [2180/3000], loss: 0.0067, accuracy: 99.51%, val_loss: 0.3179, val_accuracy: 92.20%, gamma: 6.6538, beta: -13.2421, centrality_scaling: 1.4892, lr: 0.002075, aug: 0.000001
+2025-07-26 19:43:49,877 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:49,996 - INFO - EarlyStopping counter: 174 out of 1000
+2025-07-26 19:43:50,045 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:50,163 - INFO - EarlyStopping counter: 175 out of 1000
+2025-07-26 19:43:50,212 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:50,330 - INFO - EarlyStopping counter: 176 out of 1000
+2025-07-26 19:43:50,379 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:50,498 - INFO - EarlyStopping counter: 177 out of 1000
+2025-07-26 19:43:50,547 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:50,665 - INFO - EarlyStopping counter: 178 out of 1000
+2025-07-26 19:43:50,665 - INFO - epoch [2185/3000], loss: 0.0147, accuracy: 95.61%, val_loss: 0.3236, val_accuracy: 91.71%, gamma: 6.6490, beta: -13.2475, centrality_scaling: 1.4835, lr: 0.002142, aug: 0.000001
+2025-07-26 19:43:50,715 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:50,833 - INFO - EarlyStopping counter: 179 out of 1000
+2025-07-26 19:43:50,882 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:51,000 - INFO - EarlyStopping counter: 180 out of 1000
+2025-07-26 19:43:51,049 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:51,167 - INFO - EarlyStopping counter: 181 out of 1000
+2025-07-26 19:43:51,216 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:51,334 - INFO - EarlyStopping counter: 182 out of 1000
+2025-07-26 19:43:51,383 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:51,502 - INFO - EarlyStopping counter: 183 out of 1000
+2025-07-26 19:43:51,502 - INFO - epoch [2190/3000], loss: 0.0055, accuracy: 98.54%, val_loss: 0.3180, val_accuracy: 92.68%, gamma: 6.6435, beta: -13.2535, centrality_scaling: 1.4772, lr: 0.002207, aug: 0.000001
+2025-07-26 19:43:51,551 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:51,669 - INFO - EarlyStopping counter: 184 out of 1000
+2025-07-26 19:43:51,718 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:51,836 - INFO - EarlyStopping counter: 185 out of 1000
+2025-07-26 19:43:51,885 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:52,003 - INFO - EarlyStopping counter: 186 out of 1000
+2025-07-26 19:43:52,052 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:52,170 - INFO - EarlyStopping counter: 187 out of 1000
+2025-07-26 19:43:52,219 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:52,337 - INFO - EarlyStopping counter: 188 out of 1000
+2025-07-26 19:43:52,338 - INFO - epoch [2195/3000], loss: 0.0045, accuracy: 98.54%, val_loss: 0.3277, val_accuracy: 92.68%, gamma: 6.6382, beta: -13.2594, centrality_scaling: 1.4710, lr: 0.002271, aug: 0.000001
+2025-07-26 19:43:52,387 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:52,505 - INFO - EarlyStopping counter: 189 out of 1000
+2025-07-26 19:43:52,554 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:52,672 - INFO - EarlyStopping counter: 190 out of 1000
+2025-07-26 19:43:52,721 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:52,840 - INFO - EarlyStopping counter: 191 out of 1000
+2025-07-26 19:43:52,889 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:53,007 - INFO - EarlyStopping counter: 192 out of 1000
+2025-07-26 19:43:53,056 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:53,175 - INFO - EarlyStopping counter: 193 out of 1000
+2025-07-26 19:43:53,175 - INFO - epoch [2200/3000], loss: 0.0105, accuracy: 99.02%, val_loss: 0.3379, val_accuracy: 92.68%, gamma: 6.6332, beta: -13.2649, centrality_scaling: 1.4651, lr: 0.002333, aug: 0.000001
+2025-07-26 19:43:53,224 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:53,342 - INFO - EarlyStopping counter: 194 out of 1000
+2025-07-26 19:43:53,391 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:53,509 - INFO - EarlyStopping counter: 195 out of 1000
+2025-07-26 19:43:53,558 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:53,676 - INFO - EarlyStopping counter: 196 out of 1000
+2025-07-26 19:43:53,725 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:53,843 - INFO - EarlyStopping counter: 197 out of 1000
+2025-07-26 19:43:53,892 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:54,011 - INFO - EarlyStopping counter: 198 out of 1000
+2025-07-26 19:43:54,011 - INFO - epoch [2205/3000], loss: 0.0074, accuracy: 99.02%, val_loss: 0.3240, val_accuracy: 92.68%, gamma: 6.6291, beta: -13.2697, centrality_scaling: 1.4601, lr: 0.002393, aug: 0.000001
+2025-07-26 19:43:54,060 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:54,178 - INFO - EarlyStopping counter: 199 out of 1000
+2025-07-26 19:43:54,227 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:54,345 - INFO - EarlyStopping counter: 200 out of 1000
+2025-07-26 19:43:54,394 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:54,512 - INFO - EarlyStopping counter: 201 out of 1000
+2025-07-26 19:43:54,561 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:54,679 - INFO - EarlyStopping counter: 202 out of 1000
+2025-07-26 19:43:54,728 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:54,846 - INFO - EarlyStopping counter: 203 out of 1000
+2025-07-26 19:43:54,846 - INFO - epoch [2210/3000], loss: 0.0075, accuracy: 98.05%, val_loss: 0.3266, val_accuracy: 92.68%, gamma: 6.6250, beta: -13.2744, centrality_scaling: 1.4550, lr: 0.002452, aug: 0.000001
+2025-07-26 19:43:54,895 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:55,013 - INFO - EarlyStopping counter: 204 out of 1000
+2025-07-26 19:43:55,063 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:55,181 - INFO - EarlyStopping counter: 205 out of 1000
+2025-07-26 19:43:55,230 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:55,348 - INFO - EarlyStopping counter: 206 out of 1000
+2025-07-26 19:43:55,397 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:55,515 - INFO - EarlyStopping counter: 207 out of 1000
+2025-07-26 19:43:55,565 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:55,683 - INFO - EarlyStopping counter: 208 out of 1000
+2025-07-26 19:43:55,683 - INFO - epoch [2215/3000], loss: 0.0070, accuracy: 98.54%, val_loss: 0.3298, val_accuracy: 92.68%, gamma: 6.6211, beta: -13.2786, centrality_scaling: 1.4505, lr: 0.002507, aug: 0.000001
+2025-07-26 19:43:55,732 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:55,850 - INFO - EarlyStopping counter: 209 out of 1000
+2025-07-26 19:43:55,899 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:56,018 - INFO - EarlyStopping counter: 210 out of 1000
+2025-07-26 19:43:56,067 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:56,185 - INFO - EarlyStopping counter: 211 out of 1000
+2025-07-26 19:43:56,234 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:56,352 - INFO - EarlyStopping counter: 212 out of 1000
+2025-07-26 19:43:56,401 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:56,520 - INFO - EarlyStopping counter: 213 out of 1000
+2025-07-26 19:43:56,520 - INFO - epoch [2220/3000], loss: 0.0141, accuracy: 99.02%, val_loss: 0.3321, val_accuracy: 92.68%, gamma: 6.6177, beta: -13.2825, centrality_scaling: 1.4463, lr: 0.002561, aug: 0.000001
+2025-07-26 19:43:56,569 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:56,687 - INFO - EarlyStopping counter: 214 out of 1000
+2025-07-26 19:43:56,736 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:56,855 - INFO - EarlyStopping counter: 215 out of 1000
+2025-07-26 19:43:56,904 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:57,022 - INFO - EarlyStopping counter: 216 out of 1000
+2025-07-26 19:43:57,071 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:57,190 - INFO - EarlyStopping counter: 217 out of 1000
+2025-07-26 19:43:57,239 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:57,357 - INFO - EarlyStopping counter: 218 out of 1000
+2025-07-26 19:43:57,357 - INFO - epoch [2225/3000], loss: 0.0032, accuracy: 99.51%, val_loss: 0.3269, val_accuracy: 92.68%, gamma: 6.6149, beta: -13.2855, centrality_scaling: 1.4430, lr: 0.002612, aug: 0.000001
+2025-07-26 19:43:57,406 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:57,524 - INFO - EarlyStopping counter: 219 out of 1000
+2025-07-26 19:43:57,573 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:57,691 - INFO - EarlyStopping counter: 220 out of 1000
+2025-07-26 19:43:57,740 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:57,858 - INFO - EarlyStopping counter: 221 out of 1000
+2025-07-26 19:43:57,907 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:58,025 - INFO - EarlyStopping counter: 222 out of 1000
+2025-07-26 19:43:58,075 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:58,193 - INFO - EarlyStopping counter: 223 out of 1000
+2025-07-26 19:43:58,193 - INFO - epoch [2230/3000], loss: 0.0067, accuracy: 98.54%, val_loss: 0.3126, val_accuracy: 92.68%, gamma: 6.6126, beta: -13.2885, centrality_scaling: 1.4397, lr: 0.002660, aug: 0.000001
+2025-07-26 19:43:58,242 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:58,360 - INFO - EarlyStopping counter: 224 out of 1000
+2025-07-26 19:43:58,409 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:58,527 - INFO - EarlyStopping counter: 225 out of 1000
+2025-07-26 19:43:58,576 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:58,694 - INFO - EarlyStopping counter: 226 out of 1000
+2025-07-26 19:43:58,743 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:58,861 - INFO - EarlyStopping counter: 227 out of 1000
+2025-07-26 19:43:58,911 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:59,029 - INFO - EarlyStopping counter: 228 out of 1000
+2025-07-26 19:43:59,029 - INFO - epoch [2235/3000], loss: 0.0205, accuracy: 96.59%, val_loss: 0.3246, val_accuracy: 92.68%, gamma: 6.6109, beta: -13.2912, centrality_scaling: 1.4368, lr: 0.002706, aug: 0.000001
+2025-07-26 19:43:59,078 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:59,196 - INFO - EarlyStopping counter: 229 out of 1000
+2025-07-26 19:43:59,245 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:59,363 - INFO - EarlyStopping counter: 230 out of 1000
+2025-07-26 19:43:59,413 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:59,530 - INFO - EarlyStopping counter: 231 out of 1000
+2025-07-26 19:43:59,579 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:59,697 - INFO - EarlyStopping counter: 232 out of 1000
+2025-07-26 19:43:59,746 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:43:59,865 - INFO - EarlyStopping counter: 233 out of 1000
+2025-07-26 19:43:59,865 - INFO - epoch [2240/3000], loss: 0.0087, accuracy: 98.05%, val_loss: 0.3280, val_accuracy: 92.20%, gamma: 6.6090, beta: -13.2936, centrality_scaling: 1.4341, lr: 0.002749, aug: 0.000001
+2025-07-26 19:43:59,914 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:00,032 - INFO - EarlyStopping counter: 234 out of 1000
+2025-07-26 19:44:00,081 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:00,199 - INFO - EarlyStopping counter: 235 out of 1000
+2025-07-26 19:44:00,248 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:00,366 - INFO - EarlyStopping counter: 236 out of 1000
+2025-07-26 19:44:00,416 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:00,533 - INFO - EarlyStopping counter: 237 out of 1000
+2025-07-26 19:44:00,582 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:00,701 - INFO - EarlyStopping counter: 238 out of 1000
+2025-07-26 19:44:00,701 - INFO - epoch [2245/3000], loss: 0.0039, accuracy: 99.51%, val_loss: 0.3195, val_accuracy: 92.68%, gamma: 6.6047, beta: -13.2984, centrality_scaling: 1.4289, lr: 0.002788, aug: 0.000001
+2025-07-26 19:44:00,750 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:00,868 - INFO - EarlyStopping counter: 239 out of 1000
+2025-07-26 19:44:00,918 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:01,035 - INFO - EarlyStopping counter: 240 out of 1000
+2025-07-26 19:44:01,084 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:01,204 - INFO - EarlyStopping counter: 241 out of 1000
+2025-07-26 19:44:01,253 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:01,371 - INFO - EarlyStopping counter: 242 out of 1000
+2025-07-26 19:44:01,420 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:01,538 - INFO - EarlyStopping counter: 243 out of 1000
+2025-07-26 19:44:01,538 - INFO - epoch [2250/3000], loss: 0.0026, accuracy: 99.51%, val_loss: 0.3247, val_accuracy: 92.68%, gamma: 6.6032, beta: -13.3005, centrality_scaling: 1.4266, lr: 0.002825, aug: 0.000001
+2025-07-26 19:44:01,587 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:01,705 - INFO - EarlyStopping counter: 244 out of 1000
+2025-07-26 19:44:01,754 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:01,872 - INFO - EarlyStopping counter: 245 out of 1000
+2025-07-26 19:44:01,921 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:02,040 - INFO - EarlyStopping counter: 246 out of 1000
+2025-07-26 19:44:02,089 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:02,207 - INFO - EarlyStopping counter: 247 out of 1000
+2025-07-26 19:44:02,256 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:02,374 - INFO - EarlyStopping counter: 248 out of 1000
+2025-07-26 19:44:02,374 - INFO - epoch [2255/3000], loss: 0.0027, accuracy: 99.51%, val_loss: 0.3304, val_accuracy: 92.68%, gamma: 6.6028, beta: -13.3014, centrality_scaling: 1.4255, lr: 0.002858, aug: 0.000001
+2025-07-26 19:44:02,423 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:02,541 - INFO - EarlyStopping counter: 249 out of 1000
+2025-07-26 19:44:02,591 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:02,709 - INFO - EarlyStopping counter: 250 out of 1000
+2025-07-26 19:44:02,758 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:02,876 - INFO - EarlyStopping counter: 251 out of 1000
+2025-07-26 19:44:02,925 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:03,043 - INFO - EarlyStopping counter: 252 out of 1000
+2025-07-26 19:44:03,092 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:03,210 - INFO - EarlyStopping counter: 253 out of 1000
+2025-07-26 19:44:03,211 - INFO - epoch [2260/3000], loss: 0.0028, accuracy: 99.51%, val_loss: 0.3280, val_accuracy: 92.68%, gamma: 6.6008, beta: -13.3039, centrality_scaling: 1.4228, lr: 0.002888, aug: 0.000001
+2025-07-26 19:44:03,260 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:03,378 - INFO - EarlyStopping counter: 254 out of 1000
+2025-07-26 19:44:03,427 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:03,545 - INFO - EarlyStopping counter: 255 out of 1000
+2025-07-26 19:44:03,594 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:03,712 - INFO - EarlyStopping counter: 256 out of 1000
+2025-07-26 19:44:03,761 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:03,879 - INFO - EarlyStopping counter: 257 out of 1000
+2025-07-26 19:44:03,928 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:04,045 - INFO - EarlyStopping counter: 258 out of 1000
+2025-07-26 19:44:04,046 - INFO - epoch [2265/3000], loss: 0.0024, accuracy: 100.00%, val_loss: 0.3273, val_accuracy: 92.68%, gamma: 6.5985, beta: -13.3066, centrality_scaling: 1.4197, lr: 0.002915, aug: 0.000001
+2025-07-26 19:44:04,095 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:04,213 - INFO - EarlyStopping counter: 259 out of 1000
+2025-07-26 19:44:04,262 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:04,380 - INFO - EarlyStopping counter: 260 out of 1000
+2025-07-26 19:44:04,429 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:04,547 - INFO - EarlyStopping counter: 261 out of 1000
+2025-07-26 19:44:04,596 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:04,714 - INFO - EarlyStopping counter: 262 out of 1000
+2025-07-26 19:44:04,763 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:04,881 - INFO - EarlyStopping counter: 263 out of 1000
+2025-07-26 19:44:04,881 - INFO - epoch [2270/3000], loss: 0.0080, accuracy: 98.54%, val_loss: 0.3282, val_accuracy: 92.68%, gamma: 6.5969, beta: -13.3087, centrality_scaling: 1.4174, lr: 0.002938, aug: 0.000001
+2025-07-26 19:44:04,930 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:05,048 - INFO - EarlyStopping counter: 264 out of 1000
+2025-07-26 19:44:05,097 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:05,216 - INFO - EarlyStopping counter: 265 out of 1000
+2025-07-26 19:44:05,265 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:05,383 - INFO - EarlyStopping counter: 266 out of 1000
+2025-07-26 19:44:05,432 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:05,550 - INFO - EarlyStopping counter: 267 out of 1000
+2025-07-26 19:44:05,600 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:05,718 - INFO - EarlyStopping counter: 268 out of 1000
+2025-07-26 19:44:05,718 - INFO - epoch [2275/3000], loss: 0.0092, accuracy: 99.02%, val_loss: 0.3303, val_accuracy: 92.68%, gamma: 6.5952, beta: -13.3108, centrality_scaling: 1.4150, lr: 0.002957, aug: 0.000001
+2025-07-26 19:44:05,767 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:05,885 - INFO - EarlyStopping counter: 269 out of 1000
+2025-07-26 19:44:05,934 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:06,052 - INFO - EarlyStopping counter: 270 out of 1000
+2025-07-26 19:44:06,101 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:06,219 - INFO - EarlyStopping counter: 271 out of 1000
+2025-07-26 19:44:06,268 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:06,386 - INFO - EarlyStopping counter: 272 out of 1000
+2025-07-26 19:44:06,435 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:06,553 - INFO - EarlyStopping counter: 273 out of 1000
+2025-07-26 19:44:06,553 - INFO - epoch [2280/3000], loss: 0.0114, accuracy: 98.54%, val_loss: 0.3369, val_accuracy: 92.68%, gamma: 6.5935, beta: -13.3129, centrality_scaling: 1.4127, lr: 0.002973, aug: 0.000001
+2025-07-26 19:44:06,602 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:06,721 - INFO - EarlyStopping counter: 274 out of 1000
+2025-07-26 19:44:06,770 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:06,888 - INFO - EarlyStopping counter: 275 out of 1000
+2025-07-26 19:44:06,937 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:07,055 - INFO - EarlyStopping counter: 276 out of 1000
+2025-07-26 19:44:07,104 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:07,222 - INFO - EarlyStopping counter: 277 out of 1000
+2025-07-26 19:44:07,272 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:07,390 - INFO - EarlyStopping counter: 278 out of 1000
+2025-07-26 19:44:07,390 - INFO - epoch [2285/3000], loss: 0.0026, accuracy: 99.51%, val_loss: 0.3448, val_accuracy: 92.68%, gamma: 6.5919, beta: -13.3149, centrality_scaling: 1.4104, lr: 0.002985, aug: 0.000001
+2025-07-26 19:44:07,439 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:07,557 - INFO - EarlyStopping counter: 279 out of 1000
+2025-07-26 19:44:07,606 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:07,724 - INFO - EarlyStopping counter: 280 out of 1000
+2025-07-26 19:44:07,773 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:07,892 - INFO - EarlyStopping counter: 281 out of 1000
+2025-07-26 19:44:07,941 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:08,059 - INFO - EarlyStopping counter: 282 out of 1000
+2025-07-26 19:44:08,108 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:08,226 - INFO - EarlyStopping counter: 283 out of 1000
+2025-07-26 19:44:08,226 - INFO - epoch [2290/3000], loss: 0.0040, accuracy: 99.02%, val_loss: 0.3461, val_accuracy: 92.68%, gamma: 6.5887, beta: -13.3184, centrality_scaling: 1.4065, lr: 0.002994, aug: 0.000001
+2025-07-26 19:44:08,275 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:08,394 - INFO - EarlyStopping counter: 284 out of 1000
+2025-07-26 19:44:08,443 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:08,561 - INFO - EarlyStopping counter: 285 out of 1000
+2025-07-26 19:44:08,610 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:08,729 - INFO - EarlyStopping counter: 286 out of 1000
+2025-07-26 19:44:08,778 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:08,896 - INFO - EarlyStopping counter: 287 out of 1000
+2025-07-26 19:44:08,945 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:09,064 - INFO - EarlyStopping counter: 288 out of 1000
+2025-07-26 19:44:09,064 - INFO - epoch [2295/3000], loss: 0.0014, accuracy: 100.00%, val_loss: 0.3374, val_accuracy: 92.68%, gamma: 6.5843, beta: -13.3231, centrality_scaling: 1.4013, lr: 0.002999, aug: 0.000001
+2025-07-26 19:44:09,113 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:09,232 - INFO - EarlyStopping counter: 289 out of 1000
+2025-07-26 19:44:09,281 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:09,399 - INFO - EarlyStopping counter: 290 out of 1000
+2025-07-26 19:44:09,448 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:09,566 - INFO - EarlyStopping counter: 291 out of 1000
+2025-07-26 19:44:09,615 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:09,733 - INFO - EarlyStopping counter: 292 out of 1000
+2025-07-26 19:44:09,783 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:09,901 - INFO - EarlyStopping counter: 293 out of 1000
+2025-07-26 19:44:09,901 - INFO - epoch [2300/3000], loss: 0.0130, accuracy: 98.54%, val_loss: 0.3300, val_accuracy: 92.68%, gamma: 6.5811, beta: -13.3267, centrality_scaling: 1.3973, lr: 0.003000, aug: 0.000000
+2025-07-26 19:44:09,950 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:10,068 - INFO - EarlyStopping counter: 294 out of 1000
+2025-07-26 19:44:10,117 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:10,235 - INFO - EarlyStopping counter: 295 out of 1000
+2025-07-26 19:44:10,284 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:10,402 - INFO - EarlyStopping counter: 296 out of 1000
+2025-07-26 19:44:10,451 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:10,569 - INFO - EarlyStopping counter: 297 out of 1000
+2025-07-26 19:44:10,618 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:10,736 - INFO - EarlyStopping counter: 298 out of 1000
+2025-07-26 19:44:10,736 - INFO - epoch [2305/3000], loss: 0.0044, accuracy: 99.02%, val_loss: 0.3214, val_accuracy: 92.68%, gamma: 6.5772, beta: -13.3310, centrality_scaling: 1.3925, lr: 0.002999, aug: 0.000000
+2025-07-26 19:44:10,785 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:10,903 - INFO - EarlyStopping counter: 299 out of 1000
+2025-07-26 19:44:10,953 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:11,071 - INFO - EarlyStopping counter: 300 out of 1000
+2025-07-26 19:44:11,120 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:11,238 - INFO - EarlyStopping counter: 301 out of 1000
+2025-07-26 19:44:11,287 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:11,406 - INFO - EarlyStopping counter: 302 out of 1000
+2025-07-26 19:44:11,455 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:11,573 - INFO - EarlyStopping counter: 303 out of 1000
+2025-07-26 19:44:11,573 - INFO - epoch [2310/3000], loss: 0.0155, accuracy: 99.51%, val_loss: 0.3220, val_accuracy: 92.68%, gamma: 6.5749, beta: -13.3338, centrality_scaling: 1.3893, lr: 0.002998, aug: 0.000000
+2025-07-26 19:44:11,622 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:11,740 - INFO - EarlyStopping counter: 304 out of 1000
+2025-07-26 19:44:11,789 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:11,907 - INFO - EarlyStopping counter: 305 out of 1000
+2025-07-26 19:44:11,956 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:12,074 - INFO - EarlyStopping counter: 306 out of 1000
+2025-07-26 19:44:12,123 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:12,241 - INFO - EarlyStopping counter: 307 out of 1000
+2025-07-26 19:44:12,291 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:12,409 - INFO - EarlyStopping counter: 308 out of 1000
+2025-07-26 19:44:12,409 - INFO - epoch [2315/3000], loss: 0.0039, accuracy: 99.51%, val_loss: 0.3292, val_accuracy: 92.68%, gamma: 6.5732, beta: -13.3361, centrality_scaling: 1.3867, lr: 0.002996, aug: 0.000000
+2025-07-26 19:44:12,458 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:12,577 - INFO - EarlyStopping counter: 309 out of 1000
+2025-07-26 19:44:12,626 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:12,744 - INFO - EarlyStopping counter: 310 out of 1000
+2025-07-26 19:44:12,793 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:12,911 - INFO - EarlyStopping counter: 311 out of 1000
+2025-07-26 19:44:12,960 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:13,078 - INFO - EarlyStopping counter: 312 out of 1000
+2025-07-26 19:44:13,127 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:13,247 - INFO - EarlyStopping counter: 313 out of 1000
+2025-07-26 19:44:13,247 - INFO - epoch [2320/3000], loss: 0.0032, accuracy: 99.02%, val_loss: 0.3338, val_accuracy: 92.68%, gamma: 6.5711, beta: -13.3386, centrality_scaling: 1.3838, lr: 0.002993, aug: 0.000000
+2025-07-26 19:44:13,296 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:13,414 - INFO - EarlyStopping counter: 314 out of 1000
+2025-07-26 19:44:13,463 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:13,581 - INFO - EarlyStopping counter: 315 out of 1000
+2025-07-26 19:44:13,631 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:13,749 - INFO - EarlyStopping counter: 316 out of 1000
+2025-07-26 19:44:13,798 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:13,916 - INFO - EarlyStopping counter: 317 out of 1000
+2025-07-26 19:44:13,965 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:14,083 - INFO - EarlyStopping counter: 318 out of 1000
+2025-07-26 19:44:14,083 - INFO - epoch [2325/3000], loss: 0.0090, accuracy: 97.56%, val_loss: 0.3336, val_accuracy: 92.68%, gamma: 6.5699, beta: -13.3400, centrality_scaling: 1.3822, lr: 0.002990, aug: 0.000000
+2025-07-26 19:44:14,132 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:14,250 - INFO - EarlyStopping counter: 319 out of 1000
+2025-07-26 19:44:14,300 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:14,417 - INFO - EarlyStopping counter: 320 out of 1000
+2025-07-26 19:44:14,467 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:14,585 - INFO - EarlyStopping counter: 321 out of 1000
+2025-07-26 19:44:14,634 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:14,752 - INFO - EarlyStopping counter: 322 out of 1000
+2025-07-26 19:44:14,801 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:14,919 - INFO - EarlyStopping counter: 323 out of 1000
+2025-07-26 19:44:14,919 - INFO - epoch [2330/3000], loss: 0.0038, accuracy: 99.51%, val_loss: 0.3293, val_accuracy: 92.68%, gamma: 6.5684, beta: -13.3419, centrality_scaling: 1.3800, lr: 0.002986, aug: 0.000000
+2025-07-26 19:44:14,968 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:15,086 - INFO - EarlyStopping counter: 324 out of 1000
+2025-07-26 19:44:15,135 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:15,254 - INFO - EarlyStopping counter: 325 out of 1000
+2025-07-26 19:44:15,303 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:15,421 - INFO - EarlyStopping counter: 326 out of 1000
+2025-07-26 19:44:15,470 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:15,588 - INFO - EarlyStopping counter: 327 out of 1000
+2025-07-26 19:44:15,637 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:15,755 - INFO - EarlyStopping counter: 328 out of 1000
+2025-07-26 19:44:15,755 - INFO - epoch [2335/3000], loss: 0.0037, accuracy: 99.02%, val_loss: 0.3254, val_accuracy: 92.68%, gamma: 6.5662, beta: -13.3449, centrality_scaling: 1.3767, lr: 0.002980, aug: 0.000000
+2025-07-26 19:44:15,804 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:15,922 - INFO - EarlyStopping counter: 329 out of 1000
+2025-07-26 19:44:15,971 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:16,089 - INFO - EarlyStopping counter: 330 out of 1000
+2025-07-26 19:44:16,138 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:16,256 - INFO - EarlyStopping counter: 331 out of 1000
+2025-07-26 19:44:16,306 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:16,423 - INFO - EarlyStopping counter: 332 out of 1000
+2025-07-26 19:44:16,472 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:16,591 - INFO - EarlyStopping counter: 333 out of 1000
+2025-07-26 19:44:16,591 - INFO - epoch [2340/3000], loss: 0.0039, accuracy: 99.02%, val_loss: 0.3167, val_accuracy: 92.68%, gamma: 6.5651, beta: -13.3467, centrality_scaling: 1.3745, lr: 0.002975, aug: 0.000000
+2025-07-26 19:44:16,640 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:16,758 - INFO - EarlyStopping counter: 334 out of 1000
+2025-07-26 19:44:16,807 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:16,925 - INFO - EarlyStopping counter: 335 out of 1000
+2025-07-26 19:44:16,974 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:17,092 - INFO - EarlyStopping counter: 336 out of 1000
+2025-07-26 19:44:17,142 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:17,261 - INFO - EarlyStopping counter: 337 out of 1000
+2025-07-26 19:44:17,310 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:17,427 - INFO - EarlyStopping counter: 338 out of 1000
+2025-07-26 19:44:17,427 - INFO - epoch [2345/3000], loss: 0.0010, accuracy: 100.00%, val_loss: 0.3244, val_accuracy: 92.68%, gamma: 6.5617, beta: -13.3505, centrality_scaling: 1.3702, lr: 0.002968, aug: 0.000000
+2025-07-26 19:44:17,477 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:17,595 - INFO - EarlyStopping counter: 339 out of 1000
+2025-07-26 19:44:17,644 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:17,762 - INFO - EarlyStopping counter: 340 out of 1000
+2025-07-26 19:44:17,811 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:17,929 - INFO - EarlyStopping counter: 341 out of 1000
+2025-07-26 19:44:17,978 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:18,096 - INFO - EarlyStopping counter: 342 out of 1000
+2025-07-26 19:44:18,145 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:18,264 - INFO - EarlyStopping counter: 343 out of 1000
+2025-07-26 19:44:18,264 - INFO - epoch [2350/3000], loss: 0.0009, accuracy: 100.00%, val_loss: 0.3254, val_accuracy: 92.68%, gamma: 6.5587, beta: -13.3538, centrality_scaling: 1.3665, lr: 0.002961, aug: 0.000000
+2025-07-26 19:44:18,313 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:18,431 - INFO - EarlyStopping counter: 344 out of 1000
+2025-07-26 19:44:18,480 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:18,598 - INFO - EarlyStopping counter: 345 out of 1000
+2025-07-26 19:44:18,647 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:18,765 - INFO - EarlyStopping counter: 346 out of 1000
+2025-07-26 19:44:18,814 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:18,932 - INFO - EarlyStopping counter: 347 out of 1000
+2025-07-26 19:44:18,981 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:19,099 - INFO - EarlyStopping counter: 348 out of 1000
+2025-07-26 19:44:19,099 - INFO - epoch [2355/3000], loss: 0.0010, accuracy: 100.00%, val_loss: 0.3302, val_accuracy: 92.68%, gamma: 6.5613, beta: -13.3513, centrality_scaling: 1.3691, lr: 0.002953, aug: 0.000000
+2025-07-26 19:44:19,148 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:19,267 - INFO - EarlyStopping counter: 349 out of 1000
+2025-07-26 19:44:19,316 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:19,433 - INFO - EarlyStopping counter: 350 out of 1000
+2025-07-26 19:44:19,482 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:19,600 - INFO - EarlyStopping counter: 351 out of 1000
+2025-07-26 19:44:19,649 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:19,767 - INFO - EarlyStopping counter: 352 out of 1000
+2025-07-26 19:44:19,816 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:19,934 - INFO - EarlyStopping counter: 353 out of 1000
+2025-07-26 19:44:19,934 - INFO - epoch [2360/3000], loss: 0.0008, accuracy: 100.00%, val_loss: 0.3245, val_accuracy: 92.68%, gamma: 6.5607, beta: -13.3523, centrality_scaling: 1.3678, lr: 0.002944, aug: 0.000000
+2025-07-26 19:44:19,983 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:20,101 - INFO - EarlyStopping counter: 354 out of 1000
+2025-07-26 19:44:20,150 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:20,268 - INFO - EarlyStopping counter: 355 out of 1000
+2025-07-26 19:44:20,317 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:20,435 - INFO - EarlyStopping counter: 356 out of 1000
+2025-07-26 19:44:20,485 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:20,603 - INFO - EarlyStopping counter: 357 out of 1000
+2025-07-26 19:44:20,652 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:20,770 - INFO - EarlyStopping counter: 358 out of 1000
+2025-07-26 19:44:20,770 - INFO - epoch [2365/3000], loss: 0.0010, accuracy: 100.00%, val_loss: 0.3223, val_accuracy: 92.68%, gamma: 6.5587, beta: -13.3548, centrality_scaling: 1.3650, lr: 0.002935, aug: 0.000000
+2025-07-26 19:44:20,819 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:20,937 - INFO - EarlyStopping counter: 359 out of 1000
+2025-07-26 19:44:20,986 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:21,105 - INFO - EarlyStopping counter: 360 out of 1000
+2025-07-26 19:44:21,154 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:21,272 - INFO - EarlyStopping counter: 361 out of 1000
+2025-07-26 19:44:21,322 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:21,439 - INFO - EarlyStopping counter: 362 out of 1000
+2025-07-26 19:44:21,488 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:21,606 - INFO - EarlyStopping counter: 363 out of 1000
+2025-07-26 19:44:21,606 - INFO - epoch [2370/3000], loss: 0.0012, accuracy: 100.00%, val_loss: 0.3201, val_accuracy: 92.68%, gamma: 6.5568, beta: -13.3571, centrality_scaling: 1.3624, lr: 0.002925, aug: 0.000000
+2025-07-26 19:44:21,655 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:21,773 - INFO - EarlyStopping counter: 364 out of 1000
+2025-07-26 19:44:21,822 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:21,940 - INFO - EarlyStopping counter: 365 out of 1000
+2025-07-26 19:44:21,989 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:22,107 - INFO - EarlyStopping counter: 366 out of 1000
+2025-07-26 19:44:22,156 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:22,274 - INFO - EarlyStopping counter: 367 out of 1000
+2025-07-26 19:44:22,323 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:22,440 - INFO - EarlyStopping counter: 368 out of 1000
+2025-07-26 19:44:22,440 - INFO - epoch [2375/3000], loss: 0.0040, accuracy: 99.51%, val_loss: 0.3213, val_accuracy: 92.68%, gamma: 6.5548, beta: -13.3592, centrality_scaling: 1.3598, lr: 0.002914, aug: 0.000000
+2025-07-26 19:44:22,489 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:22,608 - INFO - EarlyStopping counter: 369 out of 1000
+2025-07-26 19:44:22,657 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:22,775 - INFO - EarlyStopping counter: 370 out of 1000
+2025-07-26 19:44:22,824 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:22,942 - INFO - EarlyStopping counter: 371 out of 1000
+2025-07-26 19:44:22,991 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:23,109 - INFO - EarlyStopping counter: 372 out of 1000
+2025-07-26 19:44:23,158 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:23,277 - INFO - EarlyStopping counter: 373 out of 1000
+2025-07-26 19:44:23,277 - INFO - epoch [2380/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3211, val_accuracy: 92.68%, gamma: 6.5513, beta: -13.3631, centrality_scaling: 1.3554, lr: 0.002902, aug: 0.000000
+2025-07-26 19:44:23,326 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:23,444 - INFO - EarlyStopping counter: 374 out of 1000
+2025-07-26 19:44:23,493 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:23,611 - INFO - EarlyStopping counter: 375 out of 1000
+2025-07-26 19:44:23,660 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:23,779 - INFO - EarlyStopping counter: 376 out of 1000
+2025-07-26 19:44:23,828 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:23,946 - INFO - EarlyStopping counter: 377 out of 1000
+2025-07-26 19:44:23,995 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:24,113 - INFO - EarlyStopping counter: 378 out of 1000
+2025-07-26 19:44:24,113 - INFO - epoch [2385/3000], loss: 0.0035, accuracy: 99.51%, val_loss: 0.3231, val_accuracy: 92.68%, gamma: 6.5501, beta: -13.3646, centrality_scaling: 1.3536, lr: 0.002890, aug: 0.000000
+2025-07-26 19:44:24,162 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:24,280 - INFO - EarlyStopping counter: 379 out of 1000
+2025-07-26 19:44:24,329 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:24,447 - INFO - EarlyStopping counter: 380 out of 1000
+2025-07-26 19:44:24,496 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:24,614 - INFO - EarlyStopping counter: 381 out of 1000
+2025-07-26 19:44:24,663 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:24,782 - INFO - EarlyStopping counter: 382 out of 1000
+2025-07-26 19:44:24,831 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:24,949 - INFO - EarlyStopping counter: 383 out of 1000
+2025-07-26 19:44:24,949 - INFO - epoch [2390/3000], loss: 0.0010, accuracy: 100.00%, val_loss: 0.3302, val_accuracy: 92.68%, gamma: 6.5491, beta: -13.3657, centrality_scaling: 1.3522, lr: 0.002877, aug: 0.000000
+2025-07-26 19:44:24,998 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:25,116 - INFO - EarlyStopping counter: 384 out of 1000
+2025-07-26 19:44:25,165 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:25,284 - INFO - EarlyStopping counter: 385 out of 1000
+2025-07-26 19:44:25,333 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:25,451 - INFO - EarlyStopping counter: 386 out of 1000
+2025-07-26 19:44:25,501 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:25,619 - INFO - EarlyStopping counter: 387 out of 1000
+2025-07-26 19:44:25,668 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:25,786 - INFO - EarlyStopping counter: 388 out of 1000
+2025-07-26 19:44:25,786 - INFO - epoch [2395/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3295, val_accuracy: 92.68%, gamma: 6.5486, beta: -13.3665, centrality_scaling: 1.3513, lr: 0.002863, aug: 0.000000
+2025-07-26 19:44:25,835 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:25,953 - INFO - EarlyStopping counter: 389 out of 1000
+2025-07-26 19:44:26,002 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:26,120 - INFO - EarlyStopping counter: 390 out of 1000
+2025-07-26 19:44:26,169 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:26,287 - INFO - EarlyStopping counter: 391 out of 1000
+2025-07-26 19:44:26,336 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:26,454 - INFO - EarlyStopping counter: 392 out of 1000
+2025-07-26 19:44:26,503 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:26,621 - INFO - EarlyStopping counter: 393 out of 1000
+2025-07-26 19:44:26,622 - INFO - epoch [2400/3000], loss: 0.0022, accuracy: 99.51%, val_loss: 0.3350, val_accuracy: 92.68%, gamma: 6.5478, beta: -13.3674, centrality_scaling: 1.3502, lr: 0.002849, aug: 0.000000
+2025-07-26 19:44:26,670 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:26,789 - INFO - EarlyStopping counter: 394 out of 1000
+2025-07-26 19:44:26,838 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:26,956 - INFO - EarlyStopping counter: 395 out of 1000
+2025-07-26 19:44:27,005 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:27,123 - INFO - EarlyStopping counter: 396 out of 1000
+2025-07-26 19:44:27,172 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:27,290 - INFO - EarlyStopping counter: 397 out of 1000
+2025-07-26 19:44:27,339 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:27,457 - INFO - EarlyStopping counter: 398 out of 1000
+2025-07-26 19:44:27,457 - INFO - epoch [2405/3000], loss: 0.0009, accuracy: 100.00%, val_loss: 0.3321, val_accuracy: 92.68%, gamma: 6.5467, beta: -13.3686, centrality_scaling: 1.3487, lr: 0.002834
+2025-07-26 19:44:27,506 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:27,624 - INFO - EarlyStopping counter: 399 out of 1000
+2025-07-26 19:44:27,672 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:27,790 - INFO - EarlyStopping counter: 400 out of 1000
+2025-07-26 19:44:27,839 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:27,957 - INFO - EarlyStopping counter: 401 out of 1000
+2025-07-26 19:44:28,006 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:28,124 - INFO - EarlyStopping counter: 402 out of 1000
+2025-07-26 19:44:28,173 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:28,291 - INFO - EarlyStopping counter: 403 out of 1000
+2025-07-26 19:44:28,292 - INFO - epoch [2410/3000], loss: 0.0009, accuracy: 100.00%, val_loss: 0.3339, val_accuracy: 92.68%, gamma: 6.5457, beta: -13.3697, centrality_scaling: 1.3473, lr: 0.002818
+2025-07-26 19:44:28,340 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:28,459 - INFO - EarlyStopping counter: 404 out of 1000
+2025-07-26 19:44:28,508 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:28,626 - INFO - EarlyStopping counter: 405 out of 1000
+2025-07-26 19:44:28,675 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:28,792 - INFO - EarlyStopping counter: 406 out of 1000
+2025-07-26 19:44:28,841 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:28,960 - INFO - EarlyStopping counter: 407 out of 1000
+2025-07-26 19:44:29,009 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:29,127 - INFO - EarlyStopping counter: 408 out of 1000
+2025-07-26 19:44:29,127 - INFO - epoch [2415/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3333, val_accuracy: 92.68%, gamma: 6.5447, beta: -13.3708, centrality_scaling: 1.3460, lr: 0.002801
+2025-07-26 19:44:29,177 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:29,295 - INFO - EarlyStopping counter: 409 out of 1000
+2025-07-26 19:44:29,344 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:29,462 - INFO - EarlyStopping counter: 410 out of 1000
+2025-07-26 19:44:29,511 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:29,629 - INFO - EarlyStopping counter: 411 out of 1000
+2025-07-26 19:44:29,678 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:29,797 - INFO - EarlyStopping counter: 412 out of 1000
+2025-07-26 19:44:29,845 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:29,964 - INFO - EarlyStopping counter: 413 out of 1000
+2025-07-26 19:44:29,964 - INFO - epoch [2420/3000], loss: 0.0020, accuracy: 99.51%, val_loss: 0.3341, val_accuracy: 92.68%, gamma: 6.5439, beta: -13.3716, centrality_scaling: 1.3450, lr: 0.002784
+2025-07-26 19:44:30,013 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:30,131 - INFO - EarlyStopping counter: 414 out of 1000
+2025-07-26 19:44:30,180 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:30,298 - INFO - EarlyStopping counter: 415 out of 1000
+2025-07-26 19:44:30,347 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:30,465 - INFO - EarlyStopping counter: 416 out of 1000
+2025-07-26 19:44:30,513 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:30,631 - INFO - EarlyStopping counter: 417 out of 1000
+2025-07-26 19:44:30,680 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:30,798 - INFO - EarlyStopping counter: 418 out of 1000
+2025-07-26 19:44:30,798 - INFO - epoch [2425/3000], loss: 0.0022, accuracy: 99.51%, val_loss: 0.3359, val_accuracy: 92.68%, gamma: 6.5429, beta: -13.3727, centrality_scaling: 1.3437, lr: 0.002767
+2025-07-26 19:44:30,847 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:30,965 - INFO - EarlyStopping counter: 419 out of 1000
+2025-07-26 19:44:31,014 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:31,132 - INFO - EarlyStopping counter: 420 out of 1000
+2025-07-26 19:44:31,181 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:31,299 - INFO - EarlyStopping counter: 421 out of 1000
+2025-07-26 19:44:31,348 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:31,467 - INFO - EarlyStopping counter: 422 out of 1000
+2025-07-26 19:44:31,516 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:31,633 - INFO - EarlyStopping counter: 423 out of 1000
+2025-07-26 19:44:31,633 - INFO - epoch [2430/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3337, val_accuracy: 92.68%, gamma: 6.5418, beta: -13.3740, centrality_scaling: 1.3421, lr: 0.002748
+2025-07-26 19:44:31,682 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:31,800 - INFO - EarlyStopping counter: 424 out of 1000
+2025-07-26 19:44:31,849 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:31,967 - INFO - EarlyStopping counter: 425 out of 1000
+2025-07-26 19:44:32,016 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:32,134 - INFO - EarlyStopping counter: 426 out of 1000
+2025-07-26 19:44:32,183 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:32,301 - INFO - EarlyStopping counter: 427 out of 1000
+2025-07-26 19:44:32,350 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:32,468 - INFO - EarlyStopping counter: 428 out of 1000
+2025-07-26 19:44:32,468 - INFO - epoch [2435/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3342, val_accuracy: 92.68%, gamma: 6.5408, beta: -13.3750, centrality_scaling: 1.3409, lr: 0.002729
+2025-07-26 19:44:32,517 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:32,635 - INFO - EarlyStopping counter: 429 out of 1000
+2025-07-26 19:44:32,684 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:32,802 - INFO - EarlyStopping counter: 430 out of 1000
+2025-07-26 19:44:32,851 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:32,970 - INFO - EarlyStopping counter: 431 out of 1000
+2025-07-26 19:44:33,019 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:33,137 - INFO - EarlyStopping counter: 432 out of 1000
+2025-07-26 19:44:33,186 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:33,305 - INFO - EarlyStopping counter: 433 out of 1000
+2025-07-26 19:44:33,305 - INFO - epoch [2440/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3317, val_accuracy: 92.68%, gamma: 6.5400, beta: -13.3759, centrality_scaling: 1.3397, lr: 0.002710
+2025-07-26 19:44:33,354 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:33,472 - INFO - EarlyStopping counter: 434 out of 1000
+2025-07-26 19:44:33,520 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:33,638 - INFO - EarlyStopping counter: 435 out of 1000
+2025-07-26 19:44:33,687 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:33,805 - INFO - EarlyStopping counter: 436 out of 1000
+2025-07-26 19:44:33,854 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:33,971 - INFO - EarlyStopping counter: 437 out of 1000
+2025-07-26 19:44:34,020 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:34,138 - INFO - EarlyStopping counter: 438 out of 1000
+2025-07-26 19:44:34,138 - INFO - epoch [2445/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3286, val_accuracy: 92.68%, gamma: 6.5388, beta: -13.3772, centrality_scaling: 1.3382, lr: 0.002690
+2025-07-26 19:44:34,187 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:34,305 - INFO - EarlyStopping counter: 439 out of 1000
+2025-07-26 19:44:34,354 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:34,472 - INFO - EarlyStopping counter: 440 out of 1000
+2025-07-26 19:44:34,521 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:34,639 - INFO - EarlyStopping counter: 441 out of 1000
+2025-07-26 19:44:34,688 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:34,806 - INFO - EarlyStopping counter: 442 out of 1000
+2025-07-26 19:44:34,855 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:34,973 - INFO - EarlyStopping counter: 443 out of 1000
+2025-07-26 19:44:34,973 - INFO - epoch [2450/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3279, val_accuracy: 92.68%, gamma: 6.5380, beta: -13.3780, centrality_scaling: 1.3371, lr: 0.002669
+2025-07-26 19:44:35,022 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:35,140 - INFO - EarlyStopping counter: 444 out of 1000
+2025-07-26 19:44:35,189 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:35,308 - INFO - EarlyStopping counter: 445 out of 1000
+2025-07-26 19:44:35,357 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:35,476 - INFO - EarlyStopping counter: 446 out of 1000
+2025-07-26 19:44:35,525 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:35,642 - INFO - EarlyStopping counter: 447 out of 1000
+2025-07-26 19:44:35,692 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:35,810 - INFO - EarlyStopping counter: 448 out of 1000
+2025-07-26 19:44:35,810 - INFO - epoch [2455/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3313, val_accuracy: 92.68%, gamma: 6.5372, beta: -13.3789, centrality_scaling: 1.3361, lr: 0.002647
+2025-07-26 19:44:35,859 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:35,976 - INFO - EarlyStopping counter: 449 out of 1000
+2025-07-26 19:44:36,025 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:36,143 - INFO - EarlyStopping counter: 450 out of 1000
+2025-07-26 19:44:36,192 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:36,310 - INFO - EarlyStopping counter: 451 out of 1000
+2025-07-26 19:44:36,359 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:36,477 - INFO - EarlyStopping counter: 452 out of 1000
+2025-07-26 19:44:36,526 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:36,644 - INFO - EarlyStopping counter: 453 out of 1000
+2025-07-26 19:44:36,644 - INFO - epoch [2460/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3357, val_accuracy: 92.68%, gamma: 6.5366, beta: -13.3795, centrality_scaling: 1.3352, lr: 0.002626
+2025-07-26 19:44:36,693 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:36,811 - INFO - EarlyStopping counter: 454 out of 1000
+2025-07-26 19:44:36,860 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:36,978 - INFO - EarlyStopping counter: 455 out of 1000
+2025-07-26 19:44:37,026 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:37,144 - INFO - EarlyStopping counter: 456 out of 1000
+2025-07-26 19:44:37,194 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:37,311 - INFO - EarlyStopping counter: 457 out of 1000
+2025-07-26 19:44:37,360 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:37,478 - INFO - EarlyStopping counter: 458 out of 1000
+2025-07-26 19:44:37,478 - INFO - epoch [2465/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3367, val_accuracy: 92.68%, gamma: 6.5354, beta: -13.3808, centrality_scaling: 1.3337, lr: 0.002603
+2025-07-26 19:44:37,527 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:37,645 - INFO - EarlyStopping counter: 459 out of 1000
+2025-07-26 19:44:37,694 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:37,812 - INFO - EarlyStopping counter: 460 out of 1000
+2025-07-26 19:44:37,861 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:37,979 - INFO - EarlyStopping counter: 461 out of 1000
+2025-07-26 19:44:38,028 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:38,146 - INFO - EarlyStopping counter: 462 out of 1000
+2025-07-26 19:44:38,195 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:38,313 - INFO - EarlyStopping counter: 463 out of 1000
+2025-07-26 19:44:38,313 - INFO - epoch [2470/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3343, val_accuracy: 92.68%, gamma: 6.5343, beta: -13.3821, centrality_scaling: 1.3321, lr: 0.002580
+2025-07-26 19:44:38,362 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:38,480 - INFO - EarlyStopping counter: 464 out of 1000
+2025-07-26 19:44:38,529 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:38,647 - INFO - EarlyStopping counter: 465 out of 1000
+2025-07-26 19:44:38,696 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:38,814 - INFO - EarlyStopping counter: 466 out of 1000
+2025-07-26 19:44:38,863 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:38,980 - INFO - EarlyStopping counter: 467 out of 1000
+2025-07-26 19:44:39,029 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:39,148 - INFO - EarlyStopping counter: 468 out of 1000
+2025-07-26 19:44:39,148 - INFO - epoch [2475/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3328, val_accuracy: 92.68%, gamma: 6.5334, beta: -13.3830, centrality_scaling: 1.3310, lr: 0.002556
+2025-07-26 19:44:39,196 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:39,314 - INFO - EarlyStopping counter: 469 out of 1000
+2025-07-26 19:44:39,363 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:39,481 - INFO - EarlyStopping counter: 470 out of 1000
+2025-07-26 19:44:39,530 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:39,649 - INFO - EarlyStopping counter: 471 out of 1000
+2025-07-26 19:44:39,698 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:39,816 - INFO - EarlyStopping counter: 472 out of 1000
+2025-07-26 19:44:39,865 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:39,983 - INFO - EarlyStopping counter: 473 out of 1000
+2025-07-26 19:44:39,983 - INFO - epoch [2480/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3351, val_accuracy: 92.68%, gamma: 6.5329, beta: -13.3836, centrality_scaling: 1.3302, lr: 0.002532
+2025-07-26 19:44:40,032 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:40,150 - INFO - EarlyStopping counter: 474 out of 1000
+2025-07-26 19:44:40,198 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:40,316 - INFO - EarlyStopping counter: 475 out of 1000
+2025-07-26 19:44:40,365 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:40,483 - INFO - EarlyStopping counter: 476 out of 1000
+2025-07-26 19:44:40,532 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:40,650 - INFO - EarlyStopping counter: 477 out of 1000
+2025-07-26 19:44:40,699 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:40,817 - INFO - EarlyStopping counter: 478 out of 1000
+2025-07-26 19:44:40,817 - INFO - epoch [2485/3000], loss: 0.0010, accuracy: 100.00%, val_loss: 0.3335, val_accuracy: 92.68%, gamma: 6.5325, beta: -13.3840, centrality_scaling: 1.3297, lr: 0.002508
+2025-07-26 19:44:40,866 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:40,984 - INFO - EarlyStopping counter: 479 out of 1000
+2025-07-26 19:44:41,033 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:41,151 - INFO - EarlyStopping counter: 480 out of 1000
+2025-07-26 19:44:41,201 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:41,318 - INFO - EarlyStopping counter: 481 out of 1000
+2025-07-26 19:44:41,367 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:41,485 - INFO - EarlyStopping counter: 482 out of 1000
+2025-07-26 19:44:41,534 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:41,652 - INFO - EarlyStopping counter: 483 out of 1000
+2025-07-26 19:44:41,652 - INFO - epoch [2490/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3346, val_accuracy: 92.68%, gamma: 6.5322, beta: -13.3843, centrality_scaling: 1.3292, lr: 0.002482
+2025-07-26 19:44:41,701 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:41,819 - INFO - EarlyStopping counter: 484 out of 1000
+2025-07-26 19:44:41,868 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:41,986 - INFO - EarlyStopping counter: 485 out of 1000
+2025-07-26 19:44:42,035 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:42,153 - INFO - EarlyStopping counter: 486 out of 1000
+2025-07-26 19:44:42,202 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:42,320 - INFO - EarlyStopping counter: 487 out of 1000
+2025-07-26 19:44:42,369 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:42,487 - INFO - EarlyStopping counter: 488 out of 1000
+2025-07-26 19:44:42,487 - INFO - epoch [2495/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3372, val_accuracy: 92.68%, gamma: 6.5319, beta: -13.3846, centrality_scaling: 1.3288, lr: 0.002457
+2025-07-26 19:44:42,535 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:42,653 - INFO - EarlyStopping counter: 489 out of 1000
+2025-07-26 19:44:42,702 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:42,821 - INFO - EarlyStopping counter: 490 out of 1000
+2025-07-26 19:44:42,870 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:42,987 - INFO - EarlyStopping counter: 491 out of 1000
+2025-07-26 19:44:43,036 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:43,155 - INFO - EarlyStopping counter: 492 out of 1000
+2025-07-26 19:44:43,204 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:43,322 - INFO - EarlyStopping counter: 493 out of 1000
+2025-07-26 19:44:43,322 - INFO - epoch [2500/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3322, val_accuracy: 92.68%, gamma: 6.5316, beta: -13.3849, centrality_scaling: 1.3283, lr: 0.002431
+2025-07-26 19:44:43,371 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:43,489 - INFO - EarlyStopping counter: 494 out of 1000
+2025-07-26 19:44:43,538 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:43,656 - INFO - EarlyStopping counter: 495 out of 1000
+2025-07-26 19:44:43,705 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:43,823 - INFO - EarlyStopping counter: 496 out of 1000
+2025-07-26 19:44:43,872 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:43,990 - INFO - EarlyStopping counter: 497 out of 1000
+2025-07-26 19:44:44,039 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:44,157 - INFO - EarlyStopping counter: 498 out of 1000
+2025-07-26 19:44:44,157 - INFO - epoch [2505/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3338, val_accuracy: 92.68%, gamma: 6.5314, beta: -13.3851, centrality_scaling: 1.3279, lr: 0.002404
+2025-07-26 19:44:44,206 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:44,324 - INFO - EarlyStopping counter: 499 out of 1000
+2025-07-26 19:44:44,373 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:44,491 - INFO - EarlyStopping counter: 500 out of 1000
+2025-07-26 19:44:44,539 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:44,657 - INFO - EarlyStopping counter: 501 out of 1000
+2025-07-26 19:44:44,706 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:44,824 - INFO - EarlyStopping counter: 502 out of 1000
+2025-07-26 19:44:44,873 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:44,991 - INFO - EarlyStopping counter: 503 out of 1000
+2025-07-26 19:44:44,991 - INFO - epoch [2510/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3340, val_accuracy: 92.68%, gamma: 6.5311, beta: -13.3854, centrality_scaling: 1.3275, lr: 0.002377
+2025-07-26 19:44:45,040 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:45,159 - INFO - EarlyStopping counter: 504 out of 1000
+2025-07-26 19:44:45,209 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:45,326 - INFO - EarlyStopping counter: 505 out of 1000
+2025-07-26 19:44:45,375 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:45,493 - INFO - EarlyStopping counter: 506 out of 1000
+2025-07-26 19:44:45,542 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:45,659 - INFO - EarlyStopping counter: 507 out of 1000
+2025-07-26 19:44:45,708 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:45,826 - INFO - EarlyStopping counter: 508 out of 1000
+2025-07-26 19:44:45,826 - INFO - epoch [2515/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3349, val_accuracy: 92.68%, gamma: 6.5309, beta: -13.3857, centrality_scaling: 1.3271, lr: 0.002349
+2025-07-26 19:44:45,875 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:45,993 - INFO - EarlyStopping counter: 509 out of 1000
+2025-07-26 19:44:46,042 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:46,160 - INFO - EarlyStopping counter: 510 out of 1000
+2025-07-26 19:44:46,209 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:46,327 - INFO - EarlyStopping counter: 511 out of 1000
+2025-07-26 19:44:46,376 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:46,493 - INFO - EarlyStopping counter: 512 out of 1000
+2025-07-26 19:44:46,542 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:46,660 - INFO - EarlyStopping counter: 513 out of 1000
+2025-07-26 19:44:46,660 - INFO - epoch [2520/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3334, val_accuracy: 92.68%, gamma: 6.5305, beta: -13.3860, centrality_scaling: 1.3266, lr: 0.002321
+2025-07-26 19:44:46,709 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:46,826 - INFO - EarlyStopping counter: 514 out of 1000
+2025-07-26 19:44:46,875 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:46,993 - INFO - EarlyStopping counter: 515 out of 1000
+2025-07-26 19:44:47,042 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:47,160 - INFO - EarlyStopping counter: 516 out of 1000
+2025-07-26 19:44:47,209 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:47,327 - INFO - EarlyStopping counter: 517 out of 1000
+2025-07-26 19:44:47,376 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:47,494 - INFO - EarlyStopping counter: 518 out of 1000
+2025-07-26 19:44:47,494 - INFO - epoch [2525/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3351, val_accuracy: 92.68%, gamma: 6.5302, beta: -13.3863, centrality_scaling: 1.3262, lr: 0.002293
+2025-07-26 19:44:47,543 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:47,661 - INFO - EarlyStopping counter: 519 out of 1000
+2025-07-26 19:44:47,710 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:47,827 - INFO - EarlyStopping counter: 520 out of 1000
+2025-07-26 19:44:47,876 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:47,994 - INFO - EarlyStopping counter: 521 out of 1000
+2025-07-26 19:44:48,043 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:48,161 - INFO - EarlyStopping counter: 522 out of 1000
+2025-07-26 19:44:48,209 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:48,328 - INFO - EarlyStopping counter: 523 out of 1000
+2025-07-26 19:44:48,328 - INFO - epoch [2530/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3352, val_accuracy: 92.68%, gamma: 6.5300, beta: -13.3866, centrality_scaling: 1.3258, lr: 0.002264
+2025-07-26 19:44:48,377 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:48,495 - INFO - EarlyStopping counter: 524 out of 1000
+2025-07-26 19:44:48,544 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:48,662 - INFO - EarlyStopping counter: 525 out of 1000
+2025-07-26 19:44:48,711 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:48,829 - INFO - EarlyStopping counter: 526 out of 1000
+2025-07-26 19:44:48,878 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:48,996 - INFO - EarlyStopping counter: 527 out of 1000
+2025-07-26 19:44:49,044 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:49,163 - INFO - EarlyStopping counter: 528 out of 1000
+2025-07-26 19:44:49,163 - INFO - epoch [2535/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3358, val_accuracy: 92.68%, gamma: 6.5300, beta: -13.3867, centrality_scaling: 1.3256, lr: 0.002235
+2025-07-26 19:44:49,213 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:49,330 - INFO - EarlyStopping counter: 529 out of 1000
+2025-07-26 19:44:49,379 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:49,497 - INFO - EarlyStopping counter: 530 out of 1000
+2025-07-26 19:44:49,546 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:49,664 - INFO - EarlyStopping counter: 531 out of 1000
+2025-07-26 19:44:49,713 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:49,831 - INFO - EarlyStopping counter: 532 out of 1000
+2025-07-26 19:44:49,880 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:49,998 - INFO - EarlyStopping counter: 533 out of 1000
+2025-07-26 19:44:49,998 - INFO - epoch [2540/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3344, val_accuracy: 92.68%, gamma: 6.5298, beta: -13.3868, centrality_scaling: 1.3253, lr: 0.002206
+2025-07-26 19:44:50,047 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:50,165 - INFO - EarlyStopping counter: 534 out of 1000
+2025-07-26 19:44:50,214 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:50,331 - INFO - EarlyStopping counter: 535 out of 1000
+2025-07-26 19:44:50,380 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:50,498 - INFO - EarlyStopping counter: 536 out of 1000
+2025-07-26 19:44:50,547 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:50,665 - INFO - EarlyStopping counter: 537 out of 1000
+2025-07-26 19:44:50,714 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:50,832 - INFO - EarlyStopping counter: 538 out of 1000
+2025-07-26 19:44:50,832 - INFO - epoch [2545/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3337, val_accuracy: 92.68%, gamma: 6.5293, beta: -13.3873, centrality_scaling: 1.3247, lr: 0.002176
+2025-07-26 19:44:50,881 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:50,998 - INFO - EarlyStopping counter: 539 out of 1000
+2025-07-26 19:44:51,047 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:51,166 - INFO - EarlyStopping counter: 540 out of 1000
+2025-07-26 19:44:51,214 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:51,332 - INFO - EarlyStopping counter: 541 out of 1000
+2025-07-26 19:44:51,381 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:51,499 - INFO - EarlyStopping counter: 542 out of 1000
+2025-07-26 19:44:51,548 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:51,666 - INFO - EarlyStopping counter: 543 out of 1000
+2025-07-26 19:44:51,666 - INFO - epoch [2550/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3367, val_accuracy: 92.68%, gamma: 6.5288, beta: -13.3879, centrality_scaling: 1.3240, lr: 0.002146
+2025-07-26 19:44:51,715 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:51,833 - INFO - EarlyStopping counter: 544 out of 1000
+2025-07-26 19:44:51,881 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:51,999 - INFO - EarlyStopping counter: 545 out of 1000
+2025-07-26 19:44:52,048 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:52,166 - INFO - EarlyStopping counter: 546 out of 1000
+2025-07-26 19:44:52,215 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:52,333 - INFO - EarlyStopping counter: 547 out of 1000
+2025-07-26 19:44:52,382 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:52,499 - INFO - EarlyStopping counter: 548 out of 1000
+2025-07-26 19:44:52,500 - INFO - epoch [2555/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3394, val_accuracy: 92.68%, gamma: 6.5283, beta: -13.3884, centrality_scaling: 1.3233, lr: 0.002115
+2025-07-26 19:44:52,548 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:52,666 - INFO - EarlyStopping counter: 549 out of 1000
+2025-07-26 19:44:52,715 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:52,833 - INFO - EarlyStopping counter: 550 out of 1000
+2025-07-26 19:44:52,882 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:53,000 - INFO - EarlyStopping counter: 551 out of 1000
+2025-07-26 19:44:53,048 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:53,167 - INFO - EarlyStopping counter: 552 out of 1000
+2025-07-26 19:44:53,217 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:53,335 - INFO - EarlyStopping counter: 553 out of 1000
+2025-07-26 19:44:53,335 - INFO - epoch [2560/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3376, val_accuracy: 92.68%, gamma: 6.5279, beta: -13.3889, centrality_scaling: 1.3227, lr: 0.002084
+2025-07-26 19:44:53,383 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:53,501 - INFO - EarlyStopping counter: 554 out of 1000
+2025-07-26 19:44:53,550 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:53,668 - INFO - EarlyStopping counter: 555 out of 1000
+2025-07-26 19:44:53,717 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:53,835 - INFO - EarlyStopping counter: 556 out of 1000
+2025-07-26 19:44:53,884 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:54,002 - INFO - EarlyStopping counter: 557 out of 1000
+2025-07-26 19:44:54,051 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:54,169 - INFO - EarlyStopping counter: 558 out of 1000
+2025-07-26 19:44:54,169 - INFO - epoch [2565/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3378, val_accuracy: 92.68%, gamma: 6.5275, beta: -13.3892, centrality_scaling: 1.3222, lr: 0.002053
+2025-07-26 19:44:54,218 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:54,335 - INFO - EarlyStopping counter: 559 out of 1000
+2025-07-26 19:44:54,384 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:54,503 - INFO - EarlyStopping counter: 560 out of 1000
+2025-07-26 19:44:54,552 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:54,670 - INFO - EarlyStopping counter: 561 out of 1000
+2025-07-26 19:44:54,719 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:54,837 - INFO - EarlyStopping counter: 562 out of 1000
+2025-07-26 19:44:54,886 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:55,004 - INFO - EarlyStopping counter: 563 out of 1000
+2025-07-26 19:44:55,004 - INFO - epoch [2570/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3420, val_accuracy: 92.68%, gamma: 6.5272, beta: -13.3896, centrality_scaling: 1.3217, lr: 0.002022
+2025-07-26 19:44:55,053 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:55,171 - INFO - EarlyStopping counter: 564 out of 1000
+2025-07-26 19:44:55,220 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:55,338 - INFO - EarlyStopping counter: 565 out of 1000
+2025-07-26 19:44:55,387 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:55,505 - INFO - EarlyStopping counter: 566 out of 1000
+2025-07-26 19:44:55,554 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:55,672 - INFO - EarlyStopping counter: 567 out of 1000
+2025-07-26 19:44:55,721 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:55,838 - INFO - EarlyStopping counter: 568 out of 1000
+2025-07-26 19:44:55,838 - INFO - epoch [2575/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3419, val_accuracy: 92.68%, gamma: 6.5270, beta: -13.3898, centrality_scaling: 1.3214, lr: 0.001990
+2025-07-26 19:44:55,887 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:56,005 - INFO - EarlyStopping counter: 569 out of 1000
+2025-07-26 19:44:56,054 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:56,171 - INFO - EarlyStopping counter: 570 out of 1000
+2025-07-26 19:44:56,220 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:56,338 - INFO - EarlyStopping counter: 571 out of 1000
+2025-07-26 19:44:56,387 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:56,504 - INFO - EarlyStopping counter: 572 out of 1000
+2025-07-26 19:44:56,553 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:56,671 - INFO - EarlyStopping counter: 573 out of 1000
+2025-07-26 19:44:56,671 - INFO - epoch [2580/3000], loss: 0.0019, accuracy: 99.51%, val_loss: 0.3441, val_accuracy: 92.68%, gamma: 6.5269, beta: -13.3899, centrality_scaling: 1.3212, lr: 0.001958
+2025-07-26 19:44:56,720 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:56,838 - INFO - EarlyStopping counter: 574 out of 1000
+2025-07-26 19:44:56,887 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:57,005 - INFO - EarlyStopping counter: 575 out of 1000
+2025-07-26 19:44:57,053 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:57,172 - INFO - EarlyStopping counter: 576 out of 1000
+2025-07-26 19:44:57,221 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:57,339 - INFO - EarlyStopping counter: 577 out of 1000
+2025-07-26 19:44:57,388 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:57,506 - INFO - EarlyStopping counter: 578 out of 1000
+2025-07-26 19:44:57,507 - INFO - epoch [2585/3000], loss: 0.0027, accuracy: 100.00%, val_loss: 0.3413, val_accuracy: 92.68%, gamma: 6.5267, beta: -13.3900, centrality_scaling: 1.3209, lr: 0.001926
+2025-07-26 19:44:57,555 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:57,673 - INFO - EarlyStopping counter: 579 out of 1000
+2025-07-26 19:44:57,722 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:57,840 - INFO - EarlyStopping counter: 580 out of 1000
+2025-07-26 19:44:57,889 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:58,007 - INFO - EarlyStopping counter: 581 out of 1000
+2025-07-26 19:44:58,056 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:58,174 - INFO - EarlyStopping counter: 582 out of 1000
+2025-07-26 19:44:58,223 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:58,341 - INFO - EarlyStopping counter: 583 out of 1000
+2025-07-26 19:44:58,341 - INFO - epoch [2590/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3436, val_accuracy: 92.68%, gamma: 6.5267, beta: -13.3901, centrality_scaling: 1.3207, lr: 0.001894
+2025-07-26 19:44:58,390 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:58,508 - INFO - EarlyStopping counter: 584 out of 1000
+2025-07-26 19:44:58,557 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:58,675 - INFO - EarlyStopping counter: 585 out of 1000
+2025-07-26 19:44:58,724 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:58,842 - INFO - EarlyStopping counter: 586 out of 1000
+2025-07-26 19:44:58,891 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:59,009 - INFO - EarlyStopping counter: 587 out of 1000
+2025-07-26 19:44:59,058 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:59,176 - INFO - EarlyStopping counter: 588 out of 1000
+2025-07-26 19:44:59,176 - INFO - epoch [2595/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3431, val_accuracy: 92.68%, gamma: 6.5264, beta: -13.3904, centrality_scaling: 1.3204, lr: 0.001861
+2025-07-26 19:44:59,225 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:59,343 - INFO - EarlyStopping counter: 589 out of 1000
+2025-07-26 19:44:59,392 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:59,510 - INFO - EarlyStopping counter: 590 out of 1000
+2025-07-26 19:44:59,559 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:59,677 - INFO - EarlyStopping counter: 591 out of 1000
+2025-07-26 19:44:59,726 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:44:59,844 - INFO - EarlyStopping counter: 592 out of 1000
+2025-07-26 19:44:59,893 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:00,011 - INFO - EarlyStopping counter: 593 out of 1000
+2025-07-26 19:45:00,011 - INFO - epoch [2600/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3416, val_accuracy: 92.68%, gamma: 6.5262, beta: -13.3906, centrality_scaling: 1.3201, lr: 0.001828
+2025-07-26 19:45:00,060 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:00,178 - INFO - EarlyStopping counter: 594 out of 1000
+2025-07-26 19:45:00,227 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:00,345 - INFO - EarlyStopping counter: 595 out of 1000
+2025-07-26 19:45:00,394 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:00,512 - INFO - EarlyStopping counter: 596 out of 1000
+2025-07-26 19:45:00,561 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:00,680 - INFO - EarlyStopping counter: 597 out of 1000
+2025-07-26 19:45:00,728 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:00,847 - INFO - EarlyStopping counter: 598 out of 1000
+2025-07-26 19:45:00,847 - INFO - epoch [2605/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3450, val_accuracy: 92.68%, gamma: 6.5261, beta: -13.3907, centrality_scaling: 1.3198, lr: 0.001795
+2025-07-26 19:45:00,896 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:01,014 - INFO - EarlyStopping counter: 599 out of 1000
+2025-07-26 19:45:01,063 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:01,182 - INFO - EarlyStopping counter: 600 out of 1000
+2025-07-26 19:45:01,231 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:01,348 - INFO - EarlyStopping counter: 601 out of 1000
+2025-07-26 19:45:01,397 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:01,515 - INFO - EarlyStopping counter: 602 out of 1000
+2025-07-26 19:45:01,564 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:01,682 - INFO - EarlyStopping counter: 603 out of 1000
+2025-07-26 19:45:01,682 - INFO - epoch [2610/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3444, val_accuracy: 92.68%, gamma: 6.5258, beta: -13.3910, centrality_scaling: 1.3195, lr: 0.001762
+2025-07-26 19:45:01,731 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:01,849 - INFO - EarlyStopping counter: 604 out of 1000
+2025-07-26 19:45:01,898 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:02,016 - INFO - EarlyStopping counter: 605 out of 1000
+2025-07-26 19:45:02,065 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:02,182 - INFO - EarlyStopping counter: 606 out of 1000
+2025-07-26 19:45:02,231 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:02,349 - INFO - EarlyStopping counter: 607 out of 1000
+2025-07-26 19:45:02,398 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:02,516 - INFO - EarlyStopping counter: 608 out of 1000
+2025-07-26 19:45:02,516 - INFO - epoch [2615/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3462, val_accuracy: 92.68%, gamma: 6.5256, beta: -13.3912, centrality_scaling: 1.3191, lr: 0.001729
+2025-07-26 19:45:02,565 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:02,683 - INFO - EarlyStopping counter: 609 out of 1000
+2025-07-26 19:45:02,732 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:02,850 - INFO - EarlyStopping counter: 610 out of 1000
+2025-07-26 19:45:02,898 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:03,016 - INFO - EarlyStopping counter: 611 out of 1000
+2025-07-26 19:45:03,065 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:03,184 - INFO - EarlyStopping counter: 612 out of 1000
+2025-07-26 19:45:03,232 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:03,350 - INFO - EarlyStopping counter: 613 out of 1000
+2025-07-26 19:45:03,350 - INFO - epoch [2620/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3459, val_accuracy: 92.68%, gamma: 6.5253, beta: -13.3915, centrality_scaling: 1.3188, lr: 0.001696
+2025-07-26 19:45:03,399 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:03,517 - INFO - EarlyStopping counter: 614 out of 1000
+2025-07-26 19:45:03,566 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:03,684 - INFO - EarlyStopping counter: 615 out of 1000
+2025-07-26 19:45:03,733 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:03,851 - INFO - EarlyStopping counter: 616 out of 1000
+2025-07-26 19:45:03,900 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:04,018 - INFO - EarlyStopping counter: 617 out of 1000
+2025-07-26 19:45:04,066 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:04,184 - INFO - EarlyStopping counter: 618 out of 1000
+2025-07-26 19:45:04,185 - INFO - epoch [2625/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3492, val_accuracy: 92.68%, gamma: 6.5251, beta: -13.3917, centrality_scaling: 1.3184, lr: 0.001663
+2025-07-26 19:45:04,233 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:04,352 - INFO - EarlyStopping counter: 619 out of 1000
+2025-07-26 19:45:04,401 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:04,519 - INFO - EarlyStopping counter: 620 out of 1000
+2025-07-26 19:45:04,568 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:04,686 - INFO - EarlyStopping counter: 621 out of 1000
+2025-07-26 19:45:04,735 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:04,853 - INFO - EarlyStopping counter: 622 out of 1000
+2025-07-26 19:45:04,902 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:05,019 - INFO - EarlyStopping counter: 623 out of 1000
+2025-07-26 19:45:05,019 - INFO - epoch [2630/3000], loss: 0.0014, accuracy: 99.51%, val_loss: 0.3487, val_accuracy: 92.68%, gamma: 6.5249, beta: -13.3919, centrality_scaling: 1.3181, lr: 0.001629
+2025-07-26 19:45:05,068 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:05,187 - INFO - EarlyStopping counter: 624 out of 1000
+2025-07-26 19:45:05,236 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:05,354 - INFO - EarlyStopping counter: 625 out of 1000
+2025-07-26 19:45:05,403 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:05,521 - INFO - EarlyStopping counter: 626 out of 1000
+2025-07-26 19:45:05,570 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:05,688 - INFO - EarlyStopping counter: 627 out of 1000
+2025-07-26 19:45:05,737 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:05,854 - INFO - EarlyStopping counter: 628 out of 1000
+2025-07-26 19:45:05,855 - INFO - epoch [2635/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3514, val_accuracy: 92.68%, gamma: 6.5247, beta: -13.3921, centrality_scaling: 1.3178, lr: 0.001596
+2025-07-26 19:45:05,903 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:06,022 - INFO - EarlyStopping counter: 629 out of 1000
+2025-07-26 19:45:06,070 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:06,188 - INFO - EarlyStopping counter: 630 out of 1000
+2025-07-26 19:45:06,237 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:06,355 - INFO - EarlyStopping counter: 631 out of 1000
+2025-07-26 19:45:06,404 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:06,522 - INFO - EarlyStopping counter: 632 out of 1000
+2025-07-26 19:45:06,571 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:06,688 - INFO - EarlyStopping counter: 633 out of 1000
+2025-07-26 19:45:06,688 - INFO - epoch [2640/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3479, val_accuracy: 92.68%, gamma: 6.5245, beta: -13.3923, centrality_scaling: 1.3175, lr: 0.001562
+2025-07-26 19:45:06,737 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:06,855 - INFO - EarlyStopping counter: 634 out of 1000
+2025-07-26 19:45:06,904 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:07,022 - INFO - EarlyStopping counter: 635 out of 1000
+2025-07-26 19:45:07,071 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:07,189 - INFO - EarlyStopping counter: 636 out of 1000
+2025-07-26 19:45:07,238 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:07,355 - INFO - EarlyStopping counter: 637 out of 1000
+2025-07-26 19:45:07,404 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:07,522 - INFO - EarlyStopping counter: 638 out of 1000
+2025-07-26 19:45:07,522 - INFO - epoch [2645/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3526, val_accuracy: 92.68%, gamma: 6.5243, beta: -13.3925, centrality_scaling: 1.3172, lr: 0.001528
+2025-07-26 19:45:07,571 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:07,689 - INFO - EarlyStopping counter: 639 out of 1000
+2025-07-26 19:45:07,738 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:07,856 - INFO - EarlyStopping counter: 640 out of 1000
+2025-07-26 19:45:07,904 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:08,023 - INFO - EarlyStopping counter: 641 out of 1000
+2025-07-26 19:45:08,071 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:08,189 - INFO - EarlyStopping counter: 642 out of 1000
+2025-07-26 19:45:08,238 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:08,356 - INFO - EarlyStopping counter: 643 out of 1000
+2025-07-26 19:45:08,356 - INFO - epoch [2650/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3494, val_accuracy: 92.68%, gamma: 6.5241, beta: -13.3927, centrality_scaling: 1.3170, lr: 0.001495
+2025-07-26 19:45:08,405 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:08,523 - INFO - EarlyStopping counter: 644 out of 1000
+2025-07-26 19:45:08,572 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:08,690 - INFO - EarlyStopping counter: 645 out of 1000
+2025-07-26 19:45:08,739 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:08,857 - INFO - EarlyStopping counter: 646 out of 1000
+2025-07-26 19:45:08,906 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:09,024 - INFO - EarlyStopping counter: 647 out of 1000
+2025-07-26 19:45:09,072 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:09,192 - INFO - EarlyStopping counter: 648 out of 1000
+2025-07-26 19:45:09,192 - INFO - epoch [2655/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3479, val_accuracy: 92.68%, gamma: 6.5240, beta: -13.3928, centrality_scaling: 1.3168, lr: 0.001461
+2025-07-26 19:45:09,240 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:09,358 - INFO - EarlyStopping counter: 649 out of 1000
+2025-07-26 19:45:09,407 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:09,525 - INFO - EarlyStopping counter: 650 out of 1000
+2025-07-26 19:45:09,574 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:09,691 - INFO - EarlyStopping counter: 651 out of 1000
+2025-07-26 19:45:09,740 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:09,858 - INFO - EarlyStopping counter: 652 out of 1000
+2025-07-26 19:45:09,907 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:10,024 - INFO - EarlyStopping counter: 653 out of 1000
+2025-07-26 19:45:10,025 - INFO - epoch [2660/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3488, val_accuracy: 92.68%, gamma: 6.5241, beta: -13.3927, centrality_scaling: 1.3168, lr: 0.001428
+2025-07-26 19:45:10,073 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:10,191 - INFO - EarlyStopping counter: 654 out of 1000
+2025-07-26 19:45:10,240 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:10,357 - INFO - EarlyStopping counter: 655 out of 1000
+2025-07-26 19:45:10,406 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:10,524 - INFO - EarlyStopping counter: 656 out of 1000
+2025-07-26 19:45:10,573 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:10,691 - INFO - EarlyStopping counter: 657 out of 1000
+2025-07-26 19:45:10,740 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:10,858 - INFO - EarlyStopping counter: 658 out of 1000
+2025-07-26 19:45:10,859 - INFO - epoch [2665/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3472, val_accuracy: 92.68%, gamma: 6.5241, beta: -13.3927, centrality_scaling: 1.3167, lr: 0.001394
+2025-07-26 19:45:10,907 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:11,025 - INFO - EarlyStopping counter: 659 out of 1000
+2025-07-26 19:45:11,074 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:11,193 - INFO - EarlyStopping counter: 660 out of 1000
+2025-07-26 19:45:11,241 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:11,359 - INFO - EarlyStopping counter: 661 out of 1000
+2025-07-26 19:45:11,408 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:11,526 - INFO - EarlyStopping counter: 662 out of 1000
+2025-07-26 19:45:11,575 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:11,693 - INFO - EarlyStopping counter: 663 out of 1000
+2025-07-26 19:45:11,693 - INFO - epoch [2670/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3483, val_accuracy: 92.68%, gamma: 6.5239, beta: -13.3930, centrality_scaling: 1.3164, lr: 0.001360
+2025-07-26 19:45:11,742 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:11,860 - INFO - EarlyStopping counter: 664 out of 1000
+2025-07-26 19:45:11,909 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:12,027 - INFO - EarlyStopping counter: 665 out of 1000
+2025-07-26 19:45:12,076 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:12,194 - INFO - EarlyStopping counter: 666 out of 1000
+2025-07-26 19:45:12,243 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:12,360 - INFO - EarlyStopping counter: 667 out of 1000
+2025-07-26 19:45:12,409 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:12,527 - INFO - EarlyStopping counter: 668 out of 1000
+2025-07-26 19:45:12,527 - INFO - epoch [2675/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3510, val_accuracy: 92.68%, gamma: 6.5238, beta: -13.3931, centrality_scaling: 1.3162, lr: 0.001327
+2025-07-26 19:45:12,576 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:12,694 - INFO - EarlyStopping counter: 669 out of 1000
+2025-07-26 19:45:12,743 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:12,861 - INFO - EarlyStopping counter: 670 out of 1000
+2025-07-26 19:45:12,910 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:13,027 - INFO - EarlyStopping counter: 671 out of 1000
+2025-07-26 19:45:13,076 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:13,196 - INFO - EarlyStopping counter: 672 out of 1000
+2025-07-26 19:45:13,244 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:13,362 - INFO - EarlyStopping counter: 673 out of 1000
+2025-07-26 19:45:13,362 - INFO - epoch [2680/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3521, val_accuracy: 92.68%, gamma: 6.5236, beta: -13.3933, centrality_scaling: 1.3159, lr: 0.001294
+2025-07-26 19:45:13,411 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:13,529 - INFO - EarlyStopping counter: 674 out of 1000
+2025-07-26 19:45:13,578 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:13,696 - INFO - EarlyStopping counter: 675 out of 1000
+2025-07-26 19:45:13,745 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:13,863 - INFO - EarlyStopping counter: 676 out of 1000
+2025-07-26 19:45:13,912 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:14,030 - INFO - EarlyStopping counter: 677 out of 1000
+2025-07-26 19:45:14,079 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:14,197 - INFO - EarlyStopping counter: 678 out of 1000
+2025-07-26 19:45:14,197 - INFO - epoch [2685/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3515, val_accuracy: 92.68%, gamma: 6.5235, beta: -13.3935, centrality_scaling: 1.3157, lr: 0.001260
+2025-07-26 19:45:14,246 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:14,364 - INFO - EarlyStopping counter: 679 out of 1000
+2025-07-26 19:45:14,413 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:14,532 - INFO - EarlyStopping counter: 680 out of 1000
+2025-07-26 19:45:14,581 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:14,699 - INFO - EarlyStopping counter: 681 out of 1000
+2025-07-26 19:45:14,748 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:14,866 - INFO - EarlyStopping counter: 682 out of 1000
+2025-07-26 19:45:14,914 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:15,032 - INFO - EarlyStopping counter: 683 out of 1000
+2025-07-26 19:45:15,032 - INFO - epoch [2690/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3487, val_accuracy: 92.68%, gamma: 6.5233, beta: -13.3937, centrality_scaling: 1.3154, lr: 0.001227
+2025-07-26 19:45:15,081 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:15,199 - INFO - EarlyStopping counter: 684 out of 1000
+2025-07-26 19:45:15,248 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:15,366 - INFO - EarlyStopping counter: 685 out of 1000
+2025-07-26 19:45:15,415 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:15,533 - INFO - EarlyStopping counter: 686 out of 1000
+2025-07-26 19:45:15,582 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:15,700 - INFO - EarlyStopping counter: 687 out of 1000
+2025-07-26 19:45:15,749 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:15,866 - INFO - EarlyStopping counter: 688 out of 1000
+2025-07-26 19:45:15,866 - INFO - epoch [2695/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3495, val_accuracy: 92.68%, gamma: 6.5232, beta: -13.3938, centrality_scaling: 1.3152, lr: 0.001194
+2025-07-26 19:45:15,915 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:16,033 - INFO - EarlyStopping counter: 689 out of 1000
+2025-07-26 19:45:16,082 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:16,201 - INFO - EarlyStopping counter: 690 out of 1000
+2025-07-26 19:45:16,249 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:16,368 - INFO - EarlyStopping counter: 691 out of 1000
+2025-07-26 19:45:16,417 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:16,535 - INFO - EarlyStopping counter: 692 out of 1000
+2025-07-26 19:45:16,584 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:16,702 - INFO - EarlyStopping counter: 693 out of 1000
+2025-07-26 19:45:16,702 - INFO - epoch [2700/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3517, val_accuracy: 92.68%, gamma: 6.5230, beta: -13.3939, centrality_scaling: 1.3150, lr: 0.001161
+2025-07-26 19:45:16,750 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:16,868 - INFO - EarlyStopping counter: 694 out of 1000
+2025-07-26 19:45:16,917 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:17,034 - INFO - EarlyStopping counter: 695 out of 1000
+2025-07-26 19:45:17,083 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:17,202 - INFO - EarlyStopping counter: 696 out of 1000
+2025-07-26 19:45:17,251 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:17,370 - INFO - EarlyStopping counter: 697 out of 1000
+2025-07-26 19:45:17,418 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:17,536 - INFO - EarlyStopping counter: 698 out of 1000
+2025-07-26 19:45:17,537 - INFO - epoch [2705/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3515, val_accuracy: 92.68%, gamma: 6.5230, beta: -13.3940, centrality_scaling: 1.3149, lr: 0.001129
+2025-07-26 19:45:17,585 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:17,703 - INFO - EarlyStopping counter: 699 out of 1000
+2025-07-26 19:45:17,752 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:17,869 - INFO - EarlyStopping counter: 700 out of 1000
+2025-07-26 19:45:17,918 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:18,036 - INFO - EarlyStopping counter: 701 out of 1000
+2025-07-26 19:45:18,084 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:18,202 - INFO - EarlyStopping counter: 702 out of 1000
+2025-07-26 19:45:18,251 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:18,369 - INFO - EarlyStopping counter: 703 out of 1000
+2025-07-26 19:45:18,370 - INFO - epoch [2710/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3507, val_accuracy: 92.68%, gamma: 6.5229, beta: -13.3941, centrality_scaling: 1.3147, lr: 0.001096
+2025-07-26 19:45:18,418 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:18,536 - INFO - EarlyStopping counter: 704 out of 1000
+2025-07-26 19:45:18,585 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:18,703 - INFO - EarlyStopping counter: 705 out of 1000
+2025-07-26 19:45:18,752 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:18,870 - INFO - EarlyStopping counter: 706 out of 1000
+2025-07-26 19:45:18,919 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:19,037 - INFO - EarlyStopping counter: 707 out of 1000
+2025-07-26 19:45:19,086 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:19,204 - INFO - EarlyStopping counter: 708 out of 1000
+2025-07-26 19:45:19,205 - INFO - epoch [2715/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3536, val_accuracy: 92.68%, gamma: 6.5225, beta: -13.3945, centrality_scaling: 1.3142, lr: 0.001064
+2025-07-26 19:45:19,253 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:19,372 - INFO - EarlyStopping counter: 709 out of 1000
+2025-07-26 19:45:19,421 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:19,539 - INFO - EarlyStopping counter: 710 out of 1000
+2025-07-26 19:45:19,587 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:19,705 - INFO - EarlyStopping counter: 711 out of 1000
+2025-07-26 19:45:19,754 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:19,872 - INFO - EarlyStopping counter: 712 out of 1000
+2025-07-26 19:45:19,921 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:20,039 - INFO - EarlyStopping counter: 713 out of 1000
+2025-07-26 19:45:20,039 - INFO - epoch [2720/3000], loss: 0.0015, accuracy: 99.51%, val_loss: 0.3529, val_accuracy: 92.68%, gamma: 6.5223, beta: -13.3948, centrality_scaling: 1.3138, lr: 0.001032
+2025-07-26 19:45:20,088 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:20,206 - INFO - EarlyStopping counter: 714 out of 1000
+2025-07-26 19:45:20,255 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:20,373 - INFO - EarlyStopping counter: 715 out of 1000
+2025-07-26 19:45:20,422 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:20,540 - INFO - EarlyStopping counter: 716 out of 1000
+2025-07-26 19:45:20,589 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:20,707 - INFO - EarlyStopping counter: 717 out of 1000
+2025-07-26 19:45:20,756 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:20,874 - INFO - EarlyStopping counter: 718 out of 1000
+2025-07-26 19:45:20,874 - INFO - epoch [2725/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3524, val_accuracy: 92.68%, gamma: 6.5221, beta: -13.3950, centrality_scaling: 1.3136, lr: 0.001000
+2025-07-26 19:45:20,923 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:21,041 - INFO - EarlyStopping counter: 719 out of 1000
+2025-07-26 19:45:21,090 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:21,209 - INFO - EarlyStopping counter: 720 out of 1000
+2025-07-26 19:45:21,258 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:21,375 - INFO - EarlyStopping counter: 721 out of 1000
+2025-07-26 19:45:21,424 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:21,542 - INFO - EarlyStopping counter: 722 out of 1000
+2025-07-26 19:45:21,591 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:21,709 - INFO - EarlyStopping counter: 723 out of 1000
+2025-07-26 19:45:21,709 - INFO - epoch [2730/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3545, val_accuracy: 92.68%, gamma: 6.5219, beta: -13.3951, centrality_scaling: 1.3133, lr: 0.000969
+2025-07-26 19:45:21,758 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:21,876 - INFO - EarlyStopping counter: 724 out of 1000
+2025-07-26 19:45:21,925 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:22,042 - INFO - EarlyStopping counter: 725 out of 1000
+2025-07-26 19:45:22,091 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:22,209 - INFO - EarlyStopping counter: 726 out of 1000
+2025-07-26 19:45:22,258 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:22,376 - INFO - EarlyStopping counter: 727 out of 1000
+2025-07-26 19:45:22,425 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:22,543 - INFO - EarlyStopping counter: 728 out of 1000
+2025-07-26 19:45:22,543 - INFO - epoch [2735/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3509, val_accuracy: 92.68%, gamma: 6.5218, beta: -13.3953, centrality_scaling: 1.3131, lr: 0.000937
+2025-07-26 19:45:22,592 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:22,710 - INFO - EarlyStopping counter: 729 out of 1000
+2025-07-26 19:45:22,759 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:22,877 - INFO - EarlyStopping counter: 730 out of 1000
+2025-07-26 19:45:22,926 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:23,043 - INFO - EarlyStopping counter: 731 out of 1000
+2025-07-26 19:45:23,092 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:23,210 - INFO - EarlyStopping counter: 732 out of 1000
+2025-07-26 19:45:23,259 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:23,377 - INFO - EarlyStopping counter: 733 out of 1000
+2025-07-26 19:45:23,377 - INFO - epoch [2740/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3504, val_accuracy: 92.68%, gamma: 6.5216, beta: -13.3955, centrality_scaling: 1.3129, lr: 0.000906
+2025-07-26 19:45:23,426 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:23,545 - INFO - EarlyStopping counter: 734 out of 1000
+2025-07-26 19:45:23,594 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:23,712 - INFO - EarlyStopping counter: 735 out of 1000
+2025-07-26 19:45:23,760 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:23,878 - INFO - EarlyStopping counter: 736 out of 1000
+2025-07-26 19:45:23,927 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:24,045 - INFO - EarlyStopping counter: 737 out of 1000
+2025-07-26 19:45:24,094 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:24,212 - INFO - EarlyStopping counter: 738 out of 1000
+2025-07-26 19:45:24,212 - INFO - epoch [2745/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3544, val_accuracy: 92.68%, gamma: 6.5215, beta: -13.3956, centrality_scaling: 1.3127, lr: 0.000876
+2025-07-26 19:45:24,261 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:24,379 - INFO - EarlyStopping counter: 739 out of 1000
+2025-07-26 19:45:24,428 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:24,545 - INFO - EarlyStopping counter: 740 out of 1000
+2025-07-26 19:45:24,594 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:24,712 - INFO - EarlyStopping counter: 741 out of 1000
+2025-07-26 19:45:24,761 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:24,879 - INFO - EarlyStopping counter: 742 out of 1000
+2025-07-26 19:45:24,928 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:25,045 - INFO - EarlyStopping counter: 743 out of 1000
+2025-07-26 19:45:25,046 - INFO - epoch [2750/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3528, val_accuracy: 92.68%, gamma: 6.5213, beta: -13.3957, centrality_scaling: 1.3125, lr: 0.000845
+2025-07-26 19:45:25,095 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:25,214 - INFO - EarlyStopping counter: 744 out of 1000
+2025-07-26 19:45:25,263 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:25,381 - INFO - EarlyStopping counter: 745 out of 1000
+2025-07-26 19:45:25,430 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:25,548 - INFO - EarlyStopping counter: 746 out of 1000
+2025-07-26 19:45:25,597 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:25,715 - INFO - EarlyStopping counter: 747 out of 1000
+2025-07-26 19:45:25,763 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:25,882 - INFO - EarlyStopping counter: 748 out of 1000
+2025-07-26 19:45:25,882 - INFO - epoch [2755/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3522, val_accuracy: 92.68%, gamma: 6.5213, beta: -13.3958, centrality_scaling: 1.3124, lr: 0.000815
+2025-07-26 19:45:25,931 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:26,048 - INFO - EarlyStopping counter: 749 out of 1000
+2025-07-26 19:45:26,097 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:26,215 - INFO - EarlyStopping counter: 750 out of 1000
+2025-07-26 19:45:26,264 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:26,382 - INFO - EarlyStopping counter: 751 out of 1000
+2025-07-26 19:45:26,431 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:26,549 - INFO - EarlyStopping counter: 752 out of 1000
+2025-07-26 19:45:26,598 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:26,716 - INFO - EarlyStopping counter: 753 out of 1000
+2025-07-26 19:45:26,717 - INFO - epoch [2760/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3538, val_accuracy: 92.68%, gamma: 6.5212, beta: -13.3959, centrality_scaling: 1.3123, lr: 0.000785
+2025-07-26 19:45:26,766 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:26,884 - INFO - EarlyStopping counter: 754 out of 1000
+2025-07-26 19:45:26,932 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:27,050 - INFO - EarlyStopping counter: 755 out of 1000
+2025-07-26 19:45:27,099 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:27,217 - INFO - EarlyStopping counter: 756 out of 1000
+2025-07-26 19:45:27,266 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:27,384 - INFO - EarlyStopping counter: 757 out of 1000
+2025-07-26 19:45:27,433 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:27,551 - INFO - EarlyStopping counter: 758 out of 1000
+2025-07-26 19:45:27,551 - INFO - epoch [2765/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3517, val_accuracy: 92.68%, gamma: 6.5212, beta: -13.3959, centrality_scaling: 1.3122, lr: 0.000756
+2025-07-26 19:45:27,600 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:27,717 - INFO - EarlyStopping counter: 759 out of 1000
+2025-07-26 19:45:27,766 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:27,884 - INFO - EarlyStopping counter: 760 out of 1000
+2025-07-26 19:45:27,933 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:28,051 - INFO - EarlyStopping counter: 761 out of 1000
+2025-07-26 19:45:28,100 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:28,217 - INFO - EarlyStopping counter: 762 out of 1000
+2025-07-26 19:45:28,266 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:28,384 - INFO - EarlyStopping counter: 763 out of 1000
+2025-07-26 19:45:28,384 - INFO - epoch [2770/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3497, val_accuracy: 92.68%, gamma: 6.5211, beta: -13.3959, centrality_scaling: 1.3121, lr: 0.000727
+2025-07-26 19:45:28,433 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:28,551 - INFO - EarlyStopping counter: 764 out of 1000
+2025-07-26 19:45:28,599 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:28,717 - INFO - EarlyStopping counter: 765 out of 1000
+2025-07-26 19:45:28,766 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:28,885 - INFO - EarlyStopping counter: 766 out of 1000
+2025-07-26 19:45:28,934 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:29,052 - INFO - EarlyStopping counter: 767 out of 1000
+2025-07-26 19:45:29,101 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:29,220 - INFO - EarlyStopping counter: 768 out of 1000
+2025-07-26 19:45:29,220 - INFO - epoch [2775/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3493, val_accuracy: 92.68%, gamma: 6.5211, beta: -13.3959, centrality_scaling: 1.3121, lr: 0.000699
+2025-07-26 19:45:29,268 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:29,387 - INFO - EarlyStopping counter: 769 out of 1000
+2025-07-26 19:45:29,435 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:29,553 - INFO - EarlyStopping counter: 770 out of 1000
+2025-07-26 19:45:29,602 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:29,720 - INFO - EarlyStopping counter: 771 out of 1000
+2025-07-26 19:45:29,769 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:29,887 - INFO - EarlyStopping counter: 772 out of 1000
+2025-07-26 19:45:29,936 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:30,054 - INFO - EarlyStopping counter: 773 out of 1000
+2025-07-26 19:45:30,054 - INFO - epoch [2780/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3512, val_accuracy: 92.68%, gamma: 6.5211, beta: -13.3960, centrality_scaling: 1.3120, lr: 0.000670
+2025-07-26 19:45:30,103 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:30,221 - INFO - EarlyStopping counter: 774 out of 1000
+2025-07-26 19:45:30,270 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:30,388 - INFO - EarlyStopping counter: 775 out of 1000
+2025-07-26 19:45:30,437 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:30,555 - INFO - EarlyStopping counter: 776 out of 1000
+2025-07-26 19:45:30,604 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:30,722 - INFO - EarlyStopping counter: 777 out of 1000
+2025-07-26 19:45:30,771 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:30,888 - INFO - EarlyStopping counter: 778 out of 1000
+2025-07-26 19:45:30,889 - INFO - epoch [2785/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3537, val_accuracy: 92.68%, gamma: 6.5210, beta: -13.3960, centrality_scaling: 1.3119, lr: 0.000643
+2025-07-26 19:45:30,937 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:31,056 - INFO - EarlyStopping counter: 779 out of 1000
+2025-07-26 19:45:31,105 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:31,222 - INFO - EarlyStopping counter: 780 out of 1000
+2025-07-26 19:45:31,271 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:31,389 - INFO - EarlyStopping counter: 781 out of 1000
+2025-07-26 19:45:31,438 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:31,556 - INFO - EarlyStopping counter: 782 out of 1000
+2025-07-26 19:45:31,605 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:31,723 - INFO - EarlyStopping counter: 783 out of 1000
+2025-07-26 19:45:31,723 - INFO - epoch [2790/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3530, val_accuracy: 92.68%, gamma: 6.5209, beta: -13.3961, centrality_scaling: 1.3118, lr: 0.000615
+2025-07-26 19:45:31,772 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:31,890 - INFO - EarlyStopping counter: 784 out of 1000
+2025-07-26 19:45:31,939 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:32,057 - INFO - EarlyStopping counter: 785 out of 1000
+2025-07-26 19:45:32,106 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:32,224 - INFO - EarlyStopping counter: 786 out of 1000
+2025-07-26 19:45:32,273 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:32,391 - INFO - EarlyStopping counter: 787 out of 1000
+2025-07-26 19:45:32,440 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:32,558 - INFO - EarlyStopping counter: 788 out of 1000
+2025-07-26 19:45:32,558 - INFO - epoch [2795/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3529, val_accuracy: 92.68%, gamma: 6.5209, beta: -13.3962, centrality_scaling: 1.3116, lr: 0.000588
+2025-07-26 19:45:32,607 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:32,724 - INFO - EarlyStopping counter: 789 out of 1000
+2025-07-26 19:45:32,773 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:32,892 - INFO - EarlyStopping counter: 790 out of 1000
+2025-07-26 19:45:32,941 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:33,058 - INFO - EarlyStopping counter: 791 out of 1000
+2025-07-26 19:45:33,107 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:33,227 - INFO - EarlyStopping counter: 792 out of 1000
+2025-07-26 19:45:33,275 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:33,393 - INFO - EarlyStopping counter: 793 out of 1000
+2025-07-26 19:45:33,394 - INFO - epoch [2800/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3538, val_accuracy: 92.68%, gamma: 6.5208, beta: -13.3963, centrality_scaling: 1.3115, lr: 0.000562
+2025-07-26 19:45:33,442 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:33,560 - INFO - EarlyStopping counter: 794 out of 1000
+2025-07-26 19:45:33,609 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:33,727 - INFO - EarlyStopping counter: 795 out of 1000
+2025-07-26 19:45:33,776 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:33,894 - INFO - EarlyStopping counter: 796 out of 1000
+2025-07-26 19:45:33,943 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:34,061 - INFO - EarlyStopping counter: 797 out of 1000
+2025-07-26 19:45:34,110 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:34,228 - INFO - EarlyStopping counter: 798 out of 1000
+2025-07-26 19:45:34,228 - INFO - epoch [2805/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3552, val_accuracy: 92.68%, gamma: 6.5207, beta: -13.3964, centrality_scaling: 1.3114, lr: 0.000536
+2025-07-26 19:45:34,277 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:34,394 - INFO - EarlyStopping counter: 799 out of 1000
+2025-07-26 19:45:34,443 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:34,561 - INFO - EarlyStopping counter: 800 out of 1000
+2025-07-26 19:45:34,610 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:34,728 - INFO - EarlyStopping counter: 801 out of 1000
+2025-07-26 19:45:34,777 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:34,894 - INFO - EarlyStopping counter: 802 out of 1000
+2025-07-26 19:45:34,943 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:35,061 - INFO - EarlyStopping counter: 803 out of 1000
+2025-07-26 19:45:35,061 - INFO - epoch [2810/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3548, val_accuracy: 92.68%, gamma: 6.5207, beta: -13.3964, centrality_scaling: 1.3114, lr: 0.000511
+2025-07-26 19:45:35,110 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:35,228 - INFO - EarlyStopping counter: 804 out of 1000
+2025-07-26 19:45:35,277 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:35,394 - INFO - EarlyStopping counter: 805 out of 1000
+2025-07-26 19:45:35,443 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:35,560 - INFO - EarlyStopping counter: 806 out of 1000
+2025-07-26 19:45:35,609 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:35,727 - INFO - EarlyStopping counter: 807 out of 1000
+2025-07-26 19:45:35,776 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:35,894 - INFO - EarlyStopping counter: 808 out of 1000
+2025-07-26 19:45:35,894 - INFO - epoch [2815/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3534, val_accuracy: 92.68%, gamma: 6.5206, beta: -13.3965, centrality_scaling: 1.3113, lr: 0.000486
+2025-07-26 19:45:35,943 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:36,061 - INFO - EarlyStopping counter: 809 out of 1000
+2025-07-26 19:45:36,110 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:36,228 - INFO - EarlyStopping counter: 810 out of 1000
+2025-07-26 19:45:36,277 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:36,395 - INFO - EarlyStopping counter: 811 out of 1000
+2025-07-26 19:45:36,444 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:36,562 - INFO - EarlyStopping counter: 812 out of 1000
+2025-07-26 19:45:36,611 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:36,729 - INFO - EarlyStopping counter: 813 out of 1000
+2025-07-26 19:45:36,729 - INFO - epoch [2820/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3512, val_accuracy: 92.68%, gamma: 6.5206, beta: -13.3965, centrality_scaling: 1.3113, lr: 0.000461
+2025-07-26 19:45:36,778 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:36,896 - INFO - EarlyStopping counter: 814 out of 1000
+2025-07-26 19:45:36,944 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:37,062 - INFO - EarlyStopping counter: 815 out of 1000
+2025-07-26 19:45:37,111 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:37,230 - INFO - EarlyStopping counter: 816 out of 1000
+2025-07-26 19:45:37,279 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:37,397 - INFO - EarlyStopping counter: 817 out of 1000
+2025-07-26 19:45:37,446 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:37,564 - INFO - EarlyStopping counter: 818 out of 1000
+2025-07-26 19:45:37,564 - INFO - epoch [2825/3000], loss: 0.0007, accuracy: 100.00%, val_loss: 0.3489, val_accuracy: 92.68%, gamma: 6.5206, beta: -13.3965, centrality_scaling: 1.3112, lr: 0.000437
+2025-07-26 19:45:37,613 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:37,731 - INFO - EarlyStopping counter: 819 out of 1000
+2025-07-26 19:45:37,780 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:37,897 - INFO - EarlyStopping counter: 820 out of 1000
+2025-07-26 19:45:37,946 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:38,064 - INFO - EarlyStopping counter: 821 out of 1000
+2025-07-26 19:45:38,112 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:38,230 - INFO - EarlyStopping counter: 822 out of 1000
+2025-07-26 19:45:38,279 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:38,396 - INFO - EarlyStopping counter: 823 out of 1000
+2025-07-26 19:45:38,397 - INFO - epoch [2830/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3524, val_accuracy: 92.68%, gamma: 6.5206, beta: -13.3965, centrality_scaling: 1.3112, lr: 0.000414
+2025-07-26 19:45:38,445 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:38,563 - INFO - EarlyStopping counter: 824 out of 1000
+2025-07-26 19:45:38,612 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:38,730 - INFO - EarlyStopping counter: 825 out of 1000
+2025-07-26 19:45:38,779 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:38,896 - INFO - EarlyStopping counter: 826 out of 1000
+2025-07-26 19:45:38,945 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:39,064 - INFO - EarlyStopping counter: 827 out of 1000
+2025-07-26 19:45:39,113 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:39,231 - INFO - EarlyStopping counter: 828 out of 1000
+2025-07-26 19:45:39,231 - INFO - epoch [2835/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3525, val_accuracy: 92.68%, gamma: 6.5206, beta: -13.3965, centrality_scaling: 1.3112, lr: 0.000391
+2025-07-26 19:45:39,280 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:39,397 - INFO - EarlyStopping counter: 829 out of 1000
+2025-07-26 19:45:39,446 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:39,564 - INFO - EarlyStopping counter: 830 out of 1000
+2025-07-26 19:45:39,613 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:39,731 - INFO - EarlyStopping counter: 831 out of 1000
+2025-07-26 19:45:39,779 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:39,897 - INFO - EarlyStopping counter: 832 out of 1000
+2025-07-26 19:45:39,946 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:40,064 - INFO - EarlyStopping counter: 833 out of 1000
+2025-07-26 19:45:40,064 - INFO - epoch [2840/3000], loss: 0.0006, accuracy: 100.00%, val_loss: 0.3544, val_accuracy: 92.68%, gamma: 6.5206, beta: -13.3965, centrality_scaling: 1.3112, lr: 0.000369
+2025-07-26 19:45:40,113 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:40,230 - INFO - EarlyStopping counter: 834 out of 1000
+2025-07-26 19:45:40,279 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:40,397 - INFO - EarlyStopping counter: 835 out of 1000
+2025-07-26 19:45:40,446 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:40,564 - INFO - EarlyStopping counter: 836 out of 1000
+2025-07-26 19:45:40,613 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:40,731 - INFO - EarlyStopping counter: 837 out of 1000
+2025-07-26 19:45:40,780 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:40,898 - INFO - EarlyStopping counter: 838 out of 1000
+2025-07-26 19:45:40,898 - INFO - epoch [2845/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3509, val_accuracy: 92.68%, gamma: 6.5206, beta: -13.3965, centrality_scaling: 1.3111, lr: 0.000347
+2025-07-26 19:45:40,947 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:41,064 - INFO - EarlyStopping counter: 839 out of 1000
+2025-07-26 19:45:41,113 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:41,232 - INFO - EarlyStopping counter: 840 out of 1000
+2025-07-26 19:45:41,281 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:41,398 - INFO - EarlyStopping counter: 841 out of 1000
+2025-07-26 19:45:41,447 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:41,565 - INFO - EarlyStopping counter: 842 out of 1000
+2025-07-26 19:45:41,614 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:41,732 - INFO - EarlyStopping counter: 843 out of 1000
+2025-07-26 19:45:41,732 - INFO - epoch [2850/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3507, val_accuracy: 92.68%, gamma: 6.5206, beta: -13.3965, centrality_scaling: 1.3111, lr: 0.000326
+2025-07-26 19:45:41,781 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:41,898 - INFO - EarlyStopping counter: 844 out of 1000
+2025-07-26 19:45:41,947 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:42,065 - INFO - EarlyStopping counter: 845 out of 1000
+2025-07-26 19:45:42,114 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:42,234 - INFO - EarlyStopping counter: 846 out of 1000
+2025-07-26 19:45:42,284 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:42,402 - INFO - EarlyStopping counter: 847 out of 1000
+2025-07-26 19:45:42,451 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:42,569 - INFO - EarlyStopping counter: 848 out of 1000
+2025-07-26 19:45:42,569 - INFO - epoch [2855/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3519, val_accuracy: 92.68%, gamma: 6.5205, beta: -13.3965, centrality_scaling: 1.3111, lr: 0.000305
+2025-07-26 19:45:42,618 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:42,736 - INFO - EarlyStopping counter: 849 out of 1000
+2025-07-26 19:45:42,785 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:42,903 - INFO - EarlyStopping counter: 850 out of 1000
+2025-07-26 19:45:42,952 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:43,069 - INFO - EarlyStopping counter: 851 out of 1000
+2025-07-26 19:45:43,118 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:43,236 - INFO - EarlyStopping counter: 852 out of 1000
+2025-07-26 19:45:43,285 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:43,403 - INFO - EarlyStopping counter: 853 out of 1000
+2025-07-26 19:45:43,403 - INFO - epoch [2860/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3523, val_accuracy: 92.68%, gamma: 6.5205, beta: -13.3966, centrality_scaling: 1.3110, lr: 0.000285
+2025-07-26 19:45:43,452 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:43,570 - INFO - EarlyStopping counter: 854 out of 1000
+2025-07-26 19:45:43,618 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:43,737 - INFO - EarlyStopping counter: 855 out of 1000
+2025-07-26 19:45:43,786 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:43,904 - INFO - EarlyStopping counter: 856 out of 1000
+2025-07-26 19:45:43,952 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:44,070 - INFO - EarlyStopping counter: 857 out of 1000
+2025-07-26 19:45:44,119 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:44,240 - INFO - EarlyStopping counter: 858 out of 1000
+2025-07-26 19:45:44,241 - INFO - epoch [2865/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3522, val_accuracy: 92.68%, gamma: 6.5205, beta: -13.3966, centrality_scaling: 1.3110, lr: 0.000266
+2025-07-26 19:45:44,290 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:44,408 - INFO - EarlyStopping counter: 859 out of 1000
+2025-07-26 19:45:44,457 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:44,575 - INFO - EarlyStopping counter: 860 out of 1000
+2025-07-26 19:45:44,624 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:44,742 - INFO - EarlyStopping counter: 861 out of 1000
+2025-07-26 19:45:44,791 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:44,909 - INFO - EarlyStopping counter: 862 out of 1000
+2025-07-26 19:45:44,958 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:45,076 - INFO - EarlyStopping counter: 863 out of 1000
+2025-07-26 19:45:45,076 - INFO - epoch [2870/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3570, val_accuracy: 92.68%, gamma: 6.5205, beta: -13.3966, centrality_scaling: 1.3110, lr: 0.000247
+2025-07-26 19:45:45,125 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:45,244 - INFO - EarlyStopping counter: 864 out of 1000
+2025-07-26 19:45:45,293 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:45,411 - INFO - EarlyStopping counter: 865 out of 1000
+2025-07-26 19:45:45,460 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:45,577 - INFO - EarlyStopping counter: 866 out of 1000
+2025-07-26 19:45:45,626 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:45,744 - INFO - EarlyStopping counter: 867 out of 1000
+2025-07-26 19:45:45,793 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:45,911 - INFO - EarlyStopping counter: 868 out of 1000
+2025-07-26 19:45:45,911 - INFO - epoch [2875/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3572, val_accuracy: 92.68%, gamma: 6.5205, beta: -13.3966, centrality_scaling: 1.3110, lr: 0.000229
+2025-07-26 19:45:45,960 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:46,078 - INFO - EarlyStopping counter: 869 out of 1000
+2025-07-26 19:45:46,127 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:46,245 - INFO - EarlyStopping counter: 870 out of 1000
+2025-07-26 19:45:46,294 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:46,412 - INFO - EarlyStopping counter: 871 out of 1000
+2025-07-26 19:45:46,461 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:46,579 - INFO - EarlyStopping counter: 872 out of 1000
+2025-07-26 19:45:46,628 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:46,746 - INFO - EarlyStopping counter: 873 out of 1000
+2025-07-26 19:45:46,746 - INFO - epoch [2880/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3563, val_accuracy: 92.68%, gamma: 6.5205, beta: -13.3966, centrality_scaling: 1.3109, lr: 0.000212
+2025-07-26 19:45:46,795 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:46,913 - INFO - EarlyStopping counter: 874 out of 1000
+2025-07-26 19:45:46,961 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:47,079 - INFO - EarlyStopping counter: 875 out of 1000
+2025-07-26 19:45:47,128 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:47,246 - INFO - EarlyStopping counter: 876 out of 1000
+2025-07-26 19:45:47,295 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:47,413 - INFO - EarlyStopping counter: 877 out of 1000
+2025-07-26 19:45:47,462 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:47,580 - INFO - EarlyStopping counter: 878 out of 1000
+2025-07-26 19:45:47,580 - INFO - epoch [2885/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3558, val_accuracy: 92.68%, gamma: 6.5205, beta: -13.3966, centrality_scaling: 1.3109, lr: 0.000195
+2025-07-26 19:45:47,629 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:47,747 - INFO - EarlyStopping counter: 879 out of 1000
+2025-07-26 19:45:47,796 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:47,914 - INFO - EarlyStopping counter: 880 out of 1000
+2025-07-26 19:45:47,963 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:48,080 - INFO - EarlyStopping counter: 881 out of 1000
+2025-07-26 19:45:48,129 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:48,247 - INFO - EarlyStopping counter: 882 out of 1000
+2025-07-26 19:45:48,296 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:48,414 - INFO - EarlyStopping counter: 883 out of 1000
+2025-07-26 19:45:48,414 - INFO - epoch [2890/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3533, val_accuracy: 92.68%, gamma: 6.5204, beta: -13.3966, centrality_scaling: 1.3109, lr: 0.000179
+2025-07-26 19:45:48,463 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:48,581 - INFO - EarlyStopping counter: 884 out of 1000
+2025-07-26 19:45:48,630 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:48,748 - INFO - EarlyStopping counter: 885 out of 1000
+2025-07-26 19:45:48,796 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:48,914 - INFO - EarlyStopping counter: 886 out of 1000
+2025-07-26 19:45:48,963 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:49,081 - INFO - EarlyStopping counter: 887 out of 1000
+2025-07-26 19:45:49,130 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:49,249 - INFO - EarlyStopping counter: 888 out of 1000
+2025-07-26 19:45:49,249 - INFO - epoch [2895/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3532, val_accuracy: 92.68%, gamma: 6.5204, beta: -13.3966, centrality_scaling: 1.3109, lr: 0.000163
+2025-07-26 19:45:49,298 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:49,415 - INFO - EarlyStopping counter: 889 out of 1000
+2025-07-26 19:45:49,464 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:49,582 - INFO - EarlyStopping counter: 890 out of 1000
+2025-07-26 19:45:49,631 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:49,749 - INFO - EarlyStopping counter: 891 out of 1000
+2025-07-26 19:45:49,798 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:49,916 - INFO - EarlyStopping counter: 892 out of 1000
+2025-07-26 19:45:49,965 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:50,083 - INFO - EarlyStopping counter: 893 out of 1000
+2025-07-26 19:45:50,083 - INFO - epoch [2900/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3524, val_accuracy: 92.68%, gamma: 6.5204, beta: -13.3967, centrality_scaling: 1.3108, lr: 0.000148
+2025-07-26 19:45:50,132 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:50,249 - INFO - EarlyStopping counter: 894 out of 1000
+2025-07-26 19:45:50,298 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:50,416 - INFO - EarlyStopping counter: 895 out of 1000
+2025-07-26 19:45:50,465 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:50,583 - INFO - EarlyStopping counter: 896 out of 1000
+2025-07-26 19:45:50,632 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:50,749 - INFO - EarlyStopping counter: 897 out of 1000
+2025-07-26 19:45:50,798 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:50,916 - INFO - EarlyStopping counter: 898 out of 1000
+2025-07-26 19:45:50,917 - INFO - epoch [2905/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3545, val_accuracy: 92.68%, gamma: 6.5204, beta: -13.3967, centrality_scaling: 1.3108, lr: 0.000134
+2025-07-26 19:45:50,965 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:51,083 - INFO - EarlyStopping counter: 899 out of 1000
+2025-07-26 19:45:51,132 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:51,255 - INFO - EarlyStopping counter: 900 out of 1000
+2025-07-26 19:45:51,305 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:51,422 - INFO - EarlyStopping counter: 901 out of 1000
+2025-07-26 19:45:51,471 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:51,589 - INFO - EarlyStopping counter: 902 out of 1000
+2025-07-26 19:45:51,638 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:51,758 - INFO - EarlyStopping counter: 903 out of 1000
+2025-07-26 19:45:51,758 - INFO - epoch [2910/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3547, val_accuracy: 92.68%, gamma: 6.5204, beta: -13.3967, centrality_scaling: 1.3108, lr: 0.000121
+2025-07-26 19:45:51,882 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:52,003 - INFO - EarlyStopping counter: 904 out of 1000
+2025-07-26 19:45:52,052 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:52,170 - INFO - EarlyStopping counter: 905 out of 1000
+2025-07-26 19:45:52,219 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:52,337 - INFO - EarlyStopping counter: 906 out of 1000
+2025-07-26 19:45:52,386 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:52,504 - INFO - EarlyStopping counter: 907 out of 1000
+2025-07-26 19:45:52,553 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:52,671 - INFO - EarlyStopping counter: 908 out of 1000
+2025-07-26 19:45:52,671 - INFO - epoch [2915/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3538, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000108
+2025-07-26 19:45:52,720 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:52,837 - INFO - EarlyStopping counter: 909 out of 1000
+2025-07-26 19:45:52,886 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:53,004 - INFO - EarlyStopping counter: 910 out of 1000
+2025-07-26 19:45:53,053 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:53,172 - INFO - EarlyStopping counter: 911 out of 1000
+2025-07-26 19:45:53,221 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:53,339 - INFO - EarlyStopping counter: 912 out of 1000
+2025-07-26 19:45:53,388 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:53,506 - INFO - EarlyStopping counter: 913 out of 1000
+2025-07-26 19:45:53,506 - INFO - epoch [2920/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3511, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000096
+2025-07-26 19:45:53,555 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:53,673 - INFO - EarlyStopping counter: 914 out of 1000
+2025-07-26 19:45:53,722 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:53,840 - INFO - EarlyStopping counter: 915 out of 1000
+2025-07-26 19:45:53,889 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:54,007 - INFO - EarlyStopping counter: 916 out of 1000
+2025-07-26 19:45:54,056 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:54,174 - INFO - EarlyStopping counter: 917 out of 1000
+2025-07-26 19:45:54,223 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:54,341 - INFO - EarlyStopping counter: 918 out of 1000
+2025-07-26 19:45:54,342 - INFO - epoch [2925/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3473, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000085
+2025-07-26 19:45:54,390 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:54,509 - INFO - EarlyStopping counter: 919 out of 1000
+2025-07-26 19:45:54,558 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:54,676 - INFO - EarlyStopping counter: 920 out of 1000
+2025-07-26 19:45:54,725 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:54,843 - INFO - EarlyStopping counter: 921 out of 1000
+2025-07-26 19:45:54,891 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:55,009 - INFO - EarlyStopping counter: 922 out of 1000
+2025-07-26 19:45:55,058 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:55,176 - INFO - EarlyStopping counter: 923 out of 1000
+2025-07-26 19:45:55,176 - INFO - epoch [2930/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3462, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000074
+2025-07-26 19:45:55,225 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:55,343 - INFO - EarlyStopping counter: 924 out of 1000
+2025-07-26 19:45:55,392 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:55,510 - INFO - EarlyStopping counter: 925 out of 1000
+2025-07-26 19:45:55,559 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:55,677 - INFO - EarlyStopping counter: 926 out of 1000
+2025-07-26 19:45:55,726 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:55,844 - INFO - EarlyStopping counter: 927 out of 1000
+2025-07-26 19:45:55,893 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:56,011 - INFO - EarlyStopping counter: 928 out of 1000
+2025-07-26 19:45:56,011 - INFO - epoch [2935/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3508, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000064
+2025-07-26 19:45:56,060 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:56,178 - INFO - EarlyStopping counter: 929 out of 1000
+2025-07-26 19:45:56,227 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:56,345 - INFO - EarlyStopping counter: 930 out of 1000
+2025-07-26 19:45:56,394 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:56,512 - INFO - EarlyStopping counter: 931 out of 1000
+2025-07-26 19:45:56,561 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:56,679 - INFO - EarlyStopping counter: 932 out of 1000
+2025-07-26 19:45:56,728 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:56,846 - INFO - EarlyStopping counter: 933 out of 1000
+2025-07-26 19:45:56,846 - INFO - epoch [2940/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3510, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000055
+2025-07-26 19:45:56,895 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:57,013 - INFO - EarlyStopping counter: 934 out of 1000
+2025-07-26 19:45:57,062 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:57,182 - INFO - EarlyStopping counter: 935 out of 1000
+2025-07-26 19:45:57,231 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:57,349 - INFO - EarlyStopping counter: 936 out of 1000
+2025-07-26 19:45:57,398 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:57,516 - INFO - EarlyStopping counter: 937 out of 1000
+2025-07-26 19:45:57,565 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:57,682 - INFO - EarlyStopping counter: 938 out of 1000
+2025-07-26 19:45:57,683 - INFO - epoch [2945/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3522, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000047
+2025-07-26 19:45:57,731 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:57,850 - INFO - EarlyStopping counter: 939 out of 1000
+2025-07-26 19:45:57,898 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:58,017 - INFO - EarlyStopping counter: 940 out of 1000
+2025-07-26 19:45:58,065 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:58,184 - INFO - EarlyStopping counter: 941 out of 1000
+2025-07-26 19:45:58,232 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:58,350 - INFO - EarlyStopping counter: 942 out of 1000
+2025-07-26 19:45:58,399 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:58,517 - INFO - EarlyStopping counter: 943 out of 1000
+2025-07-26 19:45:58,518 - INFO - epoch [2950/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3492, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000039
+2025-07-26 19:45:58,566 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:58,684 - INFO - EarlyStopping counter: 944 out of 1000
+2025-07-26 19:45:58,733 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:58,851 - INFO - EarlyStopping counter: 945 out of 1000
+2025-07-26 19:45:58,900 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:59,018 - INFO - EarlyStopping counter: 946 out of 1000
+2025-07-26 19:45:59,067 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:59,185 - INFO - EarlyStopping counter: 947 out of 1000
+2025-07-26 19:45:59,234 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:59,353 - INFO - EarlyStopping counter: 948 out of 1000
+2025-07-26 19:45:59,353 - INFO - epoch [2955/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3511, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000032
+2025-07-26 19:45:59,402 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:59,520 - INFO - EarlyStopping counter: 949 out of 1000
+2025-07-26 19:45:59,568 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:59,687 - INFO - EarlyStopping counter: 950 out of 1000
+2025-07-26 19:45:59,736 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:45:59,854 - INFO - EarlyStopping counter: 951 out of 1000
+2025-07-26 19:45:59,903 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:00,021 - INFO - EarlyStopping counter: 952 out of 1000
+2025-07-26 19:46:00,069 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:00,188 - INFO - EarlyStopping counter: 953 out of 1000
+2025-07-26 19:46:00,188 - INFO - epoch [2960/3000], loss: 0.0004, accuracy: 100.00%, val_loss: 0.3527, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000026
+2025-07-26 19:46:00,237 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:00,355 - INFO - EarlyStopping counter: 954 out of 1000
+2025-07-26 19:46:00,404 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:00,521 - INFO - EarlyStopping counter: 955 out of 1000
+2025-07-26 19:46:00,570 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:00,688 - INFO - EarlyStopping counter: 956 out of 1000
+2025-07-26 19:46:00,737 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:00,855 - INFO - EarlyStopping counter: 957 out of 1000
+2025-07-26 19:46:00,904 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:01,022 - INFO - EarlyStopping counter: 958 out of 1000
+2025-07-26 19:46:01,022 - INFO - epoch [2965/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3509, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000020
+2025-07-26 19:46:01,071 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:01,190 - INFO - EarlyStopping counter: 959 out of 1000
+2025-07-26 19:46:01,239 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:01,357 - INFO - EarlyStopping counter: 960 out of 1000
+2025-07-26 19:46:01,406 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:01,524 - INFO - EarlyStopping counter: 961 out of 1000
+2025-07-26 19:46:01,573 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:01,691 - INFO - EarlyStopping counter: 962 out of 1000
+2025-07-26 19:46:01,740 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:01,858 - INFO - EarlyStopping counter: 963 out of 1000
+2025-07-26 19:46:01,858 - INFO - epoch [2970/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3505, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000016
+2025-07-26 19:46:01,906 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:02,024 - INFO - EarlyStopping counter: 964 out of 1000
+2025-07-26 19:46:02,073 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:02,191 - INFO - EarlyStopping counter: 965 out of 1000
+2025-07-26 19:46:02,240 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:02,358 - INFO - EarlyStopping counter: 966 out of 1000
+2025-07-26 19:46:02,406 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:02,525 - INFO - EarlyStopping counter: 967 out of 1000
+2025-07-26 19:46:02,574 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:02,691 - INFO - EarlyStopping counter: 968 out of 1000
+2025-07-26 19:46:02,691 - INFO - epoch [2975/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3511, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000012
+2025-07-26 19:46:02,740 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:02,859 - INFO - EarlyStopping counter: 969 out of 1000
+2025-07-26 19:46:02,908 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:03,025 - INFO - EarlyStopping counter: 970 out of 1000
+2025-07-26 19:46:03,074 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:03,193 - INFO - EarlyStopping counter: 971 out of 1000
+2025-07-26 19:46:03,242 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:03,359 - INFO - EarlyStopping counter: 972 out of 1000
+2025-07-26 19:46:03,408 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:03,526 - INFO - EarlyStopping counter: 973 out of 1000
+2025-07-26 19:46:03,526 - INFO - epoch [2980/3000], loss: 0.0008, accuracy: 100.00%, val_loss: 0.3522, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000008
+2025-07-26 19:46:03,575 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:03,693 - INFO - EarlyStopping counter: 974 out of 1000
+2025-07-26 19:46:03,742 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:03,860 - INFO - EarlyStopping counter: 975 out of 1000
+2025-07-26 19:46:03,909 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:04,027 - INFO - EarlyStopping counter: 976 out of 1000
+2025-07-26 19:46:04,076 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:04,194 - INFO - EarlyStopping counter: 977 out of 1000
+2025-07-26 19:46:04,243 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:04,361 - INFO - EarlyStopping counter: 978 out of 1000
+2025-07-26 19:46:04,361 - INFO - epoch [2985/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3518, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000006
+2025-07-26 19:46:04,410 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:04,528 - INFO - EarlyStopping counter: 979 out of 1000
+2025-07-26 19:46:04,577 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:04,695 - INFO - EarlyStopping counter: 980 out of 1000
+2025-07-26 19:46:04,744 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:04,862 - INFO - EarlyStopping counter: 981 out of 1000
+2025-07-26 19:46:04,911 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:05,028 - INFO - EarlyStopping counter: 982 out of 1000
+2025-07-26 19:46:05,077 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:05,196 - INFO - EarlyStopping counter: 983 out of 1000
+2025-07-26 19:46:05,196 - INFO - epoch [2990/3000], loss: 0.0008, accuracy: 100.00%, val_loss: 0.3511, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000004
+2025-07-26 19:46:05,244 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:05,362 - INFO - EarlyStopping counter: 984 out of 1000
+2025-07-26 19:46:05,411 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:05,529 - INFO - EarlyStopping counter: 985 out of 1000
+2025-07-26 19:46:05,577 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:05,695 - INFO - EarlyStopping counter: 986 out of 1000
+2025-07-26 19:46:05,744 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:05,862 - INFO - EarlyStopping counter: 987 out of 1000
+2025-07-26 19:46:05,911 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:06,029 - INFO - EarlyStopping counter: 988 out of 1000
+2025-07-26 19:46:06,029 - INFO - epoch [2995/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3513, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000003
+2025-07-26 19:46:06,078 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:06,196 - INFO - EarlyStopping counter: 989 out of 1000
+2025-07-26 19:46:06,245 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:06,363 - INFO - EarlyStopping counter: 990 out of 1000
+2025-07-26 19:46:06,412 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:06,530 - INFO - EarlyStopping counter: 991 out of 1000
+2025-07-26 19:46:06,579 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:06,697 - INFO - EarlyStopping counter: 992 out of 1000
+2025-07-26 19:46:06,746 - INFO - 检测到样本不平衡，使用动态加权的损失函数
+2025-07-26 19:46:06,864 - INFO - EarlyStopping counter: 993 out of 1000
+2025-07-26 19:46:06,864 - INFO - epoch [3000/3000], loss: 0.0005, accuracy: 100.00%, val_loss: 0.3499, val_accuracy: 92.68%, gamma: 6.5203, beta: -13.3967, centrality_scaling: 1.3107, lr: 0.000003
+2025-07-26 19:46:06,906 - INFO - 测试集结果:
+2025-07-26 19:46:06,906 - INFO - K=5: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 19:46:06,906 - INFO - K=10: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 19:46:06,906 - INFO - K=15: Recall=0.500000, Precision=0.133333, F1=0.210526
+2025-07-26 19:46:06,906 - INFO - 测试集分类准确率: 90.24%
+2025-07-26 19:46:06,912 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res6/historicalModels/Train-3/final_model.pth
+2025-07-26 19:46:06,918 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-26 19:46:06,918 - INFO - 
+识别出的重要类:
+2025-07-26 19:46:06,918 - INFO - --------------------------------------------------------------------------------
+2025-07-26 19:46:06,918 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-26 19:46:06,918 - INFO - --------------------------------------------------------------------------------
+2025-07-26 19:46:06,918 - INFO - 1      204      1.0000     ✓      ground                                            
+2025-07-26 19:46:06,918 - INFO - 2      71       0.9984     ✓      org.junit.runner.Description                      
+2025-07-26 19:46:06,918 - INFO - 3      109      0.9957     ✓      org.junit.runners.model.Statement                 
+2025-07-26 19:46:06,918 - INFO - 4      174      0.9934     ✓      org.junit.runner.Result                           
+2025-07-26 19:46:06,918 - INFO - 5      172      0.9860     ✓      org.junit.runners.model.FrameworkMethod           
+2025-07-26 19:46:06,918 - INFO - 6      173      0.9800     ✓      org.junit.runners.model.InitializationError       
+2025-07-26 19:46:06,918 - INFO - 7      72       0.9799     ✓      org.junit.runner.Request                          
+2025-07-26 19:46:06,918 - INFO - 8      108      0.9792     ✓      org.junit.runner.manipulation.Filter              
+2025-07-26 19:46:06,918 - INFO - 9      51       0.9785     ✓      org.junit.runners.model.RunnerBuilder             
+2025-07-26 19:46:06,919 - INFO - 10     142      0.9777     ✓      org.junit.runner.notification.RunListener         
+2025-07-26 19:46:06,919 - INFO - 11     0        0.9370     ✓      org.junit.runners.ParentRunner                    
+2025-07-26 19:46:06,919 - INFO - 12     19       0.1615     ✓      org.junit.runner.notification.Failure             
+2025-07-26 19:46:06,919 - INFO - 13     26       0.1577     ✓      org.junit.runner.notification.RunNotifier         
+2025-07-26 19:46:06,919 - INFO - 14     154      0.1559     ✓      org.junit.runner.Runner                           
+2025-07-26 19:46:06,919 - INFO - 15     14       0.1550            org.junit.runner.manipulation.NoTestsRemainException
+2025-07-26 19:46:06,919 - INFO - --------------------------------------------------------------------------------
+2025-07-26 19:46:06,919 - INFO - 
+成功识别的关键类:
+2025-07-26 19:46:06,919 - INFO - --------------------------------------------------------------------------------
+2025-07-26 19:46:06,919 - INFO - 1. ground (排名: 1, 分数: 1.0000, 节点ID: 204)
+2025-07-26 19:46:06,919 - INFO - 2. org.junit.runner.Description (排名: 2, 分数: 0.9984, 节点ID: 71)
+2025-07-26 19:46:06,919 - INFO - 3. org.junit.runners.model.Statement (排名: 3, 分数: 0.9957, 节点ID: 109)
+2025-07-26 19:46:06,919 - INFO - 4. org.junit.runner.Result (排名: 4, 分数: 0.9934, 节点ID: 174)
+2025-07-26 19:46:06,919 - INFO - 5. org.junit.runners.model.FrameworkMethod (排名: 5, 分数: 0.9860, 节点ID: 172)
+2025-07-26 19:46:06,919 - INFO - 6. org.junit.runners.model.InitializationError (排名: 6, 分数: 0.9800, 节点ID: 173)
+2025-07-26 19:46:06,919 - INFO - 7. org.junit.runner.Request (排名: 7, 分数: 0.9799, 节点ID: 72)
+2025-07-26 19:46:06,919 - INFO - 8. org.junit.runner.manipulation.Filter (排名: 8, 分数: 0.9792, 节点ID: 108)
+2025-07-26 19:46:06,919 - INFO - 9. org.junit.runners.model.RunnerBuilder (排名: 9, 分数: 0.9785, 节点ID: 51)
+2025-07-26 19:46:06,919 - INFO - 10. org.junit.runner.notification.RunListener (排名: 10, 分数: 0.9777, 节点ID: 142)
+2025-07-26 19:46:06,919 - INFO - 11. org.junit.runners.ParentRunner (排名: 11, 分数: 0.9370, 节点ID: 0)
+2025-07-26 19:46:06,919 - INFO - 12. org.junit.runner.notification.Failure (排名: 12, 分数: 0.1615, 节点ID: 19)
+2025-07-26 19:46:06,919 - INFO - 13. org.junit.runner.notification.RunNotifier (排名: 13, 分数: 0.1577, 节点ID: 26)
+2025-07-26 19:46:06,919 - INFO - 14. org.junit.runner.Runner (排名: 14, 分数: 0.1559, 节点ID: 154)
+2025-07-26 19:46:06,919 - INFO - --------------------------------------------------------------------------------
+2025-07-26 19:46:06,919 - INFO - 在前5个预测中，正确识别了5个关键类，共19个关键类
+2025-07-26 19:46:06,920 - INFO - 覆盖率: 26.32%, 准确率: 100.00%
+2025-07-26 19:46:06,920 - INFO - 在前10个预测中，正确识别了10个关键类，共19个关键类
+2025-07-26 19:46:06,920 - INFO - 覆盖率: 52.63%, 准确率: 100.00%
+2025-07-26 19:46:06,920 - INFO - 在前15个预测中，正确识别了14个关键类，共19个关键类
+2025-07-26 19:46:06,920 - INFO - 覆盖率: 73.68%, 准确率: 93.33%
+2025-07-26 19:46:07,177 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res6/Scores/junit4_scores.txt
+2025-07-26 19:46:07,177 - INFO - 分数统计：最小值=0.0192, 最大值=1.0000, 平均值=0.0992
+2025-07-26 19:46:07,177 - INFO - 接近0的分数(小于0.051)数量: 136 / 205
+2025-07-26 19:46:07,177 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res6/logs/log-3.txt

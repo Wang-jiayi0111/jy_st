@@ -1,0 +1,89 @@
+2025-07-13 00:28:02,390 - INFO - 使用中心性计算得到的关键类
+2025-07-13 00:28:02,390 - INFO - 关键类节点: [8, 2, 15, 13, 12, 6, 4, 3, 1, 7]
+2025-07-13 00:28:02,484 - INFO - collecting all words and their counts
+2025-07-13 00:28:02,484 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-13 00:28:02,486 - INFO - collected 19 word types from a corpus of 16722 raw words and 1900 sentences
+2025-07-13 00:28:02,486 - INFO - Creating a fresh vocabulary
+2025-07-13 00:28:02,488 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 19 unique words (100.00% of original 19, drops 0)', 'datetime': '2025-07-13T00:28:02.486595', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 00:28:02,488 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 16722 word corpus (100.00% of original 16722, drops 0)', 'datetime': '2025-07-13T00:28:02.488235', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 00:28:02,488 - INFO - deleting the raw counts dictionary of 19 items
+2025-07-13 00:28:02,488 - INFO - sample=0.001 downsamples 19 most-common words
+2025-07-13 00:28:02,488 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 2357.1218856451696 word corpus (14.1%% of prior 16722)', 'datetime': '2025-07-13T00:28:02.488524', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 00:28:02,488 - INFO - estimated required memory for 19 words and 32 dimensions: 14364 bytes
+2025-07-13 00:28:02,488 - INFO - resetting layer weights
+2025-07-13 00:28:02,488 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-13T00:28:02.488979', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-13 00:28:02,489 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 19 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-13T00:28:02.489049', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 00:28:02,574 - INFO - EPOCH 0: training on 16722 raw words (2344 effective words) took 0.1s, 27505 effective words/s
+2025-07-13 00:28:02,665 - INFO - EPOCH 1: training on 16722 raw words (2382 effective words) took 0.1s, 26510 effective words/s
+2025-07-13 00:28:02,768 - INFO - EPOCH 2: training on 16722 raw words (2411 effective words) took 0.1s, 23629 effective words/s
+2025-07-13 00:28:02,876 - INFO - EPOCH 3: training on 16722 raw words (2269 effective words) took 0.1s, 21277 effective words/s
+2025-07-13 00:28:02,986 - INFO - EPOCH 4: training on 16722 raw words (2326 effective words) took 0.1s, 21358 effective words/s
+2025-07-13 00:28:02,986 - INFO - Word2Vec lifecycle event {'msg': 'training on 83610 raw words (11732 effective words) took 0.5s, 23596 effective words/s', 'datetime': '2025-07-13T00:28:02.986333', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 00:28:02,986 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=19, vector_size=32, alpha=0.025>', 'datetime': '2025-07-13T00:28:02.986564', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-13 00:28:02,987 - INFO - 计算增强的节点中心性特征...
+2025-07-13 00:28:03,030 - INFO - 标准化中心性特征...
+2025-07-13 00:28:03,032 - INFO - 应用特征重要性权重后的中心性特征形状: (19, 17)
+2025-07-13 00:28:03,033 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-13 00:28:03,217 - INFO - 加载模型参数: gamma=6.5092, beta=-13.5463, centrality_scaling=1.2473
+2025-07-13 00:28:03,217 - INFO - 其他参数: mixing_weight=0.3625, noise_threshold=0.5125
+2025-07-13 00:28:03,221 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-13 00:28:03,223 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-13 00:28:03,223 - INFO - 将使用迁移学习进行训练
+2025-07-13 00:28:03,223 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-13 00:28:03,223 - INFO - 使用单次训练模式
+2025-07-13 00:28:03,226 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-13 00:28:04,196 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-13 00:28:04,199 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-13 00:28:04,486 - INFO - 测试集结果:
+2025-07-13 00:28:04,486 - INFO - K=5: Recall=1.0000, Precision=0.4000
+2025-07-13 00:28:04,486 - INFO - K=10: Recall=1.0000, Precision=0.2000
+2025-07-13 00:28:04,486 - INFO - K=15: Recall=1.0000, Precision=0.1333
+2025-07-13 00:28:04,486 - INFO - 测试集分类准确率: 75.00%
+2025-07-13 00:28:04,490 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res2/historicalModels/Train-9/final_model.pth
+2025-07-13 00:28:04,494 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-13 00:28:04,495 - INFO - 
+识别出的重要类:
+2025-07-13 00:28:04,495 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:28:04,495 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-13 00:28:04,495 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:28:04,495 - INFO - 1      8        0.7632     ✓      CheckpointReferences                              
+2025-07-13 00:28:04,495 - INFO - 2      2        0.6619     ✓      CheckpointController                              
+2025-07-13 00:28:04,496 - INFO - 3      15       0.2393     ✓      PatrolSchedule                                    
+2025-07-13 00:28:04,496 - INFO - 4      3        0.2323     ✓      CheckpointControllerIdleState                     
+2025-07-13 00:28:04,496 - INFO - 5      6        0.2132     ✓      CheckpointControllerViolationCheckingState        
+2025-07-13 00:28:04,496 - INFO - 6      12       0.1810     ✓      DoorLockInterface                                 
+2025-07-13 00:28:04,496 - INFO - 7      4        0.1801     ✓      CheckpointControllerNormalCheckingState           
+2025-07-13 00:28:04,496 - INFO - 8      13       0.1773     ✓      GuardDueTimer                                     
+2025-07-13 00:28:04,496 - INFO - 9      7        0.1654     ✓      CheckpointControllerViolationState                
+2025-07-13 00:28:04,496 - INFO - 10     14       0.1556            GuardLateTimer                                    
+2025-07-13 00:28:04,496 - INFO - 11     0        0.1253            CardReaderInterface                               
+2025-07-13 00:28:04,496 - INFO - 12     5        0.0858            CheckpointControllerState                         
+2025-07-13 00:28:04,496 - INFO - 13     1        0.0799     ✓      Checkpoint                                        
+2025-07-13 00:28:04,496 - INFO - 14     10       0.0517            ControlCentreThread                               
+2025-07-13 00:28:04,496 - INFO - 15     17       0.0497            SecurityTime                                      
+2025-07-13 00:28:04,496 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:28:04,496 - INFO - 
+成功识别的关键类:
+2025-07-13 00:28:04,496 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:28:04,496 - INFO - 1. CheckpointReferences (排名: 1, 分数: 0.7632, 节点ID: 8)
+2025-07-13 00:28:04,497 - INFO - 2. CheckpointController (排名: 2, 分数: 0.6619, 节点ID: 2)
+2025-07-13 00:28:04,497 - INFO - 3. PatrolSchedule (排名: 3, 分数: 0.2393, 节点ID: 15)
+2025-07-13 00:28:04,497 - INFO - 4. CheckpointControllerIdleState (排名: 4, 分数: 0.2323, 节点ID: 3)
+2025-07-13 00:28:04,497 - INFO - 5. CheckpointControllerViolationCheckingState (排名: 5, 分数: 0.2132, 节点ID: 6)
+2025-07-13 00:28:04,497 - INFO - 6. DoorLockInterface (排名: 6, 分数: 0.1810, 节点ID: 12)
+2025-07-13 00:28:04,497 - INFO - 7. CheckpointControllerNormalCheckingState (排名: 7, 分数: 0.1801, 节点ID: 4)
+2025-07-13 00:28:04,497 - INFO - 8. GuardDueTimer (排名: 8, 分数: 0.1773, 节点ID: 13)
+2025-07-13 00:28:04,497 - INFO - 9. CheckpointControllerViolationState (排名: 9, 分数: 0.1654, 节点ID: 7)
+2025-07-13 00:28:04,497 - INFO - 10. Checkpoint (排名: 13, 分数: 0.0799, 节点ID: 1)
+2025-07-13 00:28:04,497 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:28:04,497 - INFO - 在前5个预测中，正确识别了5个关键类，共10.0个关键类
+2025-07-13 00:28:04,497 - INFO - 覆盖率: 50.00%, 准确率: 100.00%
+2025-07-13 00:28:04,497 - INFO - 在前10个预测中，正确识别了9个关键类，共10.0个关键类
+2025-07-13 00:28:04,497 - INFO - 覆盖率: 90.00%, 准确率: 90.00%
+2025-07-13 00:28:04,497 - INFO - 在前15个预测中，正确识别了10个关键类，共10.0个关键类
+2025-07-13 00:28:04,497 - INFO - 覆盖率: 100.00%, 准确率: 66.67%
+2025-07-13 00:28:04,812 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res2/Scores/SPM_scores.txt
+2025-07-13 00:28:04,812 - INFO - 分数统计：最小值=0.0209, 最大值=0.7632, 平均值=0.1844
+2025-07-13 00:28:04,812 - INFO - 接近0的分数(小于0.051)数量: 5 / 19
+2025-07-13 00:28:04,813 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res2/logs/log-9.txt

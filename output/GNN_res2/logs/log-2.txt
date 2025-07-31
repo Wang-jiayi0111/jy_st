@@ -1,0 +1,88 @@
+2025-07-13 00:11:10,407 - INFO - 使用中心性计算得到的关键类
+2025-07-13 00:11:10,407 - INFO - 关键类节点: [9, 7, 19, 8, 20, 14, 11, 12, 13, 10]
+2025-07-13 00:11:10,504 - INFO - collecting all words and their counts
+2025-07-13 00:11:10,504 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-13 00:11:10,505 - INFO - collected 21 word types from a corpus of 15213 raw words and 2100 sentences
+2025-07-13 00:11:10,505 - INFO - Creating a fresh vocabulary
+2025-07-13 00:11:10,508 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 21 unique words (100.00% of original 21, drops 0)', 'datetime': '2025-07-13T00:11:10.506108', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 00:11:10,508 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 15213 word corpus (100.00% of original 15213, drops 0)', 'datetime': '2025-07-13T00:11:10.508687', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 00:11:10,508 - INFO - deleting the raw counts dictionary of 21 items
+2025-07-13 00:11:10,509 - INFO - sample=0.001 downsamples 21 most-common words
+2025-07-13 00:11:10,509 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 1960.3784881734414 word corpus (12.9%% of prior 15213)', 'datetime': '2025-07-13T00:11:10.509118', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 00:11:10,509 - INFO - estimated required memory for 21 words and 32 dimensions: 15876 bytes
+2025-07-13 00:11:10,509 - INFO - resetting layer weights
+2025-07-13 00:11:10,509 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-13T00:11:10.509649', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-13 00:11:10,509 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 21 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-13T00:11:10.509733', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 00:11:10,587 - INFO - EPOCH 0: training on 15213 raw words (1993 effective words) took 0.1s, 26079 effective words/s
+2025-07-13 00:11:10,677 - INFO - EPOCH 1: training on 15213 raw words (1894 effective words) took 0.1s, 21233 effective words/s
+2025-07-13 00:11:10,774 - INFO - EPOCH 2: training on 15213 raw words (1962 effective words) took 0.1s, 20556 effective words/s
+2025-07-13 00:11:10,873 - INFO - EPOCH 3: training on 15213 raw words (1901 effective words) took 0.1s, 19375 effective words/s
+2025-07-13 00:11:10,971 - INFO - EPOCH 4: training on 15213 raw words (2001 effective words) took 0.1s, 20812 effective words/s
+2025-07-13 00:11:10,971 - INFO - Word2Vec lifecycle event {'msg': 'training on 76065 raw words (9751 effective words) took 0.5s, 21128 effective words/s', 'datetime': '2025-07-13T00:11:10.971342', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 00:11:10,971 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=21, vector_size=32, alpha=0.025>', 'datetime': '2025-07-13T00:11:10.971585', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-13 00:11:10,972 - INFO - 计算增强的节点中心性特征...
+2025-07-13 00:11:11,013 - INFO - 标准化中心性特征...
+2025-07-13 00:11:11,014 - INFO - 应用特征重要性权重后的中心性特征形状: (21, 17)
+2025-07-13 00:11:11,015 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-13 00:11:11,209 - INFO - 加载模型参数: gamma=6.5092, beta=-13.5463, centrality_scaling=1.2473
+2025-07-13 00:11:11,209 - INFO - 其他参数: mixing_weight=0.3625, noise_threshold=0.5125
+2025-07-13 00:11:11,212 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-13 00:11:11,214 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-13 00:11:11,214 - INFO - 将使用迁移学习进行训练
+2025-07-13 00:11:11,214 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-13 00:11:11,214 - INFO - 使用单次训练模式
+2025-07-13 00:11:11,216 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-13 00:11:11,947 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-13 00:11:11,950 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-13 00:11:12,155 - INFO - 测试集结果:
+2025-07-13 00:11:12,156 - INFO - K=5: Recall=0.0000, Precision=0.0000
+2025-07-13 00:11:12,156 - INFO - K=10: Recall=1.0000, Precision=0.2000
+2025-07-13 00:11:12,156 - INFO - K=15: Recall=1.0000, Precision=0.1333
+2025-07-13 00:11:12,156 - INFO - 测试集分类准确率: 60.00%
+2025-07-13 00:11:12,158 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res2/historicalModels/Train-2/final_model.pth
+2025-07-13 00:11:12,161 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-13 00:11:12,162 - INFO - 
+识别出的重要类:
+2025-07-13 00:11:12,162 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:11:12,162 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-13 00:11:12,162 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:11:12,162 - INFO - 1      7        0.5997     ✓      ATM                                               
+2025-07-13 00:11:12,162 - INFO - 2      9        0.5139     ✓      Session                                           
+2025-07-13 00:11:12,162 - INFO - 3      8        0.2116     ✓      Bank                                              
+2025-07-13 00:11:12,162 - INFO - 4      20       0.1959     ✓      Status                                            
+2025-07-13 00:11:12,162 - INFO - 5      19       0.1447     ✓      Money                                             
+2025-07-13 00:11:12,162 - INFO - 6      12       0.1224     ✓      DepositTransaction                                
+2025-07-13 00:11:12,162 - INFO - 7      1        0.1184            Display                                           
+2025-07-13 00:11:12,162 - INFO - 8      14       0.0997     ✓      InquiryTransaction                                
+2025-07-13 00:11:12,162 - INFO - 9      11       0.0976     ✓      WithdrawlTransaction                              
+2025-07-13 00:11:12,162 - INFO - 10     17       0.0904            ATMMain                                           
+2025-07-13 00:11:12,162 - INFO - 11     0        0.0886            ReceiptPrinter                                    
+2025-07-13 00:11:12,162 - INFO - 12     4        0.0859            OperatorPanel                                     
+2025-07-13 00:11:12,162 - INFO - 13     2        0.0837            Keyboard                                          
+2025-07-13 00:11:12,162 - INFO - 14     18       0.0824            ATMApplet                                         
+2025-07-13 00:11:12,162 - INFO - 15     13       0.0805     ✓      TransferTransaction                               
+2025-07-13 00:11:12,162 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:11:12,162 - INFO - 
+成功识别的关键类:
+2025-07-13 00:11:12,162 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:11:12,163 - INFO - 1. ATM (排名: 1, 分数: 0.5997, 节点ID: 7)
+2025-07-13 00:11:12,163 - INFO - 2. Session (排名: 2, 分数: 0.5139, 节点ID: 9)
+2025-07-13 00:11:12,163 - INFO - 3. Bank (排名: 3, 分数: 0.2116, 节点ID: 8)
+2025-07-13 00:11:12,163 - INFO - 4. Status (排名: 4, 分数: 0.1959, 节点ID: 20)
+2025-07-13 00:11:12,163 - INFO - 5. Money (排名: 5, 分数: 0.1447, 节点ID: 19)
+2025-07-13 00:11:12,163 - INFO - 6. DepositTransaction (排名: 6, 分数: 0.1224, 节点ID: 12)
+2025-07-13 00:11:12,163 - INFO - 7. InquiryTransaction (排名: 8, 分数: 0.0997, 节点ID: 14)
+2025-07-13 00:11:12,163 - INFO - 8. WithdrawlTransaction (排名: 9, 分数: 0.0976, 节点ID: 11)
+2025-07-13 00:11:12,163 - INFO - 9. TransferTransaction (排名: 15, 分数: 0.0805, 节点ID: 13)
+2025-07-13 00:11:12,163 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:11:12,163 - INFO - 在前5个预测中，正确识别了5个关键类，共10.0个关键类
+2025-07-13 00:11:12,163 - INFO - 覆盖率: 50.00%, 准确率: 100.00%
+2025-07-13 00:11:12,163 - INFO - 在前10个预测中，正确识别了8个关键类，共10.0个关键类
+2025-07-13 00:11:12,163 - INFO - 覆盖率: 80.00%, 准确率: 80.00%
+2025-07-13 00:11:12,163 - INFO - 在前15个预测中，正确识别了9个关键类，共10.0个关键类
+2025-07-13 00:11:12,163 - INFO - 覆盖率: 90.00%, 准确率: 60.00%
+2025-07-13 00:11:12,398 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res2/Scores/ATM_scores.txt
+2025-07-13 00:11:12,398 - INFO - 分数统计：最小值=0.0478, 最大值=0.5997, 平均值=0.1429
+2025-07-13 00:11:12,398 - INFO - 接近0的分数(小于0.051)数量: 1 / 21
+2025-07-13 00:11:12,398 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res2/logs/log-2.txt

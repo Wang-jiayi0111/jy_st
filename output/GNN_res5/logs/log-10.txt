@@ -1,0 +1,840 @@
+2025-07-26 14:20:54,955 - INFO - 开始处理所有数据集...
+2025-07-26 14:20:54,955 - INFO - 
+################################################################################
+2025-07-26 14:20:54,955 - INFO - 处理数据集: jdk
+2025-07-26 14:20:54,955 - INFO - ################################################################################
+2025-07-26 14:21:54,824 - INFO - 识别出关键类: 270/2884 (9.36%)
+2025-07-26 14:21:54,824 - INFO - 关键类: ground, javax.swing.JComponent, java.awt.Graphics, java.io.Serializable, java.io.IOException, java.awt.Rectangle, java.awt.Dimension, javax.swing.plaf.ComponentUI, java.util.Vector, java.awt.event.ActionEvent...
+2025-07-26 14:21:54,825 - INFO - 
+********************************************************************************
+2025-07-26 14:21:54,825 - INFO - 数据集: jdk
+2025-07-26 14:21:54,825 - INFO - ********************************************************************************
+2025-07-26 14:21:54,825 - INFO - 
+================================================================================
+2025-07-26 14:21:54,825 - INFO - 关键类识别结果
+2025-07-26 14:21:54,825 - INFO - ================================================================================
+2025-07-26 14:21:54,825 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:21:54,825 - INFO - ------------------------------------------------------------
+2025-07-26 14:21:54,825 - INFO - 节点 2883: ground
+2025-07-26 14:21:54,825 - INFO - 节点 893: javax.swing.JComponent
+2025-07-26 14:21:54,825 - INFO - 节点 2009: java.awt.Graphics
+2025-07-26 14:21:54,825 - INFO - 节点 2252: java.io.Serializable
+2025-07-26 14:21:54,825 - INFO - 节点 632: java.io.IOException
+2025-07-26 14:21:54,825 - INFO - 节点 2608: java.awt.Rectangle
+2025-07-26 14:21:54,825 - INFO - 节点 50: java.awt.Dimension
+2025-07-26 14:21:54,825 - INFO - 节点 934: javax.swing.plaf.ComponentUI
+2025-07-26 14:21:54,825 - INFO - 节点 804: java.util.Vector
+2025-07-26 14:21:54,825 - INFO - 节点 1718: java.awt.event.ActionEvent
+2025-07-26 14:21:54,825 - INFO - 节点 1536: java.awt.Color
+2025-07-26 14:21:54,825 - INFO - 节点 1434: javax.swing.UIManager
+2025-07-26 14:21:54,825 - INFO - 节点 130: java.awt.Toolkit
+2025-07-26 14:21:54,825 - INFO - 节点 542: javax.swing.Icon
+2025-07-26 14:21:54,825 - INFO - 节点 1760: java.util.Hashtable
+2025-07-26 14:21:54,825 - INFO - 节点 83: javax.swing.SwingUtilities
+2025-07-26 14:21:54,825 - INFO - 节点 877: java.awt.Insets
+2025-07-26 14:21:54,825 - INFO - 节点 516: java.io.ObjectOutputStream
+2025-07-26 14:21:54,825 - INFO - 节点 2107: java.util.Enumeration
+2025-07-26 14:21:54,825 - INFO - 节点 2177: java.io.ObjectInputStream
+2025-07-26 14:21:54,825 - INFO - 节点 388: java.lang.String
+2025-07-26 14:21:54,825 - INFO - 节点 1215: java.awt.Point
+2025-07-26 14:21:54,825 - INFO - 节点 93: org.omg.CORBA.portable.OutputStream
+2025-07-26 14:21:54,825 - INFO - 节点 2103: org.omg.CORBA.portable.InputStream
+2025-07-26 14:21:54,825 - INFO - 节点 1186: org.omg.CORBA.TypeCode
+2025-07-26 14:21:54,825 - INFO - 节点 2377: javax.accessibility.Accessible
+2025-07-26 14:21:54,825 - INFO - 节点 2473: javax.swing.AbstractButton
+2025-07-26 14:21:54,825 - INFO - 节点 1573: javax.swing.text.View
+2025-07-26 14:21:54,825 - INFO - 节点 1918: javax.accessibility.AccessibleContext
+2025-07-26 14:21:54,826 - INFO - 节点 2113: org.omg.CORBA.ORB
+2025-07-26 14:21:54,826 - INFO - 节点 2738: javax.swing.text.Element
+2025-07-26 14:21:54,826 - INFO - 节点 418: javax.swing.text.AttributeSet
+2025-07-26 14:21:54,826 - INFO - 节点 745: java.beans.PropertyChangeListener
+2025-07-26 14:21:54,826 - INFO - 节点 1248: java.awt.Font
+2025-07-26 14:21:54,826 - INFO - 节点 2481: javax.swing.plaf.UIResource
+2025-07-26 14:21:54,826 - INFO - 节点 525: javax.swing.text.BadLocationException
+2025-07-26 14:21:54,826 - INFO - 节点 2495: org.omg.CORBA.Any
+2025-07-26 14:21:54,826 - INFO - 节点 2491: java.awt.event.MouseEvent
+2025-07-26 14:21:54,826 - INFO - 节点 234: javax.swing.text.Document
+2025-07-26 14:21:54,826 - INFO - 节点 706: java.io.InputStream
+2025-07-26 14:21:54,826 - INFO - 节点 1497: java.awt.Shape
+2025-07-26 14:21:54,826 - INFO - 节点 1617: javax.swing.JList
+2025-07-26 14:21:54,826 - INFO - 节点 2099: java.util.EventListener
+2025-07-26 14:21:54,826 - INFO - 节点 568: javax.accessibility.AccessibleRole
+2025-07-26 14:21:54,826 - INFO - 节点 2659: javax.swing.JInternalFrame
+2025-07-26 14:21:54,826 - INFO - 节点 507: java.beans.PropertyChangeEvent
+2025-07-26 14:21:54,826 - INFO - 节点 1269: javax.swing.event.ChangeListener
+2025-07-26 14:21:54,826 - INFO - 节点 1601: javax.naming.NamingException
+2025-07-26 14:21:54,826 - INFO - 节点 173: javax.swing.JTable
+2025-07-26 14:21:54,826 - INFO - 节点 1109: javax.swing.text.html.HTMLDocument
+2025-07-26 14:21:54,826 - INFO - 节点 1528: javax.swing.JComboBox
+2025-07-26 14:21:54,826 - INFO - 节点 2404: javax.swing.JTree
+2025-07-26 14:21:54,826 - INFO - 节点 2457: java.awt.FontMetrics
+2025-07-26 14:21:54,826 - INFO - 节点 503: javax.swing.text.MutableAttributeSet
+2025-07-26 14:21:54,826 - INFO - 节点 1149: javax.swing.ButtonModel
+2025-07-26 14:21:54,826 - INFO - 节点 2288: java.io.File
+2025-07-26 14:21:54,826 - INFO - 节点 2306: java.net.URL
+2025-07-26 14:21:54,826 - INFO - 节点 2222: java.awt.geom.Rectangle2D
+2025-07-26 14:21:54,826 - INFO - 节点 696: javax.swing.JEditorPane
+2025-07-26 14:21:54,826 - INFO - 节点 1053: javax.swing.border.Border
+2025-07-26 14:21:54,826 - INFO - 节点 300: java.awt.event.ActionListener
+2025-07-26 14:21:54,826 - INFO - 节点 668: javax.swing.JMenuItem
+2025-07-26 14:21:54,826 - INFO - 节点 1644: javax.swing.text.html.StyleSheet
+2025-07-26 14:21:54,826 - INFO - 节点 536: javax.swing.plaf.metal.MetalLookAndFeel
+2025-07-26 14:21:54,826 - INFO - 节点 836: java.awt.geom.AffineTransform
+2025-07-26 14:21:54,826 - INFO - 节点 2700: javax.swing.JMenu
+2025-07-26 14:21:54,826 - INFO - 节点 344: javax.swing.event.ChangeEvent
+2025-07-26 14:21:54,826 - INFO - 节点 1350: java.awt.Image
+2025-07-26 14:21:54,826 - INFO - 节点 2281: javax.swing.text.html.CSS
+2025-07-26 14:21:54,826 - INFO - 节点 721: java.awt.image.ColorModel
+2025-07-26 14:21:54,827 - INFO - 节点 1032: javax.swing.JLabel
+2025-07-26 14:21:54,827 - INFO - 节点 1304: java.lang.Object
+2025-07-26 14:21:54,827 - INFO - 节点 1612: org.omg.CORBA.portable.Streamable
+2025-07-26 14:21:54,827 - INFO - 节点 1809: javax.swing.JButton
+2025-07-26 14:21:54,827 - INFO - 节点 664: java.awt.Window
+2025-07-26 14:21:54,827 - INFO - 节点 4: java.util.Locale
+2025-07-26 14:21:54,827 - INFO - 节点 2062: java.util.Map
+2025-07-26 14:21:54,827 - INFO - 节点 2261: org.omg.CORBA.Object
+2025-07-26 14:21:54,827 - INFO - 节点 2869: javax.swing.LookAndFeel
+2025-07-26 14:21:54,827 - INFO - 节点 434: javax.swing.text.AbstractDocument
+2025-07-26 14:21:54,827 - INFO - 节点 888: javax.swing.plaf.basic.BasicComboBoxUI
+2025-07-26 14:21:54,827 - INFO - 节点 1068: javax.swing.MenuSelectionManager
+2025-07-26 14:21:54,827 - INFO - 节点 1990: java.awt.event.KeyEvent
+2025-07-26 14:21:54,827 - INFO - 节点 2623: java.awt.AWTEvent
+2025-07-26 14:21:54,827 - INFO - 节点 2783: javax.swing.JTabbedPane
+2025-07-26 14:21:54,827 - INFO - 节点 2794: java.awt.image.BufferedImage
+2025-07-26 14:21:54,827 - INFO - 节点 1523: javax.swing.JPopupMenu
+2025-07-26 14:21:54,827 - INFO - 节点 1741: javax.swing.text.TextAction
+2025-07-26 14:21:54,827 - INFO - 节点 2387: javax.swing.tree.TreePath
+2025-07-26 14:21:54,827 - INFO - 节点 572: java.awt.AWTEventMulticaster
+2025-07-26 14:21:54,827 - INFO - 节点 586: java.lang.Class
+2025-07-26 14:21:54,827 - INFO - 节点 644: javax.swing.text.StyleConstants
+2025-07-26 14:21:54,827 - INFO - 节点 978: javax.swing.plaf.basic.BasicGraphicsUtils
+2025-07-26 14:21:54,827 - INFO - 节点 1183: java.awt.LayoutManager
+2025-07-26 14:21:54,827 - INFO - 节点 1400: javax.swing.JTextField
+2025-07-26 14:21:54,827 - INFO - 节点 1890: javax.swing.plaf.basic.BasicTabbedPaneUI
+2025-07-26 14:21:54,827 - INFO - 节点 107: javax.swing.Action
+2025-07-26 14:21:54,827 - INFO - 节点 310: javax.swing.text.ViewFactory
+2025-07-26 14:21:54,827 - INFO - 节点 382: java.util.Collection
+2025-07-26 14:21:54,827 - INFO - 节点 502: javax.swing.ActionMap
+2025-07-26 14:21:54,827 - INFO - 节点 1466: javax.swing.event.DocumentEvent
+2025-07-26 14:21:54,827 - INFO - 节点 466: java.awt.image.Raster
+2025-07-26 14:21:54,827 - INFO - 节点 559: javax.swing.event.EventListenerList
+2025-07-26 14:21:54,827 - INFO - 节点 677: javax.swing.InputMap
+2025-07-26 14:21:54,827 - INFO - 节点 1190: javax.swing.plaf.basic.BasicSplitPaneUI
+2025-07-26 14:21:54,827 - INFO - 节点 1237: java.io.OutputStream
+2025-07-26 14:21:54,827 - INFO - 节点 1268: javax.swing.JScrollPane
+2025-07-26 14:21:54,827 - INFO - 节点 2351: java.util.Set
+2025-07-26 14:21:54,827 - INFO - 节点 51: javax.accessibility.AccessibleStateSet
+2025-07-26 14:21:54,827 - INFO - 节点 591: javax.swing.text.SimpleAttributeSet
+2025-07-26 14:21:54,827 - INFO - 节点 1358: javax.swing.text.html.HTML.Tag
+2025-07-26 14:21:54,827 - INFO - 节点 1440: javax.swing.JComponent.AccessibleJComponent
+2025-07-26 14:21:54,828 - INFO - 节点 66: com.sun.java.swing.plaf.windows.WindowsFileChooserUI
+2025-07-26 14:21:54,828 - INFO - 节点 413: javax.swing.text.DefaultStyledDocument
+2025-07-26 14:21:54,828 - INFO - 节点 442: java.awt.event.FocusListener
+2025-07-26 14:21:54,828 - INFO - 节点 1587: java.util.TreeMap.Iterator
+2025-07-26 14:21:54,828 - INFO - 节点 1276: javax.swing.KeyStroke
+2025-07-26 14:21:54,828 - INFO - 节点 307: javax.swing.text.Utilities
+2025-07-26 14:21:54,828 - INFO - 节点 887: java.lang.ClassLoader
+2025-07-26 14:21:54,828 - INFO - 节点 1139: javax.swing.JFileChooser
+2025-07-26 14:21:54,828 - INFO - 节点 1284: javax.swing.text.BoxView
+2025-07-26 14:21:54,828 - INFO - 节点 1771: javax.swing.JViewport
+2025-07-26 14:21:54,828 - INFO - 节点 2223: org.omg.CORBA.SystemException
+2025-07-26 14:21:54,828 - INFO - 节点 2603: javax.swing.plaf.multi.MultiLookAndFeel
+2025-07-26 14:21:54,828 - INFO - 节点 541: java.rmi.RemoteException
+2025-07-26 14:21:54,828 - INFO - 节点 873: java.lang.System
+2025-07-26 14:21:54,828 - INFO - 节点 899: java.awt.Cursor
+2025-07-26 14:21:54,828 - INFO - 节点 960: java.util.HashMap
+2025-07-26 14:21:54,828 - INFO - 节点 1506: java.awt.Frame
+2025-07-26 14:21:54,828 - INFO - 节点 1964: org.omg.CORBA.CompletionStatus
+2025-07-26 14:21:54,828 - INFO - 节点 2226: javax.swing.JMenuBar
+2025-07-26 14:21:54,828 - INFO - 节点 2418: javax.swing.JRootPane
+2025-07-26 14:21:54,828 - INFO - 节点 416: javax.swing.border.AbstractBorder
+2025-07-26 14:21:54,828 - INFO - 节点 1439: java.util.EventObject
+2025-07-26 14:21:54,828 - INFO - 节点 1822: java.lang.reflect.Method
+2025-07-26 14:21:54,828 - INFO - 节点 2879: javax.swing.MenuElement
+2025-07-26 14:21:54,828 - INFO - 节点 1114: javax.swing.text.StyleContext
+2025-07-26 14:21:54,828 - INFO - 节点 1462: java.util.NoSuchElementException
+2025-07-26 14:21:54,828 - INFO - 节点 1495: java.awt.image.WritableRaster
+2025-07-26 14:21:54,828 - INFO - 节点 2872: javax.swing.JSplitPane
+2025-07-26 14:21:54,828 - INFO - 节点 137: javax.swing.JOptionPane
+2025-07-26 14:21:54,828 - INFO - 节点 697: javax.swing.text.GlyphView
+2025-07-26 14:21:54,828 - INFO - 节点 1663: javax.swing.text.Caret
+2025-07-26 14:21:54,828 - INFO - 节点 1750: javax.swing.UIDefaults
+2025-07-26 14:21:54,828 - INFO - 节点 2203: java.awt.geom.Point2D
+2025-07-26 14:21:54,828 - INFO - 节点 2579: javax.swing.text.ParagraphView
+2025-07-26 14:21:54,828 - INFO - 节点 360: java.awt.RenderingHints
+2025-07-26 14:21:54,828 - INFO - 节点 1348: java.util.ResourceBundle
+2025-07-26 14:21:54,828 - INFO - 节点 1438: javax.swing.JToolBar
+2025-07-26 14:21:54,828 - INFO - 节点 1785: org.omg.CORBA.portable.ObjectImpl
+2025-07-26 14:21:54,828 - INFO - 节点 1927: java.io.Reader
+2025-07-26 14:21:54,828 - INFO - 节点 2021: javax.swing.text.Position.Bias
+2025-07-26 14:21:54,828 - INFO - 节点 2101: javax.swing.JScrollBar
+2025-07-26 14:21:54,828 - INFO - 节点 2176: java.io.ObjectStreamClass
+2025-07-26 14:21:54,829 - INFO - 节点 88: org.omg.CORBA.portable.Delegate
+2025-07-26 14:21:54,829 - INFO - 节点 754: javax.swing.JPanel
+2025-07-26 14:21:54,829 - INFO - 节点 778: java.util.Date
+2025-07-26 14:21:54,829 - INFO - 节点 2068: java.io.PrintStream
+2025-07-26 14:21:54,829 - INFO - 节点 2720: javax.swing.table.JTableHeader
+2025-07-26 14:21:54,829 - INFO - 节点 166: javax.swing.event.MouseInputListener
+2025-07-26 14:21:54,829 - INFO - 节点 205: java.math.BigInteger
+2025-07-26 14:21:54,829 - INFO - 节点 1314: javax.swing.plaf.basic.BasicSplitPaneDivider
+2025-07-26 14:21:54,829 - INFO - 节点 1479: javax.swing.plaf.basic.BasicFileChooserUI
+2025-07-26 14:21:54,829 - INFO - 节点 1967: javax.swing.JSlider
+2025-07-26 14:21:54,829 - INFO - 节点 2728: javax.swing.text.CompositeView
+2025-07-26 14:21:54,829 - INFO - 节点 280: java.util.Properties
+2025-07-26 14:21:54,829 - INFO - 节点 1029: javax.naming.Name
+2025-07-26 14:21:54,829 - INFO - 节点 2604: java.lang.SecurityManager
+2025-07-26 14:21:54,829 - INFO - 节点 512: javax.swing.text.Segment
+2025-07-26 14:21:54,829 - INFO - 节点 2127: java.awt.BorderLayout
+2025-07-26 14:21:54,829 - INFO - 节点 298: java.awt.font.TextLayout
+2025-07-26 14:21:54,829 - INFO - 节点 679: java.awt.datatransfer.DataFlavor
+2025-07-26 14:21:54,829 - INFO - 节点 810: java.beans.PropertyVetoException
+2025-07-26 14:21:54,829 - INFO - 节点 1557: java.lang.Integer
+2025-07-26 14:21:54,829 - INFO - 节点 1774: java.awt.event.FocusEvent
+2025-07-26 14:21:54,829 - INFO - 节点 2095: javax.swing.ImageIcon
+2025-07-26 14:21:54,829 - INFO - 节点 2147: javax.swing.ToolTipManager
+2025-07-26 14:21:54,829 - INFO - 节点 2229: java.security.cert.Certificate
+2025-07-26 14:21:54,829 - INFO - 节点 2763: javax.swing.Timer
+2025-07-26 14:21:54,829 - INFO - 节点 2882: java.lang.Thread
+2025-07-26 14:21:54,829 - INFO - 节点 1838: javax.naming.Context
+2025-07-26 14:21:54,829 - INFO - 节点 2279: javax.swing.JInternalFrame.JDesktopIcon
+2025-07-26 14:21:54,829 - INFO - 节点 288: javax.swing.text.EditorKit
+2025-07-26 14:21:54,829 - INFO - 节点 830: java.awt.EventQueue
+2025-07-26 14:21:54,829 - INFO - 节点 1346: java.awt.font.TextLine
+2025-07-26 14:21:54,829 - INFO - 节点 2372: java.awt.MenuItem
+2025-07-26 14:21:54,829 - INFO - 节点 2586: java.net.MalformedURLException
+2025-07-26 14:21:54,829 - INFO - 节点 2859: java.awt.geom.PathIterator
+2025-07-26 14:21:54,829 - INFO - 节点 303: javax.swing.JDesktopPane
+2025-07-26 14:21:54,829 - INFO - 节点 564: javax.swing.plaf.metal.MetalUtils
+2025-07-26 14:21:54,829 - INFO - 节点 698: java.util.StringTokenizer
+2025-07-26 14:21:54,829 - INFO - 节点 1111: java.util.Map.Entry
+2025-07-26 14:21:54,829 - INFO - 节点 1318: java.security.Permission
+2025-07-26 14:21:54,829 - INFO - 节点 1985: javax.swing.JLayeredPane
+2025-07-26 14:21:54,829 - INFO - 节点 2047: java.net.InetAddress
+2025-07-26 14:21:54,829 - INFO - 节点 2519: javax.swing.JColorChooser
+2025-07-26 14:21:54,829 - INFO - 节点 267: javax.swing.DebugGraphics
+2025-07-26 14:21:54,830 - INFO - 节点 874: java.util.Iterator
+2025-07-26 14:21:54,830 - INFO - 节点 947: java.lang.IllegalArgumentException
+2025-07-26 14:21:54,830 - INFO - 节点 1180: javax.swing.ListSelectionModel
+2025-07-26 14:21:54,830 - INFO - 节点 1188: java.awt.MenuComponent
+2025-07-26 14:21:54,830 - INFO - 节点 1707: java.awt.event.ItemListener
+2025-07-26 14:21:54,830 - INFO - 节点 2052: java.sql.SQLException
+2025-07-26 14:21:54,830 - INFO - 节点 2260: java.text.NumberFormat
+2025-07-26 14:21:54,830 - INFO - 节点 2542: java.text.AttributedCharacterIterator
+2025-07-26 14:21:54,830 - INFO - 节点 2710: java.lang.Exception
+2025-07-26 14:21:54,830 - INFO - 节点 2813: java.awt.TextComponent
+2025-07-26 14:21:54,830 - INFO - 节点 111: java.awt.geom.RectangularShape
+2025-07-26 14:21:54,830 - INFO - 节点 920: java.util.Dictionary
+2025-07-26 14:21:54,830 - INFO - 节点 989: java.lang.RuntimeException
+2025-07-26 14:21:54,830 - INFO - 节点 1108: java.awt.color.ICC_Profile
+2025-07-26 14:21:54,830 - INFO - 节点 1920: java.util.ArrayList
+2025-07-26 14:21:54,830 - INFO - 节点 2037: java.awt.event.ItemEvent
+2025-07-26 14:21:54,830 - INFO - 节点 2087: javax.swing.text.html.TableView.RowView
+2025-07-26 14:21:54,830 - INFO - 节点 2672: java.rmi.activation.ActivationID
+2025-07-26 14:21:54,830 - INFO - 节点 2792: javax.swing.text.StyledDocument
+2025-07-26 14:21:54,830 - INFO - 节点 95: javax.swing.JProgressBar
+2025-07-26 14:21:54,830 - INFO - 节点 230: java.awt.MenuBar
+2025-07-26 14:21:54,830 - INFO - 节点 1256: javax.naming.NamingEnumeration
+2025-07-26 14:21:54,830 - INFO - 节点 1568: java.awt.event.MouseListener
+2025-07-26 14:21:54,830 - INFO - 节点 1986: javax.swing.text.StyledEditorKit.StyledTextAction
+2025-07-26 14:21:54,830 - INFO - 节点 2277: javax.swing.text.Style
+2025-07-26 14:21:54,830 - INFO - 节点 20: javax.swing.SwingConstants
+2025-07-26 14:21:54,830 - INFO - 节点 612: java.util.TimeZone
+2025-07-26 14:21:54,830 - INFO - 节点 627: javax.swing.table.TableColumn
+2025-07-26 14:21:54,830 - INFO - 节点 667: java.awt.event.ComponentEvent
+2025-07-26 14:21:54,830 - INFO - 节点 1657: javax.swing.text.AbstractDocument.DefaultDocumentEvent
+2025-07-26 14:21:54,830 - INFO - 节点 1784: javax.swing.text.html.StyleSheet.BoxPainter
+2025-07-26 14:21:54,830 - INFO - 节点 1832: java.util.Calendar
+2025-07-26 14:21:54,830 - INFO - 节点 2043: org.omg.CORBA.StructMember
+2025-07-26 14:21:54,830 - INFO - 节点 2613: java.util.AbstractList
+2025-07-26 14:21:54,830 - INFO - 节点 518: java.text.DateFormat
+2025-07-26 14:21:54,830 - INFO - 节点 563: javax.swing.table.TableColumnModel
+2025-07-26 14:21:54,830 - INFO - 节点 573: javax.swing.event.ListSelectionEvent
+2025-07-26 14:21:54,830 - INFO - 节点 720: java.beans.beancontext.BeanContext
+2025-07-26 14:21:54,830 - INFO - 节点 832: javax.swing.SwingGraphics
+2025-07-26 14:21:54,830 - INFO - 节点 1768: javax.swing.BoundedRangeModel
+2025-07-26 14:21:54,830 - INFO - 节点 1944: javax.swing.event.ListSelectionListener
+2025-07-26 14:21:54,830 - INFO - 节点 2172: java.awt.image.SampleModel
+2025-07-26 14:21:54,830 - INFO - 节点 2302: java.lang.ClassNotFoundException
+2025-07-26 14:21:54,831 - INFO - 节点 184: javax.naming.directory.DirContext
+2025-07-26 14:21:54,831 - INFO - 节点 187: java.awt.GraphicsConfiguration
+2025-07-26 14:21:54,831 - INFO - 节点 765: java.util.List
+2025-07-26 14:21:54,831 - INFO - 节点 789: javax.swing.SizeRequirements
+2025-07-26 14:21:54,831 - INFO - 节点 927: javax.swing.AbstractListModel
+2025-07-26 14:21:54,831 - INFO - 节点 1134: java.rmi.Remote
+2025-07-26 14:21:54,831 - INFO - 节点 1165: java.io.ByteArrayOutputStream
+2025-07-26 14:21:54,831 - INFO - 节点 2471: java.text.BreakIterator
+2025-07-26 14:21:54,831 - INFO - 节点 2679: java.awt.image.DataBuffer
+2025-07-26 14:21:54,831 - INFO - 节点 2703: javax.swing.BoxLayout
+2025-07-26 14:21:54,831 - INFO - 节点 127: javax.swing.event.DocumentEvent.ElementChange
+2025-07-26 14:21:54,831 - INFO - 节点 441: java.awt.image.ImageConsumer
+2025-07-26 14:21:54,831 - INFO - 节点 526: java.awt.image.ImageObserver
+2025-07-26 14:21:54,831 - INFO - 节点 683: java.awt.geom.Line2D
+2025-07-26 14:21:54,831 - INFO - 节点 849: java.security.NoSuchAlgorithmException
+2025-07-26 14:21:54,831 - INFO - 节点 1075: javax.swing.plaf.basic.BasicTextUI.RootView
+2025-07-26 14:21:54,831 - INFO - 节点 582: javax.swing.text.AbstractWriter
+2025-07-26 14:21:54,831 - INFO - 节点 2010: javax.swing.text.html.parser.Element
+2025-07-26 14:21:54,831 - INFO - 节点 489: java.lang.NumberFormatException
+2025-07-26 14:21:54,831 - INFO - 节点 63: javax.naming.directory.Attributes
+2025-07-26 14:21:54,831 - INFO - 节点 398: java.io.ObjectStreamField
+2025-07-26 14:21:54,831 - INFO - 节点 220: javax.swing.tree.TreeSelectionModel
+2025-07-26 14:21:54,831 - INFO - 节点 1925: javax.swing.Box
+2025-07-26 14:21:54,831 - INFO - 节点 2026: java.lang.StringBuffer
+2025-07-26 14:21:54,831 - INFO - 节点 678: javax.swing.plaf.metal.MetalTheme
+2025-07-26 14:21:54,831 - INFO - 节点 355: java.util.Hashtable.Entry
+2025-07-26 14:21:54,831 - INFO - 节点 2842: javax.swing.event.SwingPropertyChangeSupport
+2025-07-26 14:21:54,831 - INFO - 节点 103: javax.swing.plaf.metal.MetalBumps
+2025-07-26 14:21:54,831 - INFO - 节点 323: org.omg.CosNaming.NamingContextPackage.NotFound
+2025-07-26 14:21:54,831 - INFO - 节点 167: javax.swing.text.AbstractDocument.BranchElement
+2025-07-26 14:21:54,831 - INFO - 
+统计摘要:
+2025-07-26 14:21:54,831 - INFO - ------------------------------------------------------------
+2025-07-26 14:21:54,831 - INFO - 关键类数量: 270
+2025-07-26 14:21:54,831 - INFO - ********************************************************************************
+
+2025-07-26 14:21:54,833 - INFO - 数据集 jdk 处理完成
+2025-07-26 14:21:54,833 - INFO - 
+################################################################################
+2025-07-26 14:21:54,833 - INFO - 所有数据集合并结果
+2025-07-26 14:21:54,833 - INFO - ################################################################################
+2025-07-26 14:21:54,833 - INFO - 
+================================================================================
+2025-07-26 14:21:54,833 - INFO - 关键类识别结果
+2025-07-26 14:21:54,833 - INFO - ================================================================================
+2025-07-26 14:21:54,833 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:21:54,833 - INFO - ------------------------------------------------------------
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_4: java.util.Locale
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_20: javax.swing.SwingConstants
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_50: java.awt.Dimension
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_51: javax.accessibility.AccessibleStateSet
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_63: javax.naming.directory.Attributes
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_66: com.sun.java.swing.plaf.windows.WindowsFileChooserUI
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_83: javax.swing.SwingUtilities
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_88: org.omg.CORBA.portable.Delegate
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_93: org.omg.CORBA.portable.OutputStream
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_95: javax.swing.JProgressBar
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_103: javax.swing.plaf.metal.MetalBumps
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_107: javax.swing.Action
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_111: java.awt.geom.RectangularShape
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_127: javax.swing.event.DocumentEvent.ElementChange
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_130: java.awt.Toolkit
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_137: javax.swing.JOptionPane
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_166: javax.swing.event.MouseInputListener
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_167: javax.swing.text.AbstractDocument.BranchElement
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_173: javax.swing.JTable
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_184: javax.naming.directory.DirContext
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_187: java.awt.GraphicsConfiguration
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_205: java.math.BigInteger
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_220: javax.swing.tree.TreeSelectionModel
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_230: java.awt.MenuBar
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_234: javax.swing.text.Document
+2025-07-26 14:21:54,833 - INFO - 节点 jdk_267: javax.swing.DebugGraphics
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_280: java.util.Properties
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_288: javax.swing.text.EditorKit
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_298: java.awt.font.TextLayout
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_300: java.awt.event.ActionListener
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_303: javax.swing.JDesktopPane
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_307: javax.swing.text.Utilities
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_310: javax.swing.text.ViewFactory
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_323: org.omg.CosNaming.NamingContextPackage.NotFound
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_344: javax.swing.event.ChangeEvent
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_355: java.util.Hashtable.Entry
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_360: java.awt.RenderingHints
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_382: java.util.Collection
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_388: java.lang.String
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_398: java.io.ObjectStreamField
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_413: javax.swing.text.DefaultStyledDocument
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_416: javax.swing.border.AbstractBorder
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_418: javax.swing.text.AttributeSet
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_434: javax.swing.text.AbstractDocument
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_441: java.awt.image.ImageConsumer
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_442: java.awt.event.FocusListener
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_466: java.awt.image.Raster
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_489: java.lang.NumberFormatException
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_502: javax.swing.ActionMap
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_503: javax.swing.text.MutableAttributeSet
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_507: java.beans.PropertyChangeEvent
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_512: javax.swing.text.Segment
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_516: java.io.ObjectOutputStream
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_518: java.text.DateFormat
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_525: javax.swing.text.BadLocationException
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_526: java.awt.image.ImageObserver
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_536: javax.swing.plaf.metal.MetalLookAndFeel
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_541: java.rmi.RemoteException
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_542: javax.swing.Icon
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_559: javax.swing.event.EventListenerList
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_563: javax.swing.table.TableColumnModel
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_564: javax.swing.plaf.metal.MetalUtils
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_568: javax.accessibility.AccessibleRole
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_572: java.awt.AWTEventMulticaster
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_573: javax.swing.event.ListSelectionEvent
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_582: javax.swing.text.AbstractWriter
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_586: java.lang.Class
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_591: javax.swing.text.SimpleAttributeSet
+2025-07-26 14:21:54,834 - INFO - 节点 jdk_612: java.util.TimeZone
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_627: javax.swing.table.TableColumn
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_632: java.io.IOException
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_644: javax.swing.text.StyleConstants
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_664: java.awt.Window
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_667: java.awt.event.ComponentEvent
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_668: javax.swing.JMenuItem
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_677: javax.swing.InputMap
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_678: javax.swing.plaf.metal.MetalTheme
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_679: java.awt.datatransfer.DataFlavor
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_683: java.awt.geom.Line2D
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_696: javax.swing.JEditorPane
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_697: javax.swing.text.GlyphView
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_698: java.util.StringTokenizer
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_706: java.io.InputStream
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_720: java.beans.beancontext.BeanContext
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_721: java.awt.image.ColorModel
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_745: java.beans.PropertyChangeListener
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_754: javax.swing.JPanel
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_765: java.util.List
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_778: java.util.Date
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_789: javax.swing.SizeRequirements
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_804: java.util.Vector
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_810: java.beans.PropertyVetoException
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_830: java.awt.EventQueue
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_832: javax.swing.SwingGraphics
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_836: java.awt.geom.AffineTransform
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_849: java.security.NoSuchAlgorithmException
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_873: java.lang.System
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_874: java.util.Iterator
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_877: java.awt.Insets
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_887: java.lang.ClassLoader
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_888: javax.swing.plaf.basic.BasicComboBoxUI
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_893: javax.swing.JComponent
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_899: java.awt.Cursor
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_920: java.util.Dictionary
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_927: javax.swing.AbstractListModel
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_934: javax.swing.plaf.ComponentUI
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_947: java.lang.IllegalArgumentException
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_960: java.util.HashMap
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_978: javax.swing.plaf.basic.BasicGraphicsUtils
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_989: java.lang.RuntimeException
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_1029: javax.naming.Name
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_1032: javax.swing.JLabel
+2025-07-26 14:21:54,835 - INFO - 节点 jdk_1053: javax.swing.border.Border
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1068: javax.swing.MenuSelectionManager
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1075: javax.swing.plaf.basic.BasicTextUI.RootView
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1108: java.awt.color.ICC_Profile
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1109: javax.swing.text.html.HTMLDocument
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1111: java.util.Map.Entry
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1114: javax.swing.text.StyleContext
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1134: java.rmi.Remote
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1139: javax.swing.JFileChooser
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1149: javax.swing.ButtonModel
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1165: java.io.ByteArrayOutputStream
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1180: javax.swing.ListSelectionModel
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1183: java.awt.LayoutManager
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1186: org.omg.CORBA.TypeCode
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1188: java.awt.MenuComponent
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1190: javax.swing.plaf.basic.BasicSplitPaneUI
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1215: java.awt.Point
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1237: java.io.OutputStream
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1248: java.awt.Font
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1256: javax.naming.NamingEnumeration
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1268: javax.swing.JScrollPane
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1269: javax.swing.event.ChangeListener
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1276: javax.swing.KeyStroke
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1284: javax.swing.text.BoxView
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1304: java.lang.Object
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1314: javax.swing.plaf.basic.BasicSplitPaneDivider
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1318: java.security.Permission
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1346: java.awt.font.TextLine
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1348: java.util.ResourceBundle
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1350: java.awt.Image
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1358: javax.swing.text.html.HTML.Tag
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1400: javax.swing.JTextField
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1434: javax.swing.UIManager
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1438: javax.swing.JToolBar
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1439: java.util.EventObject
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1440: javax.swing.JComponent.AccessibleJComponent
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1462: java.util.NoSuchElementException
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1466: javax.swing.event.DocumentEvent
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1479: javax.swing.plaf.basic.BasicFileChooserUI
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1495: java.awt.image.WritableRaster
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1497: java.awt.Shape
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1506: java.awt.Frame
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1523: javax.swing.JPopupMenu
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1528: javax.swing.JComboBox
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1536: java.awt.Color
+2025-07-26 14:21:54,836 - INFO - 节点 jdk_1557: java.lang.Integer
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1568: java.awt.event.MouseListener
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1573: javax.swing.text.View
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1587: java.util.TreeMap.Iterator
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1601: javax.naming.NamingException
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1612: org.omg.CORBA.portable.Streamable
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1617: javax.swing.JList
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1644: javax.swing.text.html.StyleSheet
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1657: javax.swing.text.AbstractDocument.DefaultDocumentEvent
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1663: javax.swing.text.Caret
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1707: java.awt.event.ItemListener
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1718: java.awt.event.ActionEvent
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1741: javax.swing.text.TextAction
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1750: javax.swing.UIDefaults
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1760: java.util.Hashtable
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1768: javax.swing.BoundedRangeModel
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1771: javax.swing.JViewport
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1774: java.awt.event.FocusEvent
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1784: javax.swing.text.html.StyleSheet.BoxPainter
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1785: org.omg.CORBA.portable.ObjectImpl
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1809: javax.swing.JButton
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1822: java.lang.reflect.Method
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1832: java.util.Calendar
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1838: javax.naming.Context
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1890: javax.swing.plaf.basic.BasicTabbedPaneUI
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1918: javax.accessibility.AccessibleContext
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1920: java.util.ArrayList
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1925: javax.swing.Box
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1927: java.io.Reader
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1944: javax.swing.event.ListSelectionListener
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1964: org.omg.CORBA.CompletionStatus
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1967: javax.swing.JSlider
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1985: javax.swing.JLayeredPane
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1986: javax.swing.text.StyledEditorKit.StyledTextAction
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_1990: java.awt.event.KeyEvent
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_2009: java.awt.Graphics
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_2010: javax.swing.text.html.parser.Element
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_2021: javax.swing.text.Position.Bias
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_2026: java.lang.StringBuffer
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_2037: java.awt.event.ItemEvent
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_2043: org.omg.CORBA.StructMember
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_2047: java.net.InetAddress
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_2052: java.sql.SQLException
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_2062: java.util.Map
+2025-07-26 14:21:54,837 - INFO - 节点 jdk_2068: java.io.PrintStream
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2087: javax.swing.text.html.TableView.RowView
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2095: javax.swing.ImageIcon
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2099: java.util.EventListener
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2101: javax.swing.JScrollBar
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2103: org.omg.CORBA.portable.InputStream
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2107: java.util.Enumeration
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2113: org.omg.CORBA.ORB
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2127: java.awt.BorderLayout
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2147: javax.swing.ToolTipManager
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2172: java.awt.image.SampleModel
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2176: java.io.ObjectStreamClass
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2177: java.io.ObjectInputStream
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2203: java.awt.geom.Point2D
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2222: java.awt.geom.Rectangle2D
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2223: org.omg.CORBA.SystemException
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2226: javax.swing.JMenuBar
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2229: java.security.cert.Certificate
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2252: java.io.Serializable
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2260: java.text.NumberFormat
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2261: org.omg.CORBA.Object
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2277: javax.swing.text.Style
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2279: javax.swing.JInternalFrame.JDesktopIcon
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2281: javax.swing.text.html.CSS
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2288: java.io.File
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2302: java.lang.ClassNotFoundException
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2306: java.net.URL
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2351: java.util.Set
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2372: java.awt.MenuItem
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2377: javax.accessibility.Accessible
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2387: javax.swing.tree.TreePath
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2404: javax.swing.JTree
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2418: javax.swing.JRootPane
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2457: java.awt.FontMetrics
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2471: java.text.BreakIterator
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2473: javax.swing.AbstractButton
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2481: javax.swing.plaf.UIResource
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2491: java.awt.event.MouseEvent
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2495: org.omg.CORBA.Any
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2519: javax.swing.JColorChooser
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2542: java.text.AttributedCharacterIterator
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2579: javax.swing.text.ParagraphView
+2025-07-26 14:21:54,838 - INFO - 节点 jdk_2586: java.net.MalformedURLException
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2603: javax.swing.plaf.multi.MultiLookAndFeel
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2604: java.lang.SecurityManager
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2608: java.awt.Rectangle
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2613: java.util.AbstractList
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2623: java.awt.AWTEvent
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2659: javax.swing.JInternalFrame
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2672: java.rmi.activation.ActivationID
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2679: java.awt.image.DataBuffer
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2700: javax.swing.JMenu
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2703: javax.swing.BoxLayout
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2710: java.lang.Exception
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2720: javax.swing.table.JTableHeader
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2728: javax.swing.text.CompositeView
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2738: javax.swing.text.Element
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2763: javax.swing.Timer
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2783: javax.swing.JTabbedPane
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2792: javax.swing.text.StyledDocument
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2794: java.awt.image.BufferedImage
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2813: java.awt.TextComponent
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2842: javax.swing.event.SwingPropertyChangeSupport
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2859: java.awt.geom.PathIterator
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2869: javax.swing.LookAndFeel
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2872: javax.swing.JSplitPane
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2879: javax.swing.MenuElement
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2882: java.lang.Thread
+2025-07-26 14:21:54,839 - INFO - 节点 jdk_2883: ground
+2025-07-26 14:21:54,839 - INFO - 
+统计摘要:
+2025-07-26 14:21:54,839 - INFO - ------------------------------------------------------------
+2025-07-26 14:21:54,839 - INFO - 关键类数量: 270
+2025-07-26 14:21:54,839 - INFO - 处理完成!
+2025-07-26 14:21:54,839 - INFO - [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1]
+2025-07-26 14:21:54,840 - INFO - 关键类节点: ['jdk_4', 'jdk_20', 'jdk_50', 'jdk_51', 'jdk_63', 'jdk_66', 'jdk_83', 'jdk_88', 'jdk_93', 'jdk_95', 'jdk_103', 'jdk_107', 'jdk_111', 'jdk_127', 'jdk_130', 'jdk_137', 'jdk_166', 'jdk_167', 'jdk_173', 'jdk_184', 'jdk_187', 'jdk_205', 'jdk_220', 'jdk_230', 'jdk_234', 'jdk_267', 'jdk_280', 'jdk_288', 'jdk_298', 'jdk_300', 'jdk_303', 'jdk_307', 'jdk_310', 'jdk_323', 'jdk_344', 'jdk_355', 'jdk_360', 'jdk_382', 'jdk_388', 'jdk_398', 'jdk_413', 'jdk_416', 'jdk_418', 'jdk_434', 'jdk_441', 'jdk_442', 'jdk_466', 'jdk_489', 'jdk_502', 'jdk_503', 'jdk_507', 'jdk_512', 'jdk_516', 'jdk_518', 'jdk_525', 'jdk_526', 'jdk_536', 'jdk_541', 'jdk_542', 'jdk_559', 'jdk_563', 'jdk_564', 'jdk_568', 'jdk_572', 'jdk_573', 'jdk_582', 'jdk_586', 'jdk_591', 'jdk_612', 'jdk_627', 'jdk_632', 'jdk_644', 'jdk_664', 'jdk_667', 'jdk_668', 'jdk_677', 'jdk_678', 'jdk_679', 'jdk_683', 'jdk_696', 'jdk_697', 'jdk_698', 'jdk_706', 'jdk_720', 'jdk_721', 'jdk_745', 'jdk_754', 'jdk_765', 'jdk_778', 'jdk_789', 'jdk_804', 'jdk_810', 'jdk_830', 'jdk_832', 'jdk_836', 'jdk_849', 'jdk_873', 'jdk_874', 'jdk_877', 'jdk_887', 'jdk_888', 'jdk_893', 'jdk_899', 'jdk_920', 'jdk_927', 'jdk_934', 'jdk_947', 'jdk_960', 'jdk_978', 'jdk_989', 'jdk_1029', 'jdk_1032', 'jdk_1053', 'jdk_1068', 'jdk_1075', 'jdk_1108', 'jdk_1109', 'jdk_1111', 'jdk_1114', 'jdk_1134', 'jdk_1139', 'jdk_1149', 'jdk_1165', 'jdk_1180', 'jdk_1183', 'jdk_1186', 'jdk_1188', 'jdk_1190', 'jdk_1215', 'jdk_1237', 'jdk_1248', 'jdk_1256', 'jdk_1268', 'jdk_1269', 'jdk_1276', 'jdk_1284', 'jdk_1304', 'jdk_1314', 'jdk_1318', 'jdk_1346', 'jdk_1348', 'jdk_1350', 'jdk_1358', 'jdk_1400', 'jdk_1434', 'jdk_1438', 'jdk_1439', 'jdk_1440', 'jdk_1462', 'jdk_1466', 'jdk_1479', 'jdk_1495', 'jdk_1497', 'jdk_1506', 'jdk_1523', 'jdk_1528', 'jdk_1536', 'jdk_1557', 'jdk_1568', 'jdk_1573', 'jdk_1587', 'jdk_1601', 'jdk_1612', 'jdk_1617', 'jdk_1644', 'jdk_1657', 'jdk_1663', 'jdk_1707', 'jdk_1718', 'jdk_1741', 'jdk_1750', 'jdk_1760', 'jdk_1768', 'jdk_1771', 'jdk_1774', 'jdk_1784', 'jdk_1785', 'jdk_1809', 'jdk_1822', 'jdk_1832', 'jdk_1838', 'jdk_1890', 'jdk_1918', 'jdk_1920', 'jdk_1925', 'jdk_1927', 'jdk_1944', 'jdk_1964', 'jdk_1967', 'jdk_1985', 'jdk_1986', 'jdk_1990', 'jdk_2009', 'jdk_2010', 'jdk_2021', 'jdk_2026', 'jdk_2037', 'jdk_2043', 'jdk_2047', 'jdk_2052', 'jdk_2062', 'jdk_2068', 'jdk_2087', 'jdk_2095', 'jdk_2099', 'jdk_2101', 'jdk_2103', 'jdk_2107', 'jdk_2113', 'jdk_2127', 'jdk_2147', 'jdk_2172', 'jdk_2176', 'jdk_2177', 'jdk_2203', 'jdk_2222', 'jdk_2223', 'jdk_2226', 'jdk_2229', 'jdk_2252', 'jdk_2260', 'jdk_2261', 'jdk_2277', 'jdk_2279', 'jdk_2281', 'jdk_2288', 'jdk_2302', 'jdk_2306', 'jdk_2351', 'jdk_2372', 'jdk_2377', 'jdk_2387', 'jdk_2404', 'jdk_2418', 'jdk_2457', 'jdk_2471', 'jdk_2473', 'jdk_2481', 'jdk_2491', 'jdk_2495', 'jdk_2519', 'jdk_2542', 'jdk_2579', 'jdk_2586', 'jdk_2603', 'jdk_2604', 'jdk_2608', 'jdk_2613', 'jdk_2623', 'jdk_2659', 'jdk_2672', 'jdk_2679', 'jdk_2700', 'jdk_2703', 'jdk_2710', 'jdk_2720', 'jdk_2728', 'jdk_2738', 'jdk_2763', 'jdk_2783', 'jdk_2792', 'jdk_2794', 'jdk_2813', 'jdk_2842', 'jdk_2859', 'jdk_2869', 'jdk_2872', 'jdk_2879', 'jdk_2882', 'jdk_2883']
+2025-07-26 14:30:47,839 - INFO - collecting all words and their counts
+2025-07-26 14:30:47,839 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-26 14:30:47,869 - INFO - PROGRESS: at sentence #10000, processed 300000 words, keeping 2884 word types
+2025-07-26 14:30:47,898 - INFO - PROGRESS: at sentence #20000, processed 600000 words, keeping 2884 word types
+2025-07-26 14:30:47,926 - INFO - PROGRESS: at sentence #30000, processed 900000 words, keeping 2884 word types
+2025-07-26 14:30:47,955 - INFO - PROGRESS: at sentence #40000, processed 1200000 words, keeping 2884 word types
+2025-07-26 14:30:47,984 - INFO - PROGRESS: at sentence #50000, processed 1500000 words, keeping 2884 word types
+2025-07-26 14:30:48,014 - INFO - PROGRESS: at sentence #60000, processed 1800000 words, keeping 2884 word types
+2025-07-26 14:30:48,044 - INFO - PROGRESS: at sentence #70000, processed 2100000 words, keeping 2884 word types
+2025-07-26 14:30:48,073 - INFO - PROGRESS: at sentence #80000, processed 2400000 words, keeping 2884 word types
+2025-07-26 14:30:48,102 - INFO - PROGRESS: at sentence #90000, processed 2700000 words, keeping 2884 word types
+2025-07-26 14:30:48,131 - INFO - PROGRESS: at sentence #100000, processed 3000000 words, keeping 2884 word types
+2025-07-26 14:30:48,160 - INFO - PROGRESS: at sentence #110000, processed 3300000 words, keeping 2884 word types
+2025-07-26 14:30:48,189 - INFO - PROGRESS: at sentence #120000, processed 3600000 words, keeping 2884 word types
+2025-07-26 14:30:48,219 - INFO - PROGRESS: at sentence #130000, processed 3900000 words, keeping 2884 word types
+2025-07-26 14:30:48,248 - INFO - PROGRESS: at sentence #140000, processed 4200000 words, keeping 2884 word types
+2025-07-26 14:30:48,277 - INFO - PROGRESS: at sentence #150000, processed 4500000 words, keeping 2884 word types
+2025-07-26 14:30:48,306 - INFO - PROGRESS: at sentence #160000, processed 4800000 words, keeping 2884 word types
+2025-07-26 14:30:48,335 - INFO - PROGRESS: at sentence #170000, processed 5100000 words, keeping 2884 word types
+2025-07-26 14:30:48,364 - INFO - PROGRESS: at sentence #180000, processed 5400000 words, keeping 2884 word types
+2025-07-26 14:30:48,394 - INFO - PROGRESS: at sentence #190000, processed 5700000 words, keeping 2884 word types
+2025-07-26 14:30:48,423 - INFO - PROGRESS: at sentence #200000, processed 6000000 words, keeping 2884 word types
+2025-07-26 14:30:48,452 - INFO - PROGRESS: at sentence #210000, processed 6300000 words, keeping 2884 word types
+2025-07-26 14:30:48,481 - INFO - PROGRESS: at sentence #220000, processed 6600000 words, keeping 2884 word types
+2025-07-26 14:30:48,510 - INFO - PROGRESS: at sentence #230000, processed 6900000 words, keeping 2884 word types
+2025-07-26 14:30:48,540 - INFO - PROGRESS: at sentence #240000, processed 7200000 words, keeping 2884 word types
+2025-07-26 14:30:48,569 - INFO - PROGRESS: at sentence #250000, processed 7500000 words, keeping 2884 word types
+2025-07-26 14:30:48,598 - INFO - PROGRESS: at sentence #260000, processed 7800000 words, keeping 2884 word types
+2025-07-26 14:30:48,627 - INFO - PROGRESS: at sentence #270000, processed 8100000 words, keeping 2884 word types
+2025-07-26 14:30:48,656 - INFO - PROGRESS: at sentence #280000, processed 8400000 words, keeping 2884 word types
+2025-07-26 14:30:48,681 - INFO - collected 2884 word types from a corpus of 8652000 raw words and 288400 sentences
+2025-07-26 14:30:48,681 - INFO - Creating a fresh vocabulary
+2025-07-26 14:30:48,689 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 2884 unique words (100.00% of original 2884, drops 0)', 'datetime': '2025-07-26T14:30:48.687004', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:30:48,689 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 8652000 word corpus (100.00% of original 8652000, drops 0)', 'datetime': '2025-07-26T14:30:48.689145', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:30:48,697 - INFO - deleting the raw counts dictionary of 2884 items
+2025-07-26 14:30:48,698 - INFO - sample=0.001 downsamples 38 most-common words
+2025-07-26 14:30:48,698 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 4940714.932823816 word corpus (57.1%% of prior 8652000)', 'datetime': '2025-07-26T14:30:48.698173', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:30:48,713 - INFO - estimated required memory for 2884 words and 32 dimensions: 2180304 bytes
+2025-07-26 14:30:48,713 - INFO - resetting layer weights
+2025-07-26 14:30:48,713 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-26T14:30:48.713730', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-26 14:30:48,713 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 2884 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-26T14:30:48.713839', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:30:49,714 - INFO - EPOCH 0 - PROGRESS: at 3.49% examples, 172140 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:30:50,714 - INFO - EPOCH 0 - PROGRESS: at 6.99% examples, 172638 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:30:51,714 - INFO - EPOCH 0 - PROGRESS: at 10.58% examples, 174010 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:30:52,715 - INFO - EPOCH 0 - PROGRESS: at 14.05% examples, 173391 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:30:53,715 - INFO - EPOCH 0 - PROGRESS: at 17.70% examples, 174777 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:30:54,715 - INFO - EPOCH 0 - PROGRESS: at 21.35% examples, 175773 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:30:55,715 - INFO - EPOCH 0 - PROGRESS: at 24.97% examples, 176219 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:30:56,715 - INFO - EPOCH 0 - PROGRESS: at 28.58% examples, 176477 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:30:57,715 - INFO - EPOCH 0 - PROGRESS: at 32.17% examples, 176644 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:30:58,715 - INFO - EPOCH 0 - PROGRESS: at 35.77% examples, 176754 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:30:59,715 - INFO - EPOCH 0 - PROGRESS: at 39.38% examples, 176887 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:00,715 - INFO - EPOCH 0 - PROGRESS: at 43.00% examples, 177044 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:01,715 - INFO - EPOCH 0 - PROGRESS: at 46.61% examples, 177174 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:02,715 - INFO - EPOCH 0 - PROGRESS: at 50.25% examples, 177326 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:03,715 - INFO - EPOCH 0 - PROGRESS: at 53.88% examples, 177497 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:04,715 - INFO - EPOCH 0 - PROGRESS: at 57.51% examples, 177602 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:05,715 - INFO - EPOCH 0 - PROGRESS: at 61.12% examples, 177663 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:06,715 - INFO - EPOCH 0 - PROGRESS: at 64.75% examples, 177742 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:07,715 - INFO - EPOCH 0 - PROGRESS: at 68.37% examples, 177796 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:08,715 - INFO - EPOCH 0 - PROGRESS: at 72.01% examples, 177879 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:09,715 - INFO - EPOCH 0 - PROGRESS: at 75.62% examples, 177932 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:10,715 - INFO - EPOCH 0 - PROGRESS: at 79.25% examples, 177987 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:11,715 - INFO - EPOCH 0 - PROGRESS: at 82.85% examples, 177969 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:12,715 - INFO - EPOCH 0 - PROGRESS: at 86.44% examples, 177955 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:13,715 - INFO - EPOCH 0 - PROGRESS: at 90.01% examples, 177908 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:14,715 - INFO - EPOCH 0 - PROGRESS: at 93.60% examples, 177889 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:15,715 - INFO - EPOCH 0 - PROGRESS: at 97.19% examples, 177866 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:16,496 - INFO - EPOCH 0: training on 8652000 raw words (4941273 effective words) took 27.8s, 177862 effective words/s
+2025-07-26 14:31:17,498 - INFO - EPOCH 1 - PROGRESS: at 3.25% examples, 160520 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:18,498 - INFO - EPOCH 1 - PROGRESS: at 5.46% examples, 134836 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:19,498 - INFO - EPOCH 1 - PROGRESS: at 7.93% examples, 130661 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:20,498 - INFO - EPOCH 1 - PROGRESS: at 10.14% examples, 125126 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:21,498 - INFO - EPOCH 1 - PROGRESS: at 12.33% examples, 121783 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:22,498 - INFO - EPOCH 1 - PROGRESS: at 14.55% examples, 119759 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:23,498 - INFO - EPOCH 1 - PROGRESS: at 16.78% examples, 118414 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:24,498 - INFO - EPOCH 1 - PROGRESS: at 20.35% examples, 125651 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:25,498 - INFO - EPOCH 1 - PROGRESS: at 23.94% examples, 131381 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:26,498 - INFO - EPOCH 1 - PROGRESS: at 27.52% examples, 135952 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:27,498 - INFO - EPOCH 1 - PROGRESS: at 31.11% examples, 139702 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:28,498 - INFO - EPOCH 1 - PROGRESS: at 34.68% examples, 142795 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:29,498 - INFO - EPOCH 1 - PROGRESS: at 38.24% examples, 145374 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:30,498 - INFO - EPOCH 1 - PROGRESS: at 41.81% examples, 147589 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:31,498 - INFO - EPOCH 1 - PROGRESS: at 45.38% examples, 149490 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:32,498 - INFO - EPOCH 1 - PROGRESS: at 48.95% examples, 151199 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:33,499 - INFO - EPOCH 1 - PROGRESS: at 52.54% examples, 152740 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:34,499 - INFO - EPOCH 1 - PROGRESS: at 56.13% examples, 154102 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:35,499 - INFO - EPOCH 1 - PROGRESS: at 59.72% examples, 155313 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:36,499 - INFO - EPOCH 1 - PROGRESS: at 63.30% examples, 156396 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:37,499 - INFO - EPOCH 1 - PROGRESS: at 66.88% examples, 157365 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:38,499 - INFO - EPOCH 1 - PROGRESS: at 70.46% examples, 158256 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:39,499 - INFO - EPOCH 1 - PROGRESS: at 74.04% examples, 159070 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:40,499 - INFO - EPOCH 1 - PROGRESS: at 77.61% examples, 159803 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:41,499 - INFO - EPOCH 1 - PROGRESS: at 81.19% examples, 160477 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:42,499 - INFO - EPOCH 1 - PROGRESS: at 84.77% examples, 161109 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:43,499 - INFO - EPOCH 1 - PROGRESS: at 88.34% examples, 161693 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:44,499 - INFO - EPOCH 1 - PROGRESS: at 91.92% examples, 162229 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:45,499 - INFO - EPOCH 1 - PROGRESS: at 95.49% examples, 162724 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:46,499 - INFO - EPOCH 1 - PROGRESS: at 99.07% examples, 163194 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:46,759 - INFO - EPOCH 1: training on 8652000 raw words (4942012 effective words) took 30.3s, 163308 effective words/s
+2025-07-26 14:31:47,761 - INFO - EPOCH 2 - PROGRESS: at 3.16% examples, 156485 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:48,761 - INFO - EPOCH 2 - PROGRESS: at 5.40% examples, 133406 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:49,761 - INFO - EPOCH 2 - PROGRESS: at 7.69% examples, 126653 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:50,761 - INFO - EPOCH 2 - PROGRESS: at 9.97% examples, 123116 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:51,761 - INFO - EPOCH 2 - PROGRESS: at 12.17% examples, 120144 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:52,761 - INFO - EPOCH 2 - PROGRESS: at 14.38% examples, 118323 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:53,761 - INFO - EPOCH 2 - PROGRESS: at 16.79% examples, 118504 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:54,761 - INFO - EPOCH 2 - PROGRESS: at 20.39% examples, 125950 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:55,761 - INFO - EPOCH 2 - PROGRESS: at 24.01% examples, 131803 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:56,761 - INFO - EPOCH 2 - PROGRESS: at 27.62% examples, 136442 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:57,761 - INFO - EPOCH 2 - PROGRESS: at 31.22% examples, 140215 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:58,761 - INFO - EPOCH 2 - PROGRESS: at 34.82% examples, 143346 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:31:59,762 - INFO - EPOCH 2 - PROGRESS: at 38.41% examples, 145995 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:00,762 - INFO - EPOCH 2 - PROGRESS: at 42.00% examples, 148219 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:01,762 - INFO - EPOCH 2 - PROGRESS: at 45.58% examples, 150156 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:02,762 - INFO - EPOCH 2 - PROGRESS: at 49.17% examples, 151861 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:03,762 - INFO - EPOCH 2 - PROGRESS: at 52.77% examples, 153374 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:04,762 - INFO - EPOCH 2 - PROGRESS: at 56.37% examples, 154727 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:05,762 - INFO - EPOCH 2 - PROGRESS: at 59.97% examples, 155934 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:06,762 - INFO - EPOCH 2 - PROGRESS: at 63.56% examples, 157011 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:07,762 - INFO - EPOCH 2 - PROGRESS: at 67.16% examples, 158008 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:08,762 - INFO - EPOCH 2 - PROGRESS: at 70.76% examples, 158920 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:09,762 - INFO - EPOCH 2 - PROGRESS: at 74.36% examples, 159755 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:10,762 - INFO - EPOCH 2 - PROGRESS: at 77.95% examples, 160500 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:11,762 - INFO - EPOCH 2 - PROGRESS: at 81.55% examples, 161185 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:12,762 - INFO - EPOCH 2 - PROGRESS: at 85.14% examples, 161820 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:13,762 - INFO - EPOCH 2 - PROGRESS: at 88.73% examples, 162397 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:14,762 - INFO - EPOCH 2 - PROGRESS: at 92.32% examples, 162942 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:15,762 - INFO - EPOCH 2 - PROGRESS: at 95.92% examples, 163463 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:16,762 - INFO - EPOCH 2 - PROGRESS: at 99.44% examples, 163803 words/s, in_qsize 2, out_qsize 0
+2025-07-26 14:32:16,926 - INFO - EPOCH 2: training on 8652000 raw words (4942188 effective words) took 30.2s, 163839 effective words/s
+2025-07-26 14:32:17,927 - INFO - EPOCH 3 - PROGRESS: at 2.61% examples, 128882 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:18,928 - INFO - EPOCH 3 - PROGRESS: at 4.83% examples, 119109 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:19,928 - INFO - EPOCH 3 - PROGRESS: at 7.04% examples, 115857 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:20,928 - INFO - EPOCH 3 - PROGRESS: at 9.29% examples, 114676 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:21,928 - INFO - EPOCH 3 - PROGRESS: at 11.52% examples, 113663 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:22,928 - INFO - EPOCH 3 - PROGRESS: at 13.75% examples, 113095 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:23,928 - INFO - EPOCH 3 - PROGRESS: at 16.36% examples, 115389 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:24,928 - INFO - EPOCH 3 - PROGRESS: at 19.94% examples, 123049 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:25,928 - INFO - EPOCH 3 - PROGRESS: at 23.52% examples, 129040 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:26,928 - INFO - EPOCH 3 - PROGRESS: at 27.12% examples, 133876 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:27,928 - INFO - EPOCH 3 - PROGRESS: at 30.70% examples, 137813 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:28,928 - INFO - EPOCH 3 - PROGRESS: at 34.28% examples, 141048 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:29,928 - INFO - EPOCH 3 - PROGRESS: at 37.84% examples, 143770 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:30,928 - INFO - EPOCH 3 - PROGRESS: at 41.41% examples, 146091 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:31,928 - INFO - EPOCH 3 - PROGRESS: at 44.99% examples, 148116 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:32,928 - INFO - EPOCH 3 - PROGRESS: at 48.58% examples, 149959 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:33,928 - INFO - EPOCH 3 - PROGRESS: at 52.16% examples, 151527 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:34,928 - INFO - EPOCH 3 - PROGRESS: at 55.74% examples, 152939 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:35,928 - INFO - EPOCH 3 - PROGRESS: at 59.34% examples, 154232 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:36,928 - INFO - EPOCH 3 - PROGRESS: at 62.93% examples, 155398 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:37,928 - INFO - EPOCH 3 - PROGRESS: at 66.53% examples, 156458 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:38,928 - INFO - EPOCH 3 - PROGRESS: at 70.12% examples, 157408 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:39,929 - INFO - EPOCH 3 - PROGRESS: at 73.71% examples, 158280 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:40,929 - INFO - EPOCH 3 - PROGRESS: at 77.29% examples, 159067 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:41,929 - INFO - EPOCH 3 - PROGRESS: at 80.88% examples, 159788 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:42,929 - INFO - EPOCH 3 - PROGRESS: at 84.46% examples, 160455 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:43,929 - INFO - EPOCH 3 - PROGRESS: at 88.05% examples, 161077 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:44,929 - INFO - EPOCH 3 - PROGRESS: at 91.64% examples, 161672 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:45,929 - INFO - EPOCH 3 - PROGRESS: at 95.23% examples, 162221 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:46,929 - INFO - EPOCH 3 - PROGRESS: at 98.82% examples, 162720 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:47,256 - INFO - EPOCH 3: training on 8652000 raw words (4939970 effective words) took 30.3s, 162879 effective words/s
+2025-07-26 14:32:48,258 - INFO - EPOCH 4 - PROGRESS: at 2.43% examples, 120130 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:49,258 - INFO - EPOCH 4 - PROGRESS: at 4.80% examples, 118417 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:50,258 - INFO - EPOCH 4 - PROGRESS: at 7.16% examples, 117820 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:51,258 - INFO - EPOCH 4 - PROGRESS: at 9.51% examples, 117453 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:52,258 - INFO - EPOCH 4 - PROGRESS: at 11.87% examples, 117251 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:53,258 - INFO - EPOCH 4 - PROGRESS: at 15.10% examples, 124257 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:54,259 - INFO - EPOCH 4 - PROGRESS: at 18.69% examples, 131815 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:55,259 - INFO - EPOCH 4 - PROGRESS: at 22.27% examples, 137478 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:56,259 - INFO - EPOCH 4 - PROGRESS: at 25.70% examples, 141040 words/s, in_qsize 2, out_qsize 0
+2025-07-26 14:32:57,259 - INFO - EPOCH 4 - PROGRESS: at 28.95% examples, 143002 words/s, in_qsize 2, out_qsize 0
+2025-07-26 14:32:58,259 - INFO - EPOCH 4 - PROGRESS: at 32.45% examples, 145716 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:32:59,259 - INFO - EPOCH 4 - PROGRESS: at 36.04% examples, 148351 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:00,259 - INFO - EPOCH 4 - PROGRESS: at 39.63% examples, 150586 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:01,259 - INFO - EPOCH 4 - PROGRESS: at 43.17% examples, 152283 words/s, in_qsize 2, out_qsize 0
+2025-07-26 14:33:02,259 - INFO - EPOCH 4 - PROGRESS: at 46.59% examples, 153430 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:03,259 - INFO - EPOCH 4 - PROGRESS: at 50.19% examples, 154934 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:04,259 - INFO - EPOCH 4 - PROGRESS: at 53.78% examples, 156258 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:05,259 - INFO - EPOCH 4 - PROGRESS: at 57.37% examples, 157420 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:06,259 - INFO - EPOCH 4 - PROGRESS: at 60.96% examples, 158472 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:07,259 - INFO - EPOCH 4 - PROGRESS: at 64.56% examples, 159439 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:08,259 - INFO - EPOCH 4 - PROGRESS: at 68.16% examples, 160311 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:09,259 - INFO - EPOCH 4 - PROGRESS: at 71.75% examples, 161083 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:10,259 - INFO - EPOCH 4 - PROGRESS: at 75.33% examples, 161784 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:11,260 - INFO - EPOCH 4 - PROGRESS: at 78.92% examples, 162442 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:12,260 - INFO - EPOCH 4 - PROGRESS: at 82.53% examples, 163055 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:13,260 - INFO - EPOCH 4 - PROGRESS: at 86.11% examples, 163609 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:14,260 - INFO - EPOCH 4 - PROGRESS: at 89.69% examples, 164107 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:15,260 - INFO - EPOCH 4 - PROGRESS: at 93.29% examples, 164590 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:16,260 - INFO - EPOCH 4 - PROGRESS: at 96.88% examples, 165047 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:33:17,123 - INFO - EPOCH 4: training on 8652000 raw words (4940459 effective words) took 29.9s, 165424 effective words/s
+2025-07-26 14:33:17,124 - INFO - Word2Vec lifecycle event {'msg': 'training on 43260000 raw words (24705902 effective words) took 148.4s, 166470 effective words/s', 'datetime': '2025-07-26T14:33:17.124210', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:33:17,124 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=2884, vector_size=32, alpha=0.025>', 'datetime': '2025-07-26T14:33:17.124589', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-26 14:33:17,451 - INFO - 计算增强的节点中心性特征...
+2025-07-26 14:34:40,267 - INFO - 标准化中心性特征...
+2025-07-26 14:34:40,273 - INFO - 应用特征重要性权重后的中心性特征形状: (2884, 17)
+2025-07-26 14:34:40,276 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-26 14:34:40,466 - INFO - 加载模型参数: gamma=6.3111, beta=-13.7201, centrality_scaling=1.0939
+2025-07-26 14:34:40,466 - INFO - 其他参数: mixing_weight=0.4683, noise_threshold=0.5125
+2025-07-26 14:34:40,470 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-26 14:34:40,509 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-26 14:34:40,509 - INFO - 将使用迁移学习进行训练
+2025-07-26 14:34:40,509 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-26 14:34:40,509 - INFO - 使用单次训练模式
+2025-07-26 14:34:40,511 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-26 14:34:41,303 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-26 14:34:41,308 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-26 14:34:42,062 - INFO - 测试集结果:
+2025-07-26 14:34:42,063 - INFO - K=5: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 14:34:42,063 - INFO - K=10: Recall=0.018519, Precision=0.100000, F1=0.031250
+2025-07-26 14:34:42,063 - INFO - K=15: Recall=0.037037, Precision=0.133333, F1=0.057971
+2025-07-26 14:34:42,063 - INFO - 测试集分类准确率: 44.37%
+2025-07-26 14:34:42,065 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res5/historicalModels/Train-10/final_model.pth
+2025-07-26 14:34:42,068 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-26 14:34:42,069 - INFO - 
+识别出的重要类:
+2025-07-26 14:34:42,069 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:34:42,069 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-26 14:34:42,069 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:34:42,069 - INFO - 1      1097     0.8258            java.lang.ref.ReferenceQueue                      
+2025-07-26 14:34:42,069 - INFO - 2      2052     0.7861     ✓      java.sql.SQLException                             
+2025-07-26 14:34:42,069 - INFO - 3      1105     0.7772            javax.swing.text.html.CSS.CssValue                
+2025-07-26 14:34:42,069 - INFO - 4      1197     0.7501            java.lang.ref.Reference                           
+2025-07-26 14:34:42,069 - INFO - 5      2774     0.7435            java.security.Provider                            
+2025-07-26 14:34:42,069 - INFO - 6      2102     0.7390            java.security.PublicKey                           
+2025-07-26 14:34:42,069 - INFO - 7      2281     0.7352     ✓      javax.swing.text.html.CSS                         
+2025-07-26 14:34:42,069 - INFO - 8      2600     0.7311            java.security.SecureRandom                        
+2025-07-26 14:34:42,069 - INFO - 9      278      0.7286            java.security.InvalidKeyException                 
+2025-07-26 14:34:42,069 - INFO - 10     2436     0.6950            java.security.PrivateKey                          
+2025-07-26 14:34:42,069 - INFO - 11     720      0.6903     ✓      java.beans.beancontext.BeanContext                
+2025-07-26 14:34:42,069 - INFO - 12     184      0.6893     ✓      javax.naming.directory.DirContext                 
+2025-07-26 14:34:42,069 - INFO - 13     483      0.6874            javax.swing.text.html.CSS.Attribute               
+2025-07-26 14:34:42,069 - INFO - 14     586      0.6848     ✓      java.lang.Class                                   
+2025-07-26 14:34:42,069 - INFO - 15     573      0.6833     ✓      javax.swing.event.ListSelectionEvent              
+2025-07-26 14:34:42,069 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:34:42,069 - INFO - 
+成功识别的关键类:
+2025-07-26 14:34:42,069 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:34:42,069 - INFO - 1. java.sql.SQLException (排名: 2, 分数: 0.7861, 节点ID: 2052)
+2025-07-26 14:34:42,069 - INFO - 2. javax.swing.text.html.CSS (排名: 7, 分数: 0.7352, 节点ID: 2281)
+2025-07-26 14:34:42,070 - INFO - 3. java.beans.beancontext.BeanContext (排名: 11, 分数: 0.6903, 节点ID: 720)
+2025-07-26 14:34:42,070 - INFO - 4. javax.naming.directory.DirContext (排名: 12, 分数: 0.6893, 节点ID: 184)
+2025-07-26 14:34:42,070 - INFO - 5. java.lang.Class (排名: 14, 分数: 0.6848, 节点ID: 586)
+2025-07-26 14:34:42,070 - INFO - 6. javax.swing.event.ListSelectionEvent (排名: 15, 分数: 0.6833, 节点ID: 573)
+2025-07-26 14:34:42,070 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:34:42,070 - INFO - 在前5个预测中，正确识别了1个关键类，共270个关键类
+2025-07-26 14:34:42,070 - INFO - 覆盖率: 0.37%, 准确率: 20.00%
+2025-07-26 14:34:42,070 - INFO - 在前10个预测中，正确识别了2个关键类，共270个关键类
+2025-07-26 14:34:42,070 - INFO - 覆盖率: 0.74%, 准确率: 20.00%
+2025-07-26 14:34:42,070 - INFO - 在前15个预测中，正确识别了6个关键类，共270个关键类
+2025-07-26 14:34:42,070 - INFO - 覆盖率: 2.22%, 准确率: 40.00%
+2025-07-26 14:34:42,308 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res5/Scores/jdk_scores.txt
+2025-07-26 14:34:42,308 - INFO - 分数统计：最小值=0.0000, 最大值=0.8258, 平均值=0.3927
+2025-07-26 14:34:42,308 - INFO - 接近0的分数(小于0.051)数量: 14 / 2884
+2025-07-26 14:34:42,309 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res5/logs/log-10.txt

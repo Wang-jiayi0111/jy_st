@@ -15,19 +15,19 @@ from jy_exp.rl_common.class_integration_env import ClassIntegrationEnv
 from jy_exp.rl_common.class_op import ClassOp
 
 
-sys_name = "input_SPM"   # 系统名称
-rl_name = "A3C"
-reward_v = "v6"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
-if_EWM = True              # 是否使用熵权法
-num_episodes = 30         #3000  2000
+sys_name = "email__spl"   # 系统名称
+rl_name = "PPO_v2.2_20_1e-4"
+reward_v = "v2.2"             # v2---重要性、v2.1---GNN复杂度、v6---丁艳茹
+if_EWM = False              # 是否使用熵权法
+num_episodes = 3000         #3000  2000
 num_runs = 30
 
 # 训练参数
-UPDATE_GLOBAL_ITER = 15    #  200 50 5 10 20 25
+UPDATE_GLOBAL_ITER = 20    #  200 50 5 10 20 25
 GAMMA = 0.99
 MAX_EP = 3000     
 thread_count = 3    
-RL=8e-5           # 1e-6 1e-3 1e-5 1e-4 5e-4 7e-4 8e-4 3e-4
+RL=1e-4           # 1e-6 1e-3 1e-5 1e-4 5e-4 7e-4 8e-4 3e-4
 
 w_a = 0.5
 w_m = 0.5

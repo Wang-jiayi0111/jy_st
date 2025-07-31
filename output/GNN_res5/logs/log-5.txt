@@ -1,0 +1,77 @@
+2025-07-26 14:19:01,227 - INFO - 开始处理所有数据集...
+2025-07-26 14:19:01,227 - INFO - 
+################################################################################
+2025-07-26 14:19:01,227 - INFO - 处理数据集: daisy
+2025-07-26 14:19:01,227 - INFO - ################################################################################
+2025-07-26 14:19:01,233 - INFO - 识别出关键类: 1/23 (4.35%)
+2025-07-26 14:19:01,233 - INFO - 关键类: daisy.DaisyDir
+2025-07-26 14:19:01,233 - INFO - 
+********************************************************************************
+2025-07-26 14:19:01,233 - INFO - 数据集: daisy
+2025-07-26 14:19:01,233 - INFO - ********************************************************************************
+2025-07-26 14:19:01,233 - INFO - 
+================================================================================
+2025-07-26 14:19:01,233 - INFO - 关键类识别结果
+2025-07-26 14:19:01,233 - INFO - ================================================================================
+2025-07-26 14:19:01,233 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:19:01,233 - INFO - ------------------------------------------------------------
+2025-07-26 14:19:01,233 - INFO - 节点 2: daisy.DaisyDir
+2025-07-26 14:19:01,233 - INFO - 
+统计摘要:
+2025-07-26 14:19:01,233 - INFO - ------------------------------------------------------------
+2025-07-26 14:19:01,233 - INFO - 关键类数量: 1
+2025-07-26 14:19:01,233 - INFO - ********************************************************************************
+
+2025-07-26 14:19:01,233 - INFO - 数据集 daisy 处理完成
+2025-07-26 14:19:01,233 - INFO - 
+################################################################################
+2025-07-26 14:19:01,233 - INFO - 所有数据集合并结果
+2025-07-26 14:19:01,233 - INFO - ################################################################################
+2025-07-26 14:19:01,233 - INFO - 
+================================================================================
+2025-07-26 14:19:01,233 - INFO - 关键类识别结果
+2025-07-26 14:19:01,233 - INFO - ================================================================================
+2025-07-26 14:19:01,233 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:19:01,233 - INFO - ------------------------------------------------------------
+2025-07-26 14:19:01,233 - INFO - 节点 daisy_2: daisy.DaisyDir
+2025-07-26 14:19:01,233 - INFO - 
+统计摘要:
+2025-07-26 14:19:01,233 - INFO - ------------------------------------------------------------
+2025-07-26 14:19:01,234 - INFO - 关键类数量: 1
+2025-07-26 14:19:01,234 - INFO - 处理完成!
+2025-07-26 14:19:01,234 - INFO - [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-07-26 14:19:01,234 - INFO - 关键类节点: ['daisy_2']
+2025-07-26 14:19:01,297 - INFO - collecting all words and their counts
+2025-07-26 14:19:01,297 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-26 14:19:01,298 - INFO - collected 23 word types from a corpus of 6130 raw words and 2300 sentences
+2025-07-26 14:19:01,298 - INFO - Creating a fresh vocabulary
+2025-07-26 14:19:01,299 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 23 unique words (100.00% of original 23, drops 0)', 'datetime': '2025-07-26T14:19:01.298244', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:19:01,299 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 6130 word corpus (100.00% of original 6130, drops 0)', 'datetime': '2025-07-26T14:19:01.299983', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:19:01,300 - INFO - deleting the raw counts dictionary of 23 items
+2025-07-26 14:19:01,300 - INFO - sample=0.001 downsamples 23 most-common words
+2025-07-26 14:19:01,300 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 1021.157460190385 word corpus (16.7%% of prior 6130)', 'datetime': '2025-07-26T14:19:01.300274', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:19:01,300 - INFO - estimated required memory for 23 words and 32 dimensions: 17388 bytes
+2025-07-26 14:19:01,300 - INFO - resetting layer weights
+2025-07-26 14:19:01,300 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-26T14:19:01.300764', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-26 14:19:01,300 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 23 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-26T14:19:01.300841', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:19:01,370 - INFO - EPOCH 0: training on 6130 raw words (1011 effective words) took 0.1s, 14756 effective words/s
+2025-07-26 14:19:01,445 - INFO - EPOCH 1: training on 6130 raw words (1008 effective words) took 0.1s, 13522 effective words/s
+2025-07-26 14:19:01,529 - INFO - EPOCH 2: training on 6130 raw words (951 effective words) took 0.1s, 11431 effective words/s
+2025-07-26 14:19:01,615 - INFO - EPOCH 3: training on 6130 raw words (1002 effective words) took 0.1s, 11839 effective words/s
+2025-07-26 14:19:01,699 - INFO - EPOCH 4: training on 6130 raw words (1057 effective words) took 0.1s, 12632 effective words/s
+2025-07-26 14:19:01,700 - INFO - Word2Vec lifecycle event {'msg': 'training on 30650 raw words (5029 effective words) took 0.4s, 12595 effective words/s', 'datetime': '2025-07-26T14:19:01.700210', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:19:01,700 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=23, vector_size=32, alpha=0.025>', 'datetime': '2025-07-26T14:19:01.700445', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-26 14:19:01,701 - INFO - 计算增强的节点中心性特征...
+2025-07-26 14:19:01,737 - INFO - 标准化中心性特征...
+2025-07-26 14:19:01,739 - INFO - 应用特征重要性权重后的中心性特征形状: (23, 17)
+2025-07-26 14:19:01,740 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-26 14:19:01,956 - INFO - 加载模型参数: gamma=6.3111, beta=-13.7201, centrality_scaling=1.0939
+2025-07-26 14:19:01,956 - INFO - 其他参数: mixing_weight=0.4683, noise_threshold=0.5125
+2025-07-26 14:19:01,959 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-26 14:19:01,961 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-26 14:19:01,961 - INFO - 将使用迁移学习进行训练
+2025-07-26 14:19:01,961 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-26 14:19:01,961 - INFO - 使用单次训练模式

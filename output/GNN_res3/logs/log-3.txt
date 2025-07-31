@@ -1,0 +1,123 @@
+2025-07-13 16:03:37,036 - INFO - 使用中心性计算得到的关键类
+2025-07-13 16:03:37,036 - INFO - 关键类节点: [553, 306, 677, 718, 770, 354, 308, 796, 518, 676]
+2025-07-13 16:03:40,959 - INFO - collecting all words and their counts
+2025-07-13 16:03:40,959 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-13 16:03:40,975 - INFO - PROGRESS: at sentence #10000, processed 173225 words, keeping 900 word types
+2025-07-13 16:03:40,990 - INFO - PROGRESS: at sentence #20000, processed 344865 words, keeping 900 word types
+2025-07-13 16:03:41,005 - INFO - PROGRESS: at sentence #30000, processed 518089 words, keeping 900 word types
+2025-07-13 16:03:41,021 - INFO - PROGRESS: at sentence #40000, processed 689539 words, keeping 900 word types
+2025-07-13 16:03:41,036 - INFO - PROGRESS: at sentence #50000, processed 860890 words, keeping 900 word types
+2025-07-13 16:03:41,051 - INFO - PROGRESS: at sentence #60000, processed 1033804 words, keeping 900 word types
+2025-07-13 16:03:41,067 - INFO - PROGRESS: at sentence #70000, processed 1207981 words, keeping 900 word types
+2025-07-13 16:03:41,082 - INFO - PROGRESS: at sentence #80000, processed 1380181 words, keeping 900 word types
+2025-07-13 16:03:41,097 - INFO - collected 900 word types from a corpus of 1552471 raw words and 90000 sentences
+2025-07-13 16:03:41,097 - INFO - Creating a fresh vocabulary
+2025-07-13 16:03:41,101 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 900 unique words (100.00% of original 900, drops 0)', 'datetime': '2025-07-13T16:03:41.099719', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 16:03:41,101 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1552471 word corpus (100.00% of original 1552471, drops 0)', 'datetime': '2025-07-13T16:03:41.101847', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 16:03:41,104 - INFO - deleting the raw counts dictionary of 900 items
+2025-07-13 16:03:41,105 - INFO - sample=0.001 downsamples 33 most-common words
+2025-07-13 16:03:41,105 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 468682.26507054263 word corpus (30.2%% of prior 1552471)', 'datetime': '2025-07-13T16:03:41.105308', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 16:03:41,110 - INFO - estimated required memory for 900 words and 32 dimensions: 680400 bytes
+2025-07-13 16:03:41,110 - INFO - resetting layer weights
+2025-07-13 16:03:41,110 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-13T16:03:41.110670', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-13 16:03:41,110 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 900 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-13T16:03:41.110770', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 16:03:42,112 - INFO - EPOCH 0 - PROGRESS: at 20.71% examples, 96807 words/s, in_qsize 0, out_qsize 1
+2025-07-13 16:03:43,112 - INFO - EPOCH 0 - PROGRESS: at 37.63% examples, 87996 words/s, in_qsize 2, out_qsize 2
+2025-07-13 16:03:44,112 - INFO - EPOCH 0 - PROGRESS: at 52.76% examples, 82263 words/s, in_qsize 0, out_qsize 1
+2025-07-13 16:03:45,112 - INFO - EPOCH 0 - PROGRESS: at 67.71% examples, 79290 words/s, in_qsize 0, out_qsize 1
+2025-07-13 16:03:46,112 - INFO - EPOCH 0 - PROGRESS: at 82.76% examples, 77569 words/s, in_qsize 0, out_qsize 1
+2025-07-13 16:03:47,112 - INFO - EPOCH 0 - PROGRESS: at 97.00% examples, 75774 words/s, in_qsize 0, out_qsize 0
+2025-07-13 16:03:47,317 - INFO - EPOCH 0: training on 1552471 raw words (468605 effective words) took 6.2s, 75520 effective words/s
+2025-07-13 16:03:48,318 - INFO - EPOCH 1 - PROGRESS: at 16.98% examples, 79653 words/s, in_qsize 0, out_qsize 1
+2025-07-13 16:03:49,318 - INFO - EPOCH 1 - PROGRESS: at 33.63% examples, 78977 words/s, in_qsize 2, out_qsize 1
+2025-07-13 16:03:50,318 - INFO - EPOCH 1 - PROGRESS: at 49.72% examples, 77642 words/s, in_qsize 0, out_qsize 1
+2025-07-13 16:03:51,318 - INFO - EPOCH 1 - PROGRESS: at 64.77% examples, 75827 words/s, in_qsize 2, out_qsize 2
+2025-07-13 16:03:52,318 - INFO - EPOCH 1 - PROGRESS: at 79.26% examples, 74270 words/s, in_qsize 1, out_qsize 0
+2025-07-13 16:03:53,318 - INFO - EPOCH 1 - PROGRESS: at 93.84% examples, 73334 words/s, in_qsize 0, out_qsize 1
+2025-07-13 16:03:53,737 - INFO - EPOCH 1: training on 1552471 raw words (468981 effective words) took 6.4s, 73057 effective words/s
+2025-07-13 16:03:54,739 - INFO - EPOCH 2 - PROGRESS: at 19.42% examples, 91144 words/s, in_qsize 0, out_qsize 1
+2025-07-13 16:03:55,739 - INFO - EPOCH 2 - PROGRESS: at 37.13% examples, 87055 words/s, in_qsize 1, out_qsize 0
+2025-07-13 16:03:56,739 - INFO - EPOCH 2 - PROGRESS: at 56.67% examples, 88476 words/s, in_qsize 0, out_qsize 1
+2025-07-13 16:03:57,739 - INFO - EPOCH 2 - PROGRESS: at 72.47% examples, 84916 words/s, in_qsize 2, out_qsize 2
+2025-07-13 16:03:58,739 - INFO - EPOCH 2 - PROGRESS: at 88.99% examples, 83467 words/s, in_qsize 1, out_qsize 0
+2025-07-13 16:03:59,405 - INFO - EPOCH 2: training on 1552471 raw words (468948 effective words) took 5.7s, 82762 effective words/s
+2025-07-13 16:04:00,406 - INFO - EPOCH 3 - PROGRESS: at 15.55% examples, 72977 words/s, in_qsize 1, out_qsize 0
+2025-07-13 16:04:01,406 - INFO - EPOCH 3 - PROGRESS: at 31.87% examples, 74714 words/s, in_qsize 1, out_qsize 0
+2025-07-13 16:04:02,406 - INFO - EPOCH 3 - PROGRESS: at 47.80% examples, 74497 words/s, in_qsize 0, out_qsize 2
+2025-07-13 16:04:03,406 - INFO - EPOCH 3 - PROGRESS: at 63.64% examples, 74458 words/s, in_qsize 2, out_qsize 0
+2025-07-13 16:04:04,406 - INFO - EPOCH 3 - PROGRESS: at 79.43% examples, 74435 words/s, in_qsize 0, out_qsize 1
+2025-07-13 16:04:05,406 - INFO - EPOCH 3 - PROGRESS: at 95.58% examples, 74632 words/s, in_qsize 1, out_qsize 0
+2025-07-13 16:04:05,682 - INFO - EPOCH 3: training on 1552471 raw words (468454 effective words) took 6.3s, 74640 effective words/s
+2025-07-13 16:04:06,683 - INFO - EPOCH 4 - PROGRESS: at 19.36% examples, 90425 words/s, in_qsize 0, out_qsize 1
+2025-07-13 16:04:07,683 - INFO - EPOCH 4 - PROGRESS: at 36.42% examples, 85336 words/s, in_qsize 0, out_qsize 0
+2025-07-13 16:04:08,683 - INFO - EPOCH 4 - PROGRESS: at 52.43% examples, 81783 words/s, in_qsize 1, out_qsize 0
+2025-07-13 16:04:09,683 - INFO - EPOCH 4 - PROGRESS: at 68.18% examples, 79746 words/s, in_qsize 2, out_qsize 2
+2025-07-13 16:04:10,683 - INFO - EPOCH 4 - PROGRESS: at 83.76% examples, 78440 words/s, in_qsize 1, out_qsize 0
+2025-07-13 16:04:11,684 - INFO - EPOCH 4 - PROGRESS: at 99.40% examples, 77617 words/s, in_qsize 0, out_qsize 0
+2025-07-13 16:04:11,722 - INFO - EPOCH 4: training on 1552471 raw words (468557 effective words) took 6.0s, 77591 effective words/s
+2025-07-13 16:04:11,722 - INFO - Word2Vec lifecycle event {'msg': 'training on 7762355 raw words (2343545 effective words) took 30.6s, 76557 effective words/s', 'datetime': '2025-07-13T16:04:11.722739', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 16:04:11,723 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=900, vector_size=32, alpha=0.025>', 'datetime': '2025-07-13T16:04:11.723089', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-13 16:04:11,785 - INFO - 计算增强的节点中心性特征...
+2025-07-13 16:04:13,488 - INFO - 标准化中心性特征...
+2025-07-13 16:04:13,491 - INFO - 应用特征重要性权重后的中心性特征形状: (900, 17)
+2025-07-13 16:04:13,493 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-13 16:04:13,659 - INFO - 加载模型参数: gamma=5.9568, beta=-14.1060, centrality_scaling=0.6680
+2025-07-13 16:04:13,659 - INFO - 其他参数: mixing_weight=0.5530, noise_threshold=0.5125
+2025-07-13 16:04:13,664 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-13 16:04:13,677 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-13 16:04:13,677 - INFO - 将使用迁移学习进行训练
+2025-07-13 16:04:13,677 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-13 16:04:13,677 - INFO - 使用单次训练模式
+2025-07-13 16:04:13,679 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-13 16:04:14,865 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-13 16:04:14,874 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-13 16:04:15,727 - INFO - 测试集结果:
+2025-07-13 16:04:15,727 - INFO - K=5: Recall=0.0000, Precision=0.0000
+2025-07-13 16:04:15,727 - INFO - K=10: Recall=0.5000, Precision=0.1000
+2025-07-13 16:04:15,727 - INFO - K=15: Recall=1.0000, Precision=0.1333
+2025-07-13 16:04:15,727 - INFO - 测试集分类准确率: 98.89%
+2025-07-13 16:04:15,731 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res3/historicalModels/Train-3/final_model.pth
+2025-07-13 16:04:15,736 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-13 16:04:15,736 - INFO - 
+识别出的重要类:
+2025-07-13 16:04:15,736 - INFO - --------------------------------------------------------------------------------
+2025-07-13 16:04:15,737 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-13 16:04:15,737 - INFO - --------------------------------------------------------------------------------
+2025-07-13 16:04:15,737 - INFO - 1      553      1.0000     ✓      org.apache.tools.ant.BuildException               
+2025-07-13 16:04:15,737 - INFO - 2      354      0.9849     ✓      org.apache.tools.ant.util.FileUtils               
+2025-07-13 16:04:15,737 - INFO - 3      718      0.9793     ✓      org.apache.tools.ant.ProjectComponent             
+2025-07-13 16:04:15,737 - INFO - 4      677      0.9720     ✓      org.apache.tools.ant.Task                         
+2025-07-13 16:04:15,737 - INFO - 5      118      0.9094            org.apache.tools.ant.taskdefs.Execute             
+2025-07-13 16:04:15,737 - INFO - 6      518      0.8941     ✓      org.apache.tools.ant.types.Commandline            
+2025-07-13 16:04:15,737 - INFO - 7      670      0.8898            org.apache.tools.ant.types.DataType               
+2025-07-13 16:04:15,737 - INFO - 8      308      0.7034     ✓      org.apache.tools.ant.types.EnumeratedAttribute    
+2025-07-13 16:04:15,737 - INFO - 9      173      0.6832            org.apache.tools.ant.taskdefs.Java                
+2025-07-13 16:04:15,737 - INFO - 10     704      0.6814            org.apache.tools.ant.types.Parameter              
+2025-07-13 16:04:15,737 - INFO - 11     780      0.6725            org.apache.tools.ant.taskdefs.optional.perforce.P4Base
+2025-07-13 16:04:15,737 - INFO - 12     582      0.6451            org.apache.tools.ant.types.FileSet                
+2025-07-13 16:04:15,737 - INFO - 13     770      0.6371     ✓      org.apache.tools.ant.types.Path                   
+2025-07-13 16:04:15,737 - INFO - 14     16       0.6241            org.apache.tools.ant.types.Reference              
+2025-07-13 16:04:15,737 - INFO - 15     548      0.6071            org.apache.tools.ant.filters.ChainableReader      
+2025-07-13 16:04:15,737 - INFO - --------------------------------------------------------------------------------
+2025-07-13 16:04:15,738 - INFO - 
+成功识别的关键类:
+2025-07-13 16:04:15,738 - INFO - --------------------------------------------------------------------------------
+2025-07-13 16:04:15,738 - INFO - 1. org.apache.tools.ant.BuildException (排名: 1, 分数: 1.0000, 节点ID: 553)
+2025-07-13 16:04:15,738 - INFO - 2. org.apache.tools.ant.util.FileUtils (排名: 2, 分数: 0.9849, 节点ID: 354)
+2025-07-13 16:04:15,738 - INFO - 3. org.apache.tools.ant.ProjectComponent (排名: 3, 分数: 0.9793, 节点ID: 718)
+2025-07-13 16:04:15,738 - INFO - 4. org.apache.tools.ant.Task (排名: 4, 分数: 0.9720, 节点ID: 677)
+2025-07-13 16:04:15,738 - INFO - 5. org.apache.tools.ant.types.Commandline (排名: 6, 分数: 0.8941, 节点ID: 518)
+2025-07-13 16:04:15,738 - INFO - 6. org.apache.tools.ant.types.EnumeratedAttribute (排名: 8, 分数: 0.7034, 节点ID: 308)
+2025-07-13 16:04:15,738 - INFO - 7. org.apache.tools.ant.types.Path (排名: 13, 分数: 0.6371, 节点ID: 770)
+2025-07-13 16:04:15,738 - INFO - --------------------------------------------------------------------------------
+2025-07-13 16:04:15,738 - INFO - 在前5个预测中，正确识别了4个关键类，共10.0个关键类
+2025-07-13 16:04:15,738 - INFO - 覆盖率: 40.00%, 准确率: 80.00%
+2025-07-13 16:04:15,738 - INFO - 在前10个预测中，正确识别了6个关键类，共10.0个关键类
+2025-07-13 16:04:15,738 - INFO - 覆盖率: 60.00%, 准确率: 60.00%
+2025-07-13 16:04:15,739 - INFO - 在前15个预测中，正确识别了7个关键类，共10.0个关键类
+2025-07-13 16:04:15,739 - INFO - 覆盖率: 70.00%, 准确率: 46.67%
+2025-07-13 16:04:16,054 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res3/Scores/ANT_scores.txt
+2025-07-13 16:04:16,055 - INFO - 分数统计：最小值=0.0274, 最大值=1.0000, 平均值=0.0730
+2025-07-13 16:04:16,055 - INFO - 接近0的分数(小于0.051)数量: 428 / 900
+2025-07-13 16:04:16,055 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res3/logs/log-3.txt

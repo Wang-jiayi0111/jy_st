@@ -1,0 +1,138 @@
+2025-07-26 23:06:24,623 - INFO - 开始处理所有数据集...
+2025-07-26 23:06:24,623 - INFO - 
+################################################################################
+2025-07-26 23:06:24,623 - INFO - 处理数据集: notepad__spl
+2025-07-26 23:06:24,623 - INFO - ################################################################################
+2025-07-26 23:06:24,638 - INFO - 识别出关键类: 6/65 (9.23%)
+2025-07-26 23:06:24,638 - INFO - 关键类: smashed.Notepad, smashed.Actions, smashed.Fonts, runspl.RunSPL, featuremodel.Configuration, tests.NotepadTEST
+2025-07-26 23:06:24,638 - INFO - 
+********************************************************************************
+2025-07-26 23:06:24,638 - INFO - 数据集: notepad__spl
+2025-07-26 23:06:24,638 - INFO - ********************************************************************************
+2025-07-26 23:06:24,638 - INFO - 
+================================================================================
+2025-07-26 23:06:24,638 - INFO - 关键类识别结果
+2025-07-26 23:06:24,638 - INFO - ================================================================================
+2025-07-26 23:06:24,639 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 23:06:24,639 - INFO - ------------------------------------------------------------
+2025-07-26 23:06:24,639 - INFO - 节点 57: smashed.Notepad
+2025-07-26 23:06:24,639 - INFO - 节点 21: smashed.Actions
+2025-07-26 23:06:24,639 - INFO - 节点 26: smashed.Fonts
+2025-07-26 23:06:24,639 - INFO - 节点 17: runspl.RunSPL
+2025-07-26 23:06:24,639 - INFO - 节点 7: featuremodel.Configuration
+2025-07-26 23:06:24,639 - INFO - 节点 64: tests.NotepadTEST
+2025-07-26 23:06:24,639 - INFO - 
+统计摘要:
+2025-07-26 23:06:24,639 - INFO - ------------------------------------------------------------
+2025-07-26 23:06:24,639 - INFO - 关键类数量: 6
+2025-07-26 23:06:24,639 - INFO - ********************************************************************************
+
+2025-07-26 23:06:24,639 - INFO - 数据集 notepad__spl 处理完成
+2025-07-26 23:06:24,639 - INFO - 
+################################################################################
+2025-07-26 23:06:24,639 - INFO - 所有数据集合并结果
+2025-07-26 23:06:24,639 - INFO - ################################################################################
+2025-07-26 23:06:24,639 - INFO - 
+================================================================================
+2025-07-26 23:06:24,639 - INFO - 关键类识别结果
+2025-07-26 23:06:24,639 - INFO - ================================================================================
+2025-07-26 23:06:24,639 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 23:06:24,639 - INFO - ------------------------------------------------------------
+2025-07-26 23:06:24,639 - INFO - 节点 notepad__spl_7: featuremodel.Configuration
+2025-07-26 23:06:24,639 - INFO - 节点 notepad__spl_17: runspl.RunSPL
+2025-07-26 23:06:24,639 - INFO - 节点 notepad__spl_21: smashed.Actions
+2025-07-26 23:06:24,639 - INFO - 节点 notepad__spl_26: smashed.Fonts
+2025-07-26 23:06:24,639 - INFO - 节点 notepad__spl_57: smashed.Notepad
+2025-07-26 23:06:24,639 - INFO - 节点 notepad__spl_64: tests.NotepadTEST
+2025-07-26 23:06:24,639 - INFO - 
+统计摘要:
+2025-07-26 23:06:24,639 - INFO - ------------------------------------------------------------
+2025-07-26 23:06:24,639 - INFO - 关键类数量: 6
+2025-07-26 23:06:24,639 - INFO - 处理完成!
+2025-07-26 23:06:24,639 - INFO - [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1]
+2025-07-26 23:06:24,639 - INFO - 关键类节点: ['notepad__spl_7', 'notepad__spl_17', 'notepad__spl_21', 'notepad__spl_26', 'notepad__spl_57', 'notepad__spl_64']
+2025-07-26 23:06:24,872 - INFO - collecting all words and their counts
+2025-07-26 23:06:24,873 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-26 23:06:24,879 - INFO - collected 65 word types from a corpus of 66990 raw words and 6500 sentences
+2025-07-26 23:06:24,879 - INFO - Creating a fresh vocabulary
+2025-07-26 23:06:24,881 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 65 unique words (100.00% of original 65, drops 0)', 'datetime': '2025-07-26T23:06:24.879841', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 23:06:24,881 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 66990 word corpus (100.00% of original 66990, drops 0)', 'datetime': '2025-07-26T23:06:24.881438', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 23:06:24,881 - INFO - deleting the raw counts dictionary of 65 items
+2025-07-26 23:06:24,881 - INFO - sample=0.001 downsamples 52 most-common words
+2025-07-26 23:06:24,881 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 17250.01489635936 word corpus (25.8%% of prior 66990)', 'datetime': '2025-07-26T23:06:24.881862', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 23:06:24,882 - INFO - estimated required memory for 65 words and 32 dimensions: 49140 bytes
+2025-07-26 23:06:24,882 - INFO - resetting layer weights
+2025-07-26 23:06:24,882 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-26T23:06:24.882562', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-26 23:06:24,882 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 65 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-26T23:06:24.882631', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 23:06:25,204 - INFO - EPOCH 0: training on 66990 raw words (17092 effective words) took 0.3s, 53256 effective words/s
+2025-07-26 23:06:25,538 - INFO - EPOCH 1: training on 66990 raw words (17378 effective words) took 0.3s, 52104 effective words/s
+2025-07-26 23:06:25,854 - INFO - EPOCH 2: training on 66990 raw words (17207 effective words) took 0.3s, 54524 effective words/s
+2025-07-26 23:06:26,240 - INFO - EPOCH 3: training on 66990 raw words (17269 effective words) took 0.4s, 44894 effective words/s
+2025-07-26 23:06:26,633 - INFO - EPOCH 4: training on 66990 raw words (17216 effective words) took 0.4s, 43920 effective words/s
+2025-07-26 23:06:26,633 - INFO - Word2Vec lifecycle event {'msg': 'training on 334950 raw words (86162 effective words) took 1.8s, 49207 effective words/s', 'datetime': '2025-07-26T23:06:26.633735', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 23:06:26,634 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=65, vector_size=32, alpha=0.025>', 'datetime': '2025-07-26T23:06:26.634016', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-26 23:06:26,637 - INFO - 计算增强的节点中心性特征...
+2025-07-26 23:06:26,705 - INFO - 标准化中心性特征...
+2025-07-26 23:06:26,706 - INFO - 应用特征重要性权重后的中心性特征形状: (65, 17)
+2025-07-26 23:06:26,707 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-26 23:06:26,929 - INFO - 加载模型参数: gamma=6.8268, beta=-13.0486, centrality_scaling=1.6262
+2025-07-26 23:06:26,929 - INFO - 其他参数: mixing_weight=0.2898, noise_threshold=0.5125
+2025-07-26 23:06:26,934 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-26 23:06:26,937 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-26 23:06:26,937 - INFO - 将使用迁移学习进行训练
+2025-07-26 23:06:26,937 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-26 23:06:26,937 - INFO - 使用单次训练模式
+2025-07-26 23:06:26,939 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-26 23:06:28,108 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-26 23:06:28,110 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-26 23:06:28,469 - INFO - 测试集结果:
+2025-07-26 23:06:28,469 - INFO - K=5: Recall=1.000000, Precision=0.200000, F1=0.333333
+2025-07-26 23:06:28,469 - INFO - K=10: Recall=1.000000, Precision=0.100000, F1=0.181818
+2025-07-26 23:06:28,469 - INFO - K=15: Recall=1.000000, Precision=0.066667, F1=0.125000
+2025-07-26 23:06:28,469 - INFO - 测试集分类准确率: 100.00%
+2025-07-26 23:06:28,474 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res6/historicalModels/Train-11/final_model.pth
+2025-07-26 23:06:28,478 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-26 23:06:28,479 - INFO - 
+识别出的重要类:
+2025-07-26 23:06:28,479 - INFO - --------------------------------------------------------------------------------
+2025-07-26 23:06:28,480 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-26 23:06:28,480 - INFO - --------------------------------------------------------------------------------
+2025-07-26 23:06:28,480 - INFO - 1      57       0.9999     ✓      smashed.Notepad                                   
+2025-07-26 23:06:28,480 - INFO - 2      21       0.9384     ✓      smashed.Actions                                   
+2025-07-26 23:06:28,480 - INFO - 3      26       0.7350     ✓      smashed.Fonts                                     
+2025-07-26 23:06:28,480 - INFO - 4      64       0.6335     ✓      tests.NotepadTEST                                 
+2025-07-26 23:06:28,480 - INFO - 5      7        0.2503     ✓      featuremodel.Configuration                        
+2025-07-26 23:06:28,480 - INFO - 6      10       0.2160            featuremodel.FeatureModel                         
+2025-07-26 23:06:28,480 - INFO - 7      59       0.1779            smashed.RedoAction                                
+2025-07-26 23:06:28,480 - INFO - 8      17       0.1740     ✓      runspl.RunSPL                                     
+2025-07-26 23:06:28,480 - INFO - 9      38       0.1356            smashed.Notepad$2                                 
+2025-07-26 23:06:28,480 - INFO - 10     60       0.1347            smashed.UndoAction                                
+2025-07-26 23:06:28,480 - INFO - 11     40       0.0990            smashed.Notepad$21                                
+2025-07-26 23:06:28,480 - INFO - 12     22       0.0964            smashed.Center                                    
+2025-07-26 23:06:28,480 - INFO - 13     11       0.0946            featuremodel.FeatureModelBuilder                  
+2025-07-26 23:06:28,480 - INFO - 14     12       0.0924            featuremodel.FeatureValue                         
+2025-07-26 23:06:28,481 - INFO - 15     6        0.0855            featuremodel.Configuration$1                      
+2025-07-26 23:06:28,481 - INFO - --------------------------------------------------------------------------------
+2025-07-26 23:06:28,481 - INFO - 
+成功识别的关键类:
+2025-07-26 23:06:28,481 - INFO - --------------------------------------------------------------------------------
+2025-07-26 23:06:28,481 - INFO - 1. smashed.Notepad (排名: 1, 分数: 0.9999, 节点ID: 57)
+2025-07-26 23:06:28,481 - INFO - 2. smashed.Actions (排名: 2, 分数: 0.9384, 节点ID: 21)
+2025-07-26 23:06:28,481 - INFO - 3. smashed.Fonts (排名: 3, 分数: 0.7350, 节点ID: 26)
+2025-07-26 23:06:28,481 - INFO - 4. tests.NotepadTEST (排名: 4, 分数: 0.6335, 节点ID: 64)
+2025-07-26 23:06:28,481 - INFO - 5. featuremodel.Configuration (排名: 5, 分数: 0.2503, 节点ID: 7)
+2025-07-26 23:06:28,481 - INFO - 6. runspl.RunSPL (排名: 8, 分数: 0.1740, 节点ID: 17)
+2025-07-26 23:06:28,481 - INFO - --------------------------------------------------------------------------------
+2025-07-26 23:06:28,481 - INFO - 在前5个预测中，正确识别了5个关键类，共6个关键类
+2025-07-26 23:06:28,481 - INFO - 覆盖率: 83.33%, 准确率: 100.00%
+2025-07-26 23:06:28,481 - INFO - 在前10个预测中，正确识别了6个关键类，共6个关键类
+2025-07-26 23:06:28,481 - INFO - 覆盖率: 100.00%, 准确率: 60.00%
+2025-07-26 23:06:28,482 - INFO - 在前15个预测中，正确识别了6个关键类，共6个关键类
+2025-07-26 23:06:28,482 - INFO - 覆盖率: 100.00%, 准确率: 40.00%
+2025-07-26 23:06:28,743 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res6/Scores/notepad__spl_scores.txt
+2025-07-26 23:06:28,743 - INFO - 分数统计：最小值=0.0178, 最大值=0.9999, 平均值=0.1107
+2025-07-26 23:06:28,743 - INFO - 接近0的分数(小于0.051)数量: 26 / 65
+2025-07-26 23:06:28,743 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res6/logs/log-11.txt

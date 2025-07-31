@@ -1,0 +1,263 @@
+2025-07-26 14:36:28,276 - INFO - 开始处理所有数据集...
+2025-07-26 14:36:28,276 - INFO - 
+################################################################################
+2025-07-26 14:36:28,276 - INFO - 处理数据集: JHotDraw
+2025-07-26 14:36:28,276 - INFO - ################################################################################
+2025-07-26 14:36:28,552 - INFO - 识别出关键类: 56/544 (10.29%)
+2025-07-26 14:36:28,553 - INFO - 关键类: org.jhotdraw.framework.DrawingView, org.jhotdraw.framework.Figure, org.jhotdraw.framework.FigureEnumeration, org.jhotdraw.test.JHDTestCase, org.jhotdraw.framework.DrawingEditor, org.jhotdraw.application.DrawApplication, org.jhotdraw.framework.Drawing, org.jhotdraw.util.CollectionsFactory, org.jhotdraw.util.Undoable, org.jhotdraw.util.StorableInput...
+2025-07-26 14:36:28,553 - INFO - 
+********************************************************************************
+2025-07-26 14:36:28,553 - INFO - 数据集: JHotDraw
+2025-07-26 14:36:28,553 - INFO - ********************************************************************************
+2025-07-26 14:36:28,553 - INFO - 
+================================================================================
+2025-07-26 14:36:28,553 - INFO - 关键类识别结果
+2025-07-26 14:36:28,553 - INFO - ================================================================================
+2025-07-26 14:36:28,553 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:36:28,553 - INFO - ------------------------------------------------------------
+2025-07-26 14:36:28,553 - INFO - 节点 61: org.jhotdraw.framework.DrawingView
+2025-07-26 14:36:28,553 - INFO - 节点 494: org.jhotdraw.framework.Figure
+2025-07-26 14:36:28,553 - INFO - 节点 220: org.jhotdraw.framework.FigureEnumeration
+2025-07-26 14:36:28,553 - INFO - 节点 157: org.jhotdraw.test.JHDTestCase
+2025-07-26 14:36:28,553 - INFO - 节点 260: org.jhotdraw.framework.DrawingEditor
+2025-07-26 14:36:28,553 - INFO - 节点 8: org.jhotdraw.application.DrawApplication
+2025-07-26 14:36:28,553 - INFO - 节点 5: org.jhotdraw.framework.Drawing
+2025-07-26 14:36:28,553 - INFO - 节点 298: org.jhotdraw.util.CollectionsFactory
+2025-07-26 14:36:28,553 - INFO - 节点 476: org.jhotdraw.util.Undoable
+2025-07-26 14:36:28,553 - INFO - 节点 399: org.jhotdraw.util.StorableInput
+2025-07-26 14:36:28,553 - INFO - 节点 425: org.jhotdraw.samples.javadraw.JavaDrawApp
+2025-07-26 14:36:28,553 - INFO - 节点 52: org.jhotdraw.figures.RectangleFigure
+2025-07-26 14:36:28,553 - INFO - 节点 405: org.jhotdraw.util.StorableOutput
+2025-07-26 14:36:28,553 - INFO - 节点 192: org.jhotdraw.standard.AbstractFigure
+2025-07-26 14:36:28,553 - INFO - 节点 196: org.jhotdraw.util.UndoableAdapter
+2025-07-26 14:36:28,553 - INFO - 节点 274: org.jhotdraw.applet.DrawApplet
+2025-07-26 14:36:28,553 - INFO - 节点 11: org.jhotdraw.standard.StandardDrawingView
+2025-07-26 14:36:28,553 - INFO - 节点 137: org.jhotdraw.figures.LineConnection
+2025-07-26 14:36:28,553 - INFO - 节点 166: org.jhotdraw.standard.AbstractTool
+2025-07-26 14:36:28,553 - INFO - 节点 272: org.jhotdraw.figures.PolyLineFigure
+2025-07-26 14:36:28,553 - INFO - 节点 2: org.jhotdraw.figures.TextFigure
+2025-07-26 14:36:28,553 - INFO - 节点 359: org.jhotdraw.standard.RelativeLocator
+2025-07-26 14:36:28,553 - INFO - 节点 433: org.jhotdraw.standard.FigureEnumerator
+2025-07-26 14:36:28,553 - INFO - 节点 202: org.jhotdraw.framework.HandleEnumeration
+2025-07-26 14:36:28,553 - INFO - 节点 506: org.jhotdraw.standard.AbstractHandle
+2025-07-26 14:36:28,553 - INFO - 节点 145: org.jhotdraw.standard.AbstractCommand
+2025-07-26 14:36:28,554 - INFO - 节点 450: org.jhotdraw.framework.Connector
+2025-07-26 14:36:28,554 - INFO - 节点 460: org.jhotdraw.framework.Tool
+2025-07-26 14:36:28,554 - INFO - 节点 516: org.jhotdraw.framework.ConnectionFigure
+2025-07-26 14:36:28,554 - INFO - 节点 526: org.jhotdraw.standard.HandleEnumerator
+2025-07-26 14:36:28,554 - INFO - 节点 286: org.jhotdraw.contrib.PolygonFigure
+2025-07-26 14:36:28,554 - INFO - 节点 106: org.jhotdraw.standard.CreationTool
+2025-07-26 14:36:28,554 - INFO - 节点 479: org.jhotdraw.util.Geom
+2025-07-26 14:36:28,554 - INFO - 节点 316: org.jhotdraw.framework.Handle
+2025-07-26 14:36:28,554 - INFO - 节点 346: org.jhotdraw.figures.TextTool
+2025-07-26 14:36:28,554 - INFO - 节点 338: org.jhotdraw.standard.ConnectionTool
+2025-07-26 14:36:28,554 - INFO - 节点 410: org.jhotdraw.framework.Locator
+2025-07-26 14:36:28,554 - INFO - 节点 78: org.jhotdraw.samples.pert.PertFigure
+2025-07-26 14:36:28,554 - INFO - 节点 79: org.jhotdraw.figures.RoundRectangleFigure
+2025-07-26 14:36:28,554 - INFO - 节点 102: org.jhotdraw.standard.CompositeFigure
+2025-07-26 14:36:28,554 - INFO - 节点 152: org.jhotdraw.standard.BoxHandleKit
+2025-07-26 14:36:28,554 - INFO - 节点 268: org.jhotdraw.util.Command
+2025-07-26 14:36:28,554 - INFO - 节点 238: org.jhotdraw.figures.AttributeFigure
+2025-07-26 14:36:28,554 - INFO - 节点 348: org.jhotdraw.framework.FigureChangeListener
+2025-07-26 14:36:28,554 - INFO - 节点 407: org.jhotdraw.framework.FigureChangeEvent
+2025-07-26 14:36:28,554 - INFO - 节点 409: org.jhotdraw.framework.FigureAttributeConstant
+2025-07-26 14:36:28,554 - INFO - 节点 15: org.jhotdraw.contrib.TextAreaFigure
+2025-07-26 14:36:28,554 - INFO - 节点 386: org.jhotdraw.standard.FigureTransferCommand
+2025-07-26 14:36:28,554 - INFO - 节点 120: org.jhotdraw.standard.NullHandle
+2025-07-26 14:36:28,554 - INFO - 节点 307: org.jhotdraw.util.UndoManager
+2025-07-26 14:36:28,554 - INFO - 节点 98: org.jhotdraw.util.UndoableCommand
+2025-07-26 14:36:28,554 - INFO - 节点 163: org.jhotdraw.contrib.MDIDesktopPane
+2025-07-26 14:36:28,554 - INFO - 节点 304: org.jhotdraw.contrib.Desktop
+2025-07-26 14:36:28,554 - INFO - 节点 472: org.jhotdraw.util.Storable
+2025-07-26 14:36:28,554 - INFO - 节点 140: org.jhotdraw.standard.ChangeConnectionHandle
+2025-07-26 14:36:28,554 - INFO - 节点 291: org.jhotdraw.standard.TextHolder
+2025-07-26 14:36:28,554 - INFO - 
+统计摘要:
+2025-07-26 14:36:28,554 - INFO - ------------------------------------------------------------
+2025-07-26 14:36:28,554 - INFO - 关键类数量: 56
+2025-07-26 14:36:28,554 - INFO - ********************************************************************************
+
+2025-07-26 14:36:28,555 - INFO - 数据集 JHotDraw 处理完成
+2025-07-26 14:36:28,555 - INFO - 
+################################################################################
+2025-07-26 14:36:28,555 - INFO - 所有数据集合并结果
+2025-07-26 14:36:28,555 - INFO - ################################################################################
+2025-07-26 14:36:28,555 - INFO - 
+================================================================================
+2025-07-26 14:36:28,555 - INFO - 关键类识别结果
+2025-07-26 14:36:28,555 - INFO - ================================================================================
+2025-07-26 14:36:28,555 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:36:28,555 - INFO - ------------------------------------------------------------
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_2: org.jhotdraw.figures.TextFigure
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_5: org.jhotdraw.framework.Drawing
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_8: org.jhotdraw.application.DrawApplication
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_11: org.jhotdraw.standard.StandardDrawingView
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_15: org.jhotdraw.contrib.TextAreaFigure
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_52: org.jhotdraw.figures.RectangleFigure
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_61: org.jhotdraw.framework.DrawingView
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_78: org.jhotdraw.samples.pert.PertFigure
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_79: org.jhotdraw.figures.RoundRectangleFigure
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_98: org.jhotdraw.util.UndoableCommand
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_102: org.jhotdraw.standard.CompositeFigure
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_106: org.jhotdraw.standard.CreationTool
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_120: org.jhotdraw.standard.NullHandle
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_137: org.jhotdraw.figures.LineConnection
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_140: org.jhotdraw.standard.ChangeConnectionHandle
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_145: org.jhotdraw.standard.AbstractCommand
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_152: org.jhotdraw.standard.BoxHandleKit
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_157: org.jhotdraw.test.JHDTestCase
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_163: org.jhotdraw.contrib.MDIDesktopPane
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_166: org.jhotdraw.standard.AbstractTool
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_192: org.jhotdraw.standard.AbstractFigure
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_196: org.jhotdraw.util.UndoableAdapter
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_202: org.jhotdraw.framework.HandleEnumeration
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_220: org.jhotdraw.framework.FigureEnumeration
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_238: org.jhotdraw.figures.AttributeFigure
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_260: org.jhotdraw.framework.DrawingEditor
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_268: org.jhotdraw.util.Command
+2025-07-26 14:36:28,555 - INFO - 节点 JHotDraw_272: org.jhotdraw.figures.PolyLineFigure
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_274: org.jhotdraw.applet.DrawApplet
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_286: org.jhotdraw.contrib.PolygonFigure
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_291: org.jhotdraw.standard.TextHolder
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_298: org.jhotdraw.util.CollectionsFactory
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_304: org.jhotdraw.contrib.Desktop
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_307: org.jhotdraw.util.UndoManager
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_316: org.jhotdraw.framework.Handle
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_338: org.jhotdraw.standard.ConnectionTool
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_346: org.jhotdraw.figures.TextTool
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_348: org.jhotdraw.framework.FigureChangeListener
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_359: org.jhotdraw.standard.RelativeLocator
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_386: org.jhotdraw.standard.FigureTransferCommand
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_399: org.jhotdraw.util.StorableInput
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_405: org.jhotdraw.util.StorableOutput
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_407: org.jhotdraw.framework.FigureChangeEvent
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_409: org.jhotdraw.framework.FigureAttributeConstant
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_410: org.jhotdraw.framework.Locator
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_425: org.jhotdraw.samples.javadraw.JavaDrawApp
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_433: org.jhotdraw.standard.FigureEnumerator
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_450: org.jhotdraw.framework.Connector
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_460: org.jhotdraw.framework.Tool
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_472: org.jhotdraw.util.Storable
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_476: org.jhotdraw.util.Undoable
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_479: org.jhotdraw.util.Geom
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_494: org.jhotdraw.framework.Figure
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_506: org.jhotdraw.standard.AbstractHandle
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_516: org.jhotdraw.framework.ConnectionFigure
+2025-07-26 14:36:28,556 - INFO - 节点 JHotDraw_526: org.jhotdraw.standard.HandleEnumerator
+2025-07-26 14:36:28,556 - INFO - 
+统计摘要:
+2025-07-26 14:36:28,556 - INFO - ------------------------------------------------------------
+2025-07-26 14:36:28,556 - INFO - 关键类数量: 56
+2025-07-26 14:36:28,556 - INFO - 处理完成!
+2025-07-26 14:36:28,556 - INFO - [0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-07-26 14:36:28,556 - INFO - 关键类节点: ['JHotDraw_2', 'JHotDraw_5', 'JHotDraw_8', 'JHotDraw_11', 'JHotDraw_15', 'JHotDraw_52', 'JHotDraw_61', 'JHotDraw_78', 'JHotDraw_79', 'JHotDraw_98', 'JHotDraw_102', 'JHotDraw_106', 'JHotDraw_120', 'JHotDraw_137', 'JHotDraw_140', 'JHotDraw_145', 'JHotDraw_152', 'JHotDraw_157', 'JHotDraw_163', 'JHotDraw_166', 'JHotDraw_192', 'JHotDraw_196', 'JHotDraw_202', 'JHotDraw_220', 'JHotDraw_238', 'JHotDraw_260', 'JHotDraw_268', 'JHotDraw_272', 'JHotDraw_274', 'JHotDraw_286', 'JHotDraw_291', 'JHotDraw_298', 'JHotDraw_304', 'JHotDraw_307', 'JHotDraw_316', 'JHotDraw_338', 'JHotDraw_346', 'JHotDraw_348', 'JHotDraw_359', 'JHotDraw_386', 'JHotDraw_399', 'JHotDraw_405', 'JHotDraw_407', 'JHotDraw_409', 'JHotDraw_410', 'JHotDraw_425', 'JHotDraw_433', 'JHotDraw_450', 'JHotDraw_460', 'JHotDraw_472', 'JHotDraw_476', 'JHotDraw_479', 'JHotDraw_494', 'JHotDraw_506', 'JHotDraw_516', 'JHotDraw_526']
+2025-07-26 14:36:30,459 - INFO - collecting all words and their counts
+2025-07-26 14:36:30,459 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-26 14:36:30,473 - INFO - PROGRESS: at sentence #10000, processed 148791 words, keeping 544 word types
+2025-07-26 14:36:30,487 - INFO - PROGRESS: at sentence #20000, processed 297047 words, keeping 544 word types
+2025-07-26 14:36:30,500 - INFO - PROGRESS: at sentence #30000, processed 446944 words, keeping 544 word types
+2025-07-26 14:36:30,514 - INFO - PROGRESS: at sentence #40000, processed 596484 words, keeping 544 word types
+2025-07-26 14:36:30,528 - INFO - PROGRESS: at sentence #50000, processed 744981 words, keeping 544 word types
+2025-07-26 14:36:30,534 - INFO - collected 544 word types from a corpus of 810723 raw words and 54400 sentences
+2025-07-26 14:36:30,534 - INFO - Creating a fresh vocabulary
+2025-07-26 14:36:30,537 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 544 unique words (100.00% of original 544, drops 0)', 'datetime': '2025-07-26T14:36:30.535348', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:36:30,537 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 810723 word corpus (100.00% of original 810723, drops 0)', 'datetime': '2025-07-26T14:36:30.537199', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:36:30,538 - INFO - deleting the raw counts dictionary of 544 items
+2025-07-26 14:36:30,539 - INFO - sample=0.001 downsamples 29 most-common words
+2025-07-26 14:36:30,539 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 239119.83798383936 word corpus (29.5%% of prior 810723)', 'datetime': '2025-07-26T14:36:30.539295', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:36:30,542 - INFO - estimated required memory for 544 words and 32 dimensions: 411264 bytes
+2025-07-26 14:36:30,542 - INFO - resetting layer weights
+2025-07-26 14:36:30,542 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-26T14:36:30.542586', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-26 14:36:30,542 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 544 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-26T14:36:30.542669', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:36:31,543 - INFO - EPOCH 0 - PROGRESS: at 41.46% examples, 98902 words/s, in_qsize 2, out_qsize 1
+2025-07-26 14:36:32,544 - INFO - EPOCH 0 - PROGRESS: at 73.64% examples, 88109 words/s, in_qsize 0, out_qsize 2
+2025-07-26 14:36:33,543 - INFO - EPOCH 0 - PROGRESS: at 96.01% examples, 76621 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:36:33,746 - INFO - EPOCH 0: training on 810723 raw words (239344 effective words) took 3.2s, 74731 effective words/s
+2025-07-26 14:36:34,748 - INFO - EPOCH 1 - PROGRESS: at 30.28% examples, 72439 words/s, in_qsize 2, out_qsize 2
+2025-07-26 14:36:35,748 - INFO - EPOCH 1 - PROGRESS: at 58.48% examples, 69961 words/s, in_qsize 2, out_qsize 1
+2025-07-26 14:36:36,748 - INFO - EPOCH 1 - PROGRESS: at 85.83% examples, 68507 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:36:37,321 - INFO - EPOCH 1: training on 810723 raw words (239370 effective words) took 3.6s, 66996 effective words/s
+2025-07-26 14:36:38,323 - INFO - EPOCH 2 - PROGRESS: at 27.32% examples, 64912 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:36:39,323 - INFO - EPOCH 2 - PROGRESS: at 53.44% examples, 63666 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:36:40,323 - INFO - EPOCH 2 - PROGRESS: at 78.22% examples, 62292 words/s, in_qsize 2, out_qsize 2
+2025-07-26 14:36:41,217 - INFO - EPOCH 2: training on 810723 raw words (239072 effective words) took 3.9s, 61384 effective words/s
+2025-07-26 14:36:42,218 - INFO - EPOCH 3 - PROGRESS: at 26.69% examples, 64128 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:36:43,219 - INFO - EPOCH 3 - PROGRESS: at 50.77% examples, 61137 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:36:44,219 - INFO - EPOCH 3 - PROGRESS: at 74.70% examples, 59822 words/s, in_qsize 2, out_qsize 1
+2025-07-26 14:36:45,219 - INFO - EPOCH 3 - PROGRESS: at 98.20% examples, 58971 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:36:45,295 - INFO - EPOCH 3: training on 810723 raw words (240075 effective words) took 4.1s, 58890 effective words/s
+2025-07-26 14:36:46,296 - INFO - EPOCH 4 - PROGRESS: at 27.56% examples, 65675 words/s, in_qsize 2, out_qsize 1
+2025-07-26 14:36:47,296 - INFO - EPOCH 4 - PROGRESS: at 52.80% examples, 63094 words/s, in_qsize 2, out_qsize 2
+2025-07-26 14:36:48,296 - INFO - EPOCH 4 - PROGRESS: at 76.31% examples, 60824 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:36:49,296 - INFO - EPOCH 4 - PROGRESS: at 99.69% examples, 59578 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:36:49,310 - INFO - EPOCH 4: training on 810723 raw words (239018 effective words) took 4.0s, 59549 effective words/s
+2025-07-26 14:36:49,311 - INFO - Word2Vec lifecycle event {'msg': 'training on 4053615 raw words (1196879 effective words) took 18.8s, 63773 effective words/s', 'datetime': '2025-07-26T14:36:49.310914', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:36:49,311 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=544, vector_size=32, alpha=0.025>', 'datetime': '2025-07-26T14:36:49.311448', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-26 14:36:49,353 - INFO - 计算增强的节点中心性特征...
+2025-07-26 14:36:49,905 - INFO - 标准化中心性特征...
+2025-07-26 14:36:49,909 - INFO - 应用特征重要性权重后的中心性特征形状: (544, 17)
+2025-07-26 14:36:49,911 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-26 14:36:50,109 - INFO - 加载模型参数: gamma=6.3111, beta=-13.7201, centrality_scaling=1.0939
+2025-07-26 14:36:50,110 - INFO - 其他参数: mixing_weight=0.4683, noise_threshold=0.5125
+2025-07-26 14:36:50,113 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-26 14:36:50,119 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-26 14:36:50,119 - INFO - 将使用迁移学习进行训练
+2025-07-26 14:36:50,119 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-26 14:36:50,119 - INFO - 使用单次训练模式
+2025-07-26 14:36:50,121 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-26 14:36:50,916 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-26 14:36:50,917 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-26 14:36:51,185 - INFO - 测试集结果:
+2025-07-26 14:36:51,185 - INFO - K=5: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 14:36:51,186 - INFO - K=10: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 14:36:51,186 - INFO - K=15: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 14:36:51,186 - INFO - 测试集分类准确率: 39.45%
+2025-07-26 14:36:51,188 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res5/historicalModels/Train-11/final_model.pth
+2025-07-26 14:36:51,191 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-26 14:36:51,191 - INFO - 
+识别出的重要类:
+2025-07-26 14:36:51,191 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:36:51,191 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-26 14:36:51,191 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:36:51,191 - INFO - 1      157      0.8388     ✓      org.jhotdraw.test.JHDTestCase                     
+2025-07-26 14:36:51,191 - INFO - 2      316      0.6558     ✓      org.jhotdraw.framework.Handle                     
+2025-07-26 14:36:51,191 - INFO - 3      20       0.6551            org.jhotdraw.contrib.DesktopListener              
+2025-07-26 14:36:51,191 - INFO - 4      304      0.6484     ✓      org.jhotdraw.contrib.Desktop                      
+2025-07-26 14:36:51,191 - INFO - 5      348      0.6406     ✓      org.jhotdraw.framework.FigureChangeListener       
+2025-07-26 14:36:51,192 - INFO - 6      386      0.6352     ✓      org.jhotdraw.standard.FigureTransferCommand       
+2025-07-26 14:36:51,192 - INFO - 7      257      0.6330            org.jhotdraw.framework.Painter                    
+2025-07-26 14:36:51,192 - INFO - 8      198      0.6249            org.jhotdraw.contrib.CommandMenuItem              
+2025-07-26 14:36:51,192 - INFO - 9      238      0.6154     ✓      org.jhotdraw.figures.AttributeFigure              
+2025-07-26 14:36:51,192 - INFO - 10     202      0.6128     ✓      org.jhotdraw.framework.HandleEnumeration          
+2025-07-26 14:36:51,192 - INFO - 11     407      0.6091     ✓      org.jhotdraw.framework.FigureChangeEvent          
+2025-07-26 14:36:51,192 - INFO - 12     196      0.6088     ✓      org.jhotdraw.util.UndoableAdapter                 
+2025-07-26 14:36:51,192 - INFO - 13     371      0.6064            org.jhotdraw.contrib.html.ContentProducer         
+2025-07-26 14:36:51,192 - INFO - 14     153      0.6028            org.jhotdraw.contrib.DesktopEventService          
+2025-07-26 14:36:51,192 - INFO - 15     240      0.6019            org.jhotdraw.samples.pert.PertFigureCreationTool  
+2025-07-26 14:36:51,192 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:36:51,192 - INFO - 
+成功识别的关键类:
+2025-07-26 14:36:51,192 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:36:51,192 - INFO - 1. org.jhotdraw.test.JHDTestCase (排名: 1, 分数: 0.8388, 节点ID: 157)
+2025-07-26 14:36:51,192 - INFO - 2. org.jhotdraw.framework.Handle (排名: 2, 分数: 0.6558, 节点ID: 316)
+2025-07-26 14:36:51,192 - INFO - 3. org.jhotdraw.contrib.Desktop (排名: 4, 分数: 0.6484, 节点ID: 304)
+2025-07-26 14:36:51,192 - INFO - 4. org.jhotdraw.framework.FigureChangeListener (排名: 5, 分数: 0.6406, 节点ID: 348)
+2025-07-26 14:36:51,192 - INFO - 5. org.jhotdraw.standard.FigureTransferCommand (排名: 6, 分数: 0.6352, 节点ID: 386)
+2025-07-26 14:36:51,192 - INFO - 6. org.jhotdraw.figures.AttributeFigure (排名: 9, 分数: 0.6154, 节点ID: 238)
+2025-07-26 14:36:51,192 - INFO - 7. org.jhotdraw.framework.HandleEnumeration (排名: 10, 分数: 0.6128, 节点ID: 202)
+2025-07-26 14:36:51,192 - INFO - 8. org.jhotdraw.framework.FigureChangeEvent (排名: 11, 分数: 0.6091, 节点ID: 407)
+2025-07-26 14:36:51,192 - INFO - 9. org.jhotdraw.util.UndoableAdapter (排名: 12, 分数: 0.6088, 节点ID: 196)
+2025-07-26 14:36:51,192 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:36:51,192 - INFO - 在前5个预测中，正确识别了4个关键类，共56个关键类
+2025-07-26 14:36:51,192 - INFO - 覆盖率: 7.14%, 准确率: 80.00%
+2025-07-26 14:36:51,193 - INFO - 在前10个预测中，正确识别了7个关键类，共56个关键类
+2025-07-26 14:36:51,193 - INFO - 覆盖率: 12.50%, 准确率: 70.00%
+2025-07-26 14:36:51,193 - INFO - 在前15个预测中，正确识别了9个关键类，共56个关键类
+2025-07-26 14:36:51,193 - INFO - 覆盖率: 16.07%, 准确率: 60.00%
+2025-07-26 14:36:51,431 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res5/Scores/JHotDraw_scores.txt
+2025-07-26 14:36:51,431 - INFO - 分数统计：最小值=0.0264, 最大值=0.8388, 平均值=0.4167
+2025-07-26 14:36:51,431 - INFO - 接近0的分数(小于0.051)数量: 4 / 544
+2025-07-26 14:36:51,431 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res5/logs/log-11.txt

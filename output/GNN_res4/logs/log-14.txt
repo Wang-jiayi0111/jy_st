@@ -1,0 +1,87 @@
+2025-07-23 15:51:49,683 - INFO - 使用中心性计算得到的关键类
+2025-07-23 15:51:49,683 - INFO - 关键类节点: [2, 1, 13, 14, 16, 17, 7, 4, 11, 3]
+2025-07-23 15:51:49,756 - INFO - collecting all words and their counts
+2025-07-23 15:51:49,756 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-23 15:51:49,757 - INFO - collected 23 word types from a corpus of 6281 raw words and 2300 sentences
+2025-07-23 15:51:49,757 - INFO - Creating a fresh vocabulary
+2025-07-23 15:51:49,758 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 23 unique words (100.00% of original 23, drops 0)', 'datetime': '2025-07-23T15:51:49.757308', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-23 15:51:49,759 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 6281 word corpus (100.00% of original 6281, drops 0)', 'datetime': '2025-07-23T15:51:49.759013', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-23 15:51:49,759 - INFO - deleting the raw counts dictionary of 23 items
+2025-07-23 15:51:49,759 - INFO - sample=0.001 downsamples 23 most-common words
+2025-07-23 15:51:49,759 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 1045.11196424362 word corpus (16.6%% of prior 6281)', 'datetime': '2025-07-23T15:51:49.759318', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-23 15:51:49,759 - INFO - estimated required memory for 23 words and 32 dimensions: 17388 bytes
+2025-07-23 15:51:49,759 - INFO - resetting layer weights
+2025-07-23 15:51:49,759 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-23T15:51:49.759852', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-23 15:51:49,759 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 23 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-23T15:51:49.759930', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-23 15:51:49,828 - INFO - EPOCH 0: training on 6281 raw words (967 effective words) took 0.1s, 14346 effective words/s
+2025-07-23 15:51:49,935 - INFO - EPOCH 1: training on 6281 raw words (1034 effective words) took 0.1s, 9749 effective words/s
+2025-07-23 15:51:50,021 - INFO - EPOCH 2: training on 6281 raw words (1031 effective words) took 0.1s, 12061 effective words/s
+2025-07-23 15:51:50,106 - INFO - EPOCH 3: training on 6281 raw words (1011 effective words) took 0.1s, 12021 effective words/s
+2025-07-23 15:51:50,192 - INFO - EPOCH 4: training on 6281 raw words (1062 effective words) took 0.1s, 12464 effective words/s
+2025-07-23 15:51:50,193 - INFO - Word2Vec lifecycle event {'msg': 'training on 31405 raw words (5105 effective words) took 0.4s, 11788 effective words/s', 'datetime': '2025-07-23T15:51:50.193073', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-23 15:51:50,193 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=23, vector_size=32, alpha=0.025>', 'datetime': '2025-07-23T15:51:50.193327', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-23 15:51:50,194 - INFO - 计算增强的节点中心性特征...
+2025-07-23 15:51:50,233 - INFO - 标准化中心性特征...
+2025-07-23 15:51:50,235 - INFO - 应用特征重要性权重后的中心性特征形状: (23, 17)
+2025-07-23 15:51:50,236 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-23 15:51:50,448 - INFO - 加载模型参数: gamma=6.2511, beta=-13.9199, centrality_scaling=0.8933
+2025-07-23 15:51:50,448 - INFO - 其他参数: mixing_weight=0.3452, noise_threshold=0.5125
+2025-07-23 15:51:50,451 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-23 15:51:50,453 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-23 15:51:50,453 - INFO - 将使用迁移学习进行训练
+2025-07-23 15:51:50,453 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-23 15:51:50,453 - INFO - 使用单次训练模式
+2025-07-23 15:51:50,455 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-23 15:51:51,181 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-23 15:51:51,182 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-23 15:51:51,369 - INFO - 测试集结果:
+2025-07-23 15:51:51,369 - INFO - K=5: Recall=0.500000, Precision=0.200000, F1=0.285714
+2025-07-23 15:51:51,369 - INFO - K=10: Recall=0.500000, Precision=0.100000, F1=0.166667
+2025-07-23 15:51:51,369 - INFO - K=15: Recall=0.500000, Precision=0.066667, F1=0.117647
+2025-07-23 15:51:51,369 - INFO - 测试集分类准确率: 60.00%
+2025-07-23 15:51:51,372 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res4/historicalModels/Train-14/final_model.pth
+2025-07-23 15:51:51,374 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-23 15:51:51,374 - INFO - 
+识别出的重要类:
+2025-07-23 15:51:51,375 - INFO - --------------------------------------------------------------------------------
+2025-07-23 15:51:51,375 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-23 15:51:51,375 - INFO - --------------------------------------------------------------------------------
+2025-07-23 15:51:51,375 - INFO - 1      14       0.2320     ✓      DaisyUserThread                                   
+2025-07-23 15:51:51,375 - INFO - 2      1        0.1475     ✓      daisy.Daisy                                       
+2025-07-23 15:51:51,375 - INFO - 3      2        0.1394     ✓      daisy.DaisyDir                                    
+2025-07-23 15:51:51,375 - INFO - 4      7        0.1332     ✓      daisy.FileHandle                                  
+2025-07-23 15:51:51,375 - INFO - 5      9        0.1088            daisy.LockManager                                 
+2025-07-23 15:51:51,375 - INFO - 6      4        0.1071     ✓      daisy.DaisyLock                                   
+2025-07-23 15:51:51,375 - INFO - 7      10       0.1070            daisy.Mutex                                       
+2025-07-23 15:51:51,375 - INFO - 8      3        0.1045     ✓      daisy.DaisyDisk                                   
+2025-07-23 15:51:51,375 - INFO - 9      11       0.0850     ✓      daisy.Petal                                       
+2025-07-23 15:51:51,375 - INFO - 10     15       0.0710            gov.nasa.jpf.jvm.Verify                           
+2025-07-23 15:51:51,375 - INFO - 11     20       0.0600            util.ShutDown                                     
+2025-07-23 15:51:51,375 - INFO - 12     13       0.0479     ✓      DaisyTest                                         
+2025-07-23 15:51:51,375 - INFO - 13     8        0.0470            daisy.Inode                                       
+2025-07-23 15:51:51,375 - INFO - 14     19       0.0419            util.Log                                          
+2025-07-23 15:51:51,375 - INFO - 15     5        0.0325            daisy.Directory                                   
+2025-07-23 15:51:51,375 - INFO - --------------------------------------------------------------------------------
+2025-07-23 15:51:51,375 - INFO - 
+成功识别的关键类:
+2025-07-23 15:51:51,375 - INFO - --------------------------------------------------------------------------------
+2025-07-23 15:51:51,375 - INFO - 1. DaisyUserThread (排名: 1, 分数: 0.2320, 节点ID: 14)
+2025-07-23 15:51:51,375 - INFO - 2. daisy.Daisy (排名: 2, 分数: 0.1475, 节点ID: 1)
+2025-07-23 15:51:51,375 - INFO - 3. daisy.DaisyDir (排名: 3, 分数: 0.1394, 节点ID: 2)
+2025-07-23 15:51:51,375 - INFO - 4. daisy.FileHandle (排名: 4, 分数: 0.1332, 节点ID: 7)
+2025-07-23 15:51:51,375 - INFO - 5. daisy.DaisyLock (排名: 6, 分数: 0.1071, 节点ID: 4)
+2025-07-23 15:51:51,376 - INFO - 6. daisy.DaisyDisk (排名: 8, 分数: 0.1045, 节点ID: 3)
+2025-07-23 15:51:51,376 - INFO - 7. daisy.Petal (排名: 9, 分数: 0.0850, 节点ID: 11)
+2025-07-23 15:51:51,376 - INFO - 8. DaisyTest (排名: 12, 分数: 0.0479, 节点ID: 13)
+2025-07-23 15:51:51,376 - INFO - --------------------------------------------------------------------------------
+2025-07-23 15:51:51,376 - INFO - 在前5个预测中，正确识别了4个关键类，共10.0个关键类
+2025-07-23 15:51:51,376 - INFO - 覆盖率: 40.00%, 准确率: 80.00%
+2025-07-23 15:51:51,376 - INFO - 在前10个预测中，正确识别了7个关键类，共10.0个关键类
+2025-07-23 15:51:51,376 - INFO - 覆盖率: 70.00%, 准确率: 70.00%
+2025-07-23 15:51:51,376 - INFO - 在前15个预测中，正确识别了8个关键类，共10.0个关键类
+2025-07-23 15:51:51,376 - INFO - 覆盖率: 80.00%, 准确率: 53.33%
+2025-07-23 15:51:51,583 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res4/Scores/daisy_scores.txt
+2025-07-23 15:51:51,583 - INFO - 分数统计：最小值=0.0227, 最大值=0.2320, 平均值=0.0723
+2025-07-23 15:51:51,583 - INFO - 接近0的分数(小于0.051)数量: 12 / 23
+2025-07-23 15:51:51,583 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res4/logs/log-14.txt

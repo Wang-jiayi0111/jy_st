@@ -1,0 +1,122 @@
+2025-07-26 14:19:51,290 - INFO - 开始处理所有数据集...
+2025-07-26 14:19:51,290 - INFO - 
+################################################################################
+2025-07-26 14:19:51,290 - INFO - 处理数据集: email__spl
+2025-07-26 14:19:51,290 - INFO - ################################################################################
+2025-07-26 14:19:51,297 - INFO - 识别出关键类: 3/39 (7.69%)
+2025-07-26 14:19:51,297 - INFO - 关键类: EmailSystem.Client, EmailSystem.Email, tests.EmailTEST
+2025-07-26 14:19:51,297 - INFO - 
+********************************************************************************
+2025-07-26 14:19:51,297 - INFO - 数据集: email__spl
+2025-07-26 14:19:51,297 - INFO - ********************************************************************************
+2025-07-26 14:19:51,297 - INFO - 
+================================================================================
+2025-07-26 14:19:51,297 - INFO - 关键类识别结果
+2025-07-26 14:19:51,297 - INFO - ================================================================================
+2025-07-26 14:19:51,297 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:19:51,297 - INFO - ------------------------------------------------------------
+2025-07-26 14:19:51,297 - INFO - 节点 8: EmailSystem.Client
+2025-07-26 14:19:51,297 - INFO - 节点 9: EmailSystem.Email
+2025-07-26 14:19:51,297 - INFO - 节点 26: tests.EmailTEST
+2025-07-26 14:19:51,297 - INFO - 
+统计摘要:
+2025-07-26 14:19:51,297 - INFO - ------------------------------------------------------------
+2025-07-26 14:19:51,297 - INFO - 关键类数量: 3
+2025-07-26 14:19:51,297 - INFO - ********************************************************************************
+
+2025-07-26 14:19:51,297 - INFO - 数据集 email__spl 处理完成
+2025-07-26 14:19:51,297 - INFO - 
+################################################################################
+2025-07-26 14:19:51,298 - INFO - 所有数据集合并结果
+2025-07-26 14:19:51,298 - INFO - ################################################################################
+2025-07-26 14:19:51,298 - INFO - 
+================================================================================
+2025-07-26 14:19:51,298 - INFO - 关键类识别结果
+2025-07-26 14:19:51,298 - INFO - ================================================================================
+2025-07-26 14:19:51,298 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:19:51,298 - INFO - ------------------------------------------------------------
+2025-07-26 14:19:51,298 - INFO - 节点 email__spl_8: EmailSystem.Client
+2025-07-26 14:19:51,298 - INFO - 节点 email__spl_9: EmailSystem.Email
+2025-07-26 14:19:51,298 - INFO - 节点 email__spl_26: tests.EmailTEST
+2025-07-26 14:19:51,298 - INFO - 
+统计摘要:
+2025-07-26 14:19:51,298 - INFO - ------------------------------------------------------------
+2025-07-26 14:19:51,298 - INFO - 关键类数量: 3
+2025-07-26 14:19:51,298 - INFO - 处理完成!
+2025-07-26 14:19:51,298 - INFO - [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-07-26 14:19:51,298 - INFO - 关键类节点: ['email__spl_8', 'email__spl_9', 'email__spl_26']
+2025-07-26 14:19:51,375 - INFO - collecting all words and their counts
+2025-07-26 14:19:51,376 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-26 14:19:51,377 - INFO - collected 39 word types from a corpus of 13187 raw words and 3900 sentences
+2025-07-26 14:19:51,377 - INFO - Creating a fresh vocabulary
+2025-07-26 14:19:51,379 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 39 unique words (100.00% of original 39, drops 0)', 'datetime': '2025-07-26T14:19:51.378103', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:19:51,379 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 13187 word corpus (100.00% of original 13187, drops 0)', 'datetime': '2025-07-26T14:19:51.379379', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:19:51,379 - INFO - deleting the raw counts dictionary of 39 items
+2025-07-26 14:19:51,379 - INFO - sample=0.001 downsamples 39 most-common words
+2025-07-26 14:19:51,379 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 2752.048170428376 word corpus (20.9%% of prior 13187)', 'datetime': '2025-07-26T14:19:51.379733', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:19:51,380 - INFO - estimated required memory for 39 words and 32 dimensions: 29484 bytes
+2025-07-26 14:19:51,380 - INFO - resetting layer weights
+2025-07-26 14:19:51,380 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-26T14:19:51.380299', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-26 14:19:51,380 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 39 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-26T14:19:51.380369', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:19:51,513 - INFO - EPOCH 0: training on 13187 raw words (2766 effective words) took 0.1s, 20982 effective words/s
+2025-07-26 14:19:51,667 - INFO - EPOCH 1: training on 13187 raw words (2732 effective words) took 0.2s, 17801 effective words/s
+2025-07-26 14:19:51,817 - INFO - EPOCH 2: training on 13187 raw words (2767 effective words) took 0.1s, 18540 effective words/s
+2025-07-26 14:19:51,967 - INFO - EPOCH 3: training on 13187 raw words (2694 effective words) took 0.1s, 18082 effective words/s
+2025-07-26 14:19:52,116 - INFO - EPOCH 4: training on 13187 raw words (2763 effective words) took 0.1s, 18605 effective words/s
+2025-07-26 14:19:52,117 - INFO - Word2Vec lifecycle event {'msg': 'training on 65935 raw words (13722 effective words) took 0.7s, 18629 effective words/s', 'datetime': '2025-07-26T14:19:52.117053', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:19:52,117 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=39, vector_size=32, alpha=0.025>', 'datetime': '2025-07-26T14:19:52.117287', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-26 14:19:52,118 - INFO - 计算增强的节点中心性特征...
+2025-07-26 14:19:52,159 - INFO - 标准化中心性特征...
+2025-07-26 14:19:52,161 - INFO - 应用特征重要性权重后的中心性特征形状: (39, 17)
+2025-07-26 14:19:52,162 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-26 14:19:52,379 - INFO - 加载模型参数: gamma=6.3111, beta=-13.7201, centrality_scaling=1.0939
+2025-07-26 14:19:52,379 - INFO - 其他参数: mixing_weight=0.4683, noise_threshold=0.5125
+2025-07-26 14:19:52,382 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-26 14:19:52,384 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-26 14:19:52,384 - INFO - 将使用迁移学习进行训练
+2025-07-26 14:19:52,384 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-26 14:19:52,384 - INFO - 使用单次训练模式
+2025-07-26 14:19:52,385 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-26 14:19:53,113 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-26 14:19:53,114 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-26 14:19:53,309 - INFO - 测试集结果:
+2025-07-26 14:19:53,309 - INFO - K=5: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 14:19:53,309 - INFO - K=10: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 14:19:53,309 - INFO - K=15: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 14:19:53,309 - INFO - 测试集分类准确率: 12.50%
+2025-07-26 14:19:53,312 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res5/historicalModels/Train-7/final_model.pth
+2025-07-26 14:19:53,315 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-26 14:19:53,315 - INFO - 
+识别出的重要类:
+2025-07-26 14:19:53,315 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:19:53,315 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-26 14:19:53,315 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:19:53,315 - INFO - 1      10       0.6066            EmailSystem.Util                                  
+2025-07-26 14:19:53,315 - INFO - 2      16       0.5943            featuremodel.FeatureID                            
+2025-07-26 14:19:53,315 - INFO - 3      29       0.5939            TestSpecifications.Specification27                
+2025-07-26 14:19:53,315 - INFO - 4      33       0.5939            TestSpecifications.Specification7                 
+2025-07-26 14:19:53,315 - INFO - 5      28       0.5932            TestSpecifications.Specification1_8               
+2025-07-26 14:19:53,315 - INFO - 6      27       0.5926            TestSpecifications.Specification11                
+2025-07-26 14:19:53,315 - INFO - 7      12       0.5922            featuremodel.CompoundProposition                  
+2025-07-26 14:19:53,315 - INFO - 8      11       0.5916            featuremodel.BinaryProposition                    
+2025-07-26 14:19:53,315 - INFO - 9      37       0.5906            verificationClasses.FeatureSwitches               
+2025-07-26 14:19:53,316 - INFO - 10     21       0.5898            featuremodel.RelevantModelIterator                
+2025-07-26 14:19:53,316 - INFO - 11     0        0.5884            defpackage.JPF_PrimitiveLogListener_Lifted        
+2025-07-26 14:19:53,316 - INFO - 12     15       0.5858            featuremodel.Constraint                           
+2025-07-26 14:19:53,316 - INFO - 13     34       0.5857            TestSpecifications.Specification9                 
+2025-07-26 14:19:53,316 - INFO - 14     31       0.5856            TestSpecifications.Specification4                 
+2025-07-26 14:19:53,316 - INFO - 15     38       0.5836            verificationClasses.SPLModelChecker               
+2025-07-26 14:19:53,316 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:19:53,316 - INFO - 在前5个预测中，正确识别了0个关键类，共3个关键类
+2025-07-26 14:19:53,316 - INFO - 覆盖率: 0.00%, 准确率: 0.00%
+2025-07-26 14:19:53,316 - INFO - 在前10个预测中，正确识别了0个关键类，共3个关键类
+2025-07-26 14:19:53,316 - INFO - 覆盖率: 0.00%, 准确率: 0.00%
+2025-07-26 14:19:53,316 - INFO - 在前15个预测中，正确识别了0个关键类，共3个关键类
+2025-07-26 14:19:53,316 - INFO - 覆盖率: 0.00%, 准确率: 0.00%
+2025-07-26 14:19:53,526 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res5/Scores/email__spl_scores.txt
+2025-07-26 14:19:53,526 - INFO - 分数统计：最小值=0.1595, 最大值=0.6066, 平均值=0.5078
+2025-07-26 14:19:53,526 - INFO - 接近0的分数(小于0.051)数量: 0 / 39
+2025-07-26 14:19:53,526 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res5/logs/log-7.txt

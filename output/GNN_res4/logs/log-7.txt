@@ -1,0 +1,86 @@
+2025-07-13 19:22:50,346 - INFO - 使用中心性计算得到的关键类
+2025-07-13 19:22:50,346 - INFO - 关键类节点: [2, 9, 3, 0, 7, 8, 6, 11, 1, 4]
+2025-07-13 19:22:50,354 - INFO - collecting all words and their counts
+2025-07-13 19:22:50,354 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-13 19:22:50,355 - INFO - collected 12 word types from a corpus of 3308 raw words and 1200 sentences
+2025-07-13 19:22:50,355 - INFO - Creating a fresh vocabulary
+2025-07-13 19:22:50,356 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 12 unique words (100.00% of original 12, drops 0)', 'datetime': '2025-07-13T19:22:50.355355', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 19:22:50,356 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 3308 word corpus (100.00% of original 3308, drops 0)', 'datetime': '2025-07-13T19:22:50.356577', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 19:22:50,356 - INFO - deleting the raw counts dictionary of 12 items
+2025-07-13 19:22:50,356 - INFO - sample=0.001 downsamples 12 most-common words
+2025-07-13 19:22:50,356 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 380.9359087055197 word corpus (11.5%% of prior 3308)', 'datetime': '2025-07-13T19:22:50.356857', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 19:22:50,407 - INFO - estimated required memory for 12 words and 32 dimensions: 9072 bytes
+2025-07-13 19:22:50,407 - INFO - resetting layer weights
+2025-07-13 19:22:50,407 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-13T19:22:50.407524', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-13 19:22:50,407 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 12 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-13T19:22:50.407617', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 19:22:50,444 - INFO - EPOCH 0: training on 3308 raw words (353 effective words) took 0.0s, 9828 effective words/s
+2025-07-13 19:22:50,481 - INFO - EPOCH 1: training on 3308 raw words (404 effective words) took 0.0s, 11043 effective words/s
+2025-07-13 19:22:50,527 - INFO - EPOCH 2: training on 3308 raw words (367 effective words) took 0.0s, 8211 effective words/s
+2025-07-13 19:22:50,568 - INFO - EPOCH 3: training on 3308 raw words (408 effective words) took 0.0s, 9988 effective words/s
+2025-07-13 19:22:50,610 - INFO - EPOCH 4: training on 3308 raw words (359 effective words) took 0.0s, 8682 effective words/s
+2025-07-13 19:22:50,610 - INFO - Word2Vec lifecycle event {'msg': 'training on 16540 raw words (1891 effective words) took 0.2s, 9305 effective words/s', 'datetime': '2025-07-13T19:22:50.610904', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 19:22:50,611 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=12, vector_size=32, alpha=0.025>', 'datetime': '2025-07-13T19:22:50.611100', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-13 19:22:50,611 - INFO - 计算增强的节点中心性特征...
+2025-07-13 19:22:50,640 - INFO - 标准化中心性特征...
+2025-07-13 19:22:50,642 - INFO - 应用特征重要性权重后的中心性特征形状: (12, 17)
+2025-07-13 19:22:50,643 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-13 19:22:50,832 - INFO - 加载模型参数: gamma=6.2511, beta=-13.9199, centrality_scaling=0.8933
+2025-07-13 19:22:50,832 - INFO - 其他参数: mixing_weight=0.3452, noise_threshold=0.5125
+2025-07-13 19:22:50,837 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-13 19:22:50,839 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-13 19:22:50,840 - INFO - 将使用迁移学习进行训练
+2025-07-13 19:22:50,840 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-13 19:22:50,840 - INFO - 使用单次训练模式
+2025-07-13 19:22:50,842 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-13 19:22:52,026 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-13 19:22:52,027 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-13 19:22:52,366 - INFO - 测试集结果:
+2025-07-13 19:22:52,366 - INFO - K=5: Recall=0.5000, Precision=0.2000
+2025-07-13 19:22:52,366 - INFO - K=10: Recall=0.5000, Precision=0.1000
+2025-07-13 19:22:52,367 - INFO - K=15: Recall=1.0000, Precision=0.1333
+2025-07-13 19:22:52,367 - INFO - 测试集分类准确率: 33.33%
+2025-07-13 19:22:52,371 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res4/historicalModels/Train-7/final_model.pth
+2025-07-13 19:22:52,375 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-13 19:22:52,376 - INFO - 
+识别出的重要类:
+2025-07-13 19:22:52,376 - INFO - --------------------------------------------------------------------------------
+2025-07-13 19:22:52,376 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-13 19:22:52,376 - INFO - --------------------------------------------------------------------------------
+2025-07-13 19:22:52,376 - INFO - 1      3        0.2446     ✓      newSim.ElevatorController                         
+2025-07-13 19:22:52,376 - INFO - 2      7        0.1254     ✓      newSim.Floor                                      
+2025-07-13 19:22:52,376 - INFO - 3      9        0.0942     ✓      newSim.Person                                     
+2025-07-13 19:22:52,376 - INFO - 4      0        0.0728     ✓      newSim.Building                                   
+2025-07-13 19:22:52,376 - INFO - 5      8        0.0678     ✓      newSim.Logger                                     
+2025-07-13 19:22:52,376 - INFO - 6      2        0.0567     ✓      newSim.Elevator                                   
+2025-07-13 19:22:52,376 - INFO - 7      11       0.0506     ✓      newSim.Simulator                                  
+2025-07-13 19:22:52,376 - INFO - 8      10       0.0311            newSim.PersonState                                
+2025-07-13 19:22:52,377 - INFO - 9      5        0.0285            newSim.ElevatorMovingException                    
+2025-07-13 19:22:52,377 - INFO - 10     6        0.0262     ✓      newSim.ElevatorState                              
+2025-07-13 19:22:52,377 - INFO - 11     1        0.0244     ✓      newSim.DoorClosedException                        
+2025-07-13 19:22:52,377 - INFO - 12     4        0.0229     ✓      newSim.ElevatorFullException                      
+2025-07-13 19:22:52,377 - INFO - --------------------------------------------------------------------------------
+2025-07-13 19:22:52,377 - INFO - 
+成功识别的关键类:
+2025-07-13 19:22:52,377 - INFO - --------------------------------------------------------------------------------
+2025-07-13 19:22:52,377 - INFO - 1. newSim.ElevatorController (排名: 1, 分数: 0.2446, 节点ID: 3)
+2025-07-13 19:22:52,377 - INFO - 2. newSim.Floor (排名: 2, 分数: 0.1254, 节点ID: 7)
+2025-07-13 19:22:52,377 - INFO - 3. newSim.Person (排名: 3, 分数: 0.0942, 节点ID: 9)
+2025-07-13 19:22:52,377 - INFO - 4. newSim.Building (排名: 4, 分数: 0.0728, 节点ID: 0)
+2025-07-13 19:22:52,377 - INFO - 5. newSim.Logger (排名: 5, 分数: 0.0678, 节点ID: 8)
+2025-07-13 19:22:52,377 - INFO - 6. newSim.Elevator (排名: 6, 分数: 0.0567, 节点ID: 2)
+2025-07-13 19:22:52,377 - INFO - 7. newSim.Simulator (排名: 7, 分数: 0.0506, 节点ID: 11)
+2025-07-13 19:22:52,377 - INFO - 8. newSim.ElevatorState (排名: 10, 分数: 0.0262, 节点ID: 6)
+2025-07-13 19:22:52,377 - INFO - 9. newSim.DoorClosedException (排名: 11, 分数: 0.0244, 节点ID: 1)
+2025-07-13 19:22:52,378 - INFO - 10. newSim.ElevatorFullException (排名: 12, 分数: 0.0229, 节点ID: 4)
+2025-07-13 19:22:52,378 - INFO - --------------------------------------------------------------------------------
+2025-07-13 19:22:52,378 - INFO - 在前5个预测中，正确识别了5个关键类，共10.0个关键类
+2025-07-13 19:22:52,378 - INFO - 覆盖率: 50.00%, 准确率: 100.00%
+2025-07-13 19:22:52,378 - INFO - 在前10个预测中，正确识别了8个关键类，共10.0个关键类
+2025-07-13 19:22:52,378 - INFO - 覆盖率: 80.00%, 准确率: 80.00%
+2025-07-13 19:22:52,378 - INFO - 在前15个预测中，正确识别了10个关键类，共10.0个关键类
+2025-07-13 19:22:52,378 - INFO - 覆盖率: 100.00%, 准确率: 66.67%
+2025-07-13 19:22:52,695 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res4/Scores/elevator_scores.txt
+2025-07-13 19:22:52,695 - INFO - 分数统计：最小值=0.0229, 最大值=0.2446, 平均值=0.0704
+2025-07-13 19:22:52,695 - INFO - 接近0的分数(小于0.051)数量: 6 / 12
+2025-07-13 19:22:52,696 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res4/logs/log-7.txt

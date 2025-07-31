@@ -6,7 +6,7 @@ from collections import defaultdict
 
 reward_v = 'v6'  # 奖励函数
 method = '/'+ reward_v+"/noEWM"
-program='input_SPM'  # 系统名称
+program='daisy'  # 系统名称
 
 
 def calculate_std_dev(algorithm_data):

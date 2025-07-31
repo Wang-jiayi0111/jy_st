@@ -88,7 +88,6 @@ class PPO(nn.Module):
             #计算TD目标（目标价值）
             # rewards = rewards * 1/1000
             td_target = rewards + self.gamma * self.critic(next_states) * (1 - dones)
-            # print(f"TD Target - Max: {td_target.max().item():.2f}, Min: {td_target.min().itxem():.2f}")
             # values = self.critic(states)
             #计算TD误差
             td_delta = td_target - self.critic(states)

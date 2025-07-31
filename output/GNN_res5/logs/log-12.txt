@@ -1,0 +1,166 @@
+2025-07-26 14:37:37,030 - INFO - 开始处理所有数据集...
+2025-07-26 14:37:37,030 - INFO - 
+################################################################################
+2025-07-26 14:37:37,030 - INFO - 处理数据集: junit4
+2025-07-26 14:37:37,030 - INFO - ################################################################################
+2025-07-26 14:37:37,273 - INFO - 识别出关键类: 19/205 (9.27%)
+2025-07-26 14:37:37,273 - INFO - 关键类: ground, org.junit.runner.Description, org.junit.runner.Runner, org.junit.runners.model.TestClass, org.junit.runners.model.Statement, org.junit.runners.ParentRunner, org.junit.runner.notification.RunNotifier, org.junit.runner.Request, junit.framework.Test, junit.framework.TestResult...
+2025-07-26 14:37:37,273 - INFO - 
+********************************************************************************
+2025-07-26 14:37:37,273 - INFO - 数据集: junit4
+2025-07-26 14:37:37,273 - INFO - ********************************************************************************
+2025-07-26 14:37:37,273 - INFO - 
+================================================================================
+2025-07-26 14:37:37,274 - INFO - 关键类识别结果
+2025-07-26 14:37:37,274 - INFO - ================================================================================
+2025-07-26 14:37:37,274 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:37:37,274 - INFO - ------------------------------------------------------------
+2025-07-26 14:37:37,274 - INFO - 节点 204: ground
+2025-07-26 14:37:37,274 - INFO - 节点 71: org.junit.runner.Description
+2025-07-26 14:37:37,274 - INFO - 节点 154: org.junit.runner.Runner
+2025-07-26 14:37:37,274 - INFO - 节点 78: org.junit.runners.model.TestClass
+2025-07-26 14:37:37,274 - INFO - 节点 109: org.junit.runners.model.Statement
+2025-07-26 14:37:37,274 - INFO - 节点 0: org.junit.runners.ParentRunner
+2025-07-26 14:37:37,274 - INFO - 节点 26: org.junit.runner.notification.RunNotifier
+2025-07-26 14:37:37,274 - INFO - 节点 72: org.junit.runner.Request
+2025-07-26 14:37:37,274 - INFO - 节点 140: junit.framework.Test
+2025-07-26 14:37:37,274 - INFO - 节点 38: junit.framework.TestResult
+2025-07-26 14:37:37,274 - INFO - 节点 108: org.junit.runner.manipulation.Filter
+2025-07-26 14:37:37,274 - INFO - 节点 172: org.junit.runners.model.FrameworkMethod
+2025-07-26 14:37:37,274 - INFO - 节点 51: org.junit.runners.model.RunnerBuilder
+2025-07-26 14:37:37,274 - INFO - 节点 141: org.junit.runners.model.FrameworkMember
+2025-07-26 14:37:37,274 - INFO - 节点 173: org.junit.runners.model.InitializationError
+2025-07-26 14:37:37,274 - INFO - 节点 19: org.junit.runner.notification.Failure
+2025-07-26 14:37:37,274 - INFO - 节点 142: org.junit.runner.notification.RunListener
+2025-07-26 14:37:37,274 - INFO - 节点 174: org.junit.runner.Result
+2025-07-26 14:37:37,274 - INFO - 节点 9: org.junit.internal.runners.TestClass
+2025-07-26 14:37:37,274 - INFO - 
+统计摘要:
+2025-07-26 14:37:37,274 - INFO - ------------------------------------------------------------
+2025-07-26 14:37:37,274 - INFO - 关键类数量: 19
+2025-07-26 14:37:37,274 - INFO - ********************************************************************************
+
+2025-07-26 14:37:37,274 - INFO - 数据集 junit4 处理完成
+2025-07-26 14:37:37,274 - INFO - 
+################################################################################
+2025-07-26 14:37:37,274 - INFO - 所有数据集合并结果
+2025-07-26 14:37:37,274 - INFO - ################################################################################
+2025-07-26 14:37:37,274 - INFO - 
+================================================================================
+2025-07-26 14:37:37,274 - INFO - 关键类识别结果
+2025-07-26 14:37:37,274 - INFO - ================================================================================
+2025-07-26 14:37:37,274 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:37:37,274 - INFO - ------------------------------------------------------------
+2025-07-26 14:37:37,274 - INFO - 节点 junit4_0: org.junit.runners.ParentRunner
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_9: org.junit.internal.runners.TestClass
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_19: org.junit.runner.notification.Failure
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_26: org.junit.runner.notification.RunNotifier
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_38: junit.framework.TestResult
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_51: org.junit.runners.model.RunnerBuilder
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_71: org.junit.runner.Description
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_72: org.junit.runner.Request
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_78: org.junit.runners.model.TestClass
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_108: org.junit.runner.manipulation.Filter
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_109: org.junit.runners.model.Statement
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_140: junit.framework.Test
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_141: org.junit.runners.model.FrameworkMember
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_142: org.junit.runner.notification.RunListener
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_154: org.junit.runner.Runner
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_172: org.junit.runners.model.FrameworkMethod
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_173: org.junit.runners.model.InitializationError
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_174: org.junit.runner.Result
+2025-07-26 14:37:37,275 - INFO - 节点 junit4_204: ground
+2025-07-26 14:37:37,275 - INFO - 
+统计摘要:
+2025-07-26 14:37:37,275 - INFO - ------------------------------------------------------------
+2025-07-26 14:37:37,275 - INFO - 关键类数量: 19
+2025-07-26 14:37:37,275 - INFO - 处理完成!
+2025-07-26 14:37:37,275 - INFO - [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+2025-07-26 14:37:37,275 - INFO - 关键类节点: ['junit4_0', 'junit4_9', 'junit4_19', 'junit4_26', 'junit4_38', 'junit4_51', 'junit4_71', 'junit4_72', 'junit4_78', 'junit4_108', 'junit4_109', 'junit4_140', 'junit4_141', 'junit4_142', 'junit4_154', 'junit4_172', 'junit4_173', 'junit4_174', 'junit4_204']
+2025-07-26 14:37:42,284 - INFO - collecting all words and their counts
+2025-07-26 14:37:42,285 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-26 14:37:42,316 - INFO - PROGRESS: at sentence #10000, processed 300000 words, keeping 205 word types
+2025-07-26 14:37:42,344 - INFO - PROGRESS: at sentence #20000, processed 600000 words, keeping 205 word types
+2025-07-26 14:37:42,345 - INFO - collected 205 word types from a corpus of 615000 raw words and 20500 sentences
+2025-07-26 14:37:42,345 - INFO - Creating a fresh vocabulary
+2025-07-26 14:37:42,347 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 205 unique words (100.00% of original 205, drops 0)', 'datetime': '2025-07-26T14:37:42.346365', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:37:42,348 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 615000 word corpus (100.00% of original 615000, drops 0)', 'datetime': '2025-07-26T14:37:42.348049', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:37:42,348 - INFO - deleting the raw counts dictionary of 205 items
+2025-07-26 14:37:42,349 - INFO - sample=0.001 downsamples 41 most-common words
+2025-07-26 14:37:42,349 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 252804.26422576144 word corpus (41.1%% of prior 615000)', 'datetime': '2025-07-26T14:37:42.349237', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:37:42,350 - INFO - estimated required memory for 205 words and 32 dimensions: 154980 bytes
+2025-07-26 14:37:42,350 - INFO - resetting layer weights
+2025-07-26 14:37:42,350 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-26T14:37:42.350822', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-26 14:37:42,350 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 205 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-26T14:37:42.350916', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:37:43,352 - INFO - EPOCH 0 - PROGRESS: at 82.95% examples, 209582 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:37:43,579 - INFO - EPOCH 0: training on 615000 raw words (252639 effective words) took 1.2s, 205883 effective words/s
+2025-07-26 14:37:44,580 - INFO - EPOCH 1 - PROGRESS: at 73.30% examples, 185429 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:37:45,005 - INFO - EPOCH 1: training on 615000 raw words (253036 effective words) took 1.4s, 177622 effective words/s
+2025-07-26 14:37:46,006 - INFO - EPOCH 2 - PROGRESS: at 66.36% examples, 167552 words/s, in_qsize 1, out_qsize 1
+2025-07-26 14:37:46,539 - INFO - EPOCH 2: training on 615000 raw words (252703 effective words) took 1.5s, 164807 effective words/s
+2025-07-26 14:37:47,540 - INFO - EPOCH 3 - PROGRESS: at 61.89% examples, 156644 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:37:48,148 - INFO - EPOCH 3: training on 615000 raw words (252873 effective words) took 1.6s, 157271 effective words/s
+2025-07-26 14:37:49,149 - INFO - EPOCH 4 - PROGRESS: at 74.53% examples, 188540 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:37:49,582 - INFO - EPOCH 4: training on 615000 raw words (252880 effective words) took 1.4s, 176534 effective words/s
+2025-07-26 14:37:49,582 - INFO - Word2Vec lifecycle event {'msg': 'training on 3075000 raw words (1264131 effective words) took 7.2s, 174808 effective words/s', 'datetime': '2025-07-26T14:37:49.582696', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:37:49,583 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=205, vector_size=32, alpha=0.025>', 'datetime': '2025-07-26T14:37:49.583113', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-26 14:37:49,617 - INFO - 计算增强的节点中心性特征...
+2025-07-26 14:37:50,266 - INFO - 标准化中心性特征...
+2025-07-26 14:37:50,268 - INFO - 应用特征重要性权重后的中心性特征形状: (205, 17)
+2025-07-26 14:37:50,269 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-26 14:37:50,546 - INFO - 加载模型参数: gamma=6.3111, beta=-13.7201, centrality_scaling=1.0939
+2025-07-26 14:37:50,546 - INFO - 其他参数: mixing_weight=0.4683, noise_threshold=0.5125
+2025-07-26 14:37:50,551 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-26 14:37:50,556 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-26 14:37:50,557 - INFO - 将使用迁移学习进行训练
+2025-07-26 14:37:50,557 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-26 14:37:50,557 - INFO - 使用单次训练模式
+2025-07-26 14:37:50,559 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-26 14:37:51,763 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-26 14:37:51,765 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-26 14:37:52,141 - INFO - 测试集结果:
+2025-07-26 14:37:52,142 - INFO - K=5: Recall=0.250000, Precision=0.200000, F1=0.222222
+2025-07-26 14:37:52,142 - INFO - K=10: Recall=0.250000, Precision=0.100000, F1=0.142857
+2025-07-26 14:37:52,142 - INFO - K=15: Recall=0.250000, Precision=0.066667, F1=0.105263
+2025-07-26 14:37:52,142 - INFO - 测试集分类准确率: 51.22%
+2025-07-26 14:37:52,146 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res5/historicalModels/Train-12/final_model.pth
+2025-07-26 14:37:52,151 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-26 14:37:52,151 - INFO - 
+识别出的重要类:
+2025-07-26 14:37:52,152 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:37:52,152 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-26 14:37:52,152 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:37:52,152 - INFO - 1      105      0.6231            org.junit.validator.AnnotationsValidator.AnnotatableValidator
+2025-07-26 14:37:52,152 - INFO - 2      44       0.6205            org.junit.internal.JUnitSystem                    
+2025-07-26 14:37:52,152 - INFO - 3      117      0.6155            org.junit.internal.AssumptionViolatedException    
+2025-07-26 14:37:52,152 - INFO - 4      82       0.6106            junit.framework.TestSuite                         
+2025-07-26 14:37:52,152 - INFO - 5      140      0.6020     ✓      junit.framework.Test                              
+2025-07-26 14:37:52,152 - INFO - 6      160      0.6000            org.junit.internal.runners.statements.RunBefores  
+2025-07-26 14:37:52,152 - INFO - 7      128      0.5991            org.junit.rules.Timeout                           
+2025-07-26 14:37:52,152 - INFO - 8      191      0.5988            org.junit.internal.matchers.ThrowableMessageMatcher
+2025-07-26 14:37:52,152 - INFO - 9      3        0.5985            junit.framework.ComparisonFailure                 
+2025-07-26 14:37:52,152 - INFO - 10     129      0.5983            org.junit.experimental.categories.ExcludeCategories.ExcludesAny
+2025-07-26 14:37:52,152 - INFO - 11     169      0.5945            org.junit.internal.runners.rules.ValidationError  
+2025-07-26 14:37:52,152 - INFO - 12     180      0.5929            junit.framework.ComparisonCompactor               
+2025-07-26 14:37:52,153 - INFO - 13     177      0.5915            org.junit.runners.model.TestClass.FieldComparator 
+2025-07-26 14:37:52,153 - INFO - 14     2        0.5900            org.junit.internal.matchers.StacktracePrintingMatcher
+2025-07-26 14:37:52,153 - INFO - 15     92       0.5882            org.junit.experimental.categories.CategoryFilterFactory
+2025-07-26 14:37:52,153 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:37:52,153 - INFO - 
+成功识别的关键类:
+2025-07-26 14:37:52,153 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:37:52,153 - INFO - 1. junit.framework.Test (排名: 5, 分数: 0.6020, 节点ID: 140)
+2025-07-26 14:37:52,153 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:37:52,153 - INFO - 在前5个预测中，正确识别了1个关键类，共19个关键类
+2025-07-26 14:37:52,153 - INFO - 覆盖率: 5.26%, 准确率: 20.00%
+2025-07-26 14:37:52,153 - INFO - 在前10个预测中，正确识别了1个关键类，共19个关键类
+2025-07-26 14:37:52,153 - INFO - 覆盖率: 5.26%, 准确率: 10.00%
+2025-07-26 14:37:52,153 - INFO - 在前15个预测中，正确识别了1个关键类，共19个关键类
+2025-07-26 14:37:52,153 - INFO - 覆盖率: 5.26%, 准确率: 6.67%
+2025-07-26 14:37:52,407 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res5/Scores/junit4_scores.txt
+2025-07-26 14:37:52,407 - INFO - 分数统计：最小值=0.0015, 最大值=0.6231, 平均值=0.3864
+2025-07-26 14:37:52,407 - INFO - 接近0的分数(小于0.051)数量: 2 / 205
+2025-07-26 14:37:52,408 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res5/logs/log-12.txt

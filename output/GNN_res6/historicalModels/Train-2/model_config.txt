@@ -1,0 +1,12 @@
+Dataset: JHotDraw
+Network Type: MCN
+Embedding Dimensions: 32
+Learning Rate: 0.001
+Num Sampled Neighbors: 10
+Num Layers: 1
+Final Gamma: 6.723021984100342
+Final Beta: -13.16092300415039
+Centrality Scaling: 1.5728590488433838
+Mixing Weight: 0.28253373503685
+Noise Threshold: 0.5124973654747009
+Epochs: 2000

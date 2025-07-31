@@ -66,7 +66,7 @@ class ClassOp:
 
     @staticmethod
     def load_GNNclass(sys_name):
-        GNN_dir = "/home/ps/jy_exp/output/GNN_res/Scores"
+        GNN_dir = "/home/ps/jy_exp/output/GNN_res6/Scores"
         file_path = os.path.join(GNN_dir, sys_name + "_scores.txt")
         print(f"加载GNN类评分文件: {file_path}")
         

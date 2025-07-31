@@ -25,9 +25,9 @@ class DQN(nn.Module):
     def __init__(self, n_states, n_actions, lr, eps, gamma, targer_repalce_iter, memory_capacity, batch_size, device):
         super(DQN, self).__init__()
         # 评估网络和目标网络
-        self.eval_net = Net(n_states, n_actions).to(device)
-        self.target_net = Net(n_states, n_actions).to(device)
-        # 优化器和损失函数
+        self.eval_net = Net(n_states, n_actions).to(device)         # 用于选择动作、计算当前Q值（实时更新）
+        self.target_net = Net(n_states, n_actions).to(device)       # 用于计算目标Q值（延迟更新）
+        # Adam优化器和Huber损失函数
         self.optimizer = torch.optim.Adam(self.eval_net.parameters(), lr=lr)
         self.loss_func = nn.SmoothL1Loss()
         # 添加学习率调度器（示例：每1000步学习率乘以0.9）
@@ -54,19 +54,13 @@ class DQN(nn.Module):
     def choose_action(self, s, available_actions):
         self.eval_net.eval()  # 设置模型为评估模式
         s = torch.tensor([s], dtype=torch.float).to(self.device)
-        # s = torch.as_tensor(s, dtype=torch.float32, device=self.device)
-        with torch.no_grad():  # 不计算梯度
-            logits = self.eval_net(s)  # 直接调用 eval_net 的 forward
-        prob = F.softmax(logits, dim=1).data  # 计算动作概率
+        with torch.no_grad():                           # 不计算梯度
+            logits = self.eval_net(s)                   # 直接调用 eval_net 的 forwar, 得到所有可能动作的Q值（logits=Q值）
+        prob = F.softmax(logits, dim=1).data            # Q值转化为概率分布
         available_actions = [i for i in range(prob.shape[1]) if i in available_actions]
-        prob = prob[:, available_actions]  # 只保留可用动作的概率
-
-        # 添加数值稳定性处理
-        prob = prob + 1e-8  # 避免除零错误
-        prob = prob / prob.sum()  # 重新归一化概率
+        prob = prob[:, available_actions]               # 只保留可用动作的概率
 
         m = self.distribution(prob)  # 创建动作分布
-        # sampled_action = m.sample().cpu().numpy()[0]  # 采样动作
         sampled_action = m.sample().item()  # 采样动作
         res = available_actions[sampled_action]  # 采样动作并映射回原动作空间
         return res  # 返回采样的动作
@@ -79,7 +73,10 @@ class DQN(nn.Module):
         self.memory_counter += 1    
 
     def update_target_network(self):
-        """渐进式更新目标网络"""
+        """
+        渐进式更新目标网络
+        target_net = tau * eval_net + (1-tau) * target_net
+        """
         tau = 0.01  # 混合系数
         for target_param, eval_param in zip(self.target_net.parameters(), 
                                         self.eval_net.parameters()):
@@ -91,8 +88,7 @@ class DQN(nn.Module):
         # # 定期更新目标网络
         # if self.learn_step_counter % self.target_replace_iter == 0:
         #     self.target_net.load_state_dict(self.eval_net.state_dict())
-        if self.learn_step_counter % self.target_replace_iter == 0:
-            self.update_target_network()  # 改为调用软更新
+        self.update_target_network()  # 改为调用软更新
         self.learn_step_counter += 1
 
         # 从经验回放中采样
@@ -111,15 +107,16 @@ class DQN(nn.Module):
 
         # 计算目标 Q 值
         with torch.no_grad():
-            q_next = self.target_net(b_s_).max(1)[0].view(self.batch_size, 1)
+            q_next = self.target_net(b_s_).max(1)[0].view(self.batch_size, 1)   # 用目标网络算出所有动作的Q值，q_next为最大Q值
             q_target = b_r + self.gamma * q_next
 
         # 计算损失并更新网络
-        loss = self.loss_func(q_eval, q_target)
+        loss = self.loss_func(q_eval, q_target) # 计算损失
         self.optimizer.zero_grad()
-        loss.backward()
-        self.optimizer.step()
-        self.scheduler.step()  # 更新学习率
+        loss.backward()         # 反向传播
+        self.optimizer.step()   # 更新网络参数
+
+        self.scheduler.step()   # 更新学习率
 
         # tensorboard记录
         current_lr = self.optimizer.param_groups[0]['lr']

@@ -1,0 +1,248 @@
+2025-07-26 14:38:24,855 - INFO - 开始处理所有数据集...
+2025-07-26 14:38:24,855 - INFO - 
+################################################################################
+2025-07-26 14:38:24,855 - INFO - 处理数据集: Wro4J
+2025-07-26 14:38:24,855 - INFO - ################################################################################
+2025-07-26 14:38:25,021 - INFO - 识别出关键类: 52/576 (9.03%)
+2025-07-26 14:38:25,021 - INFO - 关键类: ro.isdc.wro.model.resource.processor.ResourcePreProcessor, ro.isdc.wro.config.Context, ro.isdc.wro.util.WroTestUtils, ro.isdc.wro.model.resource.Resource, ro.isdc.wro.WroRuntimeException, ro.isdc.wro.model.resource.processor.ResourcePostProcessor, ro.isdc.wro.config.jmx.WroConfiguration, ro.isdc.wro.model.group.processor.Injector, ro.isdc.wro.model.factory.WroModelFactory, ro.isdc.wro.util.WroUtil...
+2025-07-26 14:38:25,021 - INFO - 
+********************************************************************************
+2025-07-26 14:38:25,021 - INFO - 数据集: Wro4J
+2025-07-26 14:38:25,021 - INFO - ********************************************************************************
+2025-07-26 14:38:25,021 - INFO - 
+================================================================================
+2025-07-26 14:38:25,021 - INFO - 关键类识别结果
+2025-07-26 14:38:25,021 - INFO - ================================================================================
+2025-07-26 14:38:25,021 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:38:25,021 - INFO - ------------------------------------------------------------
+2025-07-26 14:38:25,021 - INFO - 节点 287: ro.isdc.wro.model.resource.processor.ResourcePreProcessor
+2025-07-26 14:38:25,021 - INFO - 节点 465: ro.isdc.wro.config.Context
+2025-07-26 14:38:25,021 - INFO - 节点 7: ro.isdc.wro.util.WroTestUtils
+2025-07-26 14:38:25,021 - INFO - 节点 359: ro.isdc.wro.model.resource.Resource
+2025-07-26 14:38:25,021 - INFO - 节点 67: ro.isdc.wro.WroRuntimeException
+2025-07-26 14:38:25,021 - INFO - 节点 334: ro.isdc.wro.model.resource.processor.ResourcePostProcessor
+2025-07-26 14:38:25,021 - INFO - 节点 279: ro.isdc.wro.config.jmx.WroConfiguration
+2025-07-26 14:38:25,021 - INFO - 节点 351: ro.isdc.wro.model.group.processor.Injector
+2025-07-26 14:38:25,021 - INFO - 节点 203: ro.isdc.wro.model.factory.WroModelFactory
+2025-07-26 14:38:25,021 - INFO - 节点 431: ro.isdc.wro.util.WroUtil
+2025-07-26 14:38:25,021 - INFO - 节点 14: ro.isdc.wro.manager.WroManager
+2025-07-26 14:38:25,021 - INFO - 节点 522: ro.isdc.wro.manager.factory.BaseWroManagerFactory
+2025-07-26 14:38:25,021 - INFO - 节点 569: ro.isdc.wro.model.WroModel
+2025-07-26 14:38:25,021 - INFO - 节点 445: ro.isdc.wro.manager.factory.WroManagerFactory
+2025-07-26 14:38:25,021 - INFO - 节点 8: ro.isdc.wro.model.resource.processor.decorator.ProcessorDecorator
+2025-07-26 14:38:25,021 - INFO - 节点 361: ro.isdc.wro.model.resource.locator.factory.UriLocatorFactory
+2025-07-26 14:38:25,021 - INFO - 节点 109: ro.isdc.wro.model.resource.processor.factory.ProcessorsFactory
+2025-07-26 14:38:25,021 - INFO - 节点 339: ro.isdc.wro.model.group.Group
+2025-07-26 14:38:25,022 - INFO - 节点 557: ro.isdc.wro.util.AbstractDecorator
+2025-07-26 14:38:25,022 - INFO - 节点 425: ro.isdc.wro.util.StopWatch
+2025-07-26 14:38:25,022 - INFO - 节点 267: ro.isdc.wro.config.ReadOnlyContext
+2025-07-26 14:38:25,022 - INFO - 节点 547: ro.isdc.wro.model.resource.support.hash.HashStrategy
+2025-07-26 14:38:25,022 - INFO - 节点 156: ro.isdc.wro.model.resource.locator.UriLocator
+2025-07-26 14:38:25,022 - INFO - 节点 324: ro.isdc.wro.cache.CacheStrategy
+2025-07-26 14:38:25,022 - INFO - 节点 336: ro.isdc.wro.model.resource.processor.decorator.LazyProcessorDecorator
+2025-07-26 14:38:25,022 - INFO - 节点 439: ro.isdc.wro.http.WroFilter
+2025-07-26 14:38:25,022 - INFO - 节点 38: ro.isdc.wro.maven.plugin.AbstractWro4jMojo
+2025-07-26 14:38:25,022 - INFO - 节点 404: ro.isdc.wro.model.group.processor.GroupsProcessor
+2025-07-26 14:38:25,022 - INFO - 节点 507: ro.isdc.wro.model.resource.support.naming.NamingStrategy
+2025-07-26 14:38:25,022 - INFO - 节点 159: ro.isdc.wro.model.group.processor.PreProcessorExecutor
+2025-07-26 14:38:25,022 - INFO - 节点 295: ro.isdc.wro.cache.CacheKey
+2025-07-26 14:38:25,022 - INFO - 节点 403: ro.isdc.wro.manager.factory.standalone.DefaultStandaloneContextAwareManagerFactory
+2025-07-26 14:38:25,022 - INFO - 节点 549: ro.isdc.wro.model.factory.XmlModelFactory
+2025-07-26 14:38:25,022 - INFO - 节点 117: ro.isdc.wro.model.resource.processor.decorator.AbstractProcessorDecoratorSupport
+2025-07-26 14:38:25,022 - INFO - 节点 179: ro.isdc.wro.model.group.processor.InjectorBuilder
+2025-07-26 14:38:25,022 - INFO - 节点 249: ro.isdc.wro.maven.plugin.AbstractSingleProcessorMojo
+2025-07-26 14:38:25,022 - INFO - 节点 329: ro.isdc.wro.util.ObjectFactory
+2025-07-26 14:38:25,022 - INFO - 节点 49: ro.isdc.wro.manager.factory.ConfigurableWroManagerFactory
+2025-07-26 14:38:25,022 - INFO - 节点 136: ro.isdc.wro.model.resource.support.change.ResourceWatcher
+2025-07-26 14:38:25,022 - INFO - 节点 303: ro.isdc.wro.cache.support.DefaultSynchronizedCacheStrategyDecorator
+2025-07-26 14:38:25,022 - INFO - 节点 222: ro.isdc.wro.model.WroModelInspector
+2025-07-26 14:38:25,022 - INFO - 节点 235: ro.isdc.wro.extensions.processor.support.ObjectPoolHelper
+2025-07-26 14:38:25,022 - INFO - 节点 414: ro.isdc.wro.model.resource.support.ResourceAuthorizationManager
+2025-07-26 14:38:25,022 - INFO - 节点 509: ro.isdc.wro.extensions.script.RhinoScriptBuilder
+2025-07-26 14:38:25,022 - INFO - 节点 527: ro.isdc.wro.extensions.processor.support.linter.AbstractLinter
+2025-07-26 14:38:25,022 - INFO - 节点 517: ro.isdc.wro.model.group.GroupExtractor
+2025-07-26 14:38:25,022 - INFO - 节点 111: ro.isdc.wro.manager.callback.LifecycleCallbackRegistry
+2025-07-26 14:38:25,022 - INFO - 节点 480: ro.isdc.wro.model.resource.support.AbstractConfigurableSingleStrategy
+2025-07-26 14:38:25,022 - INFO - 节点 65: ro.isdc.wro.model.resource.support.AbstractConfigurableStrategySupport
+2025-07-26 14:38:25,022 - INFO - 节点 345: ro.isdc.wro.extensions.model.factory.SmartWroModelFactory
+2025-07-26 14:38:25,022 - INFO - 节点 29: ro.isdc.wro.model.resource.processor.decorator.CopyrightKeeperProcessorDecorator
+2025-07-26 14:38:25,022 - INFO - 节点 27: ro.isdc.wro.cache.impl.MemoryCacheStrategy
+2025-07-26 14:38:25,022 - INFO - 
+统计摘要:
+2025-07-26 14:38:25,022 - INFO - ------------------------------------------------------------
+2025-07-26 14:38:25,022 - INFO - 关键类数量: 52
+2025-07-26 14:38:25,022 - INFO - ********************************************************************************
+
+2025-07-26 14:38:25,023 - INFO - 数据集 Wro4J 处理完成
+2025-07-26 14:38:25,023 - INFO - 
+################################################################################
+2025-07-26 14:38:25,023 - INFO - 所有数据集合并结果
+2025-07-26 14:38:25,023 - INFO - ################################################################################
+2025-07-26 14:38:25,023 - INFO - 
+================================================================================
+2025-07-26 14:38:25,023 - INFO - 关键类识别结果
+2025-07-26 14:38:25,023 - INFO - ================================================================================
+2025-07-26 14:38:25,023 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:38:25,023 - INFO - ------------------------------------------------------------
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_7: ro.isdc.wro.util.WroTestUtils
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_8: ro.isdc.wro.model.resource.processor.decorator.ProcessorDecorator
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_14: ro.isdc.wro.manager.WroManager
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_27: ro.isdc.wro.cache.impl.MemoryCacheStrategy
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_29: ro.isdc.wro.model.resource.processor.decorator.CopyrightKeeperProcessorDecorator
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_38: ro.isdc.wro.maven.plugin.AbstractWro4jMojo
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_49: ro.isdc.wro.manager.factory.ConfigurableWroManagerFactory
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_65: ro.isdc.wro.model.resource.support.AbstractConfigurableStrategySupport
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_67: ro.isdc.wro.WroRuntimeException
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_109: ro.isdc.wro.model.resource.processor.factory.ProcessorsFactory
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_111: ro.isdc.wro.manager.callback.LifecycleCallbackRegistry
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_117: ro.isdc.wro.model.resource.processor.decorator.AbstractProcessorDecoratorSupport
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_136: ro.isdc.wro.model.resource.support.change.ResourceWatcher
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_156: ro.isdc.wro.model.resource.locator.UriLocator
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_159: ro.isdc.wro.model.group.processor.PreProcessorExecutor
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_179: ro.isdc.wro.model.group.processor.InjectorBuilder
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_203: ro.isdc.wro.model.factory.WroModelFactory
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_222: ro.isdc.wro.model.WroModelInspector
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_235: ro.isdc.wro.extensions.processor.support.ObjectPoolHelper
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_249: ro.isdc.wro.maven.plugin.AbstractSingleProcessorMojo
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_267: ro.isdc.wro.config.ReadOnlyContext
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_279: ro.isdc.wro.config.jmx.WroConfiguration
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_287: ro.isdc.wro.model.resource.processor.ResourcePreProcessor
+2025-07-26 14:38:25,023 - INFO - 节点 Wro4J_295: ro.isdc.wro.cache.CacheKey
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_303: ro.isdc.wro.cache.support.DefaultSynchronizedCacheStrategyDecorator
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_324: ro.isdc.wro.cache.CacheStrategy
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_329: ro.isdc.wro.util.ObjectFactory
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_334: ro.isdc.wro.model.resource.processor.ResourcePostProcessor
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_336: ro.isdc.wro.model.resource.processor.decorator.LazyProcessorDecorator
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_339: ro.isdc.wro.model.group.Group
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_345: ro.isdc.wro.extensions.model.factory.SmartWroModelFactory
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_351: ro.isdc.wro.model.group.processor.Injector
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_359: ro.isdc.wro.model.resource.Resource
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_361: ro.isdc.wro.model.resource.locator.factory.UriLocatorFactory
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_403: ro.isdc.wro.manager.factory.standalone.DefaultStandaloneContextAwareManagerFactory
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_404: ro.isdc.wro.model.group.processor.GroupsProcessor
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_414: ro.isdc.wro.model.resource.support.ResourceAuthorizationManager
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_425: ro.isdc.wro.util.StopWatch
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_431: ro.isdc.wro.util.WroUtil
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_439: ro.isdc.wro.http.WroFilter
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_445: ro.isdc.wro.manager.factory.WroManagerFactory
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_465: ro.isdc.wro.config.Context
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_480: ro.isdc.wro.model.resource.support.AbstractConfigurableSingleStrategy
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_507: ro.isdc.wro.model.resource.support.naming.NamingStrategy
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_509: ro.isdc.wro.extensions.script.RhinoScriptBuilder
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_517: ro.isdc.wro.model.group.GroupExtractor
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_522: ro.isdc.wro.manager.factory.BaseWroManagerFactory
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_527: ro.isdc.wro.extensions.processor.support.linter.AbstractLinter
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_547: ro.isdc.wro.model.resource.support.hash.HashStrategy
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_549: ro.isdc.wro.model.factory.XmlModelFactory
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_557: ro.isdc.wro.util.AbstractDecorator
+2025-07-26 14:38:25,024 - INFO - 节点 Wro4J_569: ro.isdc.wro.model.WroModel
+2025-07-26 14:38:25,024 - INFO - 
+统计摘要:
+2025-07-26 14:38:25,024 - INFO - ------------------------------------------------------------
+2025-07-26 14:38:25,024 - INFO - 关键类数量: 52
+2025-07-26 14:38:25,024 - INFO - 处理完成!
+2025-07-26 14:38:25,024 - INFO - [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+2025-07-26 14:38:25,024 - INFO - 关键类节点: ['Wro4J_7', 'Wro4J_8', 'Wro4J_14', 'Wro4J_27', 'Wro4J_29', 'Wro4J_38', 'Wro4J_49', 'Wro4J_65', 'Wro4J_67', 'Wro4J_109', 'Wro4J_111', 'Wro4J_117', 'Wro4J_136', 'Wro4J_156', 'Wro4J_159', 'Wro4J_179', 'Wro4J_203', 'Wro4J_222', 'Wro4J_235', 'Wro4J_249', 'Wro4J_267', 'Wro4J_279', 'Wro4J_287', 'Wro4J_295', 'Wro4J_303', 'Wro4J_324', 'Wro4J_329', 'Wro4J_334', 'Wro4J_336', 'Wro4J_339', 'Wro4J_345', 'Wro4J_351', 'Wro4J_359', 'Wro4J_361', 'Wro4J_403', 'Wro4J_404', 'Wro4J_414', 'Wro4J_425', 'Wro4J_431', 'Wro4J_439', 'Wro4J_445', 'Wro4J_465', 'Wro4J_480', 'Wro4J_507', 'Wro4J_509', 'Wro4J_517', 'Wro4J_522', 'Wro4J_527', 'Wro4J_547', 'Wro4J_549', 'Wro4J_557', 'Wro4J_569']
+2025-07-26 14:38:25,401 - INFO - collecting all words and their counts
+2025-07-26 14:38:25,401 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-26 14:38:25,405 - INFO - PROGRESS: at sentence #10000, processed 30994 words, keeping 576 word types
+2025-07-26 14:38:25,410 - INFO - PROGRESS: at sentence #20000, processed 61592 words, keeping 576 word types
+2025-07-26 14:38:25,414 - INFO - PROGRESS: at sentence #30000, processed 92533 words, keeping 576 word types
+2025-07-26 14:38:25,418 - INFO - PROGRESS: at sentence #40000, processed 123763 words, keeping 576 word types
+2025-07-26 14:38:25,423 - INFO - PROGRESS: at sentence #50000, processed 154796 words, keeping 576 word types
+2025-07-26 14:38:25,426 - INFO - collected 576 word types from a corpus of 178565 raw words and 57600 sentences
+2025-07-26 14:38:25,426 - INFO - Creating a fresh vocabulary
+2025-07-26 14:38:25,429 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 576 unique words (100.00% of original 576, drops 0)', 'datetime': '2025-07-26T14:38:25.427791', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:38:25,429 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 178565 word corpus (100.00% of original 178565, drops 0)', 'datetime': '2025-07-26T14:38:25.429857', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:38:25,431 - INFO - deleting the raw counts dictionary of 576 items
+2025-07-26 14:38:25,431 - INFO - sample=0.001 downsamples 59 most-common words
+2025-07-26 14:38:25,431 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 114099.22517721304 word corpus (63.9%% of prior 178565)', 'datetime': '2025-07-26T14:38:25.431873', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:38:25,435 - INFO - estimated required memory for 576 words and 32 dimensions: 435456 bytes
+2025-07-26 14:38:25,435 - INFO - resetting layer weights
+2025-07-26 14:38:25,435 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-26T14:38:25.435278', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-26 14:38:25,435 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 576 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-26T14:38:25.435358', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:38:26,436 - INFO - EPOCH 0 - PROGRESS: at 33.75% examples, 38414 words/s, in_qsize 0, out_qsize 0
+2025-07-26 14:38:27,436 - INFO - EPOCH 0 - PROGRESS: at 61.32% examples, 34947 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:38:28,436 - INFO - EPOCH 0 - PROGRESS: at 82.95% examples, 31531 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:38:29,289 - INFO - EPOCH 0: training on 178565 raw words (114211 effective words) took 3.9s, 29643 effective words/s
+2025-07-26 14:38:30,290 - INFO - EPOCH 1 - PROGRESS: at 33.11% examples, 37784 words/s, in_qsize 2, out_qsize 1
+2025-07-26 14:38:31,290 - INFO - EPOCH 1 - PROGRESS: at 65.03% examples, 37068 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:38:32,290 - INFO - EPOCH 1 - PROGRESS: at 93.67% examples, 35589 words/s, in_qsize 0, out_qsize 2
+2025-07-26 14:38:32,515 - INFO - EPOCH 1: training on 178565 raw words (114007 effective words) took 3.2s, 35360 effective words/s
+2025-07-26 14:38:33,517 - INFO - EPOCH 2 - PROGRESS: at 29.77% examples, 33800 words/s, in_qsize 1, out_qsize 2
+2025-07-26 14:38:34,517 - INFO - EPOCH 2 - PROGRESS: at 57.28% examples, 32661 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:38:35,517 - INFO - EPOCH 2 - PROGRESS: at 81.67% examples, 31068 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:38:36,471 - INFO - EPOCH 2: training on 178565 raw words (114135 effective words) took 4.0s, 28865 effective words/s
+2025-07-26 14:38:37,473 - INFO - EPOCH 3 - PROGRESS: at 29.81% examples, 33955 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:38:38,473 - INFO - EPOCH 3 - PROGRESS: at 54.21% examples, 30899 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:38:39,473 - INFO - EPOCH 3 - PROGRESS: at 74.00% examples, 28162 words/s, in_qsize 0, out_qsize 2
+2025-07-26 14:38:40,473 - INFO - EPOCH 3 - PROGRESS: at 93.41% examples, 26682 words/s, in_qsize 2, out_qsize 2
+2025-07-26 14:38:40,820 - INFO - EPOCH 3: training on 178565 raw words (114135 effective words) took 4.3s, 26256 effective words/s
+2025-07-26 14:38:41,822 - INFO - EPOCH 4 - PROGRESS: at 32.40% examples, 36900 words/s, in_qsize 2, out_qsize 2
+2025-07-26 14:38:42,822 - INFO - EPOCH 4 - PROGRESS: at 61.18% examples, 34857 words/s, in_qsize 2, out_qsize 2
+2025-07-26 14:38:43,822 - INFO - EPOCH 4 - PROGRESS: at 89.23% examples, 33884 words/s, in_qsize 0, out_qsize 2
+2025-07-26 14:38:44,256 - INFO - EPOCH 4: training on 178565 raw words (113980 effective words) took 3.4s, 33185 effective words/s
+2025-07-26 14:38:44,257 - INFO - Word2Vec lifecycle event {'msg': 'training on 892825 raw words (570468 effective words) took 18.8s, 30309 effective words/s', 'datetime': '2025-07-26T14:38:44.257364', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:38:44,257 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=576, vector_size=32, alpha=0.025>', 'datetime': '2025-07-26T14:38:44.257958', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-26 14:38:44,287 - INFO - 计算增强的节点中心性特征...
+2025-07-26 14:38:44,667 - INFO - 标准化中心性特征...
+2025-07-26 14:38:44,671 - INFO - 应用特征重要性权重后的中心性特征形状: (576, 17)
+2025-07-26 14:38:44,672 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-26 14:38:44,924 - INFO - 加载模型参数: gamma=6.3111, beta=-13.7201, centrality_scaling=1.0939
+2025-07-26 14:38:44,925 - INFO - 其他参数: mixing_weight=0.4683, noise_threshold=0.5125
+2025-07-26 14:38:44,931 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-26 14:38:44,940 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-26 14:38:44,941 - INFO - 将使用迁移学习进行训练
+2025-07-26 14:38:44,941 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-26 14:38:44,941 - INFO - 使用单次训练模式
+2025-07-26 14:38:44,943 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-26 14:38:46,237 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-26 14:38:46,239 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-26 14:38:46,687 - INFO - 测试集结果:
+2025-07-26 14:38:46,687 - INFO - K=5: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 14:38:46,687 - INFO - K=10: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 14:38:46,687 - INFO - K=15: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 14:38:46,687 - INFO - 测试集分类准确率: 36.21%
+2025-07-26 14:38:46,692 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res5/historicalModels/Train-13/final_model.pth
+2025-07-26 14:38:46,696 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-26 14:38:46,697 - INFO - 
+识别出的重要类:
+2025-07-26 14:38:46,697 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:38:46,697 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-26 14:38:46,697 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:38:46,697 - INFO - 1      235      0.8078     ✓      ro.isdc.wro.extensions.processor.support.ObjectPoolHelper
+2025-07-26 14:38:46,697 - INFO - 2      509      0.7819     ✓      ro.isdc.wro.extensions.script.RhinoScriptBuilder  
+2025-07-26 14:38:46,697 - INFO - 3      329      0.7474     ✓      ro.isdc.wro.util.ObjectFactory                    
+2025-07-26 14:38:46,698 - INFO - 4      223      0.6747            ro.isdc.wro.extensions.processor.support.template.AbstractJsTemplateCompiler
+2025-07-26 14:38:46,698 - INFO - 5      550      0.6387            ro.isdc.wro.extensions.support.lint.LintReport    
+2025-07-26 14:38:46,698 - INFO - 6      457      0.6269            ro.isdc.wro.extensions.processor.js.JsTemplateCompilerProcessor
+2025-07-26 14:38:46,698 - INFO - 7      269      0.6242            ro.isdc.wro.config.factory.PropertyWroConfigurationFactory
+2025-07-26 14:38:46,698 - INFO - 8      294      0.6123            ro.isdc.wro.config.factory.ServletContextPropertyWroConfigurationFactory
+2025-07-26 14:38:46,698 - INFO - 9      538      0.6096            ro.isdc.wro.util.provider.ProviderFinder          
+2025-07-26 14:38:46,698 - INFO - 10     50       0.6076            ro.isdc.wro.model.spi.ModelFactoryProvider        
+2025-07-26 14:38:46,698 - INFO - 11     103      0.6068            ro.isdc.wro.util.Base64.InputStream               
+2025-07-26 14:38:46,698 - INFO - 12     481      0.5996            ro.isdc.wro.http.handler.factory.RequestHandlerFactory
+2025-07-26 14:38:46,698 - INFO - 13     264      0.5995            ro.isdc.wro.spring.model.MyEntity                 
+2025-07-26 14:38:46,698 - INFO - 14     209      0.5991            ro.isdc.wro.extensions.processor.css.RhinoLessCssProcessor
+2025-07-26 14:38:46,698 - INFO - 15     142      0.5953            ro.isdc.wro.http.support.ServletContextAttributeHelper
+2025-07-26 14:38:46,698 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:38:46,698 - INFO - 
+成功识别的关键类:
+2025-07-26 14:38:46,698 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:38:46,698 - INFO - 1. ro.isdc.wro.extensions.processor.support.ObjectPoolHelper (排名: 1, 分数: 0.8078, 节点ID: 235)
+2025-07-26 14:38:46,698 - INFO - 2. ro.isdc.wro.extensions.script.RhinoScriptBuilder (排名: 2, 分数: 0.7819, 节点ID: 509)
+2025-07-26 14:38:46,699 - INFO - 3. ro.isdc.wro.util.ObjectFactory (排名: 3, 分数: 0.7474, 节点ID: 329)
+2025-07-26 14:38:46,699 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:38:46,699 - INFO - 在前5个预测中，正确识别了3个关键类，共52个关键类
+2025-07-26 14:38:46,699 - INFO - 覆盖率: 5.77%, 准确率: 60.00%
+2025-07-26 14:38:46,699 - INFO - 在前10个预测中，正确识别了3个关键类，共52个关键类
+2025-07-26 14:38:46,699 - INFO - 覆盖率: 5.77%, 准确率: 30.00%
+2025-07-26 14:38:46,699 - INFO - 在前15个预测中，正确识别了3个关键类，共52个关键类
+2025-07-26 14:38:46,699 - INFO - 覆盖率: 5.77%, 准确率: 20.00%
+2025-07-26 14:38:47,029 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res5/Scores/Wro4J_scores.txt
+2025-07-26 14:38:47,029 - INFO - 分数统计：最小值=0.0183, 最大值=0.8078, 平均值=0.4169
+2025-07-26 14:38:47,029 - INFO - 接近0的分数(小于0.051)数量: 7 / 576
+2025-07-26 14:38:47,030 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res5/logs/log-13.txt

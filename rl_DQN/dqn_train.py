@@ -27,6 +27,7 @@ def DQN_train(env, agent, num_episodes):
                     episode_return += reward
                     # 下一个状态
                     state = next_state
+                    agent.learn()
                 
                 # 仅在预热期结束后记录数据
                 current_global_episode = num_episodes / 10 * i + i_episode + 1
@@ -48,31 +49,7 @@ def DQN_train(env, agent, num_episodes):
                         best_OCplx_sequence = current_sequence.copy()
                         best_OCplx_reward = episode_return
 
-                # 无论是否在预热期，都进行训练（可选）
-                agent.learn()
-
-                # if len(return_list) == 0:
-                #     total_reward = episode_return
-                # else:
-                #     total_reward = 0.98 * total_reward + 0.02 * episode_return
                 
-
-                # return_list.append(total_reward)
-                # current_sequence = env.current_sequence
-                
-                # current_sequence = [num + 1 for num in current_sequence]  # 将类编号从0开始改为从1开始
-                # OCplx, _, _, _ = ClassOp.calculate_OCplx_sequence(env.attributes, env.methods, current_sequence, w_M=env.wM, w_A=env.wA)
-                # # print("OCplx:", OCplx)
-                # # input("Press Enter to continue...")
-
-                # if OCplx < best_OCplx and OCplx != 0:
-                #     best_OCplx = OCplx
-                #     best_OCplx_sequence = current_sequence.copy()
-                #     best_OCplx_reward = episode_return
-
-                # # 训练 DQN
-                # agent.learn()
-
                 # 更新进度条
                 if (i_episode + 1) % 10 == 0:
                     pbar.set_postfix({

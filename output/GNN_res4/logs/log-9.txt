@@ -1,0 +1,84 @@
+2025-07-13 19:24:06,604 - INFO - 使用中心性计算得到的关键类
+2025-07-13 19:24:06,604 - INFO - 关键类节点: [57, 21, 17, 64, 26, 22, 19, 7, 10, 59]
+2025-07-13 19:24:06,837 - INFO - collecting all words and their counts
+2025-07-13 19:24:06,838 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-13 19:24:06,844 - INFO - collected 65 word types from a corpus of 66124 raw words and 6500 sentences
+2025-07-13 19:24:06,844 - INFO - Creating a fresh vocabulary
+2025-07-13 19:24:06,846 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 65 unique words (100.00% of original 65, drops 0)', 'datetime': '2025-07-13T19:24:06.844964', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 19:24:06,846 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 66124 word corpus (100.00% of original 66124, drops 0)', 'datetime': '2025-07-13T19:24:06.846856', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 19:24:06,847 - INFO - deleting the raw counts dictionary of 65 items
+2025-07-13 19:24:06,847 - INFO - sample=0.001 downsamples 52 most-common words
+2025-07-13 19:24:06,847 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 17064.063387346814 word corpus (25.8%% of prior 66124)', 'datetime': '2025-07-13T19:24:06.847319', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 19:24:06,847 - INFO - estimated required memory for 65 words and 32 dimensions: 49140 bytes
+2025-07-13 19:24:06,847 - INFO - resetting layer weights
+2025-07-13 19:24:06,848 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-13T19:24:06.848065', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-13 19:24:06,848 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 65 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-13T19:24:06.848137', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 19:24:07,125 - INFO - EPOCH 0: training on 66124 raw words (16991 effective words) took 0.3s, 61431 effective words/s
+2025-07-13 19:24:07,522 - INFO - EPOCH 1: training on 66124 raw words (17211 effective words) took 0.4s, 43432 effective words/s
+2025-07-13 19:24:07,898 - INFO - EPOCH 2: training on 66124 raw words (17043 effective words) took 0.4s, 45517 effective words/s
+2025-07-13 19:24:08,312 - INFO - EPOCH 3: training on 66124 raw words (17122 effective words) took 0.4s, 41496 effective words/s
+2025-07-13 19:24:08,686 - INFO - EPOCH 4: training on 66124 raw words (16926 effective words) took 0.4s, 45352 effective words/s
+2025-07-13 19:24:08,687 - INFO - Word2Vec lifecycle event {'msg': 'training on 330620 raw words (85293 effective words) took 1.8s, 46385 effective words/s', 'datetime': '2025-07-13T19:24:08.687023', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 19:24:08,687 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=65, vector_size=32, alpha=0.025>', 'datetime': '2025-07-13T19:24:08.687294', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-13 19:24:08,690 - INFO - 计算增强的节点中心性特征...
+2025-07-13 19:24:08,759 - INFO - 标准化中心性特征...
+2025-07-13 19:24:08,760 - INFO - 应用特征重要性权重后的中心性特征形状: (65, 17)
+2025-07-13 19:24:08,761 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-13 19:24:08,920 - INFO - 加载模型参数: gamma=6.2511, beta=-13.9199, centrality_scaling=0.8933
+2025-07-13 19:24:08,920 - INFO - 其他参数: mixing_weight=0.3452, noise_threshold=0.5125
+2025-07-13 19:24:08,923 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-13 19:24:08,925 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-13 19:24:08,925 - INFO - 将使用迁移学习进行训练
+2025-07-13 19:24:08,925 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-13 19:24:08,925 - INFO - 使用单次训练模式
+2025-07-13 19:24:08,927 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-13 19:24:09,650 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-13 19:24:09,651 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-13 19:24:09,858 - INFO - 测试集结果:
+2025-07-13 19:24:09,858 - INFO - K=5: Recall=0.5000, Precision=0.2000
+2025-07-13 19:24:09,858 - INFO - K=10: Recall=0.5000, Precision=0.1000
+2025-07-13 19:24:09,858 - INFO - K=15: Recall=1.0000, Precision=0.1333
+2025-07-13 19:24:09,858 - INFO - 测试集分类准确率: 84.62%
+2025-07-13 19:24:09,861 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res4/historicalModels/Train-9/final_model.pth
+2025-07-13 19:24:09,864 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-13 19:24:09,864 - INFO - 
+识别出的重要类:
+2025-07-13 19:24:09,864 - INFO - --------------------------------------------------------------------------------
+2025-07-13 19:24:09,864 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-13 19:24:09,864 - INFO - --------------------------------------------------------------------------------
+2025-07-13 19:24:09,864 - INFO - 1      21       0.6109     ✓      smashed.Actions                                   
+2025-07-13 19:24:09,864 - INFO - 2      57       0.2148     ✓      smashed.Notepad                                   
+2025-07-13 19:24:09,864 - INFO - 3      10       0.1302     ✓      featuremodel.FeatureModel                         
+2025-07-13 19:24:09,864 - INFO - 4      16       0.1282            runspl.JavaUtility                                
+2025-07-13 19:24:09,864 - INFO - 5      9        0.0950            featuremodel.FeatureID                            
+2025-07-13 19:24:09,864 - INFO - 6      17       0.0933     ✓      runspl.RunSPL                                     
+2025-07-13 19:24:09,864 - INFO - 7      4        0.0907            featuremodel.BinaryProposition                    
+2025-07-13 19:24:09,864 - INFO - 8      23       0.0876            smashed.ExampleFileFilter                         
+2025-07-13 19:24:09,864 - INFO - 9      11       0.0850            featuremodel.FeatureModelBuilder                  
+2025-07-13 19:24:09,865 - INFO - 10     62       0.0831            tests.NotepadTEST$1                               
+2025-07-13 19:24:09,865 - INFO - 11     5        0.0745            featuremodel.CompoundProposition                  
+2025-07-13 19:24:09,865 - INFO - 12     63       0.0664            tests.NotepadTEST$2                               
+2025-07-13 19:24:09,865 - INFO - 13     26       0.0653     ✓      smashed.Fonts                                     
+2025-07-13 19:24:09,865 - INFO - 14     1        0.0627            annotationclasses___.Feature___                   
+2025-07-13 19:24:09,865 - INFO - 15     27       0.0618            smashed.Notepad$1                                 
+2025-07-13 19:24:09,865 - INFO - --------------------------------------------------------------------------------
+2025-07-13 19:24:09,865 - INFO - 
+成功识别的关键类:
+2025-07-13 19:24:09,865 - INFO - --------------------------------------------------------------------------------
+2025-07-13 19:24:09,865 - INFO - 1. smashed.Actions (排名: 1, 分数: 0.6109, 节点ID: 21)
+2025-07-13 19:24:09,865 - INFO - 2. smashed.Notepad (排名: 2, 分数: 0.2148, 节点ID: 57)
+2025-07-13 19:24:09,865 - INFO - 3. featuremodel.FeatureModel (排名: 3, 分数: 0.1302, 节点ID: 10)
+2025-07-13 19:24:09,865 - INFO - 4. runspl.RunSPL (排名: 6, 分数: 0.0933, 节点ID: 17)
+2025-07-13 19:24:09,865 - INFO - 5. smashed.Fonts (排名: 13, 分数: 0.0653, 节点ID: 26)
+2025-07-13 19:24:09,865 - INFO - --------------------------------------------------------------------------------
+2025-07-13 19:24:09,865 - INFO - 在前5个预测中，正确识别了3个关键类，共10.0个关键类
+2025-07-13 19:24:09,865 - INFO - 覆盖率: 30.00%, 准确率: 60.00%
+2025-07-13 19:24:09,865 - INFO - 在前10个预测中，正确识别了4个关键类，共10.0个关键类
+2025-07-13 19:24:09,865 - INFO - 覆盖率: 40.00%, 准确率: 40.00%
+2025-07-13 19:24:09,865 - INFO - 在前15个预测中，正确识别了5个关键类，共10.0个关键类
+2025-07-13 19:24:09,865 - INFO - 覆盖率: 50.00%, 准确率: 33.33%
+2025-07-13 19:24:10,102 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res4/Scores/notepad__spl_scores.txt
+2025-07-13 19:24:10,103 - INFO - 分数统计：最小值=0.0239, 最大值=0.6109, 平均值=0.0651
+2025-07-13 19:24:10,103 - INFO - 接近0的分数(小于0.051)数量: 33 / 65
+2025-07-13 19:24:10,103 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res4/logs/log-9.txt

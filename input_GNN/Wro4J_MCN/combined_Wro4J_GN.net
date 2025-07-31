@@ -1,0 +1,2515 @@
+*Vertices 576
+1 "ro.isdc.wro.model.resource.processor.decorator.TestImportAwareProcessorDecorator.ImportAwareProcessor"
+2 "ro.isdc.wro.extensions.support.lint.ResourceLintReport"
+3 "ro.isdc.wro.model.resource.processor.ImportAware"
+4 "ro.isdc.wro.util.Transformers"
+5 "ro.isdc.wro.extensions.support.lint.ReportXmlFormatter"
+6 "ro.isdc.wro.http.handler.TestReloadCacheRequestHandler"
+7 "ro.isdc.wro.model.resource.processor.impl.css.AbstractCssUrlRewritingProcessor"
+8 "ro.isdc.wro.util.WroTestUtils"
+9 "ro.isdc.wro.model.resource.processor.decorator.ProcessorDecorator"
+10 "ro.isdc.wro.util.DestroyableLazyInitializer"
+11 "ro.isdc.wro.model.resource.locator.wildcard.TestJarWildcardStreamLocator"
+12 "ro.isdc.wro.model.resource.processor.TestCssMinProcessor"
+13 "ro.isdc.wro.model.resource.locator.wildcard.TestWildcardContext"
+14 "ro.isdc.wro.model.resource.processor.impl.css.LessCssImportPreProcessor"
+15 "ro.isdc.wro.manager.WroManager"
+16 "ro.isdc.wro.model.resource.processor.support.OrderedProcessorProvider"
+17 "ro.isdc.wro.model.resource.processor.support.CssUrlInspector"
+18 "ro.isdc.wro.model.resource.locator.wildcard.WildcardStreamLocator"
+19 "ro.isdc.wro.extensions.processor.support.sass.TestRubySassEngine"
+20 "ro.isdc.wro.model.resource.processor.impl.css.AbstractCssImportPreProcessor"
+21 "ro.isdc.wro.config.jmx.WroConfigurationMBean"
+22 "ro.isdc.wro.util.LazyInitializer"
+23 "ro.isdc.wro.http.support.TestAbstractProcessorsFilter"
+24 "ro.isdc.wro.extensions.manager.standalone.ExtensionsStandaloneManagerFactory"
+25 "ro.isdc.wro.manager.factory.standalone.StandaloneWroManagerFactory"
+26 "ro.isdc.wro.util.provider.TestProviderPriority"
+27 "ro.isdc.wro.model.resource.processor.TestConformColorsCssProcessor"
+28 "ro.isdc.wro.cache.impl.MemoryCacheStrategy"
+29 "ro.isdc.wro.http.TestContext"
+30 "ro.isdc.wro.model.resource.processor.decorator.CopyrightKeeperProcessorDecorator"
+31 "ro.isdc.wro.model.resource.processor.decorator.TestProcessorDecorator.ImportAwareProcessor"
+32 "ro.isdc.wro.model.resource.processor.TestSingleLineCommentStripperProcessor"
+33 "ro.isdc.wro.model.resource.processor.decorator.AbstractProcessorDecorator"
+34 "ro.isdc.wro.extensions.processor.support.linter.OptionsBuilder"
+35 "ro.isdc.wro.cache.impl.TestMemoryCacheStrategy"
+36 "ro.isdc.wro.examples.panel.TwitterBar"
+37 "ro.isdc.wro.extensions.processor.TestRhinoTypeScriptProcessor"
+38 "ro.isdc.wro.examples.guice.WroExamplesServletModule"
+39 "ro.isdc.wro.maven.plugin.AbstractWro4jMojo"
+40 "ro.isdc.wro.model.resource.support.hash.SHA1HashStrategy"
+41 "ro.isdc.wro.extensions.processor.js.NodeCoffeeScriptProcessor"
+42 "ro.isdc.wro.model.resource.processor.support.UnorderedProcessorProvider"
+43 "ro.isdc.wro.http.handler.RequestHandlerSupport"
+44 "ro.isdc.wro.model.group.TestDefaultGroupExtractor"
+45 "ro.isdc.wro.extensions.processor.TestCopyrightKeeperProcessorDecorator"
+46 "ro.isdc.wro.extensions.http.handler.ModelAsJsonRequestHandler"
+47 "ro.isdc.wro.extensions.processor.js.TestTypeScriptProcessor"
+48 "ro.isdc.wro.extensions.support.lint.ReportXmlFormatter.FormatterType"
+49 "ro.isdc.wro.model.factory.TestConfigurableModelFactory"
+50 "ro.isdc.wro.manager.factory.ConfigurableWroManagerFactory"
+51 "ro.isdc.wro.model.spi.ModelFactoryProvider"
+52 "ro.isdc.wro.runner.TestWro4jCommandLineRunner"
+53 "ro.isdc.wro.model.resource.processor.decorator.TestExceptionHandlingProcessorDecorator"
+54 "ro.isdc.wro.model.resource.processor.TestJawrCssMinifierProcessor"
+55 "ro.isdc.wro.extensions.processor.support.csslint.CssRule"
+56 "ro.isdc.wro.model.resource.locator.ClasspathUriLocator"
+57 "ro.isdc.wro.maven.plugin.TestCssLintMojo"
+58 "ro.isdc.wro.extensions.processor.support.packer.PackerJs"
+59 "ro.isdc.wro.model.resource.processor.support.LessCssImportInspector"
+60 "ro.isdc.wro.model.resource.processor.support.ProcessorProvider"
+61 "ro.isdc.wro.extensions.http.handler.spi.DefaultRequestHandlerProvider"
+62 "ro.isdc.wro.model.resource.processor.support.Value"
+63 "ro.isdc.wro.extensions.processor.js.CJsonProcessor"
+64 "ro.isdc.wro.extensions.processor.support.dustjs.TestDustJs"
+65 "ro.isdc.wro.http.handler.factory.ConfigurableRequestHandlerFactory"
+66 "ro.isdc.wro.model.resource.support.AbstractConfigurableStrategySupport"
+67 "ro.isdc.wro.manager.TestWroManager.WroManagerProcessor"
+68 "ro.isdc.wro.WroRuntimeException"
+69 "ro.isdc.wro.model.resource.support.naming.TestDefaultHashEncoderNamingStrategy"
+70 "ro.isdc.wro.manager.callback.LifecycleCallback"
+71 "ro.isdc.wro.model.factory.TestFallbackAwareWroModelFactory"
+72 "ro.isdc.wro.extensions.processor.js.HandlebarsJsProcessor"
+73 "ro.isdc.wro.cache.support.AbstractSynchronizedCacheStrategyDecorator"
+74 "ro.isdc.wro.extensions.processor.support.TestObjectPoolHelper"
+75 "ro.isdc.wro.manager.factory.SimpleWroManagerFactory"
+76 "ro.isdc.wro.model.resource.processor.BenchmarkProcessors"
+77 "ro.isdc.wro.extensions.processor.support.sass.RubySassEngine"
+78 "ro.isdc.wro.model.resource.support.naming.TimestampNamingStrategy"
+79 "ro.isdc.wro.examples.ExternalModelConfigurableWroManagerFactory"
+80 "ro.isdc.wro.model.resource.processor.impl.js.SemicolonAppenderPreProcessor"
+81 "ro.isdc.wro.model.resource.processor.TestDuplicateAwareCssDataUriPreProcessor"
+82 "ro.isdc.wro.model.resource.support.naming.DefaultHashEncoderNamingStrategy"
+83 "ro.isdc.wro.model.resource.processor.decorator.MinimizeAwareProcessorDecorator"
+84 "ro.isdc.wro.model.resource.processor.TestLessCssImportPreProcessor"
+85 "ro.isdc.wro.model.group.processor.TestPreProcessorExecutor.MinimizeAwareProcessor"
+86 "ro.isdc.wro.model.resource.locator.UrlUriLocator"
+87 "ro.isdc.wro.extensions.processor.support.dustjs.DustJs"
+88 "ro.isdc.wro.maven.plugin.JsLintMojo"
+89 "ro.isdc.wro.examples.support.spi.CustomProcessorProvider"
+90 "ro.isdc.wro.util.provider.TestProviderFinder.OrderedProvider"
+91 "ro.isdc.wro.util.provider.TestDefaultConfigurableProvider"
+92 "ro.isdc.wro.extensions.processor.js.JsLintProcessor"
+93 "ro.isdc.wro.http.support.TestServletContextAttributeHelper"
+94 "ro.isdc.wro.http.support.TestContentTypeResolver"
+95 "ro.isdc.wro.maven.plugin.AbstractTestLinterMojo.CustomException"
+96 "ro.isdc.wro.model.resource.locator.wildcard.TestDefaultWildcardStreamLocator"
+97 "ro.isdc.wro.model.resource.locator.TestServletContextUriLocator"
+98 "ro.isdc.wro.model.factory.LazyWroModelFactoryDecorator"
+99 "ro.isdc.wro.model.resource.processor.TestConsoleStripperProcessor"
+100 "ro.isdc.wro.extensions.manager.factory.TestBaseWroManagerFactory"
+101 "ro.isdc.wro.model.resource.processor.support.Lessify"
+102 "ro.isdc.wro.model.resource.processor.factory.ConfigurableProcessorsFactory"
+103 "ro.isdc.wro.config.support.ContextPropagatingCallable"
+104 "ro.isdc.wro.util.Base64.InputStream"
+105 "ro.isdc.wro.extensions.processor.support.linter.TestOptionsBuilder"
+106 "ro.isdc.wro.config.metadata.DefaultMetaDataFactory"
+107 "ro.isdc.wro.model.resource.processor.impl.css.ConformColorsCssProcessor"
+108 "ro.isdc.wro.extensions.processor.css.NodeLessCssProcessor"
+109 "ro.isdc.wro.model.resource.support.naming.DefaultNamingStrategyProvider"
+110 "ro.isdc.wro.model.resource.processor.factory.ProcessorsFactory"
+111 "ro.isdc.wro.util.Transformer"
+112 "ro.isdc.wro.manager.callback.LifecycleCallbackRegistry"
+113 "ro.isdc.wro.config.factory.TestPropertiesAndFilterConfigWroConfigurationFactory"
+114 "ro.isdc.wro.extensions.http.TestSpringWroFilter"
+115 "ro.isdc.wro.extensions.processor.support.cjson.CJson"
+116 "ro.isdc.wro.extensions.support.TestDefaultProcessorProvider"
+117 "ro.isdc.wro.config.metadata.TestDefaultMetaDataFactory"
+118 "ro.isdc.wro.model.resource.processor.decorator.AbstractProcessorDecoratorSupport"
+119 "ro.isdc.wro.maven.plugin.support.ExtraConfigFileAware"
+120 "ro.isdc.wro.extensions.processor.support.coffeescript.TestCoffeeScript"
+121 "ro.isdc.wro.extensions.processor.js.DustJsProcessor"
+122 "ro.isdc.wro.extensions.model.factory.JsonModelFactory"
+123 "ro.isdc.wro.extensions.processor.TestYUICssCompressorProcessor"
+124 "ro.isdc.wro.model.resource.processor.impl.js.JSMinProcessor"
+125 "ro.isdc.wro.util.TestWroUtil"
+126 "ro.isdc.wro.model.resource.processor.decorator.TestProcessorDecorator"
+127 "ro.isdc.wro.model.resource.processor.support.CssUrlInspector.ItemHandler"
+128 "ro.isdc.wro.extensions.processor.TestNodeCoffeeScriptProcessor"
+129 "ro.isdc.wro.model.resource.support.naming.TestHashEncoderNamingStrategy"
+130 "ro.isdc.wro.http.handler.ReloadModelRequestHandler"
+131 "ro.isdc.wro.maven.plugin.JsHintMojo"
+132 "ro.isdc.wro.model.group.processor.InjectorBuilder.InjectorObjectFactory"
+133 "ro.isdc.wro.http.taglib.AbstractResourceTag"
+134 "ro.isdc.wro.model.resource.support.hash.CRC32HashStrategy"
+135 "ro.isdc.wro.cache.TestMemoryCacheStrategy"
+136 "ro.isdc.wro.model.group.processor.TestGroupsProcessor"
+137 "ro.isdc.wro.model.resource.support.change.ResourceWatcher"
+138 "ro.isdc.wro.manager.factory.NoProcessorsWroManagerFactory"
+139 "ro.isdc.wro.extensions.model.spi.DefaultModelFactoryProvider"
+140 "ro.isdc.wro.model.resource.processor.decorator.TestMinimizeAwareProcessorDecorator.MinimizeAwareProcessor"
+141 "ro.isdc.wro.extensions.processor.js.GoogleClosureCompressorProcessor"
+142 "ro.isdc.wro.model.group.processor.TestPreProcessorExecutor"
+143 "ro.isdc.wro.http.support.ServletContextAttributeHelper"
+144 "ro.isdc.wro.model.resource.support.change.TestResourceWatcher"
+145 "ro.isdc.wro.extensions.processor.js.TestCoffeeScriptProcessor"
+146 "ro.isdc.wro.model.resource.processor.decorator.ExceptionHandlingProcessorDecorator"
+147 "ro.isdc.wro.model.resource.locator.support.DispatcherStreamLocator"
+148 "ro.isdc.wro.extensions.processor.support.typescript.TypeScriptCompiler"
+149 "ro.isdc.wro.http.support.ServletContextAttributeHelper.Attribute"
+150 "ro.isdc.wro.extensions.processor.css.BourbonCssProcessor"
+151 "ro.isdc.wro.maven.plugin.AbstractTestLinterMojo.CustomWroManagerFactory"
+152 "ro.isdc.wro.maven.plugin.AbstractTestLinterMojo"
+153 "ro.isdc.wro.model.resource.processor.decorator.TestImportAwareProcessorDecorator"
+154 "ro.isdc.wro.extensions.processor.css.Less4jProcessor"
+155 "ro.isdc.wro.cache.support.CacheStrategyDecorator"
+156 "ro.isdc.wro.extensions.processor.TestPathPatternProcessorDecorator"
+157 "ro.isdc.wro.model.resource.locator.UriLocator"
+158 "ro.isdc.wro.cache.impl.LruMemoryCacheStrategy"
+159 "ro.isdc.wro.extensions.processor.AbstractTestLinterProcessor"
+160 "ro.isdc.wro.model.group.processor.PreProcessorExecutor"
+161 "ro.isdc.wro.extensions.processor.TestRubySassCssProcessor"
+162 "ro.isdc.wro.model.resource.support.naming.TestNamingStrategy"
+163 "ro.isdc.wro.manager.factory.standalone.StandaloneContext"
+164 "ro.isdc.wro.util.Base64"
+165 "ro.isdc.wro.manager.factory.TestDefaultWroManagerFactory"
+166 "ro.isdc.wro.model.resource.locator.wildcard.WildcardExpanderHandlerAware"
+167 "ro.isdc.wro.maven.plugin.TestJsHintMojo"
+168 "ro.isdc.wro.model.resource.processor.TestCssCompressorProcessor"
+169 "ro.isdc.wro.model.resource.processor.support.TestCssImportInspector"
+170 "ro.isdc.wro.manager.callback.LifecycleCallbackDecorator"
+171 "ro.isdc.wro.util.ProxyFactory"
+172 "ro.isdc.wro.extensions.processor.support.emberjs.EmberJs"
+173 "ro.isdc.wro.maven.plugin.Wro4jMojo"
+174 "ro.isdc.wro.examples.page.AbstractBasePage"
+175 "ro.isdc.wro.extensions.processor.css.TestLessCssProcessor"
+176 "ro.isdc.wro.model.resource.processor.support.FallbackCssDataUriUrlInspector"
+177 "ro.isdc.wro.model.resource.support.naming.FolderHashEncoderNamingStrategy"
+178 "ro.isdc.wro.extensions.processor.TestSassCssProcessor"
+179 "ro.isdc.wro.examples.panel.ResourceTransformerPanel"
+180 "ro.isdc.wro.model.group.processor.InjectorBuilder"
+181 "ro.isdc.wro.extensions.processor.js.AbstractNodeWithFallbackProcessor"
+182 "ro.isdc.wro.extensions.processor.TestEmberJsProcessor"
+183 "ro.isdc.wro.manager.factory.WroManagerFactoryDecorator"
+184 "ro.isdc.wro.extensions.processor.support.handlebarsjs.HandlebarsJs"
+185 "ro.isdc.wro.model.resource.processor.impl.css.VariablizeColorsCssProcessor"
+186 "ro.isdc.wro.model.resource.processor.decorator.ImportAwareProcessorDecorator"
+187 "ro.isdc.wro.extensions.processor.support.coffeescript.CoffeeScript"
+188 "ro.isdc.wro.maven.plugin.TestWro4jMojo.CustomNamingStrategyWroManagerFactory"
+189 "ro.isdc.wro.extensions.manager.standalone.GoogleStandaloneManagerFactory"
+190 "ro.isdc.wro.util.TestProxyFactory"
+191 "ro.isdc.wro.util.TestSchedulerHelper"
+192 "ro.isdc.wro.model.resource.processor.impl.css.FallbackCssDataUriProcessor"
+193 "ro.isdc.wro.extensions.processor.js.RhinoTypeScriptProcessor"
+194 "ro.isdc.wro.model.resource.locator.factory.TestConfigurableLocatorFactory"
+195 "ro.isdc.wro.examples.http.RedirectResourceServlet"
+196 "ro.isdc.wro.manager.callback.TestLifecycleCallbackDecorator"
+197 "ro.isdc.wro.model.resource.processor.impl.css.JawrCssMinifierProcessor"
+198 "ro.isdc.wro.manager.factory.TestBaseWroManagerFactory"
+199 "ro.isdc.wro.model.resource.processor.support.Selector"
+200 "ro.isdc.wro.extensions.processor.TestDustJsProcessor"
+201 "ro.isdc.wro.extensions.processor.support.linter.TestJsLint"
+202 "ro.isdc.wro.config.factory.FilterConfigWroConfigurationFactory"
+203 "ro.isdc.wro.model.resource.processor.factory.TestConfigurableProcessorsFactory"
+204 "ro.isdc.wro.model.factory.WroModelFactory"
+205 "ro.isdc.wro.extensions.processor.support.linter.LinterError"
+206 "ro.isdc.wro.util.SchedulerHelper"
+207 "ro.isdc.wro.model.resource.locator.factory.DefaultUriLocatorFactory"
+208 "ro.isdc.wro.cache.spi.DefaultCacheStrategyProvider"
+209 "ro.isdc.wro.http.handler.ReloadCacheRequestHandler"
+210 "ro.isdc.wro.extensions.processor.css.RhinoLessCssProcessor"
+211 "ro.isdc.wro.model.resource.processor.decorator.TestCopyrightKeeperProcessorDecorator"
+212 "ro.isdc.wro.extensions.processor.css.RubySassCssProcessor"
+213 "ro.isdc.wro.config.factory.PropertiesAndFilterConfigWroConfigurationFactory"
+214 "ro.isdc.wro.model.resource.processor.TestCssDataUriPreProcessor"
+215 "ro.isdc.wro.util.Function"
+216 "ro.isdc.wro.model.group.processor.TestInjectorBuilder"
+217 "ro.isdc.wro.manager.TestWroManager"
+218 "ro.isdc.wro.extensions.processor.support.csslint.CssLint"
+219 "ro.isdc.wro.extensions.processor.css.SassCssProcessor"
+220 "ro.isdc.wro.extensions.processor.js.TypeScriptProcessor"
+221 "ro.isdc.wro.model.resource.support.change.TestResourceChangeInfo"
+222 "ro.isdc.wro.extensions.processor.TestCssLintProcessor"
+223 "ro.isdc.wro.model.WroModelInspector"
+224 "ro.isdc.wro.extensions.processor.support.template.AbstractJsTemplateCompiler"
+225 "ro.isdc.wro.extensions.processor.support.hoganjs.HoganJs"
+226 "ro.isdc.wro.cache.ConfigurableCacheStrategy"
+227 "ro.isdc.wro.http.support.UnauthorizedRequestException"
+228 "ro.isdc.wro.extensions.processor.js.NodeTypeScriptProcessor"
+229 "ro.isdc.wro.model.factory.ModelTransformerFactory"
+230 "ro.isdc.wro.manager.runnable.ReloadCacheRunnable"
+231 "ro.isdc.wro.manager.WroManager.Builder"
+232 "ro.isdc.wro.util.RegexpProperties"
+233 "ro.isdc.wro.model.resource.locator.wildcard.WildcardContext"
+234 "ro.isdc.wro.http.support.TestRedirectedStreamServletResponseWrapper"
+235 "ro.isdc.wro.examples.manager.CustomExtensionsWroManagerFactory"
+236 "ro.isdc.wro.extensions.processor.support.ObjectPoolHelper"
+237 "ro.isdc.wro.http.TestConfigurableWroFilterWithExtensions"
+238 "ro.isdc.wro.extensions.http.CoffeeScriptFilter"
+239 "ro.isdc.wro.maven.plugin.manager.factory.ConfigurableWroManagerFactory"
+240 "ro.isdc.wro.model.resource.processor.SupportedResourceTypeAware"
+241 "ro.isdc.wro.model.resource.support.naming.NamingStrategyProvider"
+242 "ro.isdc.wro.http.support.ContentTypeResolver"
+243 "ro.isdc.wro.model.resource.support.hash.TestConfigurableHashStrategy"
+244 "ro.isdc.wro.examples.http.DispatchResourceServlet"
+245 "ro.isdc.wro.model.resource.locator.wildcard.JarWildcardStreamLocator"
+246 "ro.isdc.wro.model.resource.support.naming.HashEncoderNamingStrategy"
+247 "ro.isdc.wro.model.resource.TestResource"
+248 "ro.isdc.wro.cache.TestCacheKey"
+249 "ro.isdc.wro.cache.factory.CacheKeyFactoryDecorator"
+250 "ro.isdc.wro.maven.plugin.AbstractSingleProcessorMojo"
+251 "ro.isdc.wro.model.resource.processor.SupportAware"
+252 "ro.isdc.wro.cache.support.TestSynchronizedCacheStrategyDecorator"
+253 "ro.isdc.wro.http.support.RedirectedStreamServletResponseWrapper"
+254 "ro.isdc.wro.extensions.processor.support.uglify.UglifyJs"
+255 "ro.isdc.wro.http.TestWroFilter"
+256 "ro.isdc.wro.extensions.processor.TestLess4jProcessor"
+257 "ro.isdc.wro.manager.runnable.ReloadModelRunnable"
+258 "ro.isdc.wro.model.resource.support.hash.DefaultHashStrategyProvider"
+259 "ro.isdc.wro.extensions.http.TestConfigurableWroFilter"
+260 "ro.isdc.wro.extensions.processor.support.linter.JsHint"
+261 "ro.isdc.wro.model.resource.processor.factory.DefaultProcessorsFactory"
+262 "ro.isdc.wro.http.TestWroFilter.RequestBuilder"
+263 "ro.isdc.wro.examples.manager.CustomWroManagerFactory"
+264 "ro.isdc.wro.model.resource.locator.wildcard.WildcardUriLocatorSupport"
+265 "ro.isdc.wro.spring.model.MyEntity"
+266 "ro.isdc.wro.extensions.processor.support.sass.SassCss"
+267 "ro.isdc.wro.cache.impl.TestLruMemoryCacheStrategy"
+268 "ro.isdc.wro.config.ReadOnlyContext"
+269 "ro.isdc.wro.model.resource.processor.TestPlaceholderProcessor"
+270 "ro.isdc.wro.config.factory.PropertyWroConfigurationFactory"
+271 "ro.isdc.wro.runner.Wro4jCommandLineRunner.RunnerCssLintProcessor"
+272 "ro.isdc.wro.config.factory.TestFilterConfigWroConfigurationFactory"
+273 "ro.isdc.wro.model.TestWroModelInspector"
+274 "ro.isdc.wro.manager.factory.standalone.StandaloneContextAware"
+275 "ro.isdc.wro.model.resource.support.change.TestResourceChangeDetector"
+276 "ro.isdc.wro.model.resource.locator.factory.SimpleUriLocatorFactory"
+277 "ro.isdc.wro.model.factory.TestXmlModelFactory"
+278 "ro.isdc.wro.model.resource.processor.support.DefaultProcessorProvider"
+279 "ro.isdc.wro.extensions.support.spi.DefaultConfigurableProvider"
+280 "ro.isdc.wro.config.jmx.WroConfiguration"
+281 "ro.isdc.wro.cache.CacheValue"
+282 "ro.isdc.wro.cache.TestCacheValue"
+283 "ro.isdc.wro.model.resource.factory.TestUriLocatorFactory"
+284 "ro.isdc.wro.maven.plugin.AbstractLinterMojo"
+285 "ro.isdc.wro.extensions.processor.support.less.LessCss"
+286 "ro.isdc.wro.model.transformer.WildcardExpanderModelTransformer"
+287 "ro.isdc.wro.manager.TestWroManager.GenericTestBuilder"
+288 "ro.isdc.wro.model.resource.processor.ResourcePreProcessor"
+289 "ro.isdc.wro.examples.page.HomePage"
+290 "ro.isdc.wro.manager.callback.LifecycleCallbackSupport"
+291 "ro.isdc.wro.model.resource.processor.TestVariablizeColorsCssProcessor"
+292 "ro.isdc.wro.manager.callback.PerformanceLoggerCallback"
+293 "ro.isdc.wro.util.StringUtils"
+294 "ro.isdc.wro.model.resource.processor.decorator.TestDefaultProcessorDecorator"
+295 "ro.isdc.wro.config.factory.ServletContextPropertyWroConfigurationFactory"
+296 "ro.isdc.wro.cache.CacheKey"
+297 "ro.isdc.wro.extensions.manager.standalone.FingerprintAwareStandaloneManagerFactory"
+298 "ro.isdc.wro.extensions.manager.standalone.GoogleAdvancedStandaloneManagerFactory"
+299 "ro.isdc.wro.http.support.AbstractProcessorsFilter"
+300 "ro.isdc.wro.model.resource.support.naming.TestFolderHashEncoderNamingStrategy"
+301 "ro.isdc.wro.extensions.model.factory.TestJsonModelFactory"
+302 "ro.isdc.wro.manager.factory.TestConfigurableWroManagerFactory"
+303 "ro.isdc.wro.model.resource.processor.decorator.TestSupportAwareProcessorDecorator"
+304 "ro.isdc.wro.cache.support.DefaultSynchronizedCacheStrategyDecorator"
+305 "ro.isdc.wro.http.TestWroFilter.TestWroManagerFactory"
+306 "org.grails.tomcat.IsolatedTomcat"
+307 "ro.isdc.wro.http.handler.factory.TestConfigurableRequestHandlerFactory"
+308 "ro.isdc.wro.model.resource.processor.TestCommentStripperProcessor"
+309 "ro.isdc.wro.extensions.processor.TestJsHintProcessor"
+310 "ro.isdc.wro.manager.ResourceBundleProcessor"
+311 "ro.isdc.wro.util.provider.ConfigurableProviderSupport"
+312 "ro.isdc.wro.extensions.processor.js.CoffeeScriptProcessor"
+313 "ro.isdc.wro.extensions.processor.support.jsonhpack.JsonHPack"
+314 "ro.isdc.wro.http.support.ResponseHeadersConfigurer"
+315 "ro.isdc.wro.runner.Wro4jCommandLineRunner"
+316 "ro.isdc.wro.model.resource.locator.wildcard.DefaultWildcardStreamLocator"
+317 "ro.isdc.wro.model.transformer.WildcardExpanderModelTransformer.NoMoreAttemptsIOException"
+318 "ro.isdc.wro.http.handler.RequestHandler"
+319 "ro.isdc.wro.extensions.processor.support.DefaultProcessorProvider"
+320 "ro.isdc.wro.model.resource.processor.decorator.TestMinimizeAwareProcessorDecorator"
+321 "ro.isdc.wro.model.resource.processor.impl.js.ConsoleStripperProcessor"
+322 "ro.isdc.wro.model.resource.support.hash.HashStrategyProvider"
+323 "ro.isdc.wro.model.resource.support.change.ResourceChangeDetector"
+324 "ro.isdc.wro.model.factory.TestDefaultWroModelFactory"
+325 "ro.isdc.wro.cache.CacheStrategy"
+326 "ro.isdc.wro.model.resource.processor.decorator.BenchmarkProcessorDecorator"
+327 "ro.isdc.wro.model.factory.FallbackAwareWroModelFactory"
+328 "ro.isdc.wro.model.resource.processor.TestCssUrlRewritingProcessor"
+329 "ro.isdc.wro.manager.factory.InjectableWroManagerFactoryDecorator"
+330 "ro.isdc.wro.util.ObjectFactory"
+331 "ro.isdc.wro.util.provider.DefaultConfigurableProvider"
+332 "ro.isdc.wro.extensions.processor.TestDojoShrinksafeCompressorProcessor"
+333 "ro.isdc.wro.model.resource.processor.support.JawrCssMinifier"
+334 "ro.isdc.wro.cache.factory.DefaultCacheKeyFactory"
+335 "ro.isdc.wro.model.resource.processor.ResourcePostProcessor"
+336 "ro.isdc.wro.model.resource.processor.MinimizeAware"
+337 "ro.isdc.wro.model.resource.processor.decorator.LazyProcessorDecorator"
+338 "ro.isdc.wro.model.resource.processor.support.TestCssUrlInspector"
+339 "ro.isdc.wro.extensions.support.lint.TestResourceLintReport"
+340 "ro.isdc.wro.model.group.Group"
+341 "ro.isdc.wro.model.resource.processor.impl.SingleLineCommentStripperProcessor"
+342 "ro.isdc.wro.cache.factory.TestCacheKeyFactoryDecorator"
+343 "ro.isdc.wro.manager.runnable.TestReloadModelRunnable"
+344 "ro.isdc.wro.extensions.processor.js.PackerJsProcessor"
+345 "ro.isdc.wro.extensions.processor.css.LessCssProcessor"
+346 "ro.isdc.wro.extensions.model.factory.SmartWroModelFactory"
+347 "ro.isdc.wro.model.resource.support.naming.NoOpNamingStrategy"
+348 "ro.isdc.wro.model.resource.processor.impl.css.CssCompressorProcessor"
+349 "ro.isdc.wro.model.group.InvalidGroupNameException"
+350 "ro.isdc.wro.cache.support.TestDefaultSynchronizedCacheStrategyDecorator"
+351 "ro.isdc.wro.model.factory.TestDefaultWroModelFactoryDecorator"
+352 "ro.isdc.wro.model.group.processor.Injector"
+353 "ro.isdc.wro.model.resource.support.hash.ConfigurableHashStrategy"
+354 "ro.isdc.wro.model.resource.locator.support.TestDispatcherStreamLocator"
+355 "ro.isdc.wro.http.TestWroServletContextListener"
+356 "ro.isdc.wro.util.ObjectDecorator"
+357 "ro.isdc.wro.http.handler.LazyRequestHandlerDecorator"
+358 "ro.isdc.wro.model.resource.processor.impl.css.CssMinProcessor"
+359 "ro.isdc.wro.http.handler.factory.DefaultRequestHandlerFactory"
+360 "ro.isdc.wro.model.resource.Resource"
+361 "ro.isdc.wro.http.TestConfigurableWroFilter"
+362 "ro.isdc.wro.model.resource.locator.factory.UriLocatorFactory"
+363 "ro.isdc.wro.extensions.processor.TestUglifyJsProcessor"
+364 "ro.isdc.wro.http.handler.TestReloadModelRequestHandler"
+365 "ro.isdc.wro.model.resource.processor.decorator.TestExtensionsAwareProcessorDecorator"
+366 "ro.isdc.wro.model.resource.support.DefaultResourceAuthorizationManager"
+367 "ro.isdc.wro.model.resource.processor.decorator.TestDefaultProcessorDecorator.MockProcessor"
+368 "ro.isdc.wro.model.resource.processor.impl.css.CssUrlRewritingProcessor"
+369 "ro.isdc.wro.http.handler.factory.TestDefaultRequestHandlerFactory"
+370 "ro.isdc.wro.config.factory.TestPropertyWroConfigurationFactory"
+371 "ro.isdc.wro.model.resource.processor.impl.MultiLineCommentStripperProcessor"
+372 "ro.isdc.wro.cache.factory.TestDefaultCacheKeyFactory"
+373 "ro.isdc.wro.examples.http.RandomCssResourceServlet"
+374 "ro.isdc.wro.model.resource.support.change.ResourceChangeInfo"
+375 "ro.isdc.wro.http.handler.factory.SimpleRequestHandlerFactory"
+376 "ro.isdc.wro.extensions.model.resource.TestConfigurableAntPathPatternsResourceAuthorizationManager"
+377 "ro.isdc.wro.model.resource.support.naming.ConfigurableNamingStrategy"
+378 "ro.isdc.wro.model.resource.processor.support.TestDataUriGenerator"
+379 "ro.isdc.wro.extensions.model.factory.TestSmartWroModelFactory.CustomWroModel"
+380 "ro.isdc.wro.model.resource.processor.support.CssColors"
+381 "ro.isdc.wro.model.resource.processor.decorator.DefaultProcessorDecorator"
+382 "ro.isdc.wro.http.handler.spi.TestDefaultRequestHandlerProvider"
+383 "ro.isdc.wro.extensions.processor.js.UglifyJsProcessor"
+384 "ro.isdc.wro.extensions.http.handler.spi.TestDefaultRequestHandlerProvider"
+385 "ro.isdc.wro.examples.http.WroFilterWithCustomRequestHandlers"
+386 "ro.isdc.wro.http.support.HttpHeader"
+387 "ro.isdc.wro.model.resource.processor.support.Property"
+388 "ro.isdc.wro.model.resource.locator.TestClasspathUriLocator"
+389 "ro.isdc.wro.maven.plugin.factory.TestConfigurableWroManagerFactory"
+390 "ro.isdc.wro.http.ConfigurableWroFilter"
+391 "ro.isdc.wro.model.factory.TestWildcardExpanderModelTransformer"
+392 "ro.isdc.wro.extensions.processor.js.AbstractLinterProcessor"
+393 "ro.isdc.wro.http.TestWroContextFilter"
+394 "ro.isdc.wro.manager.WroManager.EmptyModelFactory"
+395 "ro.isdc.wro.examples.util.TemplateInterpolatedScript"
+396 "ro.isdc.wro.extensions.processor.css.YUICssCompressorProcessor"
+397 "ro.isdc.wro.model.resource.processor.TestDefaultGroupExtractor"
+398 "ro.isdc.wro.extensions.processor.support.csslint.CssLintException"
+399 "ro.isdc.wro.model.resource.support.naming.TestTimestampNamingStrategy"
+400 "ro.isdc.wro.model.resource.processor.impl.css.CssDataUriPreProcessor"
+401 "ro.isdc.wro.model.group.processor.TestInjector"
+402 "ro.isdc.wro.extensions.processor.TestJsLintProcessor"
+403 "ro.isdc.wro.model.resource.support.AbstractConfigurableMultipleStrategy"
+404 "ro.isdc.wro.manager.factory.standalone.DefaultStandaloneContextAwareManagerFactory"
+405 "ro.isdc.wro.model.group.processor.GroupsProcessor"
+406 "ro.isdc.wro.extensions.processor.support.linter.TestJsHint"
+407 "ro.isdc.wro.util.Ordered"
+408 "ro.isdc.wro.model.resource.processor.decorator.TestBenchmarkProcessorDecorator"
+409 "ro.isdc.wro.model.resource.processor.support.ProcessingType"
+410 "ro.isdc.wro.model.resource.processor.support.JSMin.UnterminatedStringLiteralException"
+411 "ro.isdc.wro.http.WroServletContextListener"
+412 "ro.isdc.wro.extensions.manager.ExtensionsConfigurableWroManagerFactory"
+413 "ro.isdc.wro.http.handler.ResourceProxyRequestHandler"
+414 "ro.isdc.wro.http.WroContextFilter"
+415 "ro.isdc.wro.model.resource.support.ResourceAuthorizationManager"
+416 "ro.isdc.wro.model.factory.TestModelTransformerFactory"
+417 "ro.isdc.wro.http.handler.spi.RequestHandlerProvider"
+418 "ro.isdc.wro.extensions.processor.support.csslint.TestCssLint"
+419 "ro.isdc.wro.model.resource.processor.support.JawrCssMinifier.MatcherProcessorCallback"
+420 "ro.isdc.wro.cache.factory.CacheKeyFactory"
+421 "ro.isdc.wro.model.resource.processor.TestSemicolonAppenderPreProcessor"
+422 "ro.isdc.wro.model.spi.TestDefaultWroModelFactoryProvider"
+423 "ro.isdc.wro.model.resource.support.hash.MD5HashStrategy"
+424 "ro.isdc.wro.model.resource.processor.impl.css.DuplicatesAwareCssDataUriPreProcessor"
+425 "ro.isdc.wro.extensions.processor.TestBourbonCssProcessor"
+426 "ro.isdc.wro.util.StopWatch"
+427 "ro.isdc.wro.model.group.processor.TestInjectorBuilder.Sample"
+428 "ro.isdc.wro.config.support.WroConfigurationChangeListener"
+429 "ro.isdc.wro.maven.plugin.TestWro4jMojo.CustomManagerFactory"
+430 "ro.isdc.wro.runner.Wro4jCommandLineRunner.RunnerJsHintProcessor"
+431 "ro.isdc.wro.model.resource.locator.factory.ConfigurableLocatorFactory"
+432 "ro.isdc.wro.util.WroUtil"
+433 "ro.isdc.wro.extensions.processor.TestHoganJsProcessor"
+434 "ro.isdc.wro.model.resource.support.hash.TestHashStrategy"
+435 "ro.isdc.wro.extensions.processor.TestNodeLessCssProcessor"
+436 "ro.isdc.wro.examples.guice.WroGuiceListener"
+437 "ro.isdc.wro.extensions.support.lint.LintItem"
+438 "ro.isdc.wro.config.metadata.MetaDataFactory"
+439 "ro.isdc.wro.util.Base64.OutputStream"
+440 "ro.isdc.wro.http.WroFilter"
+441 "ro.isdc.wro.extensions.model.resource.ConfigurableAntPathPatternsResourceAuthorizationManager"
+442 "ro.isdc.wro.extensions.processor.js.BeautifyJsProcessor"
+443 "ro.isdc.wro.extensions.processor.js.JsonHPackProcessor"
+444 "ro.isdc.wro.extensions.model.factory.TestConfigurableModelFactory"
+445 "ro.isdc.wro.model.resource.processor.decorator.TestSupportAwareProcessorDecorator.MockProcessor"
+446 "ro.isdc.wro.manager.factory.WroManagerFactory"
+447 "ro.isdc.wro.model.resource.processor.TestCssImportPreProcessor"
+448 "ro.isdc.wro.maven.plugin.TestJsLintMojo"
+449 "ro.isdc.wro.extensions.processor.TestRhinoCoffeeScriptProcessor"
+450 "ro.isdc.wro.extensions.processor.js.DojoShrinksafeCompressorProcessor"
+451 "ro.isdc.wro.model.resource.ResourceType"
+452 "ro.isdc.wro.model.spi.DefaultModelFactoryProvider"
+453 "ro.isdc.wro.config.factory.TestServletContextPropertyWroConfigurationFactory"
+454 "ro.isdc.wro.extensions.script.RhinoUtils"
+455 "ro.isdc.wro.model.factory.ConfigurableModelFactory"
+456 "ro.isdc.wro.extensions.processor.TestNodeTypeScriptProcessor"
+457 "ro.isdc.wro.extensions.processor.support.uglify.UglifyJs.Type"
+458 "ro.isdc.wro.extensions.processor.js.JsTemplateCompilerProcessor"
+459 "ro.isdc.wro.extensions.processor.TestJsonHPackProcessor"
+460 "ro.isdc.wro.extensions.processor.css.CssLintProcessor"
+461 "ro.isdc.wro.examples.WebResourceOptimizationApplication"
+462 "ro.isdc.wro.util.provider.TestProviderFinder"
+463 "ro.isdc.wro.model.resource.processor.TestMultiLineCommentStripperProcessor"
+464 "ro.isdc.wro.http.support.DelegatingServletOutputStream"
+465 "ro.isdc.wro.model.resource.processor.support.CSSMin"
+466 "ro.isdc.wro.config.Context"
+467 "ro.isdc.wro.extensions.model.factory.TestSmartWroModelFactory"
+468 "ro.isdc.wro.http.handler.TestLazyRequestHandlerDecorator.CustomRequestHandler"
+469 "ro.isdc.wro.model.resource.locator.ServletContextUriLocator"
+470 "ro.isdc.wro.extensions.processor.support.yui.YuiCssCompressor"
+471 "ro.isdc.wro.model.resource.support.naming.TestConfigurableNamingStrategy"
+472 "ro.isdc.wro.model.resource.processor.support.CssCompressor"
+473 "ro.isdc.wro.extensions.processor.TestRhinoLessCssProcessor"
+474 "ro.isdc.wro.maven.plugin.Wro4jRunMojoIT"
+475 "ro.isdc.wro.extensions.support.lint.AbstractReportXmlFormatter"
+476 "ro.isdc.wro.extensions.processor.TestCJsonProcessor"
+477 "ro.isdc.wro.model.resource.processor.TestFallbackCssDataUriProcessor"
+478 "ro.isdc.wro.extensions.processor.js.EmberJsProcessor"
+479 "ro.isdc.wro.spring.service.EntityService"
+480 "ro.isdc.wro.model.resource.processor.support.JSMin"
+481 "ro.isdc.wro.model.resource.support.AbstractConfigurableSingleStrategy"
+482 "ro.isdc.wro.http.handler.factory.RequestHandlerFactory"
+483 "ro.isdc.wro.model.resource.processor.support.JSMin.UnterminatedCommentException"
+484 "ro.isdc.wro.extensions.processor.PathPatternProcessorDecorator"
+485 "ro.isdc.wro.model.factory.WroModelFactoryDecorator"
+486 "ro.isdc.wro.http.handler.TestLazyRequestHandlerDecorator"
+487 "ro.isdc.wro.model.resource.locator.ServletContextUriLocator.LocatorStrategy"
+488 "ro.isdc.wro.util.TestStringUtils"
+489 "ro.isdc.wro.config.support.TestContextPropagatingCallable"
+490 "ro.isdc.wro.extensions.processor.support.csslint.CssLintError"
+491 "ro.isdc.wro.extensions.processor.support.linter.JsLint"
+492 "ro.isdc.wro.http.handler.TestResourceProxyRequestHandler"
+493 "ro.isdc.wro.model.resource.support.hash.HashBuilder"
+494 "ro.isdc.wro.extensions.processor.TestHandlebarsJsProcessor"
+495 "ro.isdc.wro.spring.controller.EntityController"
+496 "ro.isdc.wro.extensions.model.factory.GroovyModelFactory"
+497 "ro.isdc.wro.maven.plugin.TestWro4jMojo.CssUrlRewriterWroManagerFactory"
+498 "ro.isdc.wro.http.TestConfigurableWroFilter.SampleConfigurableWroFilter"
+499 "ro.isdc.wro.model.resource.processor.support.ProcessingCriteria"
+500 "ro.isdc.wro.examples.manager.CustomStandaloneWroManagerFactory"
+501 "ro.isdc.wro.model.group.DefaultGroupExtractor"
+502 "ro.isdc.wro.manager.factory.DefaultWroManagerFactory"
+503 "ro.isdc.wro.model.group.processor.TestPreProcessorExecutor.AnyTypeProcessor"
+504 "ro.isdc.wro.manager.runnable.TestReloadCacheRunnable"
+505 "ro.isdc.wro.model.resource.processor.factory.SimpleProcessorsFactory"
+506 "ro.isdc.wro.maven.plugin.TestWro4jMojo"
+507 "ro.isdc.wro.extensions.model.factory.TestGroovyModelFactory"
+508 "ro.isdc.wro.model.resource.support.naming.NamingStrategy"
+509 "ro.isdc.wro.extensions.http.handler.TestModelAsJsonRequestHandler"
+510 "ro.isdc.wro.extensions.script.RhinoScriptBuilder"
+511 "ro.isdc.wro.model.resource.processor.impl.PlaceholderProcessor"
+512 "ro.isdc.wro.model.resource.locator.support.LocatorProvider"
+513 "ro.isdc.wro.model.group.processor.GroupExtractorDecorator"
+514 "ro.isdc.wro.spring.controller.HomeController"
+515 "ro.isdc.wro.model.factory.DefaultWroModelFactoryDecorator"
+516 "ro.isdc.wro.config.jmx.ConfigConstants"
+517 "ro.isdc.wro.model.resource.processor.TestJsMinProcessor"
+518 "ro.isdc.wro.model.group.GroupExtractor"
+519 "ro.isdc.wro.model.resource.locator.TestUrlUriLocator"
+520 "ro.isdc.wro.model.group.processor.TestInjector.TestProcessor"
+521 "ro.isdc.wro.model.group.TestGroup"
+522 "ro.isdc.wro.extensions.processor.TestPackerJsProcessor"
+523 "ro.isdc.wro.manager.factory.BaseWroManagerFactory"
+524 "ro.isdc.wro.extensions.processor.support.linter.LinterException"
+525 "ro.isdc.wro.model.resource.processor.support.JSMin.UnterminatedRegExpLiteralException"
+526 "ro.isdc.wro.model.TestWroModel"
+527 "ro.isdc.wro.manager.callback.TestLifecycleCallbackRegistry"
+528 "ro.isdc.wro.extensions.processor.support.linter.AbstractLinter"
+529 "ro.isdc.wro.extensions.http.SpringWroFilter"
+530 "ro.isdc.wro.maven.plugin.TestWro4jMojo.ExceptionThrowingWroManagerFactory"
+531 "ro.isdc.wro.examples.support.processor.CustomProcessor"
+532 "ro.isdc.wro.extensions.support.lint.TestReportXmlFormatter"
+533 "ro.isdc.wro.manager.callback.TestPerformanceLoggerCallback"
+534 "ro.isdc.wro.maven.plugin.CssLintMojo"
+535 "ro.isdc.wro.model.resource.processor.impl.css.CssImportPreProcessor"
+536 "ro.isdc.wro.util.io.UnclosableBufferedInputStream"
+537 "ro.isdc.wro.model.group.RecursiveGroupDefinitionException"
+538 "ro.isdc.wro.util.provider.ConfigurableProvider"
+539 "ro.isdc.wro.util.provider.ProviderFinder"
+540 "ro.isdc.wro.extensions.http.handler.ResourceSerializer"
+541 "ro.isdc.wro.model.resource.processor.decorator.ExtensionsAwareProcessorDecorator"
+542 "ro.isdc.wro.extensions.processor.TestGoogleClosureCompressorProcessor"
+543 "ro.isdc.wro.extensions.support.lint.LintItemAdapter"
+544 "ro.isdc.wro.util.StopWatch.TaskInfo"
+545 "ro.isdc.wro.model.resource.processor.impl.CommentStripperProcessor"
+546 "ro.isdc.wro.extensions.processor.js.HoganJsProcessor"
+547 "ro.isdc.wro.model.resource.processor.support.TestFallbackCssDataUriUrlInspector"
+548 "ro.isdc.wro.model.resource.support.hash.HashStrategy"
+549 "ro.isdc.wro.manager.factory.standalone.ConfigurableStandaloneContextAwareManagerFactory"
+550 "ro.isdc.wro.model.factory.XmlModelFactory"
+551 "ro.isdc.wro.extensions.support.lint.LintReport"
+552 "ro.isdc.wro.examples.ExternalResourceServlet"
+553 "ro.isdc.wro.model.resource.processor.decorator.SupportAwareProcessorDecorator"
+554 "ro.isdc.wro.examples.http.DynamicResourceServlet"
+555 "ro.isdc.wro.model.resource.locator.support.DefaultLocatorProvider"
+556 "ro.isdc.wro.model.resource.processor.decorator.TestProcessorDecorator.SupportAwareProcessor"
+557 "ro.isdc.wro.model.resource.support.hash.AbstractDigesterHashStrategy"
+558 "ro.isdc.wro.util.AbstractDecorator"
+559 "ro.isdc.wro.model.factory.AbstractWroModelFactory"
+560 "ro.isdc.wro.model.resource.support.MutableResourceAuthorizationManager"
+561 "ro.isdc.wro.http.support.TestResponseHeadersConfigurer"
+562 "ro.isdc.wro.model.resource.processor.TestCssVariablesProcessor"
+563 "ro.isdc.wro.extensions.http.LessCssFilter"
+564 "ro.isdc.wro.model.resource.support.TestDefaultResourceAuthorizationManager"
+565 "ro.isdc.wro.http.handler.spi.DefaultRequestHandlerProvider"
+566 "ro.isdc.wro.model.resource.locator.factory.AbstractUriLocatorFactory"
+567 "ro.isdc.wro.model.resource.processor.support.CssImportInspector"
+568 "ro.isdc.wro.extensions.processor.js.RhinoCoffeeScriptProcessor"
+569 "ro.isdc.wro.model.resource.processor.support.DataUriGenerator"
+570 "ro.isdc.wro.model.WroModel"
+571 "ro.isdc.wro.model.resource.processor.support.TestLessCssImportInspector"
+572 "ro.isdc.wro.extensions.processor.js.JsHintProcessor"
+573 "ro.isdc.wro.model.resource.processor.impl.css.CssVariablesProcessor"
+574 "ro.isdc.wro.model.resource.processor.decorator.TestLazyProcessorDecorator"
+575 "ro.isdc.wro.cache.spi.CacheStrategyProvider"
+576 "ro.isdc.wro.extensions.processor.TestBeautifyJsProcessor"
+*Arcs
+44 518 47.0
+381 186 2.0
+492 180 2.0
+310 325 5.0
+310 68 2.0
+47 8 4.0
+231 15 15.0
+391 340 15.0
+316 233 14.0
+354 147 21.0
+448 152 35.0
+93 440 2.0
+506 173 28.0
+229 570 4.0
+309 8 4.0
+324 340 2.0
+370 270 23.0
+29 466 16.0
+405 268 5.0
+324 466 16.0
+273 223 35.0
+486 357 9.0
+75 15 15.0
+453 295 21.0
+442 254 6.0
+471 377 5.0
+515 415 3.0
+448 88 4.0
+15 206 18.0
+313 510 9.0
+98 558 7.0
+93 143 50.0
+66 539 10.0
+160 362 5.0
+148 68 4.0
+130 314 4.0
+384 352 7.0
+169 567 11.0
+5 475 13.0
+97 469 25.0
+489 103 10.0
+564 366 25.0
+255 204 6.0
+352 466 2.0
+20 3 4.0
+65 375 1.0
+456 8 6.0
+367 288 4.0
+105 34 39.0
+217 466 68.0
+467 346 36.0
+462 539 23.0
+283 432 2.0
+494 466 6.0
+442 360 3.0
+275 446 1.0
+15 508 6.0
+376 441 11.0
+136 204 2.0
+315 426 3.0
+534 551 3.0
+339 2 32.0
+449 568 5.0
+519 157 23.0
+76 146 3.0
+287 466 8.0
+255 440 134.0
+115 510 12.0
+84 280 3.0
+39 163 4.0
+200 288 5.0
+172 224 3.0
+113 202 16.0
+509 360 8.0
+209 280 4.0
+153 186 17.0
+355 411 49.0
+154 288 4.0
+348 360 3.0
+94 242 24.0
+533 290 8.0
+365 466 4.0
+527 112 45.0
+328 8 20.0
+171 330 11.0
+67 288 4.0
+444 481 4.0
+1 3 4.0
+277 223 4.0
+406 260 3.0
+41 432 4.0
+568 187 4.0
+203 102 49.0
+519 466 6.0
+531 360 6.0
+337 352 5.0
+368 469 8.0
+561 314 27.0
+153 288 4.0
+218 510 9.0
+490 55 9.0
+372 334 13.0
+485 558 7.0
+440 466 12.0
+315 464 2.0
+553 9 5.0
+399 508 7.0
+92 528 3.0
+469 466 11.0
+305 523 3.0
+391 360 15.0
+287 8 2.0
+152 39 32.0
+167 152 53.0
+462 90 6.0
+418 218 41.0
+160 112 11.0
+310 268 15.0
+99 8 4.0
+520 268 3.0
+303 553 17.0
+284 2 3.0
+57 39 58.0
+126 9 90.0
+331 452 2.0
+416 570 2.0
+372 466 4.0
+389 466 10.0
+405 360 3.0
+413 242 2.0
+189 141 2.0
+315 110 3.0
+324 8 4.0
+237 466 4.0
+377 241 3.0
+136 405 13.0
+108 251 4.0
+151 110 3.0
+72 224 3.0
+37 146 2.0
+53 360 3.0
+528 68 2.0
+323 362 5.0
+142 466 35.0
+523 207 2.0
+255 466 46.0
+350 325 19.0
+167 250 11.0
+448 39 20.0
+341 335 4.0
+194 431 5.0
+458 224 4.0
+427 438 3.0
+228 335 4.0
+124 288 4.0
+226 281 6.0
+521 340 35.0
+57 534 11.0
+310 296 1.0
+81 466 4.0
+229 68 2.0
+357 352 5.0
+506 360 7.0
+7 86 2.0
+542 141 15.0
+533 292 17.0
+196 170 7.0
+506 362 3.0
+284 551 10.0
+129 508 13.0
+523 325 9.0
+447 280 5.0
+302 15 22.0
+50 466 8.0
+301 466 6.0
+250 466 8.0
+475 68 6.0
+231 352 2.0
+506 39 136.0
+279 60 3.0
+50 110 3.0
+213 295 7.0
+135 296 3.0
+484 432 2.0
+365 541 12.0
+568 335 4.0
+243 66 10.0
+269 288 2.0
+156 484 31.0
+477 466 4.0
+144 352 12.0
+503 288 4.0
+112 70 7.0
+521 360 49.0
+187 510 9.0
+277 570 12.0
+382 8 4.0
+474 39 12.0
+467 352 23.0
+234 253 19.0
+440 446 18.0
+118 558 15.0
+574 352 4.0
+432 232 2.0
+331 109 2.0
+477 8 6.0
+552 296 3.0
+282 466 19.0
+526 570 16.0
+191 206 39.0
+144 137 25.0
+175 360 5.0
+381 499 13.0
+64 224 6.0
+274 163 3.0
+393 143 5.0
+440 147 2.0
+141 268 5.0
+217 296 4.0
+15 515 2.0
+15 280 1.0
+67 518 1.0
+136 110 1.0
+37 466 6.0
+413 415 5.0
+247 360 24.0
+458 288 4.0
+297 24 3.0
+160 466 4.0
+542 352 8.0
+387 62 9.0
+404 469 3.0
+137 426 3.0
+507 204 3.0
+372 518 17.0
+524 68 3.0
+112 466 4.0
+302 110 35.0
+221 374 75.0
+231 112 6.0
+253 157 8.0
+248 296 37.0
+378 569 7.0
+129 466 4.0
+478 360 3.0
+125 432 48.0
+495 265 11.0
+388 466 4.0
+259 390 4.0
+12 146 2.0
+136 280 8.0
+351 515 10.0
+385 440 5.0
+201 528 22.0
+299 466 14.0
+198 466 18.0
+400 569 10.0
+56 293 2.0
+302 558 10.0
+239 508 3.0
+500 404 6.0
+142 30 2.0
+145 466 4.0
+411 143 15.0
+131 5 8.0
+326 9 5.0
+275 323 17.0
+53 146 15.0
+496 559 5.0
+124 480 2.0
+523 68 6.0
+219 236 9.0
+449 8 10.0
+405 335 3.0
+7 17 5.0
+294 558 2.0
+550 223 5.0
+57 432 4.0
+509 46 17.0
+391 286 19.0
+368 7 11.0
+302 50 39.0
+88 250 2.0
+574 337 17.0
+507 8 8.0
+45 288 4.0
+492 157 13.0
+303 466 6.0
+383 254 5.0
+337 558 5.0
+411 446 15.0
+390 270 3.0
+310 420 5.0
+324 415 11.0
+546 458 3.0
+328 466 8.0
+91 331 9.0
+534 5 8.0
+447 360 8.0
+566 362 6.0
+228 360 3.0
+562 8 4.0
+301 122 13.0
+513 518 18.0
+189 110 3.0
+381 83 2.0
+145 352 2.0
+542 8 12.0
+8 352 4.0
+334 296 6.0
+303 360 3.0
+431 362 14.0
+552 15 1.0
+532 5 9.0
+313 426 6.0
+413 280 2.0
+277 466 13.0
+384 61 7.0
+5 551 20.0
+307 65 3.0
+8 9 4.0
+11 245 14.0
+527 466 10.0
+574 118 6.0
+550 68 7.0
+8 288 18.0
+237 390 1.0
+315 466 12.0
+212 360 3.0
+286 18 1.0
+570 223 13.0
+276 157 6.0
+209 268 7.0
+500 110 6.0
+103 466 6.0
+249 420 7.0
+210 285 4.0
+320 83 35.0
+414 280 5.0
+58 426 3.0
+362 157 3.0
+217 15 13.0
+319 337 64.0
+255 262 10.0
+74 236 14.0
+86 466 6.0
+146 360 3.0
+15 438 6.0
+71 327 2.0
+144 296 6.0
+534 288 4.0
+523 10 5.0
+277 280 4.0
+523 446 4.0
+350 466 12.0
+254 510 11.0
+408 466 14.0
+422 452 5.0
+231 110 6.0
+200 466 6.0
+331 311 3.0
+459 443 8.0
+194 66 18.0
+542 466 6.0
+574 9 5.0
+432 570 3.0
+350 360 2.0
+538 575 4.0
+433 8 6.0
+81 432 2.0
+160 68 2.0
+231 420 6.0
+440 330 5.0
+468 268 5.0
+507 223 2.0
+505 288 3.0
+53 288 3.0
+433 288 5.0
+255 280 23.0
+211 9 4.0
+181 352 5.0
+52 432 2.0
+73 558 6.0
+47 466 4.0
+144 157 15.0
+168 8 2.0
+50 523 3.0
+190 466 2.0
+570 68 4.0
+406 528 34.0
+156 288 3.0
+480 483 9.0
+166 215 3.0
+102 110 4.0
+381 9 8.0
+440 502 2.0
+492 413 21.0
+550 537 4.0
+281 68 4.0
+570 340 8.0
+337 9 12.0
+218 398 5.0
+523 362 9.0
+328 368 7.0
+364 466 4.0
+346 98 4.0
+33 9 3.0
+28 325 4.0
+331 512 3.0
+212 77 10.0
+178 335 1.0
+389 15 5.0
+405 110 5.0
+137 323 10.0
+258 322 4.0
+568 360 3.0
+552 570 1.0
+515 204 13.0
+416 466 6.0
+302 403 16.0
+342 420 3.0
+327 485 3.0
+194 403 12.0
+528 426 3.0
+142 426 3.0
+86 280 2.0
+63 360 3.0
+35 28 23.0
+229 352 5.0
+424 400 3.0
+226 481 11.0
+447 8 14.0
+189 505 1.0
+8 523 4.0
+198 8 2.0
+136 296 13.0
+39 466 4.0
+392 236 9.0
+304 206 7.0
+321 288 4.0
+35 281 5.0
+255 157 5.0
+511 288 4.0
+473 210 5.0
+484 68 2.0
+41 360 3.0
+271 460 3.0
+447 466 12.0
+184 224 3.0
+443 360 3.0
+331 278 4.0
+243 481 10.0
+96 18 25.0
+135 325 7.0
+469 264 7.0
+212 68 6.0
+402 92 1.0
+155 325 7.0
+255 362 7.0
+530 110 3.0
+310 432 2.0
+354 157 3.0
+214 8 6.0
+427 110 3.0
+178 8 4.0
+509 570 11.0
+224 432 2.0
+134 548 4.0
+523 508 9.0
+277 204 4.0
+551 2 3.0
+389 163 1.0
+492 415 17.0
+390 440 3.0
+49 66 6.0
+56 18 7.0
+316 215 8.0
+130 432 2.0
+286 215 7.0
+450 335 4.0
+25 550 2.0
+393 414 9.0
+440 482 9.0
+302 466 6.0
+45 8 4.0
+413 362 5.0
+217 446 9.0
+141 68 4.0
+11 157 7.0
+222 4 2.0
+327 204 3.0
+136 466 10.0
+442 68 6.0
+365 8 4.0
+76 352 7.0
+427 352 3.0
+388 56 25.0
+489 8 4.0
+252 28 2.0
+267 158 5.0
+255 446 8.0
+268 280 3.0
+231 548 6.0
+405 223 2.0
+396 470 3.0
+183 15 3.0
+327 68 5.0
+576 442 5.0
+350 280 4.0
+433 466 6.0
+142 280 12.0
+563 299 3.0
+480 410 6.0
+294 360 3.0
+307 403 4.0
+46 432 2.0
+46 268 5.0
+256 8 6.0
+440 352 7.0
+167 39 30.0
+435 108 9.0
+291 288 3.0
+350 158 4.0
+484 558 6.0
+431 512 3.0
+14 59 4.0
+294 8 2.0
+198 280 4.0
+389 110 37.0
+6 209 9.0
+361 466 6.0
+548 493 4.0
+192 400 3.0
+183 558 11.0
+326 360 3.0
+434 548 3.0
+223 340 3.0
+403 68 2.0
+368 415 5.0
+207 276 9.0
+266 426 3.0
+358 360 3.0
+573 335 4.0
+8 362 10.0
+198 523 15.0
+180 446 9.0
+430 572 3.0
+8 446 1.0
+498 446 3.0
+555 512 4.0
+272 202 17.0
+136 8 8.0
+23 464 2.0
+27 8 4.0
+501 466 4.0
+517 288 5.0
+351 550 6.0
+37 8 10.0
+118 3 4.0
+365 352 2.0
+391 466 6.0
+142 446 5.0
+286 157 4.0
+309 159 3.0
+517 8 6.0
+471 66 10.0
+267 281 8.0
+45 352 2.0
+144 8 2.0
+131 288 4.0
+559 204 4.0
+363 8 6.0
+568 236 9.0
+285 68 2.0
+559 68 2.0
+365 9 4.0
+97 466 11.0
+136 340 9.0
+531 335 8.0
+169 288 12.0
+456 228 8.0
+214 288 6.0
+124 268 5.0
+116 319 9.0
+459 8 8.0
+511 68 2.0
+226 296 6.0
+529 446 6.0
+190 171 8.0
+41 68 6.0
+115 426 6.0
+144 570 1.0
+358 288 4.0
+522 8 6.0
+147 157 6.0
+96 157 2.0
+161 212 7.0
+63 68 6.0
+338 288 6.0
+121 224 3.0
+315 163 4.0
+486 352 2.0
+389 455 4.0
+431 403 5.0
+76 8 2.0
+136 352 1.0
+24 163 6.0
+271 360 3.0
+249 558 5.0
+295 330 4.0
+198 325 3.0
+161 8 6.0
+15 70 3.0
+353 548 7.0
+185 335 4.0
+302 523 24.0
+35 548 1.0
+350 137 3.0
+25 469 3.0
+515 112 3.0
+314 280 6.0
+552 281 1.0
+128 41 9.0
+102 403 16.0
+301 223 2.0
+263 204 3.0
+30 558 2.0
+543 437 21.0
+14 535 3.0
+193 148 4.0
+6 352 2.0
+375 482 4.0
+196 70 1.0
+401 352 20.0
+39 340 1.0
+559 268 5.0
+443 313 4.0
+357 318 16.0
+142 360 16.0
+202 270 2.0
+432 68 6.0
+319 9 2.0
+471 481 10.0
+180 405 3.0
+224 510 9.0
+346 550 3.0
+292 426 26.0
+252 325 3.0
+69 508 13.0
+494 8 6.0
+553 288 1.0
+24 204 3.0
+246 548 9.0
+443 288 4.0
+279 407 4.0
+539 68 2.0
+196 466 6.0
+515 268 3.0
+150 335 4.0
+565 417 4.0
+250 288 4.0
+315 280 4.0
+213 202 5.0
+37 352 2.0
+15 231 3.0
+180 310 3.0
+460 236 9.0
+194 539 9.0
+58 510 6.0
+144 204 1.0
+209 432 2.0
+73 155 3.0
+475 551 9.0
+402 159 3.0
+501 451 2.0
+320 360 12.0
+270 330 4.0
+427 508 3.0
+545 360 3.0
+231 204 6.0
+507 466 4.0
+216 207 2.0
+511 330 8.0
+496 570 4.0
+309 572 4.0
+170 70 28.0
+326 426 9.0
+445 251 4.0
+391 204 3.0
+15 112 8.0
+440 280 25.0
+151 204 3.0
+181 288 21.0
+304 73 3.0
+303 9 4.0
+142 160 3.0
+294 466 10.0
+540 360 3.0
+173 280 1.0
+286 166 5.0
+523 518 9.0
+416 229 13.0
+217 8 2.0
+515 570 3.0
+430 524 3.0
+20 293 2.0
+449 288 3.0
+320 9 10.0
+9 118 7.0
+514 479 3.0
+136 360 8.0
+550 570 13.0
+550 362 3.0
+400 68 2.0
+541 360 6.0
+469 18 4.0
+413 314 13.0
+364 352 2.0
+284 5 7.0
+534 250 2.0
+25 110 3.0
+217 550 3.0
+350 296 12.0
+50 548 3.0
+315 204 3.0
+257 204 8.0
+574 8 4.0
+57 250 10.0
+404 110 3.0
+392 288 4.0
+101 380 6.0
+320 335 4.0
+140 335 4.0
+65 417 3.0
+282 280 5.0
+404 466 8.0
+341 360 3.0
+8 207 2.0
+161 77 3.0
+523 415 9.0
+449 466 6.0
+334 518 9.0
+24 346 2.0
+278 60 4.0
+391 432 16.0
+550 340 5.0
+329 558 4.0
+15 325 12.0
+37 288 5.0
+267 466 6.0
+179 344 2.0
+342 249 9.0
+324 570 2.0
+364 318 9.0
+509 204 3.0
+510 454 4.0
+255 464 2.0
+345 108 2.0
+47 228 7.0
+404 280 2.0
+405 570 1.0
+222 8 6.0
+118 335 4.0
+426 544 11.0
+353 481 5.0
+400 362 5.0
+8 4 8.0
+394 204 4.0
+185 288 4.0
+9 288 6.0
+523 420 9.0
+25 523 3.0
+295 280 3.0
+179 335 5.0
+173 466 12.0
+385 359 2.0
+471 8 2.0
+230 325 8.0
+156 360 12.0
+489 466 11.0
+175 160 1.0
+543 205 3.0
+15 204 10.0
+8 466 4.0
+526 340 5.0
+474 173 7.0
+397 501 19.0
+206 22 36.0
+88 5 8.0
+377 481 5.0
+216 362 2.0
+150 212 3.0
+486 466 4.0
+143 446 6.0
+177 548 6.0
+566 157 1.0
+7 3 4.0
+329 352 6.0
+216 427 4.0
+527 360 2.0
+5 215 3.0
+202 330 4.0
+175 288 12.0
+547 8 2.0
+507 515 2.0
+214 466 4.0
+39 288 7.0
+421 8 2.0
+231 518 6.0
+535 499 2.0
+136 180 4.0
+30 335 3.0
+350 204 1.0
+392 528 4.0
+369 359 5.0
+144 466 6.0
+243 352 2.0
+279 417 3.0
+382 352 4.0
+49 455 5.0
+41 288 4.0
+183 231 4.0
+323 548 3.0
+135 28 2.0
+52 280 2.0
+467 204 4.0
+309 392 6.0
+182 288 5.0
+427 112 3.0
+444 66 4.0
+12 335 2.0
+67 466 8.0
+82 548 6.0
+165 502 21.0
+216 438 1.0
+237 15 1.0
+175 499 2.0
+160 499 14.0
+117 106 6.0
+488 293 4.0
+181 9 3.0
+19 77 15.0
+500 288 1.0
+107 360 3.0
+46 540 2.0
+432 335 3.0
+7 268 5.0
+369 375 2.0
+458 236 9.0
+363 335 2.0
+320 140 1.0
+237 110 1.0
+473 8 6.0
+345 337 2.0
+5 2 5.0
+182 8 6.0
+507 570 5.0
+76 157 7.0
+469 432 2.0
+354 466 4.0
+58 432 2.0
+273 570 4.0
+121 360 3.0
+331 51 3.0
+481 352 5.0
+349 68 3.0
+144 323 7.0
+201 491 3.0
+229 485 3.0
+547 127 3.0
+357 558 5.0
+391 352 1.0
+180 75 2.0
+159 8 2.0
+284 48 6.0
+350 8 4.0
+145 288 10.0
+531 288 8.0
+250 464 2.0
+568 288 4.0
+337 118 10.0
+44 466 8.0
+35 466 6.0
+24 404 3.0
+427 420 3.0
+15 362 6.0
+93 446 1.0
+41 335 4.0
+279 51 3.0
+255 415 7.0
+109 241 4.0
+158 28 3.0
+281 466 8.0
+527 8 2.0
+492 466 4.0
+122 559 7.0
+532 48 8.0
+346 204 6.0
+61 417 4.0
+15 518 8.0
+209 314 4.0
+130 268 7.0
+515 558 5.0
+388 264 2.0
+63 236 9.0
+360 451 2.0
+301 8 4.0
+148 510 9.0
+186 118 2.0
+401 466 10.0
+477 214 7.0
+39 446 14.0
+344 360 3.0
+208 575 4.0
+167 432 6.0
+266 510 11.0
+328 352 4.0
+194 157 4.0
+222 460 16.0
+180 132 15.0
+350 304 8.0
+282 281 9.0
+507 340 1.0
+132 330 4.0
+309 335 1.0
+509 340 6.0
+320 118 18.0
+214 352 1.0
+366 560 4.0
+485 204 7.0
+254 426 3.0
+122 426 3.0
+216 180 4.0
+46 314 4.0
+500 204 3.0
+523 438 9.0
+523 22 6.0
+304 280 2.0
+153 118 8.0
+445 288 4.0
+359 539 2.0
+405 9 4.0
+210 288 4.0
+447 288 9.0
+211 30 8.0
+160 110 5.0
+219 335 4.0
+47 360 3.0
+200 8 6.0
+405 352 5.0
+264 18 9.0
+460 335 4.0
+547 288 6.0
+270 68 2.0
+345 181 3.0
+390 446 3.0
+56 264 7.0
+286 360 9.0
+478 224 3.0
+304 281 9.0
+228 432 8.0
+414 143 7.0
+142 362 10.0
+64 432 2.0
+343 204 3.0
+393 280 1.0
+392 68 6.0
+291 8 6.0
+408 280 4.0
+526 466 5.0
+382 565 7.0
+54 335 2.0
+239 119 4.0
+15 110 6.0
+506 157 11.0
+460 218 4.0
+391 570 14.0
+164 439 1.0
+311 538 4.0
+532 551 5.0
+142 288 16.0
+389 523 6.0
+506 570 2.0
+450 426 3.0
+550 360 3.0
+160 432 2.0
+150 288 4.0
+176 17 3.0
+20 567 2.0
+130 280 4.0
+553 68 2.0
+198 446 1.0
+427 518 3.0
+413 268 7.0
+275 352 1.0
+528 34 5.0
+522 288 3.0
+312 337 2.0
+263 505 2.0
+543 490 3.0
+219 288 4.0
+471 508 5.0
+181 360 3.0
+473 466 4.0
+569 242 2.0
+396 360 3.0
+255 558 4.0
+315 446 3.0
+155 558 11.0
+246 508 4.0
+84 466 8.0
+64 87 5.0
+136 358 1.0
+446 428 4.0
+460 398 6.0
+226 325 7.0
+39 15 7.0
+323 374 1.0
+285 510 11.0
+137 362 5.0
+179 141 4.0
+440 143 8.0
+523 15 6.0
+236 330 9.0
+217 257 3.0
+435 335 1.0
+286 570 7.0
+294 367 3.0
+220 337 2.0
+77 426 3.0
+15 420 6.0
+344 236 9.0
+200 121 1.0
+199 387 11.0
+526 223 4.0
+63 115 4.0
+16 60 4.0
+389 558 4.0
+527 204 1.0
+346 163 3.0
+448 432 4.0
+97 352 1.0
+142 157 6.0
+479 265 9.0
+468 280 2.0
+154 68 2.0
+331 555 2.0
+208 158 2.0
+263 288 3.0
+78 508 4.0
+144 360 2.0
+440 359 2.0
+503 335 4.0
+50 102 1.0
+83 9 3.0
+137 296 6.0
+8 157 3.0
+193 236 9.0
+52 403 2.0
+403 66 9.0
+182 466 6.0
+484 360 3.0
+556 251 4.0
+145 41 7.0
+107 288 4.0
+346 68 7.0
+17 127 3.0
+180 171 2.0
+391 215 1.0
+53 466 10.0
+129 8 2.0
+303 118 2.0
+128 8 8.0
+438 330 4.0
+30 360 3.0
+137 340 4.0
+179 442 2.0
+515 10 5.0
+108 68 6.0
+118 240 4.0
+494 72 1.0
+283 566 6.0
+350 340 2.0
+460 68 6.0
+30 288 6.0
+115 432 4.0
+549 110 3.0
+136 288 1.0
+465 199 2.0
+212 288 4.0
+190 268 2.0
+141 360 6.0
+231 362 6.0
+324 352 7.0
+432 330 3.0
+440 432 2.0
+162 508 11.0
+297 523 2.0
+228 68 6.0
+300 466 4.0
+245 316 5.0
+315 270 3.0
+102 66 4.0
+447 103 2.0
+337 360 3.0
+481 66 9.0
+198 15 4.0
+256 288 3.0
+279 61 2.0
+344 68 6.0
+261 505 15.0
+6 466 4.0
+430 360 3.0
+497 505 1.0
+102 60 6.0
+324 515 4.0
+238 568 2.0
+67 464 2.0
+145 8 4.0
+466 280 12.0
+530 335 1.0
+300 508 13.0
+355 558 8.0
+453 280 2.0
+167 131 4.0
+175 352 5.0
+208 28 2.0
+39 360 6.0
+272 280 3.0
+298 24 3.0
+384 8 2.0
+263 420 3.0
+568 68 2.0
+235 50 3.0
+27 288 3.0
+50 431 1.0
+118 336 4.0
+331 241 3.0
+30 9 3.0
+186 360 3.0
+405 112 9.0
+153 466 6.0
+420 296 3.0
+425 8 6.0
+73 325 3.0
+142 505 1.0
+238 299 3.0
+473 285 1.0
+404 518 3.0
+527 446 1.0
+284 68 2.0
+431 157 3.0
+180 160 3.0
+173 39 17.0
+284 475 2.0
+16 288 3.0
+243 548 5.0
+15 310 5.0
+33 335 3.0
+7 360 3.0
+267 28 12.0
+433 360 2.0
+343 257 9.0
+495 479 7.0
+218 426 3.0
+411 502 2.0
+557 548 4.0
+331 322 3.0
+547 176 3.0
+75 446 4.0
+523 110 9.0
+313 432 4.0
+527 340 3.0
+431 207 2.0
+216 466 8.0
+350 352 6.0
+136 446 4.0
+443 236 9.0
+304 137 8.0
+329 183 3.0
+124 466 2.0
+80 288 4.0
+528 432 2.0
+13 233 6.0
+239 548 3.0
+237 446 1.0
+526 360 4.0
+573 288 4.0
+175 108 7.0
+432 204 3.0
+86 18 4.0
+82 508 4.0
+47 288 10.0
+67 360 6.0
+108 360 3.0
+552 446 1.0
+107 335 4.0
+371 360 3.0
+179 210 2.0
+298 141 2.0
+279 139 2.0
+142 352 1.0
+138 110 3.0
+510 68 2.0
+571 169 17.0
+337 336 4.0
+277 340 2.0
+542 288 1.0
+385 482 1.0
+314 432 4.0
+143 280 6.0
+197 288 4.0
+523 261 2.0
+338 8 2.0
+561 280 3.0
+502 446 18.0
+151 404 3.0
+137 325 5.0
+455 481 7.0
+448 250 9.0
+160 288 8.0
+404 163 6.0
+89 60 8.0
+8 204 6.0
+197 360 3.0
+227 68 3.0
+169 8 2.0
+523 548 12.0
+538 60 4.0
+122 68 6.0
+69 352 2.0
+153 335 3.0
+411 295 2.0
+471 352 2.0
+287 280 1.0
+181 335 4.0
+123 8 6.0
+42 60 4.0
+300 352 2.0
+118 251 4.0
+500 210 4.0
+327 570 7.0
+408 326 7.0
+476 8 8.0
+228 288 4.0
+118 288 6.0
+154 335 4.0
+368 56 4.0
+216 110 1.0
+346 570 3.0
+108 288 4.0
+137 223 2.0
+569 164 2.0
+259 280 1.0
+303 445 3.0
+348 288 4.0
+350 570 1.0
+20 360 12.0
+400 7 7.0
+573 360 3.0
+439 164 2.0
+50 362 3.0
+273 360 4.0
+371 288 4.0
+334 420 4.0
+312 181 3.0
+411 280 15.0
+76 466 4.0
+308 8 2.0
+538 241 4.0
+81 288 3.0
+538 417 4.0
+8 104 17.0
+217 70 2.0
+144 446 1.0
+404 25 3.0
+509 466 4.0
+304 415 3.0
+80 360 3.0
+8 68 4.0
+15 281 1.0
+5 68 2.0
+39 68 4.0
+131 284 3.0
+527 432 2.0
+142 523 1.0
+198 70 1.0
+390 330 3.0
+570 349 2.0
+6 8 2.0
+16 407 4.0
+71 466 4.0
+337 3 4.0
+71 204 12.0
+253 464 4.0
+7 335 4.0
+113 280 7.0
+267 296 12.0
+363 383 1.0
+160 268 7.0
+53 8 4.0
+86 264 7.0
+304 352 5.0
+576 335 1.0
+226 158 2.0
+255 68 3.0
+152 250 15.0
+65 482 10.0
+83 118 2.0
+267 548 1.0
+324 280 2.0
+427 362 3.0
+408 288 3.0
+342 558 2.0
+552 143 3.0
+408 352 2.0
+326 268 5.0
+401 520 1.0
+405 160 3.0
+558 356 4.0
+396 288 4.0
+175 8 6.0
+294 9 2.0
+537 68 3.0
+130 43 3.0
+523 111 3.0
+414 466 8.0
+15 428 4.0
+299 426 3.0
+106 438 4.0
+286 340 6.0
+550 352 5.0
+239 549 3.0
+392 524 6.0
+275 466 4.0
+444 455 3.0
+39 223 5.0
+348 335 4.0
+175 466 4.0
+331 407 4.0
+211 288 8.0
+383 442 3.0
+259 440 4.0
+50 204 3.0
+324 204 4.0
+320 288 6.0
+331 208 2.0
+441 415 4.0
+315 570 1.0
+217 280 7.0
+250 39 5.0
+344 335 4.0
+187 432 2.0
+442 236 9.0
+304 268 5.0
+218 34 5.0
+440 213 2.0
+337 251 4.0
+497 404 3.0
+113 213 3.0
+214 362 4.0
+59 567 3.0
+529 390 3.0
+277 8 8.0
+523 550 2.0
+310 281 1.0
+210 236 9.0
+576 8 4.0
+180 352 8.0
+178 219 5.0
+108 432 4.0
+141 335 4.0
+182 478 1.0
+338 17 3.0
+527 70 5.0
+39 362 2.0
+112 330 3.0
+122 570 4.0
+263 523 6.0
+294 280 2.0
+379 362 3.0
+95 68 3.0
+492 362 7.0
+231 508 6.0
+151 95 2.0
+572 392 3.0
+8 280 2.0
+139 51 4.0
+7 68 2.0
+442 288 4.0
+372 446 1.0
+388 157 2.0
+471 466 4.0
+553 360 3.0
+126 288 6.0
+219 266 4.0
+476 63 3.0
+136 124 1.0
+455 51 3.0
+255 227 2.0
+405 296 6.0
+65 359 2.0
+427 310 3.0
+270 280 4.0
+517 466 6.0
+278 9 2.0
+204 330 4.0
+456 335 1.0
+528 510 6.0
+530 404 3.0
+217 352 1.0
+226 575 3.0
+526 204 5.0
+286 111 4.0
+550 426 3.0
+392 360 6.0
+505 110 4.0
+329 15 3.0
+249 296 3.0
+432 104 4.0
+405 280 2.0
+288 360 3.0
+379 204 4.0
+96 432 4.0
+357 22 3.0
+496 426 3.0
+25 204 3.0
+165 280 2.0
+505 335 3.0
+53 280 2.0
+202 280 3.0
+358 335 4.0
+433 546 1.0
+459 335 3.0
+277 68 3.0
+348 472 2.0
+352 68 6.0
+371 335 4.0
+413 227 2.0
+72 458 3.0
+228 251 4.0
+124 360 3.0
+550 559 5.0
+220 228 2.0
+523 204 9.0
+304 405 5.0
+8 570 3.0
+281 280 4.0
+136 9 2.0
+45 30 2.0
+156 118 4.0
+463 335 1.0
+506 340 6.0
+299 352 1.0
+103 68 2.0
+185 360 3.0
+124 280 2.0
+126 335 2.0
+53 352 4.0
+302 548 1.0
+529 68 2.0
+217 432 2.0
+545 335 4.0
+141 288 4.0
+35 296 3.0
+217 570 1.0
+302 204 1.0
+446 330 4.0
+467 466 4.0
+302 508 3.0
+450 360 3.0
+466 68 2.0
+316 18 4.0
+346 352 5.0
+148 426 3.0
+15 330 3.0
+557 68 2.0
+435 288 1.0
+245 233 3.0
+494 288 5.0
+402 335 2.0
+569 104 3.0
+538 51 4.0
+413 43 3.0
+351 204 5.0
+455 204 7.0
+179 219 2.0
+193 68 2.0
+7 569 2.0
+304 325 9.0
+359 375 5.0
+1 360 3.0
+65 403 5.0
+541 288 6.0
+123 288 5.0
+500 505 2.0
+574 466 4.0
+468 43 3.0
+290 70 4.0
+147 253 2.0
+504 230 9.0
+193 360 3.0
+353 322 3.0
+337 22 3.0
+88 551 3.0
+556 124 3.0
+129 352 2.0
+364 8 2.0
+302 431 3.0
+239 163 6.0
+108 335 4.0
+214 569 4.0
+198 103 2.0
+31 3 4.0
+217 325 1.0
+331 258 2.0
+289 179 2.0
+67 523 5.0
+120 187 7.0
+1 288 4.0
+382 466 4.0
+541 335 3.0
+44 280 2.0
+263 210 2.0
+54 8 2.0
+384 466 4.0
+302 325 6.0
+84 8 6.0
+405 204 3.0
+546 224 3.0
+192 17 3.0
+478 458 3.0
+146 9 5.0
+321 360 3.0
+416 204 3.0
+165 446 1.0
+545 288 4.0
+8 215 3.0
+405 68 6.0
+231 180 4.0
+538 512 4.0
+84 288 3.0
+50 295 2.0
+442 335 4.0
+319 60 4.0
+571 59 2.0
+368 86 2.0
+368 68 2.0
+183 446 7.0
+506 548 4.0
+93 558 2.0
+97 280 1.0
+286 362 5.0
+402 8 2.0
+492 43 2.0
+354 8 2.0
+117 438 3.0
+76 539 2.0
+515 352 3.0
+477 288 3.0
+271 398 3.0
+312 288 6.0
+137 352 7.0
+15 548 6.0
+263 110 6.0
+440 68 2.0
+377 508 7.0
+294 381 3.0
+416 8 2.0
+401 288 1.0
+509 446 2.0
+26 407 9.0
+50 325 3.0
+298 505 1.0
+285 426 3.0
+212 335 4.0
+150 77 4.0
+220 288 6.0
+427 548 3.0
+90 407 4.0
+255 8 2.0
+45 466 4.0
+25 362 3.0
+523 106 2.0
+307 66 2.0
+354 352 2.0
+32 335 1.0
+291 466 4.0
+63 335 4.0
+266 68 2.0
+452 51 4.0
+37 193 4.0
+355 446 2.0
+534 284 3.0
+528 524 5.0
+168 335 1.0
+250 110 3.0
+173 464 2.0
+79 204 3.0
+39 570 5.0
+69 8 2.0
+126 556 1.0
+269 432 2.0
+23 299 5.0
+76 426 3.0
+128 288 3.0
+340 360 9.0
+137 204 3.0
+521 8 2.0
+81 8 2.0
+309 288 3.0
+405 340 2.0
+81 360 4.0
+20 362 3.0
+276 566 3.0
+88 288 4.0
+243 466 4.0
+389 239 5.0
+9 558 6.0
+142 180 4.0
+328 360 4.0
+223 570 3.0
+214 523 1.0
+196 112 1.0
+381 146 2.0
+76 9 1.0
+541 9 3.0
+83 360 3.0
+283 276 7.0
+121 458 3.0
+535 160 3.0
+277 103 2.0
+77 68 2.0
+538 322 4.0
+146 268 5.0
+301 340 1.0
+501 280 2.0
+312 41 2.0
+216 352 4.0
+498 340 2.0
+331 60 3.0
+15 296 3.0
+9 335 3.0
+368 268 5.0
+372 296 2.0
+263 438 3.0
+87 224 3.0
+532 475 2.0
+187 426 3.0
+466 268 4.0
+198 432 2.0
+517 352 2.0
+250 505 1.0
+153 9 2.0
+408 360 3.0
+527 15 1.0
+189 24 3.0
+188 404 3.0
+266 432 2.0
+350 523 1.0
+509 352 2.0
+279 311 3.0
+252 73 3.0
+404 261 2.0
+519 8 2.0
+42 288 6.0
+496 68 4.0
+140 360 3.0
+498 523 2.0
+511 360 3.0
+523 158 2.0
+425 150 3.0
+131 250 2.0
+137 288 7.0
+440 180 4.0
+198 204 3.0
+308 288 3.0
+217 558 2.0
+225 224 3.0
+391 523 1.0
+63 288 4.0
+460 360 6.0
+92 392 3.0
+160 280 6.0
+159 288 6.0
+440 15 1.0
+217 560 3.0
+423 557 3.0
+264 157 4.0
+263 106 2.0
+350 362 1.0
+542 337 2.0
+314 68 2.0
+211 8 4.0
+498 390 3.0
+229 204 3.0
+137 360 6.0
+381 553 2.0
+532 2 2.0
+69 466 4.0
+485 570 3.0
+502 68 2.0
+396 68 2.0
+332 8 2.0
+310 280 3.0
+341 288 4.0
+284 250 3.0
+365 288 7.0
+455 550 2.0
+326 280 2.0
+391 110 3.0
+331 575 3.0
+431 276 1.0
+480 525 6.0
+313 68 2.0
+15 415 6.0
+427 160 3.0
+76 288 3.0
+218 432 2.0
+492 352 1.0
+416 111 1.0
+46 280 2.0
+412 50 3.0
+15 466 4.0
+527 518 1.0
+515 22 2.0
+160 360 6.0
+231 415 6.0
+280 21 4.0
+427 204 3.0
+506 432 2.0
+197 335 4.0
+520 124 3.0
+250 446 3.0
+299 253 2.0
+46 43 3.0
+244 147 1.0
+273 340 4.0
+85 503 3.0
+346 559 3.0
+443 335 4.0
+481 68 2.0
+486 8 2.0
+219 68 6.0
+404 204 3.0
+331 417 3.0
+497 110 3.0
+243 8 2.0
+43 318 4.0
+421 288 1.0
+320 466 6.0
+535 20 3.0
+217 180 2.0
+393 466 2.0
+440 314 8.0
+427 268 3.0
+344 58 4.0
+432 360 3.0
+329 446 3.0
+572 528 3.0
+450 288 4.0
+310 466 4.0
+315 223 2.0
+507 103 2.0
+41 251 4.0
+216 523 1.0
+146 280 2.0
+482 330 4.0
+304 296 9.0
+141 280 2.0
+506 466 4.0
+332 335 1.0
+519 352 2.0
+138 523 3.0
+289 174 3.0
+392 335 4.0
+361 390 7.0
+285 432 2.0
+4 111 9.0
+476 335 2.0
+337 288 4.0
+315 404 1.0
+502 15 3.0
+435 8 6.0
+160 352 5.0
+294 352 2.0
+9 360 6.0
+273 204 1.0
+216 508 1.0
+50 508 3.0
+12 8 2.0
+368 293 4.0
+124 335 4.0
+98 22 3.0
+427 405 3.0
+501 518 4.0
+67 446 1.0
+316 166 4.0
+381 326 2.0
+553 558 2.0
+429 404 3.0
+527 464 2.0
+93 280 2.0
+396 335 4.0
+239 68 2.0
+33 288 3.0
+402 288 3.0
+186 9 3.0
+408 8 2.0
+355 280 2.0
+99 288 3.0
+560 415 4.0
+299 280 2.0
+140 288 4.0
+210 360 3.0
+209 43 3.0
+210 68 6.0
+98 570 3.0
+175 523 1.0
+5 437 3.0
+398 68 3.0
+460 288 4.0
+39 548 2.0
+375 318 3.0
+148 432 2.0
+324 360 2.0
+331 565 2.0
+88 284 3.0
+418 398 3.0
+79 412 3.0
+193 288 4.0
+20 288 4.0
+224 68 2.0
+98 204 4.0
+370 280 3.0
+231 325 6.0
+300 8 2.0
+124 68 2.0
+260 528 3.0
+405 288 1.0
+338 127 3.0
+136 523 3.0
+549 404 3.0
+219 360 3.0
+255 349 2.0
+146 68 2.0
+1 335 4.0
+504 325 3.0
+46 204 3.0
+8 335 21.0
+344 288 4.0
+243 353 5.0
+522 344 3.0
+235 15 3.0
+381 360 3.0
+511 335 4.0
+565 357 6.0
+254 432 2.0
+140 336 4.0
+145 360 3.0
+491 528 3.0
+530 505 1.0
+337 240 4.0
+10 22 3.0
+502 280 6.0
+250 280 1.0
+154 360 3.0
+131 551 3.0
+455 570 3.0
+72 360 3.0
+301 570 3.0
+177 508 4.0
+61 357 2.0
+193 335 4.0
+492 432 2.0
+337 335 4.0
+292 290 3.0
+498 8 2.0
+239 204 3.0
+279 319 4.0
+231 438 6.0
+535 567 2.0
+49 481 2.0
+255 305 1.0
+17 567 2.0
+160 103 2.0
+7 288 4.0
+210 335 4.0
+347 508 4.0
+404 274 4.0
+562 288 3.0
+67 280 1.0
+427 325 3.0
+443 68 6.0
+275 8 2.0
+432 288 3.0
+190 415 2.0
+401 30 2.0
+394 570 3.0
+220 181 3.0
+456 288 2.0
+180 15 3.0
+452 550 2.0
+15 304 2.0
+217 464 2.0
+255 325 1.0
+416 352 2.0
+509 432 2.0
+295 270 2.0
+571 567 3.0
+40 557 3.0
+232 104 3.0
+217 340 2.0
+31 535 3.0
+136 362 1.0
+458 360 6.0
+47 352 2.0
+145 337 2.0
+298 110 3.0
+216 446 1.0
+287 464 2.0
+115 68 2.0
+217 288 1.0
+175 337 2.0
+324 103 2.0
+555 407 4.0
+484 9 3.0
+473 288 2.0
+8 111 9.0
+144 362 1.0
+141 466 2.0
+144 340 2.0
+47 337 2.0
+379 570 3.0
+345 288 6.0
+304 548 3.0
+503 360 3.0

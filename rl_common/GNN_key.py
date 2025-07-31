@@ -19,11 +19,22 @@ from sklearn.model_selection import train_test_split, KFold
 from sklearn.metrics import precision_recall_curve, average_precision_score
 from pathlib import Path
 
+BASE_PATH = "/home/ps/jy_exp/input_GNN"
+# 新数据集名称
+NEW_DATASET = "MegaProject1"
+# 采样比例（每个数据集取20%）
+SAMPLE_RATIO = 0.6
+# 要组合的数据集列表
+DATASETS = ["ANT","ATM", "BCEL","daisy","DNS","elevator", "email__spl", "notepad__spl", "SPM"]
 
+create_hybrid = False  # 设为True时创建混合数据集
 # 是否使用真实的数据
 is_real_data = True
 # 数据集名称
-dataset = "ANT"
+if create_hybrid:
+    dataset = "Hybrid"
+else:
+    dataset = "SPM"
 # 网络类型 MCN(Multilayer Class Network) MPN(Multilayer Package Network)
 net_type = "MCN"
 # 数据路径  
@@ -35,7 +46,7 @@ key_class_percentage = 0.2
 # 关键类数量
 num_key_nodes = 10
 # 是否使用预定义关键类 如果为True则上面的num_key_nodes设置不会生效
-use_predefined_key_classes = True
+use_predefined_key_classes = False
 # 找不到精确匹配时是否允许模糊匹配
 allow_fuzzy_matching = True
 # 没有找到的关键类是否通过中心性计算来补充
@@ -90,7 +101,7 @@ preset_best_param = {
     'weight_decay': 0.0005,  # L2正则化参数
     'batch_norm': True
 }
-num_epochs = 1000  # 训练轮数
+num_epochs = 0  # 训练轮数
 
 # Node2Vec 的 p 和 q 参数 和 纬度参数
 node2vec_p_param = 0.25    # 修改为0.5，更好的平衡BFS和DFS
@@ -112,11 +123,11 @@ num_splits = 1
 # 日志配置
 # -----------------------------------
 # 确保结果目录存在
-result_dir = "/home/ps/jy_exp/output/GNN_res1"
+result_dir = "/home/ps/jy_exp/output/GNN_res4"
 os.makedirs(result_dir, exist_ok=True)
 
 # 历史模型保存路径
-historical_models_dir = "/home/ps/jy_exp/output/GNN_res/historicalModels"
+historical_models_dir = "/home/ps/jy_exp/output/GNN_res4/historicalModels"
 os.makedirs(historical_models_dir, exist_ok=True)
 
 # 获取下一个结果文件的序号，命名为 result-1.txt, result-2.txt, ...
@@ -331,6 +342,10 @@ def generate_sample_graph():
     生成一个样例类依赖网络（有向加权图）。
     每个节点代表一个类，边代表类之间的依赖关系，权重表示依赖强度。
     """
+    if create_hybrid:
+        G, node_mapping = read_net_file(combined_net_file)
+        return G, node_mapping
+
     if is_real_data:
         G, node_mapping = read_net_file(real_data_path)
         return G, node_mapping
@@ -376,7 +391,18 @@ def get_key_class_labels(G, node_mapping=None):
     """
     # 创建标签数组
     labels = np.zeros(len(G.nodes()))
-    
+    # # 如果是混合数据集，从文件加载标签
+    # if dataset == "Hybrid":
+    #     label_path = real_data_path.replace(".net", "_labels.json")
+    #     if os.path.exists(label_path):
+    #         with open(label_path, 'r') as f:
+    #             data = json.load(f)
+    #             labels = data['labels']
+    #             # 转换为numpy数组
+    #             labels = np.array(labels, dtype=int)
+    #             # 获取关键节点列表
+    #             key_nodes = [node for node, label in enumerate(labels) if label == 1]
+    #             return labels, key_nodes
     # 使用预定义的关键类
     if use_predefined_key_classes and dataset in predefined_key_classes and node_mapping:
         key_class_names = predefined_key_classes[dataset]
@@ -1047,14 +1073,17 @@ def train_model(G, embeddings, labels, num_epochs=1000, learning_rate=0.0001, mo
         )
         
         # 迁移学习--学习率调度OneCycleLR
-        scheduler = optim.lr_scheduler.OneCycleLR(
-            optimizer,
-            max_lr=initial_lr * 3,              # 峰值学习率
-            total_steps=num_epochs,
-            pct_start=0.3,                     # 前30%时间提升学习率，后70%下降
-            div_factor=10.0,                   # 初始学习率 = max_lr/10
-            final_div_factor=100.0             # 最终学习率 = max_lr/1000
-        )
+        if (num_epochs > 0):
+            scheduler = optim.lr_scheduler.OneCycleLR(
+                optimizer,
+                max_lr=initial_lr * 3,              # 峰值学习率
+                total_steps=num_epochs,
+                pct_start=0.3,                     # 前30%时间提升学习率，后70%下降
+                div_factor=10.0,                   # 初始学习率 = max_lr/10
+                final_div_factor=100.0             # 最终学习率 = max_lr/1000
+            )
+        else:
+            scheduler = None
     else:
         # 原始方法 权重衰减、固定学习率
         weight_decay = preset_best_param.get('weight_decay', 0.001)
@@ -1785,6 +1814,131 @@ def load_general_model(G, embedding_dim):
         return None
 
 
+def save_net_file(G, file_path):
+    """保存NetworkX图为.net格式"""
+    with open(file_path, 'w', encoding='utf-8') as f:
+        # 写入节点
+        f.write(f"*Vertices {G.number_of_nodes()}\n")
+        for node in sorted(G.nodes()):
+            name = G.nodes[node].get('name', f'Node{node}')
+            f.write(f'{node} "{name}"\n')
+        
+        # 写入边
+        f.write("*Arcs\n")
+        for u, v, data in G.edges(data=True):
+            weight = data.get('weight', 1.0)
+            f.write(f"{u} {v} {weight}\n")
+
+def parse_net_file(file_path):
+    """解析.net文件为NetworkX图"""
+    G = nx.DiGraph()
+    node_mapping = {}
+    
+    with open(file_path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+    
+    vertices_section = False
+    arcs_section = False
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        if line.startswith('*Vertices'):
+            vertices_section = True
+            arcs_section = False
+            continue
+            
+        if line.startswith('*Arcs'):
+            vertices_section = False
+            arcs_section = True
+            continue
+            
+        if vertices_section:
+            # 解析节点行: "1 \"ClassName\""
+            match = re.match(r'(\d+)\s+"(.+)"', line)
+            if match:
+                node_id = int(match.group(1))
+                node_name = match.group(2)
+                G.add_node(node_id, name=node_name)
+                node_mapping[node_id] = node_name
+                
+        elif arcs_section:
+            # 解析边行: "source target weight"
+            parts = line.split()
+            if len(parts) >= 2:
+                source = int(parts[0])
+                target = int(parts[1])
+                weight = float(parts[2]) if len(parts) >= 3 else 1.0
+                G.add_edge(source, target, weight=weight)
+    
+    return G, node_mapping
+
+def create_combined_dataset():
+    """创建组合数据集"""
+    # 1. 创建新数据集目录
+    new_dataset_path = Path(BASE_PATH) / f"{NEW_DATASET}_{net_type}"
+    new_dataset_path.mkdir(parents=True, exist_ok=True)
+    net_file = new_dataset_path / f"combined_{NEW_DATASET}_GN.net"
+    
+    # 2. 初始化新图的容器
+    combined_graph = nx.DiGraph()
+    node_id_map = {}  # 存储(原始数据集, 原始ID) -> 新ID
+    next_node_id = 1
+    
+    # 3. 处理每个数据集
+    for dataset in DATASETS:
+        # 3.1 读取原始数据集
+        dataset_path = Path(BASE_PATH) / f"{dataset}_{net_type}"
+        source_file = dataset_path / f"combined_{dataset}_GN.net"
+        
+        if not source_file.exists():
+            print(f"⚠️ 跳过缺失的数据集: {source_file}")
+            continue
+        # 3.2 解析.net文件
+        graph, name_map = parse_net_file(source_file)
+        
+        # 3.3 随机采样节点
+        all_nodes = list(graph.nodes())
+        sampled_nodes = random.sample(all_nodes, int(len(all_nodes) * SAMPLE_RATIO))
+        
+        # 3.4 添加采样节点到新图
+        for orig_node in sampled_nodes:
+            # 创建新节点ID
+            new_node_id = next_node_id
+            next_node_id += 1
+            
+            # 保存映射关系
+            node_id_map[(dataset, orig_node)] = new_node_id
+            
+            # 获取类名（添加数据集前缀避免冲突）
+            class_name = f"{dataset}_{name_map.get(orig_node, f'Node{orig_node}')}"
+            
+            # 添加到新图
+            combined_graph.add_node(new_node_id, name=class_name)
+        
+        # 3.5 添加相关边
+        for orig_node in sampled_nodes:
+            # 获取原始节点的所有出边
+            for neighbor in graph.successors(orig_node):
+                # 只添加两个端点都被采样的边
+                if neighbor in sampled_nodes:
+                    weight = graph[orig_node][neighbor].get('weight', 1.0)
+                    src = node_id_map[(dataset, orig_node)]
+                    dst = node_id_map[(dataset, neighbor)]
+                    combined_graph.add_edge(src, dst, weight=weight)
+    
+    # 4. 保存新数据集
+    save_net_file(combined_graph, net_file)
+    print(f"✅ 创建组合数据集完成! 共 {combined_graph.number_of_nodes()} 个节点")
+    print(f"📁 路径: {net_file}")
+    
+    return net_file
+
+if create_hybrid:
+    combined_net_file = create_combined_dataset()
+
 # -----------------------------------
 # 主函数
 # -----------------------------------
@@ -1840,7 +1994,6 @@ def main():
 
     
     k_list = [5, 10, 15]
-    
     # K折交叉验证
     if num_splits > 1:
         logging.info(f"使用 {num_splits} 次划分进行交叉验证")
@@ -1959,7 +2112,6 @@ def main():
             random_state=42, 
             stratify=labels
         )
-        
         # 训练集和测试集标签初始化
         train_labels = np.zeros_like(labels)
         test_labels = np.zeros_like(labels)
@@ -1976,7 +2128,6 @@ def main():
         val_labels[val_indices] = labels[val_indices]
         actual_train_labels = np.zeros_like(labels)
         actual_train_labels[actual_train_indices] = labels[actual_train_indices]
-
         # 验证集训练模型
         model = general_model if general_model else None
         validation_data = (combined_features, val_labels)
@@ -1989,8 +2140,7 @@ def main():
             model=model,
             prev_model_path=prev_model_path,
             validation_data=validation_data
-        )
-        
+        )       
         # 测试集评估模型
         trained_model.eval()
         embeddings_tensor = torch.tensor(combined_features, dtype=torch.float32)
@@ -2003,10 +2153,10 @@ def main():
         
         # 计算测试集上的评价指标
         test_recalls, test_precisions = compute_recall_precision_at_k(test_labels, node_scores, k_list)
-        
         logging.info(f"测试集结果:")
         for k, recall, precision in zip(k_list, test_recalls, test_precisions):
-            logging.info(f"K={k}: Recall={recall:.4f}, Precision={precision:.4f}")
+            f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+            logging.info(f"K={k}: Recall={recall:.6f}, Precision={precision:.6f}, F1={f1:.6f}")
         
         # 计算准确率
         preds = (node_scores > 0.5).astype(int)
@@ -2015,7 +2165,7 @@ def main():
         
         # 保存模型
         save_model(trained_model, optimizer, total_epochs, train_id)
-        
+
         # 保存为通用模型
         metadata = {
             'dataset': dataset,
@@ -2073,7 +2223,6 @@ def main():
         total_keys = sum(labels)
         print(f"在前{k}个预测中，正确识别了{correct_keys}个关键类，共{total_keys}个关键类")
         logging.info(f"在前{k}个预测中，正确识别了{correct_keys}个关键类，共{total_keys}个关键类")
-        
         # 计算覆盖率和准确率
         coverage = correct_keys / total_keys if total_keys > 0 else 0
         accuracy = correct_keys / k if k > 0 else 0

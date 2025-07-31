@@ -1,17 +1,17 @@
 {
     "embedding_dim": 49,
-    "gamma": 6.5911383628845215,
-    "beta": -13.465933799743652,
-    "epoch": 1000,
-    "dataset": "ANT",
+    "gamma": 6.826808929443359,
+    "beta": -13.048619270324707,
+    "epoch": 0,
+    "dataset": "JHotDraw",
     "net_type": "MCN",
     "node2vec_p": 0.25,
     "node2vec_q": 2,
     "node2vec_dim": 32,
-    "centrality_scaling": 1.313834309577942,
-    "mixing_weight": 0.3416633903980255,
+    "centrality_scaling": 1.6261509656906128,
+    "mixing_weight": 0.28981420397758484,
     "noise_threshold": 0.5124973654747009,
-    "num_nodes": 900,
-    "num_edges": 3551,
-    "num_key_nodes": 10
+    "num_nodes": 544,
+    "num_edges": 2057,
+    "num_key_nodes": 56
 }

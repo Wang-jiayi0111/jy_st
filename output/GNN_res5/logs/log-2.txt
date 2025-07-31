@@ -1,0 +1,304 @@
+2025-07-26 14:15:32,585 - INFO - 开始处理所有数据集...
+2025-07-26 14:15:32,586 - INFO - 
+################################################################################
+2025-07-26 14:15:32,586 - INFO - 处理数据集: ANT
+2025-07-26 14:15:32,586 - INFO - ################################################################################
+2025-07-26 14:15:33,361 - INFO - 识别出关键类: 69/900 (7.67%)
+2025-07-26 14:15:33,362 - INFO - 关键类: org.apache.tools.ant.BuildException, org.apache.tools.ant.Task, org.apache.tools.ant.Project, org.apache.tools.ant.ProjectComponent, org.apache.tools.ant.types.Path, org.apache.tools.ant.DirectoryScanner, org.apache.tools.ant.types.EnumeratedAttribute, org.apache.tools.ant.types.Commandline, org.apache.tools.ant.util.FileUtils, org.apache.tools.ant.taskdefs.Execute...
+2025-07-26 14:15:33,362 - INFO - 
+********************************************************************************
+2025-07-26 14:15:33,362 - INFO - 数据集: ANT
+2025-07-26 14:15:33,362 - INFO - ********************************************************************************
+2025-07-26 14:15:33,362 - INFO - 
+================================================================================
+2025-07-26 14:15:33,362 - INFO - 关键类识别结果
+2025-07-26 14:15:33,362 - INFO - ================================================================================
+2025-07-26 14:15:33,362 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:15:33,362 - INFO - ------------------------------------------------------------
+2025-07-26 14:15:33,362 - INFO - 节点 553: org.apache.tools.ant.BuildException
+2025-07-26 14:15:33,362 - INFO - 节点 677: org.apache.tools.ant.Task
+2025-07-26 14:15:33,362 - INFO - 节点 306: org.apache.tools.ant.Project
+2025-07-26 14:15:33,362 - INFO - 节点 718: org.apache.tools.ant.ProjectComponent
+2025-07-26 14:15:33,362 - INFO - 节点 770: org.apache.tools.ant.types.Path
+2025-07-26 14:15:33,362 - INFO - 节点 796: org.apache.tools.ant.DirectoryScanner
+2025-07-26 14:15:33,362 - INFO - 节点 308: org.apache.tools.ant.types.EnumeratedAttribute
+2025-07-26 14:15:33,362 - INFO - 节点 518: org.apache.tools.ant.types.Commandline
+2025-07-26 14:15:33,362 - INFO - 节点 354: org.apache.tools.ant.util.FileUtils
+2025-07-26 14:15:33,362 - INFO - 节点 118: org.apache.tools.ant.taskdefs.Execute
+2025-07-26 14:15:33,362 - INFO - 节点 582: org.apache.tools.ant.types.FileSet
+2025-07-26 14:15:33,362 - INFO - 节点 31: org.apache.tools.ant.taskdefs.MatchingTask
+2025-07-26 14:15:33,362 - INFO - 节点 16: org.apache.tools.ant.types.Reference
+2025-07-26 14:15:33,362 - INFO - 节点 676: org.apache.tools.ant.types.AbstractFileSet
+2025-07-26 14:15:33,362 - INFO - 节点 173: org.apache.tools.ant.taskdefs.Java
+2025-07-26 14:15:33,362 - INFO - 节点 286: org.apache.tools.ant.types.Commandline.Argument
+2025-07-26 14:15:33,362 - INFO - 节点 655: org.apache.tools.ant.types.selectors.BaseSelectorContainer
+2025-07-26 14:15:33,362 - INFO - 节点 209: org.apache.tools.ant.AntClassLoader
+2025-07-26 14:15:33,362 - INFO - 节点 670: org.apache.tools.ant.types.DataType
+2025-07-26 14:15:33,362 - INFO - 节点 266: org.apache.tools.ant.util.JavaEnvUtils
+2025-07-26 14:15:33,362 - INFO - 节点 828: org.apache.tools.ant.UnknownElement
+2025-07-26 14:15:33,362 - INFO - 节点 461: org.apache.tools.ant.types.CommandlineJava
+2025-07-26 14:15:33,362 - INFO - 节点 528: org.apache.tools.ant.taskdefs.ExecTask
+2025-07-26 14:15:33,363 - INFO - 节点 780: org.apache.tools.ant.taskdefs.optional.perforce.P4Base
+2025-07-26 14:15:33,363 - INFO - 节点 875: org.apache.tools.ant.taskdefs.Zip
+2025-07-26 14:15:33,363 - INFO - 节点 317: org.apache.tools.ant.ProjectHelper
+2025-07-26 14:15:33,363 - INFO - 节点 473: org.apache.tools.ant.taskdefs.Javac
+2025-07-26 14:15:33,363 - INFO - 节点 704: org.apache.tools.ant.types.Parameter
+2025-07-26 14:15:33,363 - INFO - 节点 851: org.apache.tools.ant.Target
+2025-07-26 14:15:33,363 - INFO - 节点 860: org.apache.tools.ant.taskdefs.LogStreamHandler
+2025-07-26 14:15:33,363 - INFO - 节点 496: org.apache.tools.ant.taskdefs.condition.ConditionBase
+2025-07-26 14:15:33,363 - INFO - 节点 531: org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool
+2025-07-26 14:15:33,363 - INFO - 节点 712: org.apache.tools.ant.util.FileNameMapper
+2025-07-26 14:15:33,363 - INFO - 节点 33: org.apache.tools.ant.taskdefs.Rmic
+2025-07-26 14:15:33,363 - INFO - 节点 806: org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter
+2025-07-26 14:15:33,363 - INFO - 节点 839: org.apache.tools.ant.taskdefs.optional.clearcase.ClearCase
+2025-07-26 14:15:33,363 - INFO - 节点 59: org.apache.tools.ant.BuildEvent
+2025-07-26 14:15:33,363 - INFO - 节点 303: org.apache.tools.ant.taskdefs.optional.dotnet.NetCommand
+2025-07-26 14:15:33,363 - INFO - 节点 393: org.apache.tools.ant.taskdefs.condition.Condition
+2025-07-26 14:15:33,363 - INFO - 节点 827: org.apache.tools.ant.types.PropertySet
+2025-07-26 14:15:33,363 - INFO - 节点 869: org.apache.tools.ant.taskdefs.ExecuteOn
+2025-07-26 14:15:33,363 - INFO - 节点 126: org.apache.tools.ant.taskdefs.optional.vss.MSVSS
+2025-07-26 14:15:33,363 - INFO - 节点 165: org.apache.tools.ant.helper.ProjectHelperImpl
+2025-07-26 14:15:33,363 - INFO - 节点 500: org.apache.tools.ant.taskdefs.ExecuteStreamHandler
+2025-07-26 14:15:33,363 - INFO - 节点 102: org.apache.tools.ant.ComponentHelper
+2025-07-26 14:15:33,363 - INFO - 节点 141: org.apache.tools.ant.types.selectors.BaseSelector
+2025-07-26 14:15:33,363 - INFO - 节点 435: org.apache.tools.ant.filters.BaseFilterReader
+2025-07-26 14:15:33,363 - INFO - 节点 591: org.apache.tools.ant.taskdefs.condition.Os
+2025-07-26 14:15:33,363 - INFO - 节点 200: org.apache.tools.ant.IntrospectionHelper
+2025-07-26 14:15:33,363 - INFO - 节点 309: org.apache.tools.ant.RuntimeConfigurable
+2025-07-26 14:15:33,363 - INFO - 节点 481: org.apache.tools.ant.types.Mapper
+2025-07-26 14:15:33,363 - INFO - 节点 507: org.apache.tools.ant.types.XMLCatalog
+2025-07-26 14:15:33,363 - INFO - 节点 53: org.apache.tools.ant.taskdefs.Copy
+2025-07-26 14:15:33,363 - INFO - 节点 26: org.apache.tools.ant.taskdefs.LogOutputStream
+2025-07-26 14:15:33,363 - INFO - 节点 319: org.apache.tools.ant.taskdefs.AbstractCvsTask
+2025-07-26 14:15:33,363 - INFO - 节点 38: org.apache.tools.ant.filters.BaseParamFilterReader
+2025-07-26 14:15:33,363 - INFO - 节点 497: org.apache.tools.ant.BuildListener
+2025-07-26 14:15:33,363 - INFO - 节点 536: org.apache.tools.ant.taskdefs.Ant
+2025-07-26 14:15:33,363 - INFO - 节点 614: org.apache.tools.ant.taskdefs.optional.sos.SOS
+2025-07-26 14:15:33,363 - INFO - 节点 752: org.apache.tools.ant.types.PatternSet
+2025-07-26 14:15:33,363 - INFO - 节点 250: org.apache.tools.ant.taskdefs.optional.extension.Extension
+2025-07-26 14:15:33,363 - INFO - 节点 376: org.apache.tools.ant.types.ZipFileSet
+2025-07-26 14:15:33,363 - INFO - 节点 782: org.apache.tools.ant.taskdefs.optional.ccm.Continuus
+2025-07-26 14:15:33,364 - INFO - 节点 80: org.apache.tools.ant.taskdefs.Redirector
+2025-07-26 14:15:33,364 - INFO - 节点 728: org.apache.tools.ant.Location
+2025-07-26 14:15:33,364 - INFO - 节点 829: org.apache.tools.ant.types.selectors.FileSelector
+2025-07-26 14:15:33,364 - INFO - 节点 152: org.apache.tools.ant.taskdefs.optional.junit.JUnitTest
+2025-07-26 14:15:33,364 - INFO - 节点 157: org.apache.tools.ant.types.Environment.Variable
+2025-07-26 14:15:33,364 - INFO - 节点 154: org.apache.tools.ant.types.FilterSet
+2025-07-26 14:15:33,364 - INFO - 
+统计摘要:
+2025-07-26 14:15:33,364 - INFO - ------------------------------------------------------------
+2025-07-26 14:15:33,364 - INFO - 关键类数量: 69
+2025-07-26 14:15:33,364 - INFO - ********************************************************************************
+
+2025-07-26 14:15:33,364 - INFO - 数据集 ANT 处理完成
+2025-07-26 14:15:33,364 - INFO - 
+################################################################################
+2025-07-26 14:15:33,364 - INFO - 所有数据集合并结果
+2025-07-26 14:15:33,364 - INFO - ################################################################################
+2025-07-26 14:15:33,364 - INFO - 
+================================================================================
+2025-07-26 14:15:33,364 - INFO - 关键类识别结果
+2025-07-26 14:15:33,364 - INFO - ================================================================================
+2025-07-26 14:15:33,364 - INFO - 
+关键类列表 (ID 和 类名):
+2025-07-26 14:15:33,364 - INFO - ------------------------------------------------------------
+2025-07-26 14:15:33,364 - INFO - 节点 ANT_16: org.apache.tools.ant.types.Reference
+2025-07-26 14:15:33,364 - INFO - 节点 ANT_26: org.apache.tools.ant.taskdefs.LogOutputStream
+2025-07-26 14:15:33,364 - INFO - 节点 ANT_31: org.apache.tools.ant.taskdefs.MatchingTask
+2025-07-26 14:15:33,364 - INFO - 节点 ANT_33: org.apache.tools.ant.taskdefs.Rmic
+2025-07-26 14:15:33,364 - INFO - 节点 ANT_38: org.apache.tools.ant.filters.BaseParamFilterReader
+2025-07-26 14:15:33,364 - INFO - 节点 ANT_53: org.apache.tools.ant.taskdefs.Copy
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_59: org.apache.tools.ant.BuildEvent
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_80: org.apache.tools.ant.taskdefs.Redirector
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_102: org.apache.tools.ant.ComponentHelper
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_118: org.apache.tools.ant.taskdefs.Execute
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_126: org.apache.tools.ant.taskdefs.optional.vss.MSVSS
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_141: org.apache.tools.ant.types.selectors.BaseSelector
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_152: org.apache.tools.ant.taskdefs.optional.junit.JUnitTest
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_154: org.apache.tools.ant.types.FilterSet
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_157: org.apache.tools.ant.types.Environment.Variable
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_165: org.apache.tools.ant.helper.ProjectHelperImpl
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_173: org.apache.tools.ant.taskdefs.Java
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_200: org.apache.tools.ant.IntrospectionHelper
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_209: org.apache.tools.ant.AntClassLoader
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_250: org.apache.tools.ant.taskdefs.optional.extension.Extension
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_266: org.apache.tools.ant.util.JavaEnvUtils
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_286: org.apache.tools.ant.types.Commandline.Argument
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_303: org.apache.tools.ant.taskdefs.optional.dotnet.NetCommand
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_306: org.apache.tools.ant.Project
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_308: org.apache.tools.ant.types.EnumeratedAttribute
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_309: org.apache.tools.ant.RuntimeConfigurable
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_317: org.apache.tools.ant.ProjectHelper
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_319: org.apache.tools.ant.taskdefs.AbstractCvsTask
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_354: org.apache.tools.ant.util.FileUtils
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_376: org.apache.tools.ant.types.ZipFileSet
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_393: org.apache.tools.ant.taskdefs.condition.Condition
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_435: org.apache.tools.ant.filters.BaseFilterReader
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_461: org.apache.tools.ant.types.CommandlineJava
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_473: org.apache.tools.ant.taskdefs.Javac
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_481: org.apache.tools.ant.types.Mapper
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_496: org.apache.tools.ant.taskdefs.condition.ConditionBase
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_497: org.apache.tools.ant.BuildListener
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_500: org.apache.tools.ant.taskdefs.ExecuteStreamHandler
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_507: org.apache.tools.ant.types.XMLCatalog
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_518: org.apache.tools.ant.types.Commandline
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_528: org.apache.tools.ant.taskdefs.ExecTask
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_531: org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_536: org.apache.tools.ant.taskdefs.Ant
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_553: org.apache.tools.ant.BuildException
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_582: org.apache.tools.ant.types.FileSet
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_591: org.apache.tools.ant.taskdefs.condition.Os
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_614: org.apache.tools.ant.taskdefs.optional.sos.SOS
+2025-07-26 14:15:33,365 - INFO - 节点 ANT_655: org.apache.tools.ant.types.selectors.BaseSelectorContainer
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_670: org.apache.tools.ant.types.DataType
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_676: org.apache.tools.ant.types.AbstractFileSet
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_677: org.apache.tools.ant.Task
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_704: org.apache.tools.ant.types.Parameter
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_712: org.apache.tools.ant.util.FileNameMapper
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_718: org.apache.tools.ant.ProjectComponent
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_728: org.apache.tools.ant.Location
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_752: org.apache.tools.ant.types.PatternSet
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_770: org.apache.tools.ant.types.Path
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_780: org.apache.tools.ant.taskdefs.optional.perforce.P4Base
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_782: org.apache.tools.ant.taskdefs.optional.ccm.Continuus
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_796: org.apache.tools.ant.DirectoryScanner
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_806: org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_827: org.apache.tools.ant.types.PropertySet
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_828: org.apache.tools.ant.UnknownElement
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_829: org.apache.tools.ant.types.selectors.FileSelector
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_839: org.apache.tools.ant.taskdefs.optional.clearcase.ClearCase
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_851: org.apache.tools.ant.Target
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_860: org.apache.tools.ant.taskdefs.LogStreamHandler
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_869: org.apache.tools.ant.taskdefs.ExecuteOn
+2025-07-26 14:15:33,366 - INFO - 节点 ANT_875: org.apache.tools.ant.taskdefs.Zip
+2025-07-26 14:15:33,366 - INFO - 
+统计摘要:
+2025-07-26 14:15:33,366 - INFO - ------------------------------------------------------------
+2025-07-26 14:15:33,366 - INFO - 关键类数量: 69
+2025-07-26 14:15:33,366 - INFO - 处理完成!
+2025-07-26 14:15:33,366 - INFO - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-07-26 14:15:33,366 - INFO - 关键类节点: ['ANT_16', 'ANT_26', 'ANT_31', 'ANT_33', 'ANT_38', 'ANT_53', 'ANT_59', 'ANT_80', 'ANT_102', 'ANT_118', 'ANT_126', 'ANT_141', 'ANT_152', 'ANT_154', 'ANT_157', 'ANT_165', 'ANT_173', 'ANT_200', 'ANT_209', 'ANT_250', 'ANT_266', 'ANT_286', 'ANT_303', 'ANT_306', 'ANT_308', 'ANT_309', 'ANT_317', 'ANT_319', 'ANT_354', 'ANT_376', 'ANT_393', 'ANT_435', 'ANT_461', 'ANT_473', 'ANT_481', 'ANT_496', 'ANT_497', 'ANT_500', 'ANT_507', 'ANT_518', 'ANT_528', 'ANT_531', 'ANT_536', 'ANT_553', 'ANT_582', 'ANT_591', 'ANT_614', 'ANT_655', 'ANT_670', 'ANT_676', 'ANT_677', 'ANT_704', 'ANT_712', 'ANT_718', 'ANT_728', 'ANT_752', 'ANT_770', 'ANT_780', 'ANT_782', 'ANT_796', 'ANT_806', 'ANT_827', 'ANT_828', 'ANT_829', 'ANT_839', 'ANT_851', 'ANT_860', 'ANT_869', 'ANT_875']
+2025-07-26 14:15:37,252 - INFO - collecting all words and their counts
+2025-07-26 14:15:37,252 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-26 14:15:37,268 - INFO - PROGRESS: at sentence #10000, processed 173522 words, keeping 900 word types
+2025-07-26 14:15:37,284 - INFO - PROGRESS: at sentence #20000, processed 345843 words, keeping 900 word types
+2025-07-26 14:15:37,299 - INFO - PROGRESS: at sentence #30000, processed 519620 words, keeping 900 word types
+2025-07-26 14:15:37,314 - INFO - PROGRESS: at sentence #40000, processed 692618 words, keeping 900 word types
+2025-07-26 14:15:37,330 - INFO - PROGRESS: at sentence #50000, processed 864282 words, keeping 900 word types
+2025-07-26 14:15:37,345 - INFO - PROGRESS: at sentence #60000, processed 1035863 words, keeping 900 word types
+2025-07-26 14:15:37,360 - INFO - PROGRESS: at sentence #70000, processed 1209013 words, keeping 900 word types
+2025-07-26 14:15:37,376 - INFO - PROGRESS: at sentence #80000, processed 1382243 words, keeping 900 word types
+2025-07-26 14:15:37,391 - INFO - collected 900 word types from a corpus of 1554444 raw words and 90000 sentences
+2025-07-26 14:15:37,391 - INFO - Creating a fresh vocabulary
+2025-07-26 14:15:37,394 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 900 unique words (100.00% of original 900, drops 0)', 'datetime': '2025-07-26T14:15:37.393484', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:15:37,394 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 1554444 word corpus (100.00% of original 1554444, drops 0)', 'datetime': '2025-07-26T14:15:37.394941', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:15:37,397 - INFO - deleting the raw counts dictionary of 900 items
+2025-07-26 14:15:37,398 - INFO - sample=0.001 downsamples 33 most-common words
+2025-07-26 14:15:37,398 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 468959.82588781277 word corpus (30.2%% of prior 1554444)', 'datetime': '2025-07-26T14:15:37.398139', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-26 14:15:37,402 - INFO - estimated required memory for 900 words and 32 dimensions: 680400 bytes
+2025-07-26 14:15:37,402 - INFO - resetting layer weights
+2025-07-26 14:15:37,403 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-26T14:15:37.403302', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-26 14:15:37,403 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 900 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-26T14:15:37.403391', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:15:38,404 - INFO - EPOCH 0 - PROGRESS: at 21.32% examples, 100041 words/s, in_qsize 0, out_qsize 0
+2025-07-26 14:15:39,404 - INFO - EPOCH 0 - PROGRESS: at 37.36% examples, 87710 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:15:40,404 - INFO - EPOCH 0 - PROGRESS: at 52.88% examples, 82690 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:15:41,404 - INFO - EPOCH 0 - PROGRESS: at 68.93% examples, 80781 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:15:42,404 - INFO - EPOCH 0 - PROGRESS: at 84.79% examples, 79522 words/s, in_qsize 0, out_qsize 0
+2025-07-26 14:15:43,377 - INFO - EPOCH 0: training on 1554444 raw words (468737 effective words) took 6.0s, 78472 effective words/s
+2025-07-26 14:15:44,379 - INFO - EPOCH 1 - PROGRESS: at 17.34% examples, 81516 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:15:45,379 - INFO - EPOCH 1 - PROGRESS: at 34.60% examples, 81244 words/s, in_qsize 0, out_qsize 2
+2025-07-26 14:15:46,379 - INFO - EPOCH 1 - PROGRESS: at 51.29% examples, 80196 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:15:47,379 - INFO - EPOCH 1 - PROGRESS: at 64.96% examples, 76197 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:15:48,379 - INFO - EPOCH 1 - PROGRESS: at 77.44% examples, 72614 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:15:49,379 - INFO - EPOCH 1 - PROGRESS: at 90.13% examples, 70427 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:15:50,089 - INFO - EPOCH 1: training on 1554444 raw words (468817 effective words) took 6.7s, 69868 effective words/s
+2025-07-26 14:15:51,091 - INFO - EPOCH 2 - PROGRESS: at 15.16% examples, 71334 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:15:52,091 - INFO - EPOCH 2 - PROGRESS: at 28.47% examples, 66953 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:15:53,091 - INFO - EPOCH 2 - PROGRESS: at 43.55% examples, 68210 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:15:54,091 - INFO - EPOCH 2 - PROGRESS: at 57.79% examples, 67756 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:15:55,091 - INFO - EPOCH 2 - PROGRESS: at 71.08% examples, 66649 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:15:56,091 - INFO - EPOCH 2 - PROGRESS: at 84.84% examples, 66251 words/s, in_qsize 1, out_qsize 2
+2025-07-26 14:15:57,091 - INFO - EPOCH 2 - PROGRESS: at 98.59% examples, 66047 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:15:57,190 - INFO - EPOCH 2: training on 1554444 raw words (468893 effective words) took 7.1s, 66045 effective words/s
+2025-07-26 14:15:58,191 - INFO - EPOCH 3 - PROGRESS: at 13.54% examples, 63777 words/s, in_qsize 2, out_qsize 1
+2025-07-26 14:15:59,191 - INFO - EPOCH 3 - PROGRESS: at 24.96% examples, 58701 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:16:00,192 - INFO - EPOCH 3 - PROGRESS: at 36.89% examples, 57776 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:16:01,192 - INFO - EPOCH 3 - PROGRESS: at 48.96% examples, 57446 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:16:02,192 - INFO - EPOCH 3 - PROGRESS: at 63.10% examples, 59221 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:16:03,192 - INFO - EPOCH 3 - PROGRESS: at 77.30% examples, 60406 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:16:04,192 - INFO - EPOCH 3 - PROGRESS: at 91.08% examples, 60997 words/s, in_qsize 0, out_qsize 0
+2025-07-26 14:16:04,898 - INFO - EPOCH 3: training on 1554444 raw words (468728 effective words) took 7.7s, 60819 effective words/s
+2025-07-26 14:16:05,900 - INFO - EPOCH 4 - PROGRESS: at 14.32% examples, 67456 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:16:06,900 - INFO - EPOCH 4 - PROGRESS: at 27.64% examples, 64883 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:16:07,900 - INFO - EPOCH 4 - PROGRESS: at 42.03% examples, 65735 words/s, in_qsize 0, out_qsize 2
+2025-07-26 14:16:08,900 - INFO - EPOCH 4 - PROGRESS: at 55.74% examples, 65384 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:16:09,900 - INFO - EPOCH 4 - PROGRESS: at 69.43% examples, 65087 words/s, in_qsize 0, out_qsize 0
+2025-07-26 14:16:10,900 - INFO - EPOCH 4 - PROGRESS: at 83.44% examples, 65139 words/s, in_qsize 0, out_qsize 1
+2025-07-26 14:16:11,900 - INFO - EPOCH 4 - PROGRESS: at 97.33% examples, 65167 words/s, in_qsize 1, out_qsize 0
+2025-07-26 14:16:12,074 - INFO - EPOCH 4: training on 1554444 raw words (468613 effective words) took 7.2s, 65312 effective words/s
+2025-07-26 14:16:12,075 - INFO - Word2Vec lifecycle event {'msg': 'training on 7772220 raw words (2343788 effective words) took 34.7s, 67600 effective words/s', 'datetime': '2025-07-26T14:16:12.075172', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-26 14:16:12,075 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=900, vector_size=32, alpha=0.025>', 'datetime': '2025-07-26T14:16:12.075538', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-26 14:16:12,139 - INFO - 计算增强的节点中心性特征...
+2025-07-26 14:16:13,904 - INFO - 标准化中心性特征...
+2025-07-26 14:16:13,908 - INFO - 应用特征重要性权重后的中心性特征形状: (900, 17)
+2025-07-26 14:16:13,910 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-26 14:16:14,170 - INFO - 加载模型参数: gamma=6.3111, beta=-13.7201, centrality_scaling=1.0939
+2025-07-26 14:16:14,171 - INFO - 其他参数: mixing_weight=0.4683, noise_threshold=0.5125
+2025-07-26 14:16:14,175 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-26 14:16:14,189 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-26 14:16:14,189 - INFO - 将使用迁移学习进行训练
+2025-07-26 14:16:14,189 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-26 14:16:14,189 - INFO - 使用单次训练模式
+2025-07-26 14:16:14,192 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-26 14:16:15,498 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-26 14:16:15,504 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-26 14:16:15,847 - INFO - 测试集结果:
+2025-07-26 14:16:15,847 - INFO - K=5: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 14:16:15,847 - INFO - K=10: Recall=0.000000, Precision=0.000000, F1=0.000000
+2025-07-26 14:16:15,847 - INFO - K=15: Recall=0.071429, Precision=0.066667, F1=0.068966
+2025-07-26 14:16:15,847 - INFO - 测试集分类准确率: 31.67%
+2025-07-26 14:16:15,850 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res5/historicalModels/Train-2/final_model.pth
+2025-07-26 14:16:15,852 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-26 14:16:15,853 - INFO - 
+识别出的重要类:
+2025-07-26 14:16:15,853 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:16:15,853 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-26 14:16:15,853 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:16:15,853 - INFO - 1      670      0.8191     ✓      org.apache.tools.ant.types.DataType               
+2025-07-26 14:16:15,853 - INFO - 2      615      0.8091            org.apache.tools.ant.util.regexp.RegexpMatcher    
+2025-07-26 14:16:15,853 - INFO - 3      354      0.8081     ✓      org.apache.tools.ant.util.FileUtils               
+2025-07-26 14:16:15,853 - INFO - 4      728      0.7984     ✓      org.apache.tools.ant.Location                     
+2025-07-26 14:16:15,853 - INFO - 5      789      0.7204            org.apache.tools.ant.util.regexp.Regexp           
+2025-07-26 14:16:15,853 - INFO - 6      157      0.6936     ✓      org.apache.tools.ant.types.Environment.Variable   
+2025-07-26 14:16:15,853 - INFO - 7      465      0.6888            org.apache.tools.ant.taskdefs.Execute.CommandLauncher
+2025-07-26 14:16:15,853 - INFO - 8      437      0.6577            org.apache.tools.ant.types.PatternSet.NameEntry   
+2025-07-26 14:16:15,853 - INFO - 9      417      0.6496            org.apache.tools.ant.types.DirSet                 
+2025-07-26 14:16:15,853 - INFO - 10     782      0.6477     ✓      org.apache.tools.ant.taskdefs.optional.ccm.Continuus
+2025-07-26 14:16:15,853 - INFO - 11     412      0.6475            org.apache.tools.ant.types.FilterSetCollection    
+2025-07-26 14:16:15,854 - INFO - 12     361      0.6470            org.apache.tools.ant.taskdefs.ExecuteWatchdog     
+2025-07-26 14:16:15,854 - INFO - 13     848      0.6448            org.apache.tools.ant.types.FilterChain            
+2025-07-26 14:16:15,854 - INFO - 14     268      0.6406            org.apache.tools.ant.taskdefs.Execute.CommandLauncherProxy
+2025-07-26 14:16:15,854 - INFO - 15     266      0.6391     ✓      org.apache.tools.ant.util.JavaEnvUtils            
+2025-07-26 14:16:15,854 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:16:15,854 - INFO - 
+成功识别的关键类:
+2025-07-26 14:16:15,854 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:16:15,854 - INFO - 1. org.apache.tools.ant.types.DataType (排名: 1, 分数: 0.8191, 节点ID: 670)
+2025-07-26 14:16:15,854 - INFO - 2. org.apache.tools.ant.util.FileUtils (排名: 3, 分数: 0.8081, 节点ID: 354)
+2025-07-26 14:16:15,854 - INFO - 3. org.apache.tools.ant.Location (排名: 4, 分数: 0.7984, 节点ID: 728)
+2025-07-26 14:16:15,854 - INFO - 4. org.apache.tools.ant.types.Environment.Variable (排名: 6, 分数: 0.6936, 节点ID: 157)
+2025-07-26 14:16:15,854 - INFO - 5. org.apache.tools.ant.taskdefs.optional.ccm.Continuus (排名: 10, 分数: 0.6477, 节点ID: 782)
+2025-07-26 14:16:15,854 - INFO - 6. org.apache.tools.ant.util.JavaEnvUtils (排名: 15, 分数: 0.6391, 节点ID: 266)
+2025-07-26 14:16:15,854 - INFO - --------------------------------------------------------------------------------
+2025-07-26 14:16:15,854 - INFO - 在前5个预测中，正确识别了3个关键类，共69个关键类
+2025-07-26 14:16:15,854 - INFO - 覆盖率: 4.35%, 准确率: 60.00%
+2025-07-26 14:16:15,854 - INFO - 在前10个预测中，正确识别了5个关键类，共69个关键类
+2025-07-26 14:16:15,854 - INFO - 覆盖率: 7.25%, 准确率: 50.00%
+2025-07-26 14:16:15,854 - INFO - 在前15个预测中，正确识别了6个关键类，共69个关键类
+2025-07-26 14:16:15,854 - INFO - 覆盖率: 8.70%, 准确率: 40.00%
+2025-07-26 14:16:16,092 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res5/Scores/ANT_scores.txt
+2025-07-26 14:16:16,092 - INFO - 分数统计：最小值=0.0079, 最大值=0.8191, 平均值=0.4161
+2025-07-26 14:16:16,092 - INFO - 接近0的分数(小于0.051)数量: 5 / 900
+2025-07-26 14:16:16,092 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res5/logs/log-2.txt

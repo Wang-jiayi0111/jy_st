@@ -1,0 +1,86 @@
+2025-07-13 00:26:03,532 - INFO - 使用中心性计算得到的关键类
+2025-07-13 00:26:03,532 - INFO - 关键类节点: [36, 8, 26, 9, 24, 35, 5, 3, 14, 17]
+2025-07-13 00:26:03,613 - INFO - collecting all words and their counts
+2025-07-13 00:26:03,613 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-13 00:26:03,615 - INFO - collected 39 word types from a corpus of 13043 raw words and 3900 sentences
+2025-07-13 00:26:03,615 - INFO - Creating a fresh vocabulary
+2025-07-13 00:26:03,616 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 39 unique words (100.00% of original 39, drops 0)', 'datetime': '2025-07-13T00:26:03.615483', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 00:26:03,616 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 13043 word corpus (100.00% of original 13043, drops 0)', 'datetime': '2025-07-13T00:26:03.616761', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 00:26:03,616 - INFO - deleting the raw counts dictionary of 39 items
+2025-07-13 00:26:03,617 - INFO - sample=0.001 downsamples 39 most-common words
+2025-07-13 00:26:03,617 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 2735.8224589577026 word corpus (21.0%% of prior 13043)', 'datetime': '2025-07-13T00:26:03.617126', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-13 00:26:03,617 - INFO - estimated required memory for 39 words and 32 dimensions: 29484 bytes
+2025-07-13 00:26:03,617 - INFO - resetting layer weights
+2025-07-13 00:26:03,617 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-13T00:26:03.617676', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-13 00:26:03,617 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 39 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-13T00:26:03.617753', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 00:26:03,712 - INFO - EPOCH 0: training on 13043 raw words (2720 effective words) took 0.1s, 28865 effective words/s
+2025-07-13 00:26:03,930 - INFO - EPOCH 1: training on 13043 raw words (2740 effective words) took 0.2s, 12636 effective words/s
+2025-07-13 00:26:04,082 - INFO - EPOCH 2: training on 13043 raw words (2745 effective words) took 0.2s, 18198 effective words/s
+2025-07-13 00:26:04,265 - INFO - EPOCH 3: training on 13043 raw words (2738 effective words) took 0.2s, 15005 effective words/s
+2025-07-13 00:26:04,418 - INFO - EPOCH 4: training on 13043 raw words (2723 effective words) took 0.2s, 17966 effective words/s
+2025-07-13 00:26:04,418 - INFO - Word2Vec lifecycle event {'msg': 'training on 65215 raw words (13666 effective words) took 0.8s, 17068 effective words/s', 'datetime': '2025-07-13T00:26:04.418509', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-13 00:26:04,418 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=39, vector_size=32, alpha=0.025>', 'datetime': '2025-07-13T00:26:04.418753', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-13 00:26:04,419 - INFO - 计算增强的节点中心性特征...
+2025-07-13 00:26:04,463 - INFO - 标准化中心性特征...
+2025-07-13 00:26:04,464 - INFO - 应用特征重要性权重后的中心性特征形状: (39, 17)
+2025-07-13 00:26:04,465 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-13 00:26:04,638 - INFO - 加载模型参数: gamma=6.5092, beta=-13.5463, centrality_scaling=1.2473
+2025-07-13 00:26:04,638 - INFO - 其他参数: mixing_weight=0.3625, noise_threshold=0.5125
+2025-07-13 00:26:04,641 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-13 00:26:04,643 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-13 00:26:04,643 - INFO - 将使用迁移学习进行训练
+2025-07-13 00:26:04,643 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-13 00:26:04,643 - INFO - 使用单次训练模式
+2025-07-13 00:26:04,645 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-13 00:26:05,376 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-13 00:26:05,378 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-13 00:26:05,581 - INFO - 测试集结果:
+2025-07-13 00:26:05,581 - INFO - K=5: Recall=0.5000, Precision=0.2000
+2025-07-13 00:26:05,581 - INFO - K=10: Recall=1.0000, Precision=0.2000
+2025-07-13 00:26:05,581 - INFO - K=15: Recall=1.0000, Precision=0.1333
+2025-07-13 00:26:05,581 - INFO - 测试集分类准确率: 87.50%
+2025-07-13 00:26:05,584 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res2/historicalModels/Train-7/final_model.pth
+2025-07-13 00:26:05,587 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-13 00:26:05,587 - INFO - 
+识别出的重要类:
+2025-07-13 00:26:05,588 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:26:05,588 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-13 00:26:05,588 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:26:05,588 - INFO - 1      8        0.7918     ✓      EmailSystem.Client                                
+2025-07-13 00:26:05,588 - INFO - 2      9        0.6667     ✓      EmailSystem.Email                                 
+2025-07-13 00:26:05,588 - INFO - 3      5        0.5680     ✓      defpackage.Test_Actions                           
+2025-07-13 00:26:05,588 - INFO - 4      26       0.2542     ✓      tests.EmailTEST                                   
+2025-07-13 00:26:05,588 - INFO - 5      7        0.2194            EmailSystem.Client$KeyringEntry                   
+2025-07-13 00:26:05,588 - INFO - 6      10       0.1808            EmailSystem.Util                                  
+2025-07-13 00:26:05,588 - INFO - 7      36       0.1771     ✓      TestSpecifications.SpecificationManager           
+2025-07-13 00:26:05,588 - INFO - 8      35       0.1586     ✓      TestSpecifications.SpecificationException         
+2025-07-13 00:26:05,588 - INFO - 9      2        0.1495            defpackage.PL_Interface                           
+2025-07-13 00:26:05,588 - INFO - 10     34       0.1405            TestSpecifications.Specification9                 
+2025-07-13 00:26:05,588 - INFO - 11     3        0.1328     ✓      defpackage.PL_Interface_impl                      
+2025-07-13 00:26:05,588 - INFO - 12     32       0.1276            TestSpecifications.Specification6                 
+2025-07-13 00:26:05,588 - INFO - 13     20       0.1261            featuremodel.Proposition                          
+2025-07-13 00:26:05,588 - INFO - 14     6        0.1244            EmailSystem.Client$AddressBookEntry               
+2025-07-13 00:26:05,588 - INFO - 15     4        0.1240            defpackage.Scenario                               
+2025-07-13 00:26:05,588 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:26:05,588 - INFO - 
+成功识别的关键类:
+2025-07-13 00:26:05,588 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:26:05,588 - INFO - 1. EmailSystem.Client (排名: 1, 分数: 0.7918, 节点ID: 8)
+2025-07-13 00:26:05,588 - INFO - 2. EmailSystem.Email (排名: 2, 分数: 0.6667, 节点ID: 9)
+2025-07-13 00:26:05,588 - INFO - 3. defpackage.Test_Actions (排名: 3, 分数: 0.5680, 节点ID: 5)
+2025-07-13 00:26:05,588 - INFO - 4. tests.EmailTEST (排名: 4, 分数: 0.2542, 节点ID: 26)
+2025-07-13 00:26:05,589 - INFO - 5. TestSpecifications.SpecificationManager (排名: 7, 分数: 0.1771, 节点ID: 36)
+2025-07-13 00:26:05,589 - INFO - 6. TestSpecifications.SpecificationException (排名: 8, 分数: 0.1586, 节点ID: 35)
+2025-07-13 00:26:05,589 - INFO - 7. defpackage.PL_Interface_impl (排名: 11, 分数: 0.1328, 节点ID: 3)
+2025-07-13 00:26:05,589 - INFO - --------------------------------------------------------------------------------
+2025-07-13 00:26:05,589 - INFO - 在前5个预测中，正确识别了4个关键类，共10.0个关键类
+2025-07-13 00:26:05,589 - INFO - 覆盖率: 40.00%, 准确率: 80.00%
+2025-07-13 00:26:05,589 - INFO - 在前10个预测中，正确识别了6个关键类，共10.0个关键类
+2025-07-13 00:26:05,589 - INFO - 覆盖率: 60.00%, 准确率: 60.00%
+2025-07-13 00:26:05,589 - INFO - 在前15个预测中，正确识别了7个关键类，共10.0个关键类
+2025-07-13 00:26:05,589 - INFO - 覆盖率: 70.00%, 准确率: 46.67%
+2025-07-13 00:26:05,795 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res2/Scores/email__spl_scores.txt
+2025-07-13 00:26:05,795 - INFO - 分数统计：最小值=0.0303, 最大值=0.7918, 平均值=0.1525
+2025-07-13 00:26:05,795 - INFO - 接近0的分数(小于0.051)数量: 1 / 39
+2025-07-13 00:26:05,795 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res2/logs/log-7.txt

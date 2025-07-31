@@ -48,16 +48,6 @@ def push_and_pull(opt, lnet, gnet, done, s_, buffer_s, buffer_a, buffer_r, gamma
         v_s_ = r + gamma * v_s_
         buffer_v_target.append(v_s_)
     buffer_v_target.reverse()
-
-    # reward_scale = 1.0 / (np.std(buffer_r) + 1e-8)  # 基于奖励标准差
-    # buffer_v_target = []
-    # for r in buffer_r[::-1]:
-    #     print("r:", r)
-    #     r = r * min(reward_scale, 10.0)  # 限制最大缩放倍数
-    #     v_s_ = r + gamma * v_s_
-    #     buffer_v_target.append(v_s_)
-    # buffer_v_target.reverse()
-
     # 计算损失
     c_loss, a_loss  = lnet.loss_func(
         # 状态

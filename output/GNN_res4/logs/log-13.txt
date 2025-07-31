@@ -1,0 +1,87 @@
+2025-07-23 15:50:50,909 - INFO - 使用中心性计算得到的关键类
+2025-07-23 15:50:50,909 - INFO - 关键类节点: [44, 17, 22, 23, 1, 19, 20, 5, 34, 29]
+2025-07-23 15:50:51,323 - INFO - collecting all words and their counts
+2025-07-23 15:50:51,323 - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-07-23 15:50:51,334 - INFO - collected 45 word types from a corpus of 132100 raw words and 4500 sentences
+2025-07-23 15:50:51,334 - INFO - Creating a fresh vocabulary
+2025-07-23 15:50:51,336 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 45 unique words (100.00% of original 45, drops 0)', 'datetime': '2025-07-23T15:50:51.334806', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-23 15:50:51,336 - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 132100 word corpus (100.00% of original 132100, drops 0)', 'datetime': '2025-07-23T15:50:51.336854', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-23 15:50:51,337 - INFO - deleting the raw counts dictionary of 45 items
+2025-07-23 15:50:51,337 - INFO - sample=0.001 downsamples 35 most-common words
+2025-07-23 15:50:51,337 - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 26602.69592992202 word corpus (20.1%% of prior 132100)', 'datetime': '2025-07-23T15:50:51.337238', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'prepare_vocab'}
+2025-07-23 15:50:51,337 - INFO - estimated required memory for 45 words and 32 dimensions: 34020 bytes
+2025-07-23 15:50:51,337 - INFO - resetting layer weights
+2025-07-23 15:50:51,337 - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-07-23T15:50:51.337845', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'build_vocab'}
+2025-07-23 15:50:51,337 - INFO - Word2Vec lifecycle event {'msg': 'training model with 1 workers on 45 vocabulary and 32 features, using sg=1 hs=0 sample=0.001 negative=5 window=10 shrink_windows=True', 'datetime': '2025-07-23T15:50:51.337920', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-23 15:50:51,745 - INFO - EPOCH 0: training on 132100 raw words (26743 effective words) took 0.4s, 65845 effective words/s
+2025-07-23 15:50:52,044 - INFO - EPOCH 1: training on 132100 raw words (26660 effective words) took 0.3s, 89401 effective words/s
+2025-07-23 15:50:52,343 - INFO - EPOCH 2: training on 132100 raw words (26335 effective words) took 0.3s, 88512 effective words/s
+2025-07-23 15:50:52,626 - INFO - EPOCH 3: training on 132100 raw words (26616 effective words) took 0.3s, 94356 effective words/s
+2025-07-23 15:50:52,984 - INFO - EPOCH 4: training on 132100 raw words (26658 effective words) took 0.4s, 74617 effective words/s
+2025-07-23 15:50:52,985 - INFO - Word2Vec lifecycle event {'msg': 'training on 660500 raw words (133012 effective words) took 1.6s, 80760 effective words/s', 'datetime': '2025-07-23T15:50:52.984997', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'train'}
+2025-07-23 15:50:52,985 - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=45, vector_size=32, alpha=0.025>', 'datetime': '2025-07-23T15:50:52.985283', 'gensim': '4.3.3', 'python': '3.10.16 (main, Dec 11 2024, 16:24:50) [GCC 11.2.0]', 'platform': 'Linux-6.8.0-48-generic-x86_64-with-glibc2.35', 'event': 'created'}
+2025-07-23 15:50:52,990 - INFO - 计算增强的节点中心性特征...
+2025-07-23 15:50:53,067 - INFO - 标准化中心性特征...
+2025-07-23 15:50:53,069 - INFO - 应用特征重要性权重后的中心性特征形状: (45, 17)
+2025-07-23 15:50:53,069 - INFO - 使用组合特征: 嵌入维度=32, 中心性特征维度=17, 总维度=49
+2025-07-23 15:50:53,290 - INFO - 加载模型参数: gamma=6.2511, beta=-13.9199, centrality_scaling=0.8933
+2025-07-23 15:50:53,290 - INFO - 其他参数: mixing_weight=0.3452, noise_threshold=0.5125
+2025-07-23 15:50:53,295 - INFO - gamma: 6.2395, beta: -13.8278
+2025-07-23 15:50:53,298 - INFO - 通用模型加载成功，可用于迁移学习
+2025-07-23 15:50:53,298 - INFO - 将使用迁移学习进行训练
+2025-07-23 15:50:53,298 - INFO - 
+使用预设参数进行训练和评估...
+2025-07-23 15:50:53,298 - INFO - 使用单次训练模式
+2025-07-23 15:50:53,300 - INFO - 迁移学习: 降低初始学习率至 0.000300
+2025-07-23 15:50:54,464 - INFO - 设置渐进式解冻点: [0, 0, 0]
+2025-07-23 15:50:54,465 - INFO - 将训练 0 轮，训练后总轮数将达到 0
+2025-07-23 15:50:54,754 - INFO - 测试集结果:
+2025-07-23 15:50:54,754 - INFO - K=5: Recall=0.500000, Precision=0.200000, F1=0.285714
+2025-07-23 15:50:54,754 - INFO - K=10: Recall=1.000000, Precision=0.200000, F1=0.333333
+2025-07-23 15:50:54,754 - INFO - K=15: Recall=1.000000, Precision=0.133333, F1=0.235294
+2025-07-23 15:50:54,754 - INFO - 测试集分类准确率: 77.78%
+2025-07-23 15:50:54,758 - INFO - 模型已保存到: /home/ps/jy_exp/output/GNN_res4/historicalModels/Train-13/final_model.pth
+2025-07-23 15:50:54,762 - INFO - 通用模型已保存到: /home/ps/jy_exp/output/GNN_res/models/general_model.pth
+2025-07-23 15:50:54,762 - INFO - 
+识别出的重要类:
+2025-07-23 15:50:54,763 - INFO - --------------------------------------------------------------------------------
+2025-07-23 15:50:54,763 - INFO - 排名     节点ID     分数         是关键类   类名                                                
+2025-07-23 15:50:54,763 - INFO - --------------------------------------------------------------------------------
+2025-07-23 15:50:54,763 - INFO - 1      19       0.7123     ✓      ConstantUtf8                                      
+2025-07-23 15:50:54,763 - INFO - 2      44       0.2558     ✓      Visitor                                           
+2025-07-23 15:50:54,763 - INFO - 3      22       0.2368     ✓      DescendingVisitor                                 
+2025-07-23 15:50:54,763 - INFO - 4      23       0.2307     ✓      EmptyVisitor                                      
+2025-07-23 15:50:54,763 - INFO - 5      1        0.2254     ✓      Attribute                                         
+2025-07-23 15:50:54,763 - INFO - 6      17       0.1926     ✓      ConstantPool                                      
+2025-07-23 15:50:54,763 - INFO - 7      29       0.1623     ✓      JavaClass                                         
+2025-07-23 15:50:54,763 - INFO - 8      42       0.1225            Synthetic                                         
+2025-07-23 15:50:54,763 - INFO - 9      40       0.1182            StackMapEntry                                     
+2025-07-23 15:50:54,763 - INFO - 10     20       0.1014     ✓      ConstantValue                                     
+2025-07-23 15:50:54,763 - INFO - 11     9        0.0750            ConstantFieldref                                  
+2025-07-23 15:50:54,763 - INFO - 12     37       0.0747            Signature                                         
+2025-07-23 15:50:54,763 - INFO - 13     43       0.0700            Unknown                                           
+2025-07-23 15:50:54,764 - INFO - 14     38       0.0676            SourceFile                                        
+2025-07-23 15:50:54,764 - INFO - 15     28       0.0613            InnerClasses                                      
+2025-07-23 15:50:54,764 - INFO - --------------------------------------------------------------------------------
+2025-07-23 15:50:54,764 - INFO - 
+成功识别的关键类:
+2025-07-23 15:50:54,764 - INFO - --------------------------------------------------------------------------------
+2025-07-23 15:50:54,764 - INFO - 1. ConstantUtf8 (排名: 1, 分数: 0.7123, 节点ID: 19)
+2025-07-23 15:50:54,764 - INFO - 2. Visitor (排名: 2, 分数: 0.2558, 节点ID: 44)
+2025-07-23 15:50:54,764 - INFO - 3. DescendingVisitor (排名: 3, 分数: 0.2368, 节点ID: 22)
+2025-07-23 15:50:54,764 - INFO - 4. EmptyVisitor (排名: 4, 分数: 0.2307, 节点ID: 23)
+2025-07-23 15:50:54,764 - INFO - 5. Attribute (排名: 5, 分数: 0.2254, 节点ID: 1)
+2025-07-23 15:50:54,764 - INFO - 6. ConstantPool (排名: 6, 分数: 0.1926, 节点ID: 17)
+2025-07-23 15:50:54,764 - INFO - 7. JavaClass (排名: 7, 分数: 0.1623, 节点ID: 29)
+2025-07-23 15:50:54,764 - INFO - 8. ConstantValue (排名: 10, 分数: 0.1014, 节点ID: 20)
+2025-07-23 15:50:54,764 - INFO - --------------------------------------------------------------------------------
+2025-07-23 15:50:54,764 - INFO - 在前5个预测中，正确识别了5个关键类，共10.0个关键类
+2025-07-23 15:50:54,764 - INFO - 覆盖率: 50.00%, 准确率: 100.00%
+2025-07-23 15:50:54,765 - INFO - 在前10个预测中，正确识别了8个关键类，共10.0个关键类
+2025-07-23 15:50:54,765 - INFO - 覆盖率: 80.00%, 准确率: 80.00%
+2025-07-23 15:50:54,765 - INFO - 在前15个预测中，正确识别了8个关键类，共10.0个关键类
+2025-07-23 15:50:54,765 - INFO - 覆盖率: 80.00%, 准确率: 53.33%
+2025-07-23 15:50:55,082 - INFO - 分数已保存到 /home/ps/jy_exp/output/GNN_res4/Scores/BCEL_scores.txt
+2025-07-23 15:50:55,083 - INFO - 分数统计：最小值=0.0218, 最大值=0.7123, 平均值=0.0887
+2025-07-23 15:50:55,083 - INFO - 接近0的分数(小于0.051)数量: 21 / 45
+2025-07-23 15:50:55,083 - INFO - log已保存到 /home/ps/jy_exp/output/GNN_res4/logs/log-13.txt

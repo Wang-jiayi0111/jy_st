@@ -40,26 +40,23 @@ class ClassIntegrationEnv(gym.Env):
             self.CBO = ClassOp.cal_CBO(self.methods, self.attributes, self.num_classes)
             self.NOF = NOF
             self.all_importance = ClassOp.calculate_class_importance(self.classes, self.NOF, self.CBO, self.dependency_matrix)
-            print("Class Importance Scores:")
-            print(" ".join(str(idx-1) for idx, _ in sorted(self.all_importance.items(), key=lambda x: x[1], reverse=True)))
+            # for class_idx, importance in self.all_importance.items():
+            #     print(f"Class {class_idx}----{importance:.4f}")
+            print("Class Importance Sequence:")
+            print(" ".join(str(idx) for idx, _ in sorted(self.all_importance.items(), key=lambda x: x[1], reverse=True)))
         elif self.version == 'v2.1':
             self.version = 'v2'
             self.all_importance = GNN_class
-            print("GNN Class Importance Scores:")
-            print(" ".join(str(idx-1) for idx, _ in sorted(self.all_importance.items(), key=lambda x: x[1], reverse=True)))
+            print("GNN Class Importance Sequence:")
+            print(" ".join(str(idx) for idx, _ in sorted(self.all_importance.items(), key=lambda x: x[1], reverse=True)))
         self.seed_value = seed
         self._set_seed(self.seed_value)
         self.reset()
+        #try
+        self.gnn_class = GNN_class
     
     def _set_seed(self, seed=None):
         """设置环境随机种子"""
-        # if self.seed_value is not None:
-        #     np.random.seed(self.seed_value)
-        #     random.seed(self.seed_value)
-        #     # Gym环境的action_space和observation_space也需要设置种子
-        #     self.action_space.seed(self.seed_value)
-        #     self.observation_space.seed(self.seed_value)
-
         np.random.seed(seed)
         random.seed(seed)
         self.seed_value = seed
@@ -89,6 +86,8 @@ class ClassIntegrationEnv(gym.Env):
             done, reward = self.reward_function_v1(action)
         elif self.version == 'v2':
             done, reward = self.reward_function_v2(action)
+        elif self.version == 'v2.2':
+            done, reward = self.reward_function_v2_2(action)
         elif self.version == 'v3':
             done, reward = self.reward_function_v3(action)
         elif self.version == 'v4':
@@ -124,10 +123,37 @@ class ClassIntegrationEnv(gym.Env):
                 stub_complexity += Cplx
         reward = c*(1+node_importance - stub_complexity)
         return done, reward
+    
+    def reward_function_v2_2(self, action):
+        MAX = 1000
+        done = False
+        if action in self.tested_classes:
+            return True, -np.inf
+        #self.state[action] = 1
+        # 计算类的结构重要性（与之前相同）
+        node_importance = (self.influence[action] + self.complexity[action]) / 2
+        # 如果有GNN分数，则将其纳入考虑
+        gnn_importance = self.gnn_class.get(action+1, 0.0)
+        # 结合结构重要性和GNN重要性
+        combined_importance = (node_importance + self.mu * gnn_importance)
+        
+        # 计算桩复杂度
+        stub_complexity = 0
+        for i in range(self.num_classes):
+            if self.state[i] == 0:
+                stub_complexity += (self.wM * (self.methods[action][i] ** 2) + self.wA * (self.attributes[action][i] ** 2))**0.5
+                
+        # 最终奖励：结合重要性减去桩复杂度
+        reward = combined_importance - self.eta * stub_complexity
+        
+        # 确保奖励值在合理范围内
+        reward = min(MAX, reward)
+        return done, reward
 
     # 丁艳茹
     def reward_function_v6(self, action):
         MAX = 10
+        c = 1
         done = False
         if action in self.tested_classes:
             return True, -1000
@@ -136,7 +162,7 @@ class ClassIntegrationEnv(gym.Env):
             if self.state[i] == 0:
                 cplx = (self.wM * (self.methods[action][i] ** 2) + self.wA * (self.attributes[action][i] ** 2))**0.5
                 stub_complexity += cplx
-        reward = MAX - stub_complexity
+        reward = c*(MAX - stub_complexity)
         return done, reward
 
     def render(self, mode='human'):

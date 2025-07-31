@@ -1,0 +1,12 @@
+Dataset: email__spl
+Network Type: MCN
+Embedding Dimensions: 32
+Learning Rate: 0.001
+Num Sampled Neighbors: 10
+Num Layers: 1
+Final Gamma: 6.826808929443359
+Final Beta: -13.048619270324707
+Centrality Scaling: 1.6261509656906128
+Mixing Weight: 0.28981420397758484
+Noise Threshold: 0.5124973654747009
+Epochs: 0

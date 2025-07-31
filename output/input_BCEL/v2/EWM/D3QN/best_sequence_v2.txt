@@ -1,0 +1,8 @@
+
+Learning Rate: 0.0004
+Epsilon: 0.99
+Gamma: 0.93
+Memory Capacity: 20000
+Batch Size: 64
+if_EWM: True
+seed: 41

@@ -1,0 +1,9 @@
+Actor Learning Rate: 1e-05
+Critic Learning Rate: 0.0001
+Hidden Dimension: 128
+Gamma: 0.99
+epoch: 5
+Lambda: 0.9
+Epsilon: 0.2
+if_EWM: True
+
